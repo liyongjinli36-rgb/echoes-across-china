@@ -1,0 +1,183 @@
+[
+  {
+    "id": "shenqi-mipu",
+    "work": "guqin",
+    "year": 1425,
+    "type": "notation",
+    "title": {
+      "zh": "《神奇秘谱》刊行",
+      "en": "Publication of the Shenqi Mipu"
+    },
+    "description": {
+      "zh": "朱权编《神奇秘谱》，收录《流水》。现存琴谱提供的是曲目流传的书面证据。",
+      "en": "Zhu Quan’s Shenqi Mipu includes Flowing Water. The surviving tablature documents the work’s transmission."
+    },
+    "sources": [
+      {
+        "id": "si"
+      },
+      {
+        "id": "shenqi"
+      }
+    ],
+    "location": {
+      "name": {
+        "zh": "南昌",
+        "en": "Nanchang"
+      },
+      "coordinates": [
+        115.86,
+        28.68
+      ],
+      "role": {
+        "zh": "编者封地关联",
+        "en": "Compiler’s princely seat"
+      }
+    }
+  },
+  {
+    "id": "peony-pavilion",
+    "work": "kunqu",
+    "year": 1598,
+    "type": "writing",
+    "title": {
+      "zh": "汤显祖写成《牡丹亭》",
+      "en": "Tang Xianzu completes The Peony Pavilion"
+    },
+    "description": {
+      "zh": "1598年对应剧本写成。昆山标记对应昆曲传承，国会图书馆所藏版本属于后来的刻本。",
+      "en": "The year dates completion of the play. The Kunshan marker locates the opera tradition. The Library of Congress holds a later printed edition."
+    },
+    "sources": [
+      {
+        "id": "peony"
+      },
+      {
+        "id": "loc"
+      },
+      {
+        "id": "kunqu"
+      }
+    ]
+  },
+  {
+    "id": "anhui-troupe",
+    "work": "peking-opera",
+    "year": 1790,
+    "type": "performance",
+    "title": {
+      "zh": "三庆徽班入京",
+      "en": "Sanqing Anhui troupe arrives in Beijing"
+    },
+    "description": {
+      "zh": "三庆班入京参加乾隆万寿演出。后来徽、汉等声腔与表演在京交流，京剧逐渐形成。",
+      "en": "The Sanqing troupe came to Beijing for the Qianlong emperor’s birthday celebrations. Anhui, Han and other traditions subsequently interacted in the formation of Peking opera."
+    },
+    "sources": [
+      {
+        "id": "hui"
+      },
+      {
+        "id": "jingju"
+      }
+    ]
+  },
+  {
+    "id": "abing-recording",
+    "work": "erquan-yingyue",
+    "year": 1950,
+    "type": "recording",
+    "title": {
+      "zh": "阿炳录制《二泉映月》",
+      "en": "Abing records Moon Reflected on Second Spring"
+    },
+    "description": {
+      "zh": "杨荫浏、曹安和在无锡以钢丝录音机记录阿炳的演奏。此处年份对应采录。",
+      "en": "Yang Yinliu and Cao Anhe documented Abing’s performance with a wire recorder in Wuxi. The year dates the recording."
+    },
+    "sources": [
+      {
+        "id": "abing"
+      }
+    ]
+  },
+  {
+    "id": "voyager",
+    "work": "guqin",
+    "year": 1977,
+    "type": "circulation",
+    "title": {
+      "zh": "管平湖版《流水》随旅行者号发射",
+      "en": "Guan Pinghu’s Flowing Water travels on Voyager"
+    },
+    "description": {
+      "zh": "旅行者金唱片选入管平湖演奏的《流水》。地图标示演奏家相关地点，北京与金唱片的发射地点分属不同地理语境。",
+      "en": "The Voyager Golden Record carries Guan Pinghu’s performance of Flowing Water. The map shows the performer’s associated city, Beijing. The spacecraft launched elsewhere."
+    },
+    "sources": [
+      {
+        "id": "nasa"
+      },
+      {
+        "id": "si"
+      }
+    ]
+  },
+  {
+    "id": "kunqu-inscription",
+    "work": "kunqu",
+    "year": 2008,
+    "type": "heritage",
+    "title": {
+      "zh": "昆曲列入联合国教科文组织代表作名录",
+      "en": "Kunqu enters UNESCO’s Representative List"
+    },
+    "description": {
+      "zh": "昆曲于2001年获首批人类口头和非物质遗产代表作称号，2008年纳入非物质文化遗产代表作名录。",
+      "en": "Kunqu was proclaimed a Masterpiece in 2001 and entered the Representative List of the Intangible Cultural Heritage of Humanity in 2008."
+    },
+    "sources": [
+      {
+        "id": "kunqu"
+      }
+    ]
+  },
+  {
+    "id": "nanyin-inscription",
+    "work": "nanyin",
+    "year": 2009,
+    "type": "heritage",
+    "title": {
+      "zh": "南音列入联合国教科文组织代表作名录",
+      "en": "Nanyin enters UNESCO’s Representative List"
+    },
+    "description": {
+      "zh": "2009年的列入记录体现当代保护与传承。",
+      "en": "The 2009 inscription records contemporary recognition and safeguarding."
+    },
+    "sources": [
+      {
+        "id": "nanyin"
+      }
+    ]
+  },
+  {
+    "id": "jingju-inscription",
+    "work": "peking-opera",
+    "year": 2010,
+    "type": "heritage",
+    "title": {
+      "zh": "京剧列入联合国教科文组织代表作名录",
+      "en": "Peking opera enters UNESCO’s Representative List"
+    },
+    "description": {
+      "zh": "2010年列入代表作名录，申报资料描述了京剧的表演、音乐与传承方式。",
+      "en": "Peking opera entered the Representative List in 2010. The nomination documents performance, music and transmission."
+    },
+    "sources": [
+      {
+        "id": "jingju"
+      }
+    ]
+  }
+]

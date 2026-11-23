@@ -1,0 +1,27 @@
+[
+  {
+    "title": {"zh":"陕北与江南 · 山歌和田歌", "en":"Northern Shaanxi and Jiangnan · Singing in the hills and fields"},
+    "records":["xintianyou","wuge"],
+    "text":{"zh":"对照信天游中音区较高、尾音拉长的句子与吴歌田歌中的领唱和接句。分别听两种方言的字调怎样改变旋律。陕北山歌的不同场合与江南稻作合作中的田歌，提供了观察歌唱如何组织劳动、交流与抒情的两个例子。","en":"Compare the higher register and lengthened endings in examples of xintianyou with the entrances and responses of Wu field songs. Listen for how the tones of each dialect shape the melody. Northern Shaanxi hill songs and field singing in the rice-growing Jiangnan region offer two contexts for work, communication and lyrical expression."}
+  },
+  {
+    "title":{"zh":"江南与珠江三角洲 · 丝竹合奏", "en":"Jiangnan and the Pearl River Delta · Silk-and-bamboo ensembles"},
+    "records":["jiangnan-sizhu","guangdong-music"],
+    "text":{"zh":"两地合奏都可围绕共享的曲调展开。江南丝竹可留意笛与二胡怎样交错装饰同一骨干音，广东音乐可听粤胡的线条和扬琴、秦琴的配合。再把音响和演出场合对起来，看看结社自娱、酒楼戏台及城市传播怎样影响编制与曲目。","en":"Ensembles in both regions may work around a shared tune. In Jiangnan sizhu, follow the different ornaments of dizi and erhu around its skeletal notes. In Guangdong music, hear the yuehu line in relation to yangqin and qinqin. Then consider how amateur clubs, urban venues and circulation shaped lineups and repertories."}
+  },
+  {
+    "title":{"zh":"北京与苏州 · 鼓曲和弹词", "en":"Beijing and Suzhou · Drum song and sung storytelling"},
+    "records":["jingyun-dagu","suzhou-pingtan"],
+    "text":{"zh":"从京韵大鼓的鼓板和苏州弹词的弹弦伴奏入手，对照说白如何过渡到歌唱，标记伴奏何时替叙事转段。两地都有城市听众与书场文化，方言、乐器和讲故事的节奏各有变化。","en":"Start with drum and clappers in Jingyun Dagu and plucked strings in Suzhou tanci. Compare the transitions from speech to singing and listen for accompaniment marking a new section. Both traditions address urban audiences through storytelling venues, with local differences in dialect, instruments and narrative pacing."}
+  },
+  {
+    "title":{"zh":"泉州与北京 · 南音和京剧", "en":"Quanzhou and Beijing · Nanyin and Peking opera"},
+    "records":["nanyin","peking-opera"],
+    "text":{"zh":"泉州南音可听横抱琵琶与洞箫怎样支撑舒展的唱句。京剧可留意京胡随腔，以及锣鼓如何衔接身段。把社群合乐和舞台角色的功能并读，能解释两种音乐为何对节奏和音色有不同要求。","en":"In Quanzhou nanyin, follow how horizontally held pipa and xiao support long vocal phrases. In Peking opera, attend to the jinghu shadowing the voice and the percussion cueing stage movement. Compare communal music-making with the demands of portraying a role on stage."}
+  },
+  {
+    "title":{"zh":"昆山与北京 · 戏曲的传播与改编", "en":"Kunshan and Beijing · Transmission and adaptation in opera"},
+    "records":["kunqu","peking-opera"],
+    "text":{"zh":"把昆曲曲牌、笛声和细密的动作配合，与京剧的板式、京胡和锣鼓提示对照。以明代《牡丹亭》剧本和清代徽班进京两个有资料的节点为入口，再追问剧本、声腔和舞台技艺各自如何传播。","en":"Compare Kunqu tune patterns, flute and refined gesture with the rhythmic frameworks, jinghu and percussion cues of Peking opera. Use the Ming play The Peony Pavilion and Qing theatrical troupes coming to Beijing as two documented starting points, then trace how plays, vocal styles and stage practices travelled."}
+  }
+]

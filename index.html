@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="UCUG 2500 · An interactive bilingual atlas of Chinese music">
+  <meta name="theme-color" content="#f3eee4">
+  <title>华夏乐踪：中国音乐时空图谱</title>
+  <link rel="icon" href="assets/favicon.svg">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/music-atlas.css">
+  <script defer src="js/china_geo_data.js"></script>
+  <script defer src="js/atlas_snapshots.js"></script>
+  <script defer src="js/music-era-data.js"></script>
+  <script defer src="js/i18n_dict.js"></script>
+  <script defer src="js/app.js" data-map-only></script>
+  <script type="module" src="js/music-atlas.js"></script>
+</head>
+<body class="music-atlas">
+  <div id="atlas-shell">
+    <header id="nav-bar">
+      <div class="brand-group">
+        <h1 id="site-heading">
+          <a class="home-link" id="act-home" href="./"><span class="seal-mark" id="txt-seal">华夏乐踪</span></a>
+          <span class="subtitle-mark" data-text="subtitle">中国音乐时空图谱</span>
+        </h1>
+      </div>
+      <div class="control-strip" role="toolbar" data-label="toolbar">
+        <button class="action-btn subtle" id="layers-toggle" aria-expanded="false" aria-controls="layers-popover" data-text="filters">图层</button>
+        <button class="action-btn subtle" id="guide-toggle" aria-pressed="false" data-text="journey">课堂导览</button>
+        <div class="locale-pill-group" role="group" data-label="language">
+          <button class="action-btn subtle music-lang" id="locale-zh" lang="zh-CN" data-label="chinese">简</button>
+          <button class="action-btn subtle music-lang" id="locale-en" lang="en" data-label="english">EN</button>
+        </div>
+      </div>
+      <div id="layers-popover" class="layers-popover" hidden>
+        <div class="layers-pop-heading" data-text="categories"></div>
+        <div id="category-filters" class="music-filters"></div>
+        <div class="layers-pop-heading" data-text="geography"></div>
+        <div class="music-filters">
+          <label class="layer-chip"><input type="checkbox" id="terrain-toggle" checked><span data-text="terrain"></span></label>
+          <label class="layer-chip"><input type="checkbox" id="borders-toggle" checked><span data-text="borders"></span></label>
+          <label class="layer-chip"><input type="checkbox" id="cities-toggle" checked><span data-text="cities"></span></label>
+        </div>
+      </div>
+    </header>
+
+    <main id="workspace-body">
+      <div id="viewport-frame">
+        <div id="svg-stage-wrap">
+          <svg id="atlas-svg" class="terrain-active" xmlns="http://www.w3.org/2000/svg" role="group" aria-label="中国音乐历史地图">
+            <defs>
+              <filter id="label-halo" x="-20%" y="-20%" width="140%" height="140%">
+                <feMorphology operator="dilate" radius="1.4" in="SourceAlpha" result="dilated" />
+                <feFlood flood-color="#f6f1e6" flood-opacity="0.92" result="bg" />
+                <feComposite in="bg" in2="dilated" operator="in" result="outline" />
+                <feMerge>
+                  <feMergeNode in="outline" />
+                  <feMergeNode in="SourceGraphic" />
+                </feMerge>
+              </filter>
+              <linearGradient id="terrain-fade-h" x1="0" y1="0" x2="1" y2="0">
+                <stop offset="0%" class="terrain-edge-stop" />
+                <stop offset="4.5%" class="terrain-edge-stop" stop-opacity="0" />
+                <stop offset="94.5%" class="terrain-edge-stop" stop-opacity="0" />
+                <stop offset="100%" class="terrain-edge-stop" />
+              </linearGradient>
+              <linearGradient id="terrain-fade-v" x1="0" y1="0" x2="0" y2="1">
+                <stop offset="0%" class="terrain-edge-stop" />
+                <stop offset="4.5%" class="terrain-edge-stop" stop-opacity="0" />
+                <stop offset="94.5%" class="terrain-edge-stop" stop-opacity="0" />
+                <stop offset="100%" class="terrain-edge-stop" />
+              </linearGradient>
+              <!-- The snapshot's own polities; prefecture and first-level region lines are clipped to them. -->
+              <clipPath id="prefecture-clip" clipPathUnits="userSpaceOnUse"><path id="prefecture-clip-path" /></clipPath>
+            </defs>
+            <rect id="ocean-bg" x="-2000" y="-2000" width="6000" height="6000" />
+            <g id="camera-rig">
+              <g id="grp-terrain">
+                <!-- Opacity lives on the wrapper so opaque detail tiles cover the base relief instead of double-blending with it. -->
+                <g id="terrain-relief-layer">
+                  <image id="terrain-relief-img" data-href="assets/terrain_relief.webp" data-href-mobile="assets/terrain_relief_mobile.webp" decoding="async" x="-80" y="-40" width="1160" height="780" preserveAspectRatio="none" />
+                  <g id="grp-terrain-tiles"></g>
+                  <g id="grp-paleo-sea"></g>
+                </g>
+                <!-- Match the solid ocean background without an expensive SVG mask during zoom. -->
+                <rect x="-80" y="-40" width="1160" height="780" fill="url(#terrain-fade-h)" />
+                <rect x="-80" y="-40" width="1160" height="780" fill="url(#terrain-fade-v)" />
+              </g>
+              <g id="grp-neighbors"></g>
+              <g id="grp-provinces"></g>
+              <g id="grp-polities"></g>
+              <g id="grp-prefectures" class="is-hidden"></g>
+              <g id="grp-rivers"></g>
+              <g id="grp-ghost-diff"></g>
+              <g id="grp-corridors"></g>
+              <g id="grp-prov-names" class="is-hidden"></g>
+              <g id="grp-region-labels"></g>
+              <g id="grp-polity-labels"></g>
+              <g id="grp-settlements"></g>
+              <g id="grp-milestones"></g>
+              <g id="grp-journey"></g>
+              <g id="grp-challenge"></g>
+              <g id="grp-genealogy"></g>
+              <g id="music-markers"></g>
+            </g>
+          </svg>
+        </div>
+        <div id="map-search-box" class="music-search" role="search" data-label="search">
+          <input id="music-search" type="search" autocomplete="off" aria-controls="music-results" aria-expanded="false" data-placeholder="searchPrompt" data-label="search">
+          <div class="music-browse-actions">
+            <button id="registry-open" class="action-btn subtle" type="button" aria-controls="music-registry" aria-expanded="false"></button>
+            <button id="regions-open" class="action-btn subtle" type="button" aria-controls="music-regions" aria-expanded="false" data-text="regionalCompare"></button>
+          </div>
+          <ul id="music-results" class="search-results-list" hidden></ul>
+        </div>
+        <div id="map-key" aria-live="polite"></div>
+        <div id="canvas-br-dock">
+          <div class="music-zoom">
+            <button id="zoom-out" type="button" class="canvas-reset-btn" data-label="zoomOut">−</button>
+            <button id="zoom-in" type="button" class="canvas-reset-btn" data-label="zoomIn">+</button>
+            <button id="act-reset-camera" type="button" class="canvas-reset-btn" data-label="reset" data-text="reset"></button>
+          </div>
+          <div id="scale-bar-box" aria-hidden="true">
+            <div class="scale-label" id="scale-label-text">500 km</div><div class="scale-ruler" id="scale-ruler-bar"></div>
+          </div>
+        </div>
+        <div id="hover-tip" class="is-hidden" role="tooltip"></div>
+      </div>
+      <aside id="chronicle-pane" data-label="side">
+        <div class="dynasty-banner">
+          <div class="dynasty-title-row">
+            <div>
+              <h2 id="dynasty-title"></h2>
+              <span id="dynasty-span" class="span-label"></span>
+            </div>
+            <button id="music-panel-toggle" type="button" class="action-btn subtle" aria-expanded="false" aria-controls="music-panel-body" data-text="details"></button>
+          </div>
+        </div>
+        <div id="music-panel-body">
+          <div class="music-era">
+            <label for="era-select" data-text="selectEra"></label>
+            <select id="era-select"></select>
+            <p id="dynasty-summary" class="dynasty-desc"></p>
+          </div>
+          <div id="music-guide" hidden></div>
+          <article id="music-card" class="music-card" aria-labelledby="music-card-title" hidden>
+            <header class="music-card-header">
+              <p id="music-kicker"></p>
+              <button id="music-close" class="icon-close" type="button" data-label="close">×</button>
+              <h3 id="music-card-title"></h3>
+            </header>
+            <div id="music-card-text"></div>
+            <div id="music-audio" hidden>
+              <h4 data-text="recording"></h4>
+              <p id="audio-title"></p>
+              <audio id="audio-player" preload="none"></audio>
+              <div class="music-audio-controls">
+                <button id="audio-toggle" type="button" class="action-btn subtle"></button>
+                <input id="audio-progress" type="range" min="0" max="0" step="0.1" value="0" disabled data-label="audioSeek">
+                <span id="audio-clock" aria-hidden="true">0:00 / 0:00</span>
+              </div>
+              <p id="audio-note"></p>
+              <div class="music-links"><a id="audio-source" target="_blank" rel="noopener" data-text="source"></a><a id="audio-license" target="_blank" rel="noopener">CC BY 2.5</a></div>
+              <p id="audio-status" role="status"></p>
+            </div>
+          </article>
+          <section id="music-regions" class="music-list" hidden>
+            <h3 data-text="regionalCompare"></h3>
+            <div id="regional-comparisons"></div>
+          </section>
+          <section id="music-registry" class="music-list" hidden>
+            <h3 data-text="registryTitle"></h3>
+            <p class="catalog-note" data-text="registryNote"></p>
+            <div class="catalog-fields">
+              <input id="registry-query" type="search" data-label="registrySearch" data-placeholder="registrySearch">
+              <select id="registry-category" data-label="categories"></select>
+              <select id="registry-region" data-label="region"></select>
+            </div>
+            <p id="registry-count" class="catalog-note" role="status"></p>
+            <ul id="registry-results"></ul>
+            <div class="catalog-pages">
+              <button id="registry-prev" class="action-btn subtle" type="button" data-text="prevPage"></button>
+              <button id="registry-next" class="action-btn subtle" type="button" data-text="nextPage"></button>
+            </div>
+          </section>
+          <section class="music-list">
+            <h3 data-text="traditions"></h3>
+            <ul id="tradition-list"></ul>
+          </section>
+          <section class="music-list">
+            <h3 data-text="milestones"></h3>
+            <ul id="music-events"></ul>
+          </section>
+          <details class="music-help">
+            <summary data-text="about"></summary>
+            <p data-text="help"></p>
+            <p data-text="course"></p>
+            <a href="https://github.com/DeanChensj/jiangshan-map" data-text="upstream"></a>
+            <a href="CREDITS.md" data-text="credits"></a>
+          </details>
+          <div class="music-credit"><a href="https://github.com/DeanChensj/jiangshan-map" data-text="upstream"></a></div>
+        </div>
+      </aside>
+    </main>
+
+    <footer id="scrubber-dock" aria-label="音乐时间轴">
+      <div class="playback-controls-group">
+        <button id="act-autoplay" class="round-btn" type="button" title="自动播放 / 暂停（空格）" aria-label="播放" aria-pressed="false">
+          <svg class="ico-svg" viewBox="0 0 16 16" width="14" height="14" aria-hidden="true"><polygon points="4.5,2.8 13.2,8 4.5,13.2" fill="currentColor"/></svg>
+        </button>
+        <button id="act-play-speed" class="play-speed-btn" type="button" title="播放倍速 1×（点击切换 0.5× / 1× / 2× / 4×）" aria-label="播放倍速 1×">
+          <span id="lbl-play-speed">1×</span>
+        </button>
+      </div>
+
+      <div id="scrubber-rail-wrap">
+        <div id="scrubber-Bubble" aria-live="polite">
+          <span id="bubble-text">明代</span>
+        </div>
+        <div id="scrubber-viewport">
+          <div id="scrubber-content">
+            <div id="scrubber-track" role="slider" tabindex="0" aria-valuemin="-1000" aria-valuemax="2027" aria-valuenow="-1000" aria-label="年份滑块">
+              <div id="dynasty-bands"></div>
+              <div id="scrubber-motion"><div id="scrubber-handle"></div></div>
+            </div>
+            <div id="scrubber-ticks"></div>
+          </div>
+        </div>
+        <div id="timeline-crop-mask-left" class="timeline-crop-mask" aria-hidden="true"></div>
+        <div id="timeline-crop-mask-right" class="timeline-crop-mask" aria-hidden="true"></div>
+        <div id="timeline-start" class="timeline-edge timeline-edge-start" data-timeline-part="start" role="slider" tabindex="0" aria-orientation="horizontal" aria-label="拖动左缘裁切放大时间轴（双击恢复全览）" title="向内拖动左缘裁切放大时间轴；双击恢复全览"></div>
+        <div id="timeline-end" class="timeline-edge timeline-edge-end" data-timeline-part="end" role="slider" tabindex="0" aria-orientation="horizontal" aria-label="拖动右缘裁切放大时间轴（双击恢复全览）" title="向内拖动右缘裁切放大时间轴；双击恢复全览"></div>
+      </div>
+
+      <div class="year-stepper">
+        <button id="act-step-prev" class="step-nav-btn" type="button" title="上一历史阶段 / 事件节点（←）· Shift+← 退十年" aria-label="上一历史节点">‹</button>
+        <input id="inp-year" type="number" min="-1000" max="2027" step="1" value="-1000" aria-label="输入年份（负数为公元前）" />
+        <span class="unit-label" id="txt-year-suffix">年</span>
+        <button id="act-step-next" class="step-nav-btn" type="button" title="下一历史阶段 / 事件节点（→）· Shift+→ 进十年" aria-label="下一历史节点">›</button>
+      </div>
+    </footer>
+  </div>
+  <p id="music-loading" role="status" aria-live="polite">正在载入音乐图谱</p>
+  <noscript>此图谱需要 JavaScript。This atlas requires JavaScript.</noscript>
+</body>
+</html>

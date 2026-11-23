@@ -1,0 +1,1177 @@
+[
+  {
+    "id": "zhou-pitch",
+    "category": "historicalEvidence",
+    "title": {
+      "zh": "周代青铜钟与礼乐",
+      "en": "Zhou bronze bells and ritual music"
+    },
+    "aliases": [],
+    "period": {
+      "zh": "公元前1000—771年",
+      "en": "1000–771 BCE"
+    },
+    "time": {
+      "precision": "interval",
+      "start": -1000,
+      "end": -771,
+      "era": "early"
+    },
+    "isEvidence": true,
+    "location": {
+      "name": {
+        "zh": "关中",
+        "en": "Guanzhong"
+      },
+      "coordinates": [
+        108.8,
+        34.3
+      ],
+      "role": {
+        "zh": "出土地或文化参照，见条目说明",
+        "en": "Findspot or cultural reference, as indicated in the entry"
+      }
+    },
+    "description": {
+      "zh": "周代的青铜钟可以成组用于仪式。可从钟体形制及敲击位置出发，讨论音高和礼仪编制的关系。关中用于理解西周政治与礼制背景。",
+      "en": "Zhou bronze bells could form sets used in ritual. Compare their shapes and strike points to explore the relation between pitch and ritual ensembles. Guanzhong provides context for the Western Zhou court."
+    },
+    "uncertainty": {
+      "zh": "所列时段用于定位文献、器物或讨论背景。可通过馆藏说明核对定年、出处与传本。",
+      "en": "The period places the document, object or discussion in context. Consult the source for dating, provenance and transmission."
+    },
+    "sources": [
+      {
+        "id": "hist-zhou-pitch"
+      }
+    ]
+  },
+  {
+    "id": "chu-art",
+    "category": "historicalEvidence",
+    "title": {
+      "zh": "楚地出土文物中的礼乐",
+      "en": "Ritual and music in artefacts from Chu"
+    },
+    "aliases": [],
+    "period": {
+      "zh": "公元前403—221年",
+      "en": "403–221 BCE"
+    },
+    "time": {
+      "precision": "interval",
+      "start": -403,
+      "end": -221,
+      "era": "zhanguo"
+    },
+    "isEvidence": true,
+    "location": {
+      "name": {
+        "zh": "湖北",
+        "en": "Hubei"
+      },
+      "coordinates": [
+        112.23,
+        30.35
+      ],
+      "role": {
+        "zh": "出土地或文化参照，见条目说明",
+        "en": "Findspot or cultural reference, as indicated in the entry"
+      }
+    },
+    "description": {
+      "zh": "把湖北出土的礼乐器物与曾侯乙编钟并读，可比较长江中游区域的器形、铭刻和礼仪组合。",
+      "en": "Read objects excavated in Hubei alongside the Bells of Marquis Yi to compare forms, inscriptions and ritual sets in the middle Yangtze region."
+    },
+    "uncertainty": {
+      "zh": "所列时段用于定位文献、器物或讨论背景。可通过馆藏说明核对定年、出处与传本。",
+      "en": "The period places the document, object or discussion in context. Consult the source for dating, provenance and transmission."
+    },
+    "sources": [
+      {
+        "id": "hist-chu-art"
+      }
+    ]
+  },
+  {
+    "id": "qin-performers",
+    "category": "historicalEvidence",
+    "title": {
+      "zh": "秦陵百戏俑",
+      "en": "Performers from the Qin imperial tomb complex"
+    },
+    "aliases": [],
+    "period": {
+      "zh": "公元前221—207年",
+      "en": "221–207 BCE"
+    },
+    "time": {
+      "precision": "interval",
+      "start": -221,
+      "end": -207,
+      "era": "qin"
+    },
+    "isEvidence": true,
+    "location": {
+      "name": {
+        "zh": "临潼",
+        "en": "Lintong"
+      },
+      "coordinates": [
+        109.27,
+        34.39
+      ],
+      "role": {
+        "zh": "出土地或文化参照，见条目说明",
+        "en": "Findspot or cultural reference, as indicated in the entry"
+      }
+    },
+    "description": {
+      "zh": "秦陵 K9901 坑的百戏俑呈现身体技巧与表演姿态。观察俑的体态，讨论考古图像可以告诉我们多少有关现场的声音与动作。",
+      "en": "The K9901 pit at the Qin mausoleum contains figures showing physical skills and performance poses. Use their postures to discuss what archaeological figures can tell us about sound and action."
+    },
+    "uncertainty": {
+      "zh": "所列时段用于定位文献、器物或讨论背景。可通过馆藏说明核对定年、出处与传本。",
+      "en": "The period places the document, object or discussion in context. Consult the source for dating, provenance and transmission."
+    },
+    "sources": [
+      {
+        "id": "hist-qin-performers"
+      }
+    ]
+  },
+  {
+    "id": "han-dancers",
+    "category": "historicalEvidence",
+    "title": {
+      "zh": "汉代乐舞明器",
+      "en": "Han figurines of dancers and musicians"
+    },
+    "aliases": [],
+    "period": {
+      "zh": "汉代 · 西汉文化参照",
+      "en": "Han dynasty · Western Han context"
+    },
+    "time": {
+      "precision": "interval",
+      "start": -202,
+      "end": 24,
+      "era": "xihan"
+    },
+    "isEvidence": true,
+    "location": {
+      "name": {
+        "zh": "长安",
+        "en": "Chang’an"
+      },
+      "coordinates": [
+        108.94,
+        34.34
+      ],
+      "role": {
+        "zh": "出土地或文化参照，见条目说明",
+        "en": "Findspot or cultural reference, as indicated in the entry"
+      }
+    },
+    "description": {
+      "zh": "馆藏将舞者与乐人并置，可观察伴奏与动作在墓葬明器中如何共同呈现。长安是西汉文化参照，馆藏定年为汉代。",
+      "en": "The collection groups a dancer with musicians. Explore how accompaniment and gesture are represented together in funerary objects. Chang’an provides Western Han context while the collection dates the objects broadly to the Han."
+    },
+    "uncertainty": {
+      "zh": "所列时段用于定位文献、器物或讨论背景。可通过馆藏说明核对定年、出处与传本。",
+      "en": "The period places the document, object or discussion in context. Consult the source for dating, provenance and transmission."
+    },
+    "sources": [
+      {
+        "id": "hist-han-dancers"
+      }
+    ]
+  },
+  {
+    "id": "han-story-drum",
+    "category": "historicalEvidence",
+    "title": {
+      "zh": "东汉击鼓说唱俑",
+      "en": "Eastern Han drummer and storyteller"
+    },
+    "aliases": [],
+    "period": {
+      "zh": "25—219年",
+      "en": "25–219 CE"
+    },
+    "time": {
+      "precision": "interval",
+      "start": 25,
+      "end": 219,
+      "era": "donghan"
+    },
+    "isEvidence": true,
+    "location": {
+      "name": {
+        "zh": "成都",
+        "en": "Chengdu"
+      },
+      "coordinates": [
+        104.07,
+        30.67
+      ],
+      "role": {
+        "zh": "出土地或文化参照，见条目说明",
+        "en": "Findspot or cultural reference, as indicated in the entry"
+      }
+    },
+    "description": {
+      "zh": "成都出土的击鼓说唱俑将鼓、手势和夸张面部表情放进同一件表演图像。与课程中的鼓曲参照，可讨论击鼓如何同时提示节奏和叙事动作。",
+      "en": "The Chengdu figurine brings drum, gesture and an animated expression into one performance image. Compare it with the course’s drum-song cases to discuss how a beat can cue movement and narration."
+    },
+    "uncertainty": {
+      "zh": "所列时段用于定位文献、器物或讨论背景。可通过馆藏说明核对定年、出处与传本。",
+      "en": "The period places the document, object or discussion in context. Consult the source for dating, provenance and transmission."
+    },
+    "sources": [
+      {
+        "id": "hist-han-story-drum"
+      }
+    ]
+  },
+  {
+    "id": "cao-short-song",
+    "category": "historicalEvidence",
+    "title": {
+      "zh": "汉魏之际的乐府 · 《短歌行》",
+      "en": "Yuefu at the Han–Wei transition · Short Song"
+    },
+    "aliases": [],
+    "period": {
+      "zh": "汉魏之际 · 三国时期回看",
+      "en": "Han–Wei transition · retrospective context for Three Kingdoms"
+    },
+    "time": {
+      "precision": "interval",
+      "start": 220,
+      "end": 279,
+      "era": "sanguo"
+    },
+    "isEvidence": true,
+    "location": {
+      "name": {
+        "zh": "邺城故址",
+        "en": "Site of Ye"
+      },
+      "coordinates": [
+        114.62,
+        36.29
+      ],
+      "role": {
+        "zh": "出土地或文化参照，见条目说明",
+        "en": "Findspot or cultural reference, as indicated in the entry"
+      }
+    },
+    "description": {
+      "zh": "曹操《短歌行》沿用乐府题名。邺城对应建安文人活动，条目放在三国页供回看汉魏过渡；曹操卒于220年。留存的是诗辞及其传本。",
+      "en": "Cao Cao’s Short Song uses an inherited yuefu title. Ye marks the Jian’an literary circle. The Three Kingdoms page looks back at the Han–Wei transition, with Cao Cao dying in 220. The surviving evidence is the text and its transmission."
+    },
+    "uncertainty": {
+      "zh": "所列时段用于定位文献、器物或讨论背景。可通过馆藏说明核对定年、出处与传本。",
+      "en": "The period places the document, object or discussion in context. Consult the source for dating, provenance and transmission."
+    },
+    "sources": [
+      {
+        "id": "hist-cao-short-song"
+      }
+    ]
+  },
+  {
+    "id": "jin-xunxu",
+    "category": "historicalEvidence",
+    "title": {
+      "zh": "荀勖定律与西晋宫廷",
+      "en": "Xun Xu, pitch standards and the Western Jin court"
+    },
+    "aliases": [],
+    "period": {
+      "zh": "280—316年",
+      "en": "280–316 CE"
+    },
+    "time": {
+      "precision": "interval",
+      "start": 280,
+      "end": 316,
+      "era": "xijin"
+    },
+    "isEvidence": true,
+    "location": {
+      "name": {
+        "zh": "洛阳",
+        "en": "Luoyang"
+      },
+      "coordinates": [
+        112.45,
+        34.62
+      ],
+      "role": {
+        "zh": "出土地或文化参照，见条目说明",
+        "en": "Findspot or cultural reference, as indicated in the entry"
+      }
+    },
+    "description": {
+      "zh": "《晋书》律历志保存荀勖论律及考核尺度的材料。古代讨论音高常连着长度与礼制，可以比较乐律制度与后世实际演奏之间的距离。",
+      "en": "The Book of Jin preserves accounts of Xun Xu’s pitch standards and measurements. Ancient pitch discussions connect length and court institutions. Consider the distance between a prescribed pitch system and later performance practice."
+    },
+    "uncertainty": {
+      "zh": "所列时段用于定位文献、器物或讨论背景。可通过馆藏说明核对定年、出处与传本。",
+      "en": "The period places the document, object or discussion in context. Consult the source for dating, provenance and transmission."
+    },
+    "sources": [
+      {
+        "id": "hist-jin-xunxu"
+      }
+    ]
+  },
+  {
+    "id": "huan-yi-flute",
+    "category": "historicalEvidence",
+    "title": {
+      "zh": "东晋桓伊与笛乐记忆",
+      "en": "Huan Yi and flute music in Eastern Jin memory"
+    },
+    "aliases": [],
+    "period": {
+      "zh": "317—419年",
+      "en": "317–419 CE"
+    },
+    "time": {
+      "precision": "interval",
+      "start": 317,
+      "end": 419,
+      "era": "dongjin"
+    },
+    "isEvidence": true,
+    "location": {
+      "name": {
+        "zh": "建康",
+        "en": "Jiankang"
+      },
+      "coordinates": [
+        118.79,
+        32.06
+      ],
+      "role": {
+        "zh": "出土地或文化参照，见条目说明",
+        "en": "Findspot or cultural reference, as indicated in the entry"
+      }
+    },
+    "description": {
+      "zh": "桓伊吹笛故事借后世类书保存，呈现士人交往中的器乐趣味。地点是东晋都城参照，可把文献记述与后世关于曲名的传说分别追踪。",
+      "en": "Accounts of Huan Yi playing the flute survive in later encyclopaedic compilation. They offer a literary view of instrumental music in elite social life. Jiankang marks the Eastern Jin capital and provides geographic context."
+    },
+    "uncertainty": {
+      "zh": "所列时段用于定位文献、器物或讨论背景。可通过馆藏说明核对定年、出处与传本。",
+      "en": "The period places the document, object or discussion in context. Consult the source for dating, provenance and transmission."
+    },
+    "sources": [
+      {
+        "id": "hist-huan-yi-flute"
+      }
+    ]
+  },
+  {
+    "id": "wei-mounted",
+    "category": "historicalEvidence",
+    "title": {
+      "zh": "北魏骑马乐俑",
+      "en": "Mounted musician of the Northern Wei"
+    },
+    "aliases": [],
+    "period": {
+      "zh": "420—533年",
+      "en": "420–533 CE"
+    },
+    "time": {
+      "precision": "interval",
+      "start": 420,
+      "end": 533,
+      "era": "nanbei"
+    },
+    "isEvidence": true,
+    "location": {
+      "name": {
+        "zh": "平城",
+        "en": "Pingcheng"
+      },
+      "coordinates": [
+        113.3,
+        40.08
+      ],
+      "role": {
+        "zh": "出土地或文化参照，见条目说明",
+        "en": "Findspot or cultural reference, as indicated in the entry"
+      }
+    },
+    "description": {
+      "zh": "骑马乐俑把音乐与行列、出行联系起来，可和室内乐舞俑对读。平城作为北魏早期都城提供地理参照。",
+      "en": "The mounted musician links sound with processions and travel. Compare it with figurines of indoor dancers and musicians. Pingcheng provides context as an early Northern Wei capital."
+    },
+    "uncertainty": {
+      "zh": "所列时段用于定位文献、器物或讨论背景。可通过馆藏说明核对定年、出处与传本。",
+      "en": "The period places the document, object or discussion in context. Consult the source for dating, provenance and transmission."
+    },
+    "sources": [
+      {
+        "id": "hist-wei-mounted"
+      }
+    ]
+  },
+  {
+    "id": "seven-sages",
+    "category": "historicalEvidence",
+    "title": {
+      "zh": "竹林七贤与荣启期砖画",
+      "en": "Seven Sages of the Bamboo Grove and Rong Qiqi brick relief"
+    },
+    "aliases": [],
+    "period": {
+      "zh": "420—580年",
+      "en": "420–580 CE"
+    },
+    "time": {
+      "precision": "interval",
+      "start": 420,
+      "end": 580,
+      "era": "nanbei"
+    },
+    "isEvidence": true,
+    "location": {
+      "name": {
+        "zh": "南京西善桥",
+        "en": "Xishanqiao, Nanjing"
+      },
+      "coordinates": [
+        118.7,
+        31.94
+      ],
+      "role": {
+        "zh": "出土地或文化参照，见条目说明",
+        "en": "Findspot or cultural reference, as indicated in the entry"
+      }
+    },
+    "description": {
+      "zh": "南朝砖画保存了琴、姿态和人物身份的图像联结。画中人物与制作砖画的时代不同，可讨论后世如何塑造文人琴乐的文化记忆。",
+      "en": "The Southern Dynasties relief links the qin with gesture and literary identity. The figures and the manufacture of the bricks belong to different periods, prompting a discussion of how later communities remembered literati music."
+    },
+    "uncertainty": {
+      "zh": "所列时段用于定位文献、器物或讨论背景。可通过馆藏说明核对定年、出处与传本。",
+      "en": "The period places the document, object or discussion in context. Consult the source for dating, provenance and transmission."
+    },
+    "sources": [
+      {
+        "id": "hist-seven-sages"
+      }
+    ]
+  },
+  {
+    "id": "sui-drum",
+    "category": "historicalEvidence",
+    "title": {
+      "zh": "隋代持鼓女乐俑",
+      "en": "Sui female musician holding a drum"
+    },
+    "aliases": [],
+    "period": {
+      "zh": "581—617年",
+      "en": "581–617 CE"
+    },
+    "time": {
+      "precision": "interval",
+      "start": 581,
+      "end": 617,
+      "era": "sui"
+    },
+    "isEvidence": true,
+    "location": {
+      "name": {
+        "zh": "大兴城",
+        "en": "Daxing"
+      },
+      "coordinates": [
+        108.94,
+        34.34
+      ],
+      "role": {
+        "zh": "出土地或文化参照，见条目说明",
+        "en": "Findspot or cultural reference, as indicated in the entry"
+      }
+    },
+    "description": {
+      "zh": "从乐俑持鼓的姿势讨论乐器大小与身体动作。大兴城用于标示隋代都城背景。",
+      "en": "Look at the musician’s grip and posture to discuss how instrument size relates to bodily movement. Daxing provides geographical context as a Sui capital."
+    },
+    "uncertainty": {
+      "zh": "所列时段用于定位文献、器物或讨论背景。可通过馆藏说明核对定年、出处与传本。",
+      "en": "The period places the document, object or discussion in context. Consult the source for dating, provenance and transmission."
+    },
+    "sources": [
+      {
+        "id": "hist-sui-drum"
+      }
+    ]
+  },
+  {
+    "id": "sui-zither",
+    "category": "historicalEvidence",
+    "title": {
+      "zh": "隋代弹筝女乐俑",
+      "en": "Sui female musician with zither"
+    },
+    "aliases": [],
+    "period": {
+      "zh": "581—617年",
+      "en": "581–617 CE"
+    },
+    "time": {
+      "precision": "interval",
+      "start": 581,
+      "end": 617,
+      "era": "sui"
+    },
+    "isEvidence": true,
+    "location": {
+      "name": {
+        "zh": "大兴城",
+        "en": "Daxing"
+      },
+      "coordinates": [
+        108.97,
+        34.36
+      ],
+      "role": {
+        "zh": "出土地或文化参照，见条目说明",
+        "en": "Findspot or cultural reference, as indicated in the entry"
+      }
+    },
+    "description": {
+      "zh": "可比较弦乐俑和持鼓俑的手位及乐器摆放。馆藏器物展示的姿态有助于提出问题，定弦和实际曲调需要其他证据。",
+      "en": "Compare hand positions and instrument placement with the drum figurine. The figures prompt questions about technique, while tuning and melody require other evidence."
+    },
+    "uncertainty": {
+      "zh": "所列时段用于定位文献、器物或讨论背景。可通过馆藏说明核对定年、出处与传本。",
+      "en": "The period places the document, object or discussion in context. Consult the source for dating, provenance and transmission."
+    },
+    "sources": [
+      {
+        "id": "hist-sui-zither"
+      }
+    ]
+  },
+  {
+    "id": "tang-dance",
+    "category": "historicalEvidence",
+    "title": {
+      "zh": "唐代舞俑",
+      "en": "Tang dancing figure"
+    },
+    "aliases": [],
+    "period": {
+      "zh": "618—906年",
+      "en": "618–906 CE"
+    },
+    "time": {
+      "precision": "interval",
+      "start": 618,
+      "end": 906,
+      "era": "tang"
+    },
+    "isEvidence": true,
+    "location": {
+      "name": {
+        "zh": "长安",
+        "en": "Chang’an"
+      },
+      "coordinates": [
+        108.96,
+        34.29
+      ],
+      "role": {
+        "zh": "出土地或文化参照，见条目说明",
+        "en": "Findspot or cultural reference, as indicated in the entry"
+      }
+    },
+    "description": {
+      "zh": "从衣袖与转身姿态体会舞俑表现的动态。与唐代琵琶图像并读，可讨论长安的表演文化以及图像对乐舞关系的提示。",
+      "en": "Read the dancer’s sleeves and turn as traces of movement. Compare the figure with Tang pipa imagery to discuss performance in Chang’an and what visual evidence suggests about dance and music."
+    },
+    "uncertainty": {
+      "zh": "所列时段用于定位文献、器物或讨论背景。可通过馆藏说明核对定年、出处与传本。",
+      "en": "The period places the document, object or discussion in context. Consult the source for dating, provenance and transmission."
+    },
+    "sources": [
+      {
+        "id": "hist-tang-dance"
+      }
+    ]
+  },
+  {
+    "id": "han-xizai",
+    "category": "historicalEvidence",
+    "title": {
+      "zh": "《韩熙载夜宴图》所见乐宴",
+      "en": "Music at a banquet in The Night Revels of Han Xizai"
+    },
+    "aliases": [],
+    "period": {
+      "zh": "907—959年",
+      "en": "907–959 CE"
+    },
+    "time": {
+      "precision": "interval",
+      "start": 907,
+      "end": 959,
+      "era": "wudai"
+    },
+    "isEvidence": true,
+    "location": {
+      "name": {
+        "zh": "金陵",
+        "en": "Jinling"
+      },
+      "coordinates": [
+        118.79,
+        32.04
+      ],
+      "role": {
+        "zh": "出土地或文化参照，见条目说明",
+        "en": "Findspot or cultural reference, as indicated in the entry"
+      }
+    },
+    "description": {
+      "zh": "画卷描绘南唐人物参加的夜宴，包含独奏、舞蹈和管乐场景。现存卷的制作年代与画中人物时代需要分别理解。",
+      "en": "The scroll depicts a Southern Tang banquet with solo music, dance and winds. Distinguish the period of the depicted gathering from the date of the surviving scroll."
+    },
+    "uncertainty": {
+      "zh": "所列时段用于定位文献、器物或讨论背景。可通过馆藏说明核对定年、出处与传本。",
+      "en": "The period places the document, object or discussion in context. Consult the source for dating, provenance and transmission."
+    },
+    "sources": [
+      {
+        "id": "hist-han-xizai"
+      }
+    ]
+  },
+  {
+    "id": "song-qin",
+    "category": "historicalEvidence",
+    "title": {
+      "zh": "宋代琴的形制与断代",
+      "en": "Song qin forms and dating"
+    },
+    "aliases": [],
+    "period": {
+      "zh": "960—1126年",
+      "en": "960–1126 CE"
+    },
+    "time": {
+      "precision": "interval",
+      "start": 960,
+      "end": 1126,
+      "era": "beisong"
+    },
+    "isEvidence": true,
+    "location": {
+      "name": {
+        "zh": "汴京",
+        "en": "Bianjing"
+      },
+      "coordinates": [
+        114.31,
+        34.8
+      ],
+      "role": {
+        "zh": "出土地或文化参照，见条目说明",
+        "en": "Findspot or cultural reference, as indicated in the entry"
+      }
+    },
+    "description": {
+      "zh": "宋琴研究对照琴式、漆面与铭刻。北宋汴京为制度与文人文化的地理参照，传世琴的制作和后世题刻各有年代。",
+      "en": "Studies of Song qin compare contours, lacquer and inscriptions. Bianjing supplies Northern Song cultural context. An instrument and inscriptions later added to it can have different dates."
+    },
+    "uncertainty": {
+      "zh": "所列时段用于定位文献、器物或讨论背景。可通过馆藏说明核对定年、出处与传本。",
+      "en": "The period places the document, object or discussion in context. Consult the source for dating, provenance and transmission."
+    },
+    "sources": [
+      {
+        "id": "hist-song-qin"
+      }
+    ]
+  },
+  {
+    "id": "jiang-kui-songs",
+    "category": "historicalEvidence",
+    "title": {
+      "zh": "姜夔《白石道人歌曲》",
+      "en": "Jiang Kui’s Songs of the White Stone Daoist"
+    },
+    "aliases": [],
+    "period": {
+      "zh": "1127—1278年",
+      "en": "1127–1278 CE"
+    },
+    "time": {
+      "precision": "interval",
+      "start": 1127,
+      "end": 1278,
+      "era": "nansong"
+    },
+    "isEvidence": true,
+    "location": {
+      "name": {
+        "zh": "临安",
+        "en": "Lin’an"
+      },
+      "coordinates": [
+        120.15,
+        30.27
+      ],
+      "role": {
+        "zh": "出土地或文化参照，见条目说明",
+        "en": "Findspot or cultural reference, as indicated in the entry"
+      }
+    },
+    "description": {
+      "zh": "姜夔歌曲的传本包含旁谱，适合观察歌辞与谱字的对应。临安标示南宋文化背景。现代复原时仍需对音高、节奏和演唱习惯作解释。",
+      "en": "Transmitted editions of Jiang Kui’s songs include notation beside the lyrics. Lin’an supplies Southern Song context. A modern reading still requires decisions about pitch, rhythm and delivery."
+    },
+    "uncertainty": {
+      "zh": "所列时段用于定位文献、器物或讨论背景。可通过馆藏说明核对定年、出处与传本。",
+      "en": "The period places the document, object or discussion in context. Consult the source for dating, provenance and transmission."
+    },
+    "sources": [
+      {
+        "id": "hist-jiang-kui-songs"
+      }
+    ]
+  },
+  {
+    "id": "yuan-zaju",
+    "category": "historicalEvidence",
+    "title": {
+      "zh": "《元刊杂剧三十种》",
+      "en": "Thirty Yuan Printed Zaju Plays"
+    },
+    "aliases": [],
+    "period": {
+      "zh": "1279—1367年",
+      "en": "1279–1367 CE"
+    },
+    "time": {
+      "precision": "interval",
+      "start": 1279,
+      "end": 1367,
+      "era": "yuan"
+    },
+    "isEvidence": true,
+    "location": {
+      "name": {
+        "zh": "大都",
+        "en": "Dadu"
+      },
+      "coordinates": [
+        116.4,
+        39.9
+      ],
+      "role": {
+        "zh": "出土地或文化参照，见条目说明",
+        "en": "Findspot or cultural reference, as indicated in the entry"
+      }
+    },
+    "description": {
+      "zh": "元刊杂剧材料保存曲词和舞台文字的关系。大都是元代戏剧文化的参照，可从曲牌、角色和说唱词的位置理解这一文献怎样记录表演。",
+      "en": "Yuan printed plays preserve the relation between sung texts and stage directions. Dadu provides geographical context. Study the locations of tunes, characters and spoken lines to see how texts record performance."
+    },
+    "uncertainty": {
+      "zh": "所列时段用于定位文献、器物或讨论背景。可通过馆藏说明核对定年、出处与传本。",
+      "en": "The period places the document, object or discussion in context. Consult the source for dating, provenance and transmission."
+    },
+    "sources": [
+      {
+        "id": "hist-yuan-zaju"
+      }
+    ]
+  },
+  {
+    "id": "ming-qin-score",
+    "category": "historicalEvidence",
+    "title": {
+      "zh": "明代琴谱刊刻与传承",
+      "en": "Ming printing and transmission of qin tablature"
+    },
+    "aliases": [],
+    "period": {
+      "zh": "1425—1643年",
+      "en": "1425–1643 CE"
+    },
+    "time": {
+      "precision": "interval",
+      "start": 1425,
+      "end": 1643,
+      "era": "ming"
+    },
+    "isEvidence": true,
+    "location": {
+      "name": {
+        "zh": "南昌",
+        "en": "Nanchang"
+      },
+      "coordinates": [
+        115.86,
+        28.68
+      ],
+      "role": {
+        "zh": "出土地或文化参照，见条目说明",
+        "en": "Findspot or cultural reference, as indicated in the entry"
+      }
+    },
+    "description": {
+      "zh": "从朱权编刻《神奇秘谱》切入，比较谱字保存的指法、弦序与演奏者理解的句法。南昌对应朱权的封地关联。",
+      "en": "Begin with Zhu Quan’s Shenqi Mipu to compare the fingerings and string orders recorded in tablature with performers’ decisions about phrasing. Nanchang marks the compiler’s princely seat."
+    },
+    "uncertainty": {
+      "zh": "所列时段用于定位文献、器物或讨论背景。可通过馆藏说明核对定年、出处与传本。",
+      "en": "The period places the document, object or discussion in context. Consult the source for dating, provenance and transmission."
+    },
+    "sources": [
+      {
+        "id": "hist-ming-qin-score"
+      }
+    ]
+  },
+  {
+    "id": "qing-palace-opera",
+    "category": "historicalEvidence",
+    "title": {
+      "zh": "清宫戏曲与剧本档案",
+      "en": "Qing court theatre and archival scripts"
+    },
+    "aliases": [],
+    "period": {
+      "zh": "1644—1911年",
+      "en": "1644–1911 CE"
+    },
+    "time": {
+      "precision": "interval",
+      "start": 1644,
+      "end": 1911,
+      "era": "qing"
+    },
+    "isEvidence": true,
+    "location": {
+      "name": {
+        "zh": "北京",
+        "en": "Beijing"
+      },
+      "coordinates": [
+        116.4,
+        39.91
+      ],
+      "role": {
+        "zh": "出土地或文化参照，见条目说明",
+        "en": "Findspot or cultural reference, as indicated in the entry"
+      }
+    },
+    "description": {
+      "zh": "故宫的戏曲馆藏可从剧本、道具和宫廷档案相互印证。把清宫演出与地方戏班的流动结合起来读，可问同一种唱腔进入不同场合后发生哪些变化。",
+      "en": "The Palace Museum collection brings together scripts, stage objects and court records. Read court performances alongside the mobility of regional troupes to ask what changed as vocal styles entered new settings."
+    },
+    "uncertainty": {
+      "zh": "所列时段用于定位文献、器物或讨论背景。可通过馆藏说明核对定年、出处与传本。",
+      "en": "The period places the document, object or discussion in context. Consult the source for dating, provenance and transmission."
+    },
+    "sources": [
+      {
+        "id": "hist-qing-palace-opera"
+      }
+    ]
+  },
+  {
+    "id": "mei-tour",
+    "category": "historicalEvidence",
+    "title": {
+      "zh": "梅兰芳访美演出",
+      "en": "Mei Lanfang’s American tour"
+    },
+    "aliases": [],
+    "period": {
+      "zh": "1930年",
+      "en": "1930 CE"
+    },
+    "time": {
+      "precision": "interval",
+      "start": 1930,
+      "end": 1930,
+      "era": "roc"
+    },
+    "isEvidence": true,
+    "location": {
+      "name": {
+        "zh": "北京",
+        "en": "Beijing"
+      },
+      "coordinates": [
+        116.4,
+        39.91
+      ],
+      "role": {
+        "zh": "出土地或文化参照，见条目说明",
+        "en": "Findspot or cultural reference, as indicated in the entry"
+      }
+    },
+    "description": {
+      "zh": "1930年梅兰芳赴美国演出。北京标示京剧的文化参照，实际巡演地在美国。可以讨论节目安排与身段、唱腔如何向新听众呈现。",
+      "en": "Mei Lanfang toured the United States in 1930. Beijing marks the opera’s cultural context and the performances took place in the United States. Consider how programmes framed gesture and voice for new audiences."
+    },
+    "uncertainty": {
+      "zh": "所列时段用于定位文献、器物或讨论背景。可通过馆藏说明核对定年、出处与传本。",
+      "en": "The period places the document, object or discussion in context. Consult the source for dating, provenance and transmission."
+    },
+    "sources": [
+      {
+        "id": "hist-mei-tour"
+      }
+    ]
+  },
+  {
+    "id": "qin-painting",
+    "category": "historicalEvidence",
+    "title": {
+      "zh": "《听琴图》里的宋代听琴",
+      "en": "Listening to the qin in Northern Song painting"
+    },
+    "aliases": [],
+    "period": {
+      "zh": "960—1126年",
+      "en": "960–1126 CE"
+    },
+    "time": {
+      "precision": "interval",
+      "start": 960,
+      "end": 1126,
+      "era": "beisong"
+    },
+    "isEvidence": true,
+    "location": {
+      "name": {
+        "zh": "汴京",
+        "en": "Bianjing"
+      },
+      "coordinates": [
+        114.31,
+        34.8
+      ],
+      "role": {
+        "zh": "出土地或文化背景参照",
+        "en": "Findspot or cultural context"
+      }
+    },
+    "description": {
+      "zh": "图中演奏与静听并置，可用人物站位、景物和手势来讨论审美课中的意境。馆方说明涉及作品归属和画面内容。",
+      "en": "The image places performance beside attentive listening. Use seating, landscape and gesture to discuss yijing, or artistic conception. The museum describes the work’s attribution and imagery."
+    },
+    "uncertainty": {
+      "zh": "年代范围用于课程背景。具体藏品定年与传承依据见来源。",
+      "en": "The date range gives course context. See the source for dating and provenance."
+    },
+    "sources": [
+      {
+        "id": "hist-qin-painting"
+      }
+    ]
+  },
+  {
+    "id": "xuanhua-mural",
+    "category": "historicalEvidence",
+    "title": {
+      "zh": "宣化辽墓散乐图",
+      "en": "Music in Xuanhua Liao tomb murals"
+    },
+    "aliases": [],
+    "period": {
+      "zh": "960—1126年",
+      "en": "960–1126 CE"
+    },
+    "time": {
+      "precision": "interval",
+      "start": 960,
+      "end": 1126,
+      "era": "beisong"
+    },
+    "isEvidence": true,
+    "location": {
+      "name": {
+        "zh": "宣化",
+        "en": "Xuanhua"
+      },
+      "coordinates": [
+        115.06,
+        40.61
+      ],
+      "role": {
+        "zh": "出土地或文化背景参照",
+        "en": "Findspot or cultural context"
+      }
+    },
+    "description": {
+      "zh": "宣化辽墓壁画记录乐人与宴享场景。把乐器、服饰和站位一起看，可比较北宋同时期的辽地表演文化。",
+      "en": "The Xuanhua murals show musicians and banqueting. Read instruments, dress and placement together to explore Liao performance culture in the Northern Song period."
+    },
+    "uncertainty": {
+      "zh": "年代范围用于课程背景。具体藏品定年与传承依据见来源。",
+      "en": "The date range gives course context. See the source for dating and provenance."
+    },
+    "sources": [
+      {
+        "id": "hist-xuanhua-mural"
+      }
+    ]
+  },
+  {
+    "id": "tang-camel-ensemble",
+    "category": "historicalEvidence",
+    "title": {
+      "zh": "唐三彩骆驼载乐俑",
+      "en": "Tang sancai camel with musicians"
+    },
+    "aliases": [],
+    "period": {
+      "zh": "618—906年",
+      "en": "618–906 CE"
+    },
+    "time": {
+      "precision": "interval",
+      "start": 618,
+      "end": 906,
+      "era": "tang"
+    },
+    "isEvidence": true,
+    "location": {
+      "name": {
+        "zh": "长安",
+        "en": "Chang’an"
+      },
+      "coordinates": [
+        108.95,
+        34.32
+      ],
+      "role": {
+        "zh": "出土地或文化背景参照",
+        "en": "Findspot or cultural context"
+      }
+    },
+    "description": {
+      "zh": "驼背乐俑把乐手及多种乐器组合在一个画面中。可以从器物造型和交通网络两个角度讨论唐代跨区域的乐舞文化。",
+      "en": "The camel figure groups players and several instruments. Use their shapes and the transport links evoked by the camel to discuss musical exchange in the Tang."
+    },
+    "uncertainty": {
+      "zh": "年代范围用于课程背景。具体藏品定年与传承依据见来源。",
+      "en": "The date range gives course context. See the source for dating and provenance."
+    },
+    "sources": [
+      {
+        "id": "hist-tang-camel-ensemble"
+      }
+    ]
+  },
+  {
+    "id": "dunhuang-scores",
+    "category": "historicalEvidence",
+    "title": {
+      "zh": "敦煌古谱与打谱",
+      "en": "Dunhuang notation and reconstruction"
+    },
+    "aliases": [],
+    "period": {
+      "zh": "907—959年",
+      "en": "907–959 CE"
+    },
+    "time": {
+      "precision": "interval",
+      "start": 907,
+      "end": 959,
+      "era": "wudai"
+    },
+    "isEvidence": true,
+    "location": {
+      "name": {
+        "zh": "敦煌",
+        "en": "Dunhuang"
+      },
+      "coordinates": [
+        94.68,
+        40.14
+      ],
+      "role": {
+        "zh": "出土地或文化背景参照",
+        "en": "Findspot or cultural context"
+      }
+    },
+    "description": {
+      "zh": "敦煌古谱能和课程的乐器、指法与音高讨论相连。古谱数据库提供更多材料，可比较原卷谱字、抄写时段和当代演奏复原。",
+      "en": "Dunhuang scores connect instruments, technique and pitch with the course. The historical notation database offers further material for comparing manuscript signs, copying dates and modern reconstructions."
+    },
+    "uncertainty": {
+      "zh": "年代范围用于课程背景。具体藏品定年与传承依据见来源。",
+      "en": "The date range gives course context. See the source for dating and provenance."
+    },
+    "sources": [
+      {
+        "id": "hist-dunhuang-scores"
+      }
+    ]
+  },
+  {
+    "id": "yuan-qin",
+    "category": "historicalEvidence",
+    "title": {
+      "zh": "元琴的铭文与鉴定",
+      "en": "Inscriptions and attribution of Yuan qin"
+    },
+    "aliases": [],
+    "period": {
+      "zh": "1279—1367年",
+      "en": "1279–1367 CE"
+    },
+    "time": {
+      "precision": "interval",
+      "start": 1279,
+      "end": 1367,
+      "era": "yuan"
+    },
+    "isEvidence": true,
+    "location": {
+      "name": {
+        "zh": "大都",
+        "en": "Dadu"
+      },
+      "coordinates": [
+        116.42,
+        39.9
+      ],
+      "role": {
+        "zh": "出土地或文化背景参照",
+        "en": "Findspot or cultural context"
+      }
+    },
+    "description": {
+      "zh": "传世琴的断代可以结合铭文、漆面和琴体。对照元刊戏曲文献，可比较同一时期的器物和文本各自保留的证据。",
+      "en": "Attributing a surviving qin can draw on inscriptions, lacquer and construction. Compare the objects with Yuan theatre texts to see how each medium preserves performance evidence."
+    },
+    "uncertainty": {
+      "zh": "年代范围用于课程背景。具体藏品定年与传承依据见来源。",
+      "en": "The date range gives course context. See the source for dating and provenance."
+    },
+    "sources": [
+      {
+        "id": "hist-yuan-qin"
+      }
+    ]
+  }
+]

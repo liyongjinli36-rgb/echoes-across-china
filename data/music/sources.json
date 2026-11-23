@@ -1,0 +1,479 @@
+{
+  "course1": {
+    "title": {
+      "zh": "UCUG 2500 · 导论",
+      "en": "UCUG 2500 · Introduction"
+    }
+  },
+  "course2": {
+    "title": {
+      "zh": "UCUG 2500 · 中国传统音乐的审美",
+      "en": "UCUG 2500 · Aesthetic Appeal of Traditional Chinese Music"
+    }
+  },
+  "course3": {
+    "title": {
+      "zh": "UCUG 2500 · 中国民歌",
+      "en": "UCUG 2500 · Chinese Folk Song"
+    }
+  },
+  "course5": {
+    "title": {
+      "zh": "UCUG 2500 · 中国器乐独奏",
+      "en": "UCUG 2500 · Chinese Instrumental Solo Music"
+    }
+  },
+  "course6": {
+    "title": {
+      "zh": "UCUG 2500 · 中国器乐合奏",
+      "en": "UCUG 2500 · Chinese Instrumental Ensemble"
+    }
+  },
+  "course7": {
+    "title": {
+      "zh": "UCUG 2500 · 中国说唱音乐",
+      "en": "UCUG 2500 · Chinese Narrative Singing"
+    }
+  },
+  "heritage:12603": {
+    "title": {
+      "zh": "中国非遗网 · 陕北民歌",
+      "en": "China Intangible Cultural Heritage · Northern Shaanxi Folk Song"
+    },
+    "url": "https://www.ihchina.cn/ccr_detail/12603/"
+  },
+  "lu": {
+    "title": {
+      "zh": "中国非遗网 · 陆春龄",
+      "en": "China Intangible Cultural Heritage · Lu Chunling"
+    },
+    "url": "https://www.ihchina.cn/ccr_detail/892/"
+  },
+  "abing": {
+    "title": {
+      "zh": "中国艺术研究院 · 中国传统音乐录音档案",
+      "en": "Chinese National Academy of Arts · Traditional Music Recording Archive"
+    },
+    "url": "https://zhuanti.mct.gov.cn/whzypc2023/dxal/detail_1/4949.html"
+  },
+  "guqin": {
+    "title": {
+      "zh": "联合国教科文组织 · 古琴艺术",
+      "en": "UNESCO · Guqin and its Music"
+    },
+    "url": "https://ich.unesco.org/en/RL/guqin-and-its-music-00061"
+  },
+  "si": {
+    "title": {
+      "zh": "史密森学会 · 以乐作画",
+      "en": "Smithsonian · Painting with Music"
+    },
+    "url": "https://archive.asia.si.edu/podcasts/related/yungpainting/progNotes.asp"
+  },
+  "nasa": {
+    "title": {
+      "zh": "NASA · 旅行者金唱片曲目",
+      "en": "NASA · Golden Record Sounds and Music"
+    },
+    "url": "https://science.nasa.gov/mission/voyager/golden-record-contents/sounds/"
+  },
+  "pipa": {
+    "title": {
+      "zh": "大都会艺术博物馆 · 琵琶",
+      "en": "Metropolitan Museum of Art · The Pipa"
+    },
+    "url": "https://www.metmuseum.org/essays/the-pipa"
+  },
+  "heritage2006": {
+    "title": {
+      "zh": "国务院 · 第一批国家级非遗名录",
+      "en": "State Council · First National Intangible Cultural Heritage List"
+    },
+    "url": "https://www.ihchina.cn/zhengce_details/11546"
+  },
+  "heritage2008": {
+    "title": {
+      "zh": "国务院 · 第二批国家级非遗名录与首批扩展项目",
+      "en": "State Council · Second National Heritage List and First List Extensions"
+    },
+    "url": "https://www.ihchina.cn/zhengce_details/11664.html"
+  },
+  "sizhu": {
+    "title": {
+      "zh": "中国非遗网 · 江南丝竹",
+      "en": "China Intangible Cultural Heritage · Jiangnan Sizhu"
+    },
+    "url": "https://www.ihchina.cn/project_details/12529.html"
+  },
+  "gdm": {
+    "title": {
+      "zh": "中国非遗网 · 广东音乐",
+      "en": "China Intangible Cultural Heritage · Guangdong Music"
+    },
+    "url": "https://www.ihchina.cn/art/detail/id/12551.html"
+  },
+  "shuoshu": {
+    "title": {
+      "zh": "中国非遗网 · 陕北说书",
+      "en": "China Intangible Cultural Heritage · Northern Shaanxi Storytelling"
+    },
+    "url": "https://www.ihchina.cn/project_details/13611/"
+  },
+  "nanyin": {
+    "title": {
+      "zh": "联合国教科文组织 · 南音",
+      "en": "UNESCO · Nanyin"
+    },
+    "url": "https://ich.unesco.org/en/RL/nanyin-00199?RL=00199"
+  },
+  "pingtan": {
+    "title": {
+      "zh": "中国非遗网 · 苏州评弹",
+      "en": "China Intangible Cultural Heritage · Suzhou Pingtan"
+    },
+    "url": "https://www.ihchina.cn/project_details/13583.html"
+  },
+  "kunqu": {
+    "title": {
+      "zh": "联合国教科文组织 · 昆曲",
+      "en": "UNESCO · Kun Qu Opera"
+    },
+    "url": "https://ich.unesco.org/en/RL/kun-qu-opera-00004"
+  },
+  "peony": {
+    "title": {
+      "zh": "印第安纳大学出版社 · 白之译本《牡丹亭》",
+      "en": "Indiana University Press · Cyril Birch’s translation of The Peony Pavilion"
+    },
+    "url": "https://iupress.org/9780253013712/the-peony-pavilion-second-edition/"
+  },
+  "loc": {
+    "title": {
+      "zh": "美国国会图书馆 · 《牡丹亭还魂记》明刻本",
+      "en": "Library of Congress · Ming Edition of The Peony Pavilion"
+    },
+    "url": "https://www.loc.gov/item/2021666346/"
+  },
+  "jingju": {
+    "title": {
+      "zh": "联合国教科文组织 · 京剧",
+      "en": "UNESCO · Peking Opera"
+    },
+    "url": "https://ich.unesco.org/en/RL/peking-opera-00418"
+  },
+  "hui": {
+    "title": {
+      "zh": "北京市政府 · 徽班与京剧行当",
+      "en": "Beijing Municipal Government · Anhui Troupes and Peking Opera Roles"
+    },
+    "url": "https://www.beijing.gov.cn/tsbj/jwwh/jingju/202007/t20200713_1947152.html"
+  },
+  "shenqi": {
+    "title": {
+      "zh": "香港康乐及文化事务署 · 《神奇秘谱》与琴乐打谱",
+      "en": "Hong Kong LCSD · Shenqi Mipu and Guqin Reconstruction"
+    },
+    "url": "https://www.performing-arts.gov.hk/en/02550000000/0255000000004663.html"
+  },
+  "tangPipa": {
+    "title": {
+      "zh": "大都会艺术博物馆 · 唐代女乐俑",
+      "en": "Metropolitan Museum of Art · Tang Female Musician"
+    },
+    "url": "https://www.metmuseum.org/art/collection/search/44803"
+  },
+  "zeng": {
+    "title": {
+      "zh": "史密森学会 · 中国古代青铜编钟",
+      "en": "Smithsonian · Ancient Chinese Bronze Bells"
+    },
+    "url": "https://music.si.edu/story/sync-ancient-chinese-bronze-bells-smithsonian"
+  },
+  "hkco": {
+    "title": {
+      "zh": "香港中乐团 · 乐团沿革与编制",
+      "en": "Hong Kong Chinese Orchestra · History and instrumentation"
+    },
+    "url": "https://www.hkco.org/en/About-Hkco/About-Us.html"
+  },
+  "hist-zhou-pitch": {
+    "title": {
+      "zh": "史密森学会 · 古代青铜钟",
+      "en": "Smithsonian · Ancient Chinese Bronze Bells"
+    },
+    "url": "https://music.si.edu/story/sync-ancient-chinese-bronze-bells-smithsonian"
+  },
+  "hist-chu-art": {
+    "title": {
+      "zh": "中国国家博物馆 · 湖北出土商周文物展",
+      "en": "National Museum of China · Shang and Zhou objects found in Hubei"
+    },
+    "url": "https://www.chnmuseum.cn/zl/zlhg/201812/t20181220_32361.shtml"
+  },
+  "hist-qin-performers": {
+    "title": {
+      "zh": "秦始皇帝陵博物院 · 景区导览",
+      "en": "Emperor Qinshihuang’s Mausoleum Site Museum · Site guide"
+    },
+    "url": "https://www.bmy.com.cn/guide/scenic.html?tid=2"
+  },
+  "hist-han-dancers": {
+    "title": {
+      "zh": "大都会艺术博物馆 · 乐舞俑",
+      "en": "The Metropolitan Museum of Art · Dancer and Musicians"
+    },
+    "url": "https://www.metmuseum.org/art/collection/search/44386"
+  },
+  "hist-han-story-drum": {
+    "title": {
+      "zh": "中国国家博物馆 · 击鼓说唱俑",
+      "en": "National Museum of China · Drumming Storyteller Figurine"
+    },
+    "url": "https://www.chnmuseum.cn/portals/0/web/zt/202112jgscy/"
+  },
+  "hist-cao-short-song": {
+    "title": {
+      "zh": "曹操 · 《短歌行》传本文本",
+      "en": "Cao Cao · Transmitted text of Short Song"
+    },
+    "url": "https://zh.wikisource.org/zh-hans/短歌行_(曹操)"
+  },
+  "hist-jin-xunxu": {
+    "title": {
+      "zh": "《晋书》卷十六 · 律历志",
+      "en": "Book of Jin, vol. 16 · Pitch Standards and Calendar"
+    },
+    "url": "https://zh.wikisource.org/wiki/晉書斠注/卷016"
+  },
+  "hist-huan-yi-flute": {
+    "title": {
+      "zh": "《太平御览》卷五八〇 · 笛",
+      "en": "Taiping Imperial Reader, vol. 580 · Flute"
+    },
+    "url": "https://zh.wikisource.org/wiki/太平御覽/0580"
+  },
+  "hist-wei-mounted": {
+    "title": {
+      "zh": "大都会艺术博物馆 · 北魏骑马乐俑",
+      "en": "The Metropolitan Museum of Art · Northern Wei Mounted Musician"
+    },
+    "url": "https://www.metmuseum.org/art/collection/search/39771"
+  },
+  "hist-seven-sages": {
+    "title": {
+      "zh": "南京博物院 · 竹林七贤与荣启期砖画",
+      "en": "Nanjing Museum · Seven Sages and Rong Qiqi Brick Relief"
+    },
+    "url": "https://www.njmuseum.com/en/collectionDetails?id=465"
+  },
+  "hist-sui-drum": {
+    "title": {
+      "zh": "大都会艺术博物馆 · 隋代持鼓女乐俑",
+      "en": "The Metropolitan Museum of Art · Sui Female Musician with a Drum"
+    },
+    "url": "https://www.metmuseum.org/art/collection/search/62947"
+  },
+  "hist-sui-zither": {
+    "title": {
+      "zh": "大都会艺术博物馆 · 隋代持弦乐器女俑",
+      "en": "The Metropolitan Museum of Art · Sui Female Musician with Zither"
+    },
+    "url": "https://www.metmuseum.org/art/collection/search/59776"
+  },
+  "hist-tang-dance": {
+    "title": {
+      "zh": "大都会艺术博物馆 · 唐代舞俑",
+      "en": "The Metropolitan Museum of Art · Tang Female Dancer"
+    },
+    "url": "https://www.metmuseum.org/art/collection/search/62932"
+  },
+  "hist-han-xizai": {
+    "title": {
+      "zh": "故宫博物院 · 《韩熙载夜宴图卷》",
+      "en": "Palace Museum · The Night Revels of Han Xizai"
+    },
+    "url": "https://www.dpm.org.cn/collection/paint/228200.html"
+  },
+  "hist-song-qin": {
+    "title": {
+      "zh": "故宫博物院 · 中国古琴珍萃中的宋琴",
+      "en": "Palace Museum · Study of Song Qin in a Guqin Collection"
+    },
+    "url": "https://img.dpm.org.cn/Uploads/File/2021/04/19/u607d3f5a1cd94.pdf"
+  },
+  "hist-jiang-kui-songs": {
+    "title": {
+      "zh": "中国国家博物馆 · 《白石道人歌曲》",
+      "en": "National Museum of China · Songs of the White Stone Daoist"
+    },
+    "url": "https://www.chnmuseum.cn/zp/zpml/gjwxbt/202203/t20220301_254048.shtml"
+  },
+  "hist-yuan-zaju": {
+    "title": {
+      "zh": "南开大学图书馆 · 馆藏元刊杂剧研究资料",
+      "en": "Nankai University Library · Research on Yuan Printed Zaju"
+    },
+    "url": "https://space.nankai.edu.cn/mspace/searchDetailLocal/mffd2bfc354e985f2e6dbf9694cde287f"
+  },
+  "hist-ming-qin-score": {
+    "title": {
+      "zh": "香港康乐及文化事务署 · 神奇秘谱与打谱",
+      "en": "Hong Kong LCSD · Shenqi Mipu and Reconstruction"
+    },
+    "url": "https://www.performing-arts.gov.hk/en/02550000000/0255000000004663.html"
+  },
+  "hist-qing-palace-opera": {
+    "title": {
+      "zh": "故宫博物院 · 音乐戏曲馆藏",
+      "en": "Palace Museum · Music and Theatre Collection"
+    },
+    "url": "https://www.dpm.org.cn/collection/musics.html"
+  },
+  "hist-mei-tour": {
+    "title": {
+      "zh": "文化和旅游部 · 梅兰芳与戏曲交流",
+      "en": "Ministry of Culture and Tourism · Mei Lanfang and Opera Exchange"
+    },
+    "url": "https://www.mct.gov.cn/wlbphone/wlbydd/xxfb/zsdw/202502/t20250228_958640.html"
+  },
+  "media-wuge": {
+    "title": {
+      "zh": "青浦田山歌纪录片",
+      "en": "Qingpu field song documentary"
+    },
+    "url": "https://www.ihchina.cn/art/detail/id/29413.html"
+  },
+  "media-jiangnan-sizhu": {
+    "title": {
+      "zh": "中国艺术研究院 · 江南丝竹录音九首",
+      "en": "Chinese National Academy of Arts · Nine Jiangnan Sizhu recordings"
+    },
+    "url": "https://lib.zgysyjy.org.cn/ting_detail/596857.html"
+  },
+  "media-jingyun-dagu": {
+    "title": {
+      "zh": "中国非物质文化遗产网 · 京韵大鼓",
+      "en": "China Intangible Cultural Heritage · Jingyun Dagu"
+    },
+    "url": "https://www.ihchina.cn/news_1_details/11215.html"
+  },
+  "hist-qin-painting": {
+    "title": {
+      "zh": "《听琴图》里的宋代听琴",
+      "en": "Listening to the qin in Northern Song painting"
+    },
+    "url": "https://www.dpm.org.cn/collection/paint/231409.html"
+  },
+  "hist-xuanhua-mural": {
+    "title": {
+      "zh": "宣化辽墓散乐图",
+      "en": "Music in Xuanhua Liao tomb murals"
+    },
+    "url": "https://www.chnmuseum.cn/yj/yjxshjl/hy/fsyjlt/fslt2025/zy2025/202603/t20260324_278625.shtml"
+  },
+  "hist-tang-camel-ensemble": {
+    "title": {
+      "zh": "唐三彩骆驼载乐俑",
+      "en": "Tang sancai camel with musicians"
+    },
+    "url": "https://www.chnmuseum.cn/zx/gbxw/202605/t20260525_279062.shtml"
+  },
+  "hist-dunhuang-scores": {
+    "title": {
+      "zh": "敦煌古谱与打谱",
+      "en": "Dunhuang notation and reconstruction"
+    },
+    "url": "https://www.shcmusic.edu.cn/2019/0305/c1546a21608/page.htm"
+  },
+  "hist-yuan-qin": {
+    "title": {
+      "zh": "元琴的铭文与鉴定",
+      "en": "Inscriptions and attribution of Yuan qin"
+    },
+    "url": "https://www.dpm.org.cn/Uploads/File/2018/06/01/u5b1110ac7c51a.pdf"
+  },
+  "origin-jiangnan-sizhu": {
+    "title": {
+      "zh": "形成与早期发展资料",
+      "en": "Sources on formation and early development"
+    },
+    "url": "https://www.ihchina.cn/project_details/12529/"
+  },
+  "origin-guangdong-music": {
+    "title": {
+      "zh": "形成与早期发展资料",
+      "en": "Sources on formation and early development"
+    },
+    "url": "https://www.ihchina.cn/Article/Index/detail?id=12552"
+  },
+  "origin-jingyun-dagu": {
+    "title": {
+      "zh": "形成与早期发展资料",
+      "en": "Sources on formation and early development"
+    },
+    "url": "https://www.ihchina.cn/project_details/13672"
+  },
+  "origin-kunqu": {
+    "title": {
+      "zh": "形成与早期发展资料",
+      "en": "Sources on formation and early development"
+    },
+    "url": "https://www.ihchina.cn/project_details/13133.html"
+  },
+  "origin-peking-opera": {
+    "title": {
+      "zh": "形成与早期发展资料",
+      "en": "Sources on formation and early development"
+    },
+    "url": "https://ich.unesco.org/doc/src/07402-EN.pdf"
+  },
+  "timeline-shandong-guchui": {
+    "title": {
+      "zh": "中国非物质文化遗产网 · 鲁西南鼓吹乐",
+      "en": "China ICH · Southwestern Shandong Wind and Percussion"
+    },
+    "url": "https://www.ihchina.cn/project_details/12544/"
+  },
+  "timeline-shifan-luogu": {
+    "title": {
+      "zh": "中国非物质文化遗产网 · 楚州十番锣鼓",
+      "en": "China ICH · Chuzhou Shifan Luogu"
+    },
+    "url": "https://www.ihchina.cn/project_details/12537"
+  },
+  "timeline-shifan-luogu-date": {
+    "title": {
+      "zh": "淮安文旅 · 楚州十番锣鼓沿革",
+      "en": "Huai’an culture and tourism · Chuzhou Shifan Luogu history"
+    },
+    "url": "https://m.huaiyouwang.com/nd.jsp?id=565"
+  },
+  "timeline-orchestra": {
+    "title": {
+      "zh": "中国民族器乐的历史与形态 · 民族管弦乐队",
+      "en": "History and Forms of Chinese Instrumental Music · Chinese orchestras"
+    },
+    "url": "https://www.sklib.cn/booklib/bookPreview?ID=3457860&SiteID=122&fromSubID=819"
+  },
+  "timeline-shaanbei-shuoshu": {
+    "title": {
+      "zh": "中国非物质文化遗产网 · 陕北说书",
+      "en": "China ICH · Northern Shaanxi Storytelling"
+    },
+    "url": "https://www.ihchina.cn/project_details/13611/"
+  },
+  "timeline-nanyin": {
+    "title": {
+      "zh": "中国非物质文化遗产网 · 南音",
+      "en": "China ICH · Nanyin"
+    },
+    "url": "https://www.ihchina.cn/project_details/12599/"
+  },
+  "timeline-suzhou-pingtan": {
+    "title": {
+      "zh": "中国非物质文化遗产网 · 苏州评话",
+      "en": "China ICH · Suzhou pinghua"
+    },
+    "url": "https://www.ihchina.cn/project_details/13581.html"
+  }
+}

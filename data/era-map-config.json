@@ -1,0 +1,523 @@
+[
+  {
+    "id": "early",
+    "title": {
+      "zh": "先秦 · 水土与考古",
+      "en": "Early China · Terrain and Archaeology"
+    },
+    "start": -1000,
+    "end": -404,
+    "representativeYear": -433,
+    "snapshot": null,
+    "period": null,
+    "note": {
+      "zh": "公元前403年以前使用背景地形。随州标记定位曾侯乙墓的出土地。",
+      "en": "Terrain provides context before 403 BCE. The Suizhou marker locates the findspot of the tomb of Marquis Yi of Zeng."
+    },
+    "attribution": "https://github.com/DeanChensj/jiangshan-map",
+    "uncertainty": {
+      "zh": "这一时段以考古地点和自然地理为参照。",
+      "en": "Archaeological sites and physical geography provide the reference for this period."
+    }
+  },
+  {
+    "id": "zhanguo",
+    "title": {
+      "zh": "战国",
+      "en": "Warring States"
+    },
+    "start": -403,
+    "end": -222,
+    "representativeYear": -403,
+    "snapshot": "s_zhanguo_a",
+    "period": [
+      -403,
+      -331
+    ],
+    "note": {
+      "zh": "诸侯并立。青铜礼乐的物证来自墓葬、器物与铭文。",
+      "en": "Multiple states coexisted. Tombs, objects and inscriptions document bronze ritual music."
+    },
+    "attribution": "https://github.com/DeanChensj/jiangshan-map",
+    "uncertainty": {
+      "zh": "疆域为分期示意，实际边界和管辖可能随时间变化。",
+      "en": "Boundaries are schematic. Jurisdiction and borders can change within the displayed period."
+    },
+    "historicalRange": [
+      -403,
+      -221
+    ]
+  },
+  {
+    "id": "qin",
+    "title": {
+      "zh": "秦",
+      "en": "Qin"
+    },
+    "start": -221,
+    "end": -203,
+    "representativeYear": -214,
+    "snapshot": "s_qin",
+    "period": [
+      -214,
+      -210
+    ],
+    "note": {
+      "zh": "统一前后的政区在上游地图中分期绘制。",
+      "en": "The upstream map distinguishes phases around Qin unification."
+    },
+    "attribution": "https://github.com/DeanChensj/jiangshan-map",
+    "uncertainty": {
+      "zh": "疆域为分期示意，实际边界和管辖可能随时间变化。",
+      "en": "Boundaries are schematic. Jurisdiction and borders can change within the displayed period."
+    },
+    "historicalRange": [
+      -221,
+      -206
+    ]
+  },
+  {
+    "id": "xihan",
+    "title": {
+      "zh": "西汉",
+      "en": "Western Han"
+    },
+    "start": -202,
+    "end": 24,
+    "representativeYear": -100,
+    "snapshot": "s_xihan_b",
+    "period": [
+      -108,
+      -61
+    ],
+    "note": {
+      "zh": "汉与周边政权同时存在。礼乐与民间乐舞可从不同文献和图像追索。",
+      "en": "Han and neighbouring polities coexisted. Documents and images offer different evidence for ritual and popular music."
+    },
+    "attribution": "https://github.com/DeanChensj/jiangshan-map",
+    "uncertainty": {
+      "zh": "疆域为分期示意，实际边界和管辖可能随时间变化。",
+      "en": "Boundaries are schematic. Jurisdiction and borders can change within the displayed period."
+    },
+    "historicalRange": [
+      -202,
+      9
+    ]
+  },
+  {
+    "id": "donghan",
+    "title": {
+      "zh": "东汉",
+      "en": "Eastern Han"
+    },
+    "start": 25,
+    "end": 219,
+    "representativeYear": 100,
+    "snapshot": "s_donghan",
+    "period": [
+      91,
+      106
+    ],
+    "note": {
+      "zh": "洛阳为东汉都城。墓葬中的乐舞图像可与文字材料对读。",
+      "en": "Luoyang was the Eastern Han capital. Tomb imagery complements written evidence for music and dance."
+    },
+    "attribution": "https://github.com/DeanChensj/jiangshan-map",
+    "uncertainty": {
+      "zh": "疆域为分期示意，实际边界和管辖可能随时间变化。",
+      "en": "Boundaries are schematic. Jurisdiction and borders can change within the displayed period."
+    },
+    "historicalRange": [
+      25,
+      220
+    ]
+  },
+  {
+    "id": "sanguo",
+    "title": {
+      "zh": "三国",
+      "en": "Three Kingdoms"
+    },
+    "start": 220,
+    "end": 279,
+    "representativeYear": 250,
+    "snapshot": "s_sanguo",
+    "period": [
+      238,
+      262
+    ],
+    "note": {
+      "zh": "魏、蜀、吴在地图上同时出现。",
+      "en": "Wei, Shu and Wu appear concurrently on the map."
+    },
+    "attribution": "https://github.com/DeanChensj/jiangshan-map",
+    "uncertainty": {
+      "zh": "疆域为分期示意，实际边界和管辖可能随时间变化。",
+      "en": "Boundaries are schematic. Jurisdiction and borders can change within the displayed period."
+    },
+    "historicalRange": [
+      220,
+      280
+    ]
+  },
+  {
+    "id": "xijin",
+    "title": {
+      "zh": "西晋",
+      "en": "Western Jin"
+    },
+    "start": 280,
+    "end": 316,
+    "representativeYear": 300,
+    "snapshot": "s_xijin_a",
+    "period": [
+      280,
+      303
+    ],
+    "note": {
+      "zh": "图中所示为西晋的一段疆域，随后政权格局迅速变化。",
+      "en": "The map depicts one phase of Western Jin, before rapid political change."
+    },
+    "attribution": "https://github.com/DeanChensj/jiangshan-map",
+    "uncertainty": {
+      "zh": "疆域为分期示意，实际边界和管辖可能随时间变化。",
+      "en": "Boundaries are schematic. Jurisdiction and borders can change within the displayed period."
+    },
+    "historicalRange": [
+      280,
+      316
+    ]
+  },
+  {
+    "id": "dongjin",
+    "title": {
+      "zh": "东晋十六国",
+      "en": "Eastern Jin and Sixteen Kingdoms"
+    },
+    "start": 317,
+    "end": 419,
+    "representativeYear": 383,
+    "snapshot": "s_dongjin_c",
+    "period": [
+      376,
+      383
+    ],
+    "note": {
+      "zh": "长江以南的东晋与北方并立政权共享这个时段。",
+      "en": "Eastern Jin south of the Yangtze shared this period with concurrent northern polities."
+    },
+    "attribution": "https://github.com/DeanChensj/jiangshan-map",
+    "uncertainty": {
+      "zh": "疆域为分期示意，实际边界和管辖可能随时间变化。",
+      "en": "Boundaries are schematic. Jurisdiction and borders can change within the displayed period."
+    },
+    "historicalRange": [
+      317,
+      420
+    ]
+  },
+  {
+    "id": "nanbei",
+    "title": {
+      "zh": "南北朝",
+      "en": "Northern and Southern Dynasties"
+    },
+    "start": 420,
+    "end": 580,
+    "representativeYear": 500,
+    "snapshot": "s_nanbei_b",
+    "period": [
+      479,
+      501
+    ],
+    "note": {
+      "zh": "南北政权并立，随时代更迭。",
+      "en": "Northern and southern courts coexisted and changed over time."
+    },
+    "attribution": "https://github.com/DeanChensj/jiangshan-map",
+    "uncertainty": {
+      "zh": "疆域为分期示意，实际边界和管辖可能随时间变化。",
+      "en": "Boundaries are schematic. Jurisdiction and borders can change within the displayed period."
+    },
+    "historicalRange": [
+      420,
+      589
+    ]
+  },
+  {
+    "id": "sui",
+    "title": {
+      "zh": "隋",
+      "en": "Sui"
+    },
+    "start": 581,
+    "end": 617,
+    "representativeYear": 605,
+    "snapshot": "s_sui",
+    "period": [
+      589,
+      608
+    ],
+    "note": {
+      "zh": "隋的疆域以轨迹中的一个时段为参照。",
+      "en": "The overview shows one phase of Sui territorial history."
+    },
+    "attribution": "https://github.com/DeanChensj/jiangshan-map",
+    "uncertainty": {
+      "zh": "疆域为分期示意，实际边界和管辖可能随时间变化。",
+      "en": "Boundaries are schematic. Jurisdiction and borders can change within the displayed period."
+    },
+    "historicalRange": [
+      581,
+      618
+    ]
+  },
+  {
+    "id": "tang",
+    "title": {
+      "zh": "唐",
+      "en": "Tang Dynasty"
+    },
+    "start": 618,
+    "end": 906,
+    "representativeYear": 741,
+    "snapshot": "s_tang_a5",
+    "period": [
+      738,
+      754
+    ],
+    "note": {
+      "zh": "概览使用738—754年快照，保留吐蕃和南诏等同时期政权。琵琶条目以唐代图像为参照。",
+      "en": "The overview uses the 738–754 snapshot with concurrent polities such as the Tibetan Empire and Nanzhao. The pipa entry uses Tang-period imagery as evidence."
+    },
+    "attribution": "https://github.com/DeanChensj/jiangshan-map",
+    "uncertainty": {
+      "zh": "疆域为分期示意，实际边界和管辖可能随时间变化。",
+      "en": "Boundaries are schematic. Jurisdiction and borders can change within the displayed period."
+    },
+    "historicalRange": [
+      618,
+      907
+    ]
+  },
+  {
+    "id": "wudai",
+    "title": {
+      "zh": "五代十国",
+      "en": "Five Dynasties and Ten Kingdoms"
+    },
+    "start": 907,
+    "end": 959,
+    "representativeYear": 950,
+    "snapshot": "s_wudai_d",
+    "period": [
+      947,
+      950
+    ],
+    "note": {
+      "zh": "地图体现北方政权与南方诸国并立。",
+      "en": "The map shows northern regimes alongside southern kingdoms."
+    },
+    "attribution": "https://github.com/DeanChensj/jiangshan-map",
+    "uncertainty": {
+      "zh": "疆域为分期示意，实际边界和管辖可能随时间变化。",
+      "en": "Boundaries are schematic. Jurisdiction and borders can change within the displayed period."
+    },
+    "historicalRange": [
+      907,
+      960
+    ]
+  },
+  {
+    "id": "beisong",
+    "title": {
+      "zh": "北宋",
+      "en": "Northern Song"
+    },
+    "start": 960,
+    "end": 1126,
+    "representativeYear": 1100,
+    "snapshot": "s_beisong_b1",
+    "period": [
+      1072,
+      1103
+    ],
+    "note": {
+      "zh": "北宋、辽与西夏等同时出现。",
+      "en": "Northern Song, Liao and Western Xia appear as contemporary polities."
+    },
+    "attribution": "https://github.com/DeanChensj/jiangshan-map",
+    "uncertainty": {
+      "zh": "疆域为分期示意，实际边界和管辖可能随时间变化。",
+      "en": "Boundaries are schematic. Jurisdiction and borders can change within the displayed period."
+    },
+    "historicalRange": [
+      960,
+      1127
+    ]
+  },
+  {
+    "id": "nansong",
+    "title": {
+      "zh": "南宋",
+      "en": "Southern Song"
+    },
+    "start": 1127,
+    "end": 1278,
+    "representativeYear": 1200,
+    "snapshot": "s_nansong_a",
+    "period": [
+      1141,
+      1205
+    ],
+    "note": {
+      "zh": "南宋与金等政权并立，边界随后仍有变动。",
+      "en": "Southern Song coexisted with the Jin and other polities, with boundaries changing over time."
+    },
+    "attribution": "https://github.com/DeanChensj/jiangshan-map",
+    "uncertainty": {
+      "zh": "疆域为分期示意，实际边界和管辖可能随时间变化。",
+      "en": "Boundaries are schematic. Jurisdiction and borders can change within the displayed period."
+    },
+    "historicalRange": [
+      1127,
+      1279
+    ]
+  },
+  {
+    "id": "yuan",
+    "title": {
+      "zh": "元",
+      "en": "Yuan Dynasty"
+    },
+    "start": 1279,
+    "end": 1367,
+    "representativeYear": 1300,
+    "snapshot": "s_yuan",
+    "period": [
+      1288,
+      1334
+    ],
+    "note": {
+      "zh": "图中是元朝一段疆域与相邻政权的示意。",
+      "en": "The map sketches the Yuan and neighbouring powers during one phase."
+    },
+    "attribution": "https://github.com/DeanChensj/jiangshan-map",
+    "uncertainty": {
+      "zh": "疆域为分期示意，实际边界和管辖可能随时间变化。",
+      "en": "Boundaries are schematic. Jurisdiction and borders can change within the displayed period."
+    },
+    "historicalRange": [
+      1271,
+      1368
+    ]
+  },
+  {
+    "id": "ming",
+    "title": {
+      "zh": "明",
+      "en": "Ming Dynasty"
+    },
+    "start": 1368,
+    "end": 1643,
+    "representativeYear": 1450,
+    "snapshot": "s_ming_b0",
+    "period": [
+      1449,
+      1512
+    ],
+    "note": {
+      "zh": "琴谱、戏曲文本与丝竹记载为这一时期提供几种不同的音乐史证据。",
+      "en": "Guqin tablature, drama texts and accounts of ensemble practice offer different kinds of musical evidence for this period."
+    },
+    "attribution": "https://github.com/DeanChensj/jiangshan-map",
+    "uncertainty": {
+      "zh": "疆域为分期示意，实际边界和管辖可能随时间变化。",
+      "en": "Boundaries are schematic. Jurisdiction and borders can change within the displayed period."
+    },
+    "historicalRange": [
+      1368,
+      1644
+    ]
+  },
+  {
+    "id": "qing",
+    "title": {
+      "zh": "清",
+      "en": "Qing Dynasty"
+    },
+    "start": 1644,
+    "end": 1911,
+    "representativeYear": 1800,
+    "snapshot": "s_qing_e",
+    "period": [
+      1796,
+      1850
+    ],
+    "note": {
+      "zh": "清代的地方音乐在城市、书场和戏班交流中持续发展。",
+      "en": "Regional music developed through exchange in cities, story halls and theatrical troupes in the Qing."
+    },
+    "attribution": "https://github.com/DeanChensj/jiangshan-map",
+    "uncertainty": {
+      "zh": "疆域为分期示意，实际边界和管辖可能随时间变化。",
+      "en": "Boundaries are schematic. Jurisdiction and borders can change within the displayed period."
+    },
+    "historicalRange": [
+      1636,
+      1912
+    ]
+  },
+  {
+    "id": "roc",
+    "title": {
+      "zh": "中华民国时期",
+      "en": "Republican Era"
+    },
+    "start": 1912,
+    "end": 1948,
+    "representativeYear": 1936,
+    "snapshot": "s_roc",
+    "period": [
+      1932,
+      1937
+    ],
+    "note": {
+      "zh": "采用上游近代分期。地方合奏和城市说唱在此时继续演变。",
+      "en": "The map follows the upstream Republican periodization. Regional ensemble and urban storytelling traditions continued to evolve."
+    },
+    "attribution": "https://github.com/DeanChensj/jiangshan-map",
+    "uncertainty": {
+      "zh": "疆域为分期示意，实际边界和管辖可能随时间变化。",
+      "en": "Boundaries are schematic. Jurisdiction and borders can change within the displayed period."
+    },
+    "historicalRange": [
+      1912,
+      1949
+    ]
+  },
+  {
+    "id": "prc",
+    "title": {
+      "zh": "现代",
+      "en": "Modern China"
+    },
+    "start": 1949,
+    "end": 2027,
+    "representativeYear": 2026,
+    "snapshot": "s_prc",
+    "period": [
+      1949,
+      2027
+    ],
+    "note": {
+      "zh": "用地形和河流定位采录与演出地点。上游现代快照原本以省界数据呈现。",
+      "en": "Terrain and rivers locate recording and performance sites. The upstream modern snapshot relied on a provincial layer."
+    },
+    "attribution": "https://github.com/DeanChensj/jiangshan-map",
+    "uncertainty": {
+      "zh": "疆域为分期示意，实际边界和管辖可能随时间变化。",
+      "en": "Boundaries are schematic. Jurisdiction and borders can change within the displayed period."
+    }
+  }
+]
