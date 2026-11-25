@@ -11,7 +11,9 @@ const runtime = [
   'js/i18n_dict.js','js/music-atlas.js','js/music-era-data.js','js/music-i18n.js','js/music-registry.js',
   'data/era-map-config.json','data/music',
   'assets/favicon.svg','assets/terrain_relief.webp','assets/terrain_relief_mobile.webp',
-  'assets/terrain','assets/audio/liu_shui.mp3',
+  'assets/terrain',
+  ...JSON.parse(fs.readFileSync(path.join(root,'data/music/records.json'),'utf8'))
+    .filter(record => record.media?.file).map(record => record.media.file),
 ];
 
 const source = [

@@ -45,6 +45,12 @@
       </div>
     </header>
 
+    <nav id="region-nav" data-label="chooseRegion">
+      <button type="button" data-region="all" data-text="areaAll">全国总览</button>
+      <button type="button" data-region="north" data-text="areaNorth">北方地区</button>
+      <button type="button" data-region="east-central" data-text="areaEast">华东与华中</button>
+      <button type="button" data-region="south" data-text="areaSouth">华南与西南</button>
+    </nav>
     <main id="workspace-body">
       <div id="viewport-frame">
         <div id="svg-stage-wrap">
@@ -109,6 +115,7 @@
         <div id="map-search-box" class="music-search" role="search" data-label="search">
           <input id="music-search" type="search" autocomplete="off" aria-controls="music-results" aria-expanded="false" data-placeholder="searchPrompt" data-label="search">
           <div class="music-browse-actions">
+            <select id="listening-select" data-label="classListening" aria-controls="music-card"></select>
             <button id="registry-open" class="action-btn subtle" type="button" aria-controls="music-registry" aria-expanded="false"></button>
             <button id="regions-open" class="action-btn subtle" type="button" aria-controls="music-regions" aria-expanded="false" data-text="regionalCompare"></button>
           </div>
@@ -134,7 +141,7 @@
               <h2 id="dynasty-title"></h2>
               <span id="dynasty-span" class="span-label"></span>
             </div>
-            <button id="music-panel-toggle" type="button" class="action-btn subtle" aria-expanded="false" aria-controls="music-panel-body" data-text="details"></button>
+            <button id="music-panel-toggle" type="button" class="action-btn subtle" aria-expanded="false" aria-controls="music-panel-body"></button>
           </div>
         </div>
         <div id="music-panel-body">
@@ -150,20 +157,23 @@
               <button id="music-close" class="icon-close" type="button" data-label="close">×</button>
               <h3 id="music-card-title"></h3>
             </header>
-            <div id="music-card-text"></div>
             <div id="music-audio" hidden>
               <h4 data-text="recording"></h4>
               <p id="audio-title"></p>
+              <p id="audio-excerpt" class="catalog-note"></p>
+              <p id="audio-prompt"></p>
               <audio id="audio-player" preload="none"></audio>
-              <div class="music-audio-controls">
+              <div id="audio-local-controls" class="music-audio-controls">
                 <button id="audio-toggle" type="button" class="action-btn subtle"></button>
                 <input id="audio-progress" type="range" min="0" max="0" step="0.1" value="0" disabled data-label="audioSeek">
                 <span id="audio-clock" aria-hidden="true">0:00 / 0:00</span>
               </div>
+              <div id="audio-embed"></div>
               <p id="audio-note"></p>
-              <div class="music-links"><a id="audio-source" target="_blank" rel="noopener" data-text="source"></a><a id="audio-license" target="_blank" rel="noopener">CC BY 2.5</a></div>
+              <div class="music-links"><a id="audio-source" target="_blank" rel="noopener noreferrer"></a><a id="audio-license" target="_blank" rel="noopener noreferrer"></a></div>
               <p id="audio-status" role="status"></p>
             </div>
+            <div id="music-card-text"></div>
           </article>
           <section id="music-regions" class="music-list" hidden>
             <h3 data-text="regionalCompare"></h3>
@@ -185,7 +195,7 @@
             </div>
           </section>
           <section class="music-list">
-            <h3 data-text="traditions"></h3>
+            <h3 id="tradition-heading"></h3>
             <ul id="tradition-list"></ul>
           </section>
           <section class="music-list">

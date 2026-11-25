@@ -85,11 +85,33 @@ for (const record of records) {
   validLocation(record.location,id);
   citations(record);
   if (record.people) localized(record.people,`${id} people`);
+  if (record.region) {
+    assert.ok(['north','east-central','south'].includes(record.region), `${id} region`);
+    if (record.province) localized(record.province, `${id} province`);
+  }
   if (media) {
     localized(media.title,`${id} audio title`);
     localized(media.credit,`${id} audio credit`);
-    assert.ok(media.performer.zh && media.performer.en && exists(media.file),id);
-    assert.ok(media.license && media.source,id);
+    localized(media.prompt,`${id} listening prompt`);
+    assert.ok(media.performer.zh && media.performer.en,id);
+    assert.equal(new URL(media.source).protocol,'https:',id);
+    assert.equal([media.file,media.embed,media.watch].filter(Boolean).length,1,`${id} playback target`);
+    if (media.type) {
+      const target = {local:'file',embed:'embed',external:'watch'}[media.type];
+      assert.ok(target && media[target], `${id} playback type`);
+    }
+    if (media.excerpt) localized(media.excerpt, `${id} excerpt`);
+    if (media.file) {
+      assert.match(media.file,/^assets\/audio\/[\w.-]+$/,id);
+      assert.ok(exists(media.file) && media.licenseLabel,id);
+      assert.equal(new URL(media.license).protocol,'https:',id);
+    } else if (media.embed) {
+      const player = new URL(media.embed);
+      assert.equal(player.origin,'https://embed.music.apple.com',id);
+      assert.ok(player.searchParams.get('i'),id);
+    } else {
+      assert.equal(new URL(media.watch).protocol,'https:',id);
+    }
   }
 }
 for (const [index,event] of events.entries()) {

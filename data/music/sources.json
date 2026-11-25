@@ -475,5 +475,481 @@
       "en": "China ICH · Suzhou pinghua"
     },
     "url": "https://www.ihchina.cn/project_details/13581.html"
+  },
+  "b-dizi-2": {
+    "title": {
+      "zh": "上海音乐学院节目单",
+      "en": "Shanghai Conservatory concert programme"
+    },
+    "url": "https://www.shcmusic.edu.cn/2023/0415/c1625a46950/page.htm"
+  },
+  "b-dizi-3": {
+    "title": {
+      "zh": "Apple Music · 陆春龄单曲",
+      "en": "Apple Music: Lu Chunling"
+    },
+    "url": "https://music.apple.com/cn/album/1888450245?i=1888450256"
+  },
+  "b-erquan-yingyue-1": {
+    "title": {
+      "zh": "中国艺术研究院馆藏 · 阿炳原声",
+      "en": "Chinese National Academy of Arts: Abing recordings"
+    },
+    "url": "https://lib.zgysyjy.org.cn/ting_detail/598530.html"
+  },
+  "b-erquan-yingyue-2": {
+    "title": {
+      "zh": "无锡市梁溪区档案史志馆",
+      "en": "Liangxi District Archives, Wuxi"
+    },
+    "url": "https://www.wxlx.gov.cn/doc/2024/10/31/4422342.shtml"
+  },
+  "b-erquan-yingyue-3": {
+    "title": {
+      "zh": "录音许可 · Wikimedia Commons · David290",
+      "en": "Wikimedia Commons: recording by David290"
+    },
+    "url": "https://commons.wikimedia.org/wiki/File:二泉映月.ogg"
+  },
+  "b-erquan-yingyue-4": {
+    "title": {
+      "zh": "录音许可 · CC BY-SA 4.0",
+      "en": "Creative Commons Attribution-ShareAlike 4.0"
+    },
+    "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  },
+  "b-liuhe-molihua-1": {
+    "title": {
+      "zh": "南京市六合区人民政府 · 民歌传承",
+      "en": "Luhe District Government: transmission of Jasmine Flower"
+    },
+    "url": "https://www.njlh.gov.cn/lhgln/lhly/fyxm/202107/t20210713_3035715.html"
+  },
+  "b-liuhe-molihua-2": {
+    "title": {
+      "zh": "Apple Music · 龚琳娜",
+      "en": "Apple Music: Gong Linna"
+    },
+    "url": "https://music.apple.com/cn/album/1811349351?i=1811349833"
+  },
+  "b-jiangnan-zhonghua-liuban-1": {
+    "title": {
+      "zh": "太仓市人民政府 · 太仓传统文化",
+      "en": "Taicang Government: local traditions"
+    },
+    "url": "https://www.taicang.gov.cn/taicang/tcwh/202009/609d049c93064a3989d6b04494263aa5.shtml"
+  },
+  "b-jiangnan-zhonghua-liuban-3": {
+    "title": {
+      "zh": "Apple Music · 范临风",
+      "en": "Apple Music: Fan Linfeng"
+    },
+    "url": "https://music.apple.com/cn/album/1767855692?i=1767855698"
+  },
+  "b-mudanting-youyuan-1": {
+    "title": {
+      "zh": "苏州非物质文化遗产信息网｜昆曲",
+      "en": "Suzhou Intangible Cultural Heritage: Kunqu"
+    },
+    "url": "https://szfy.wglj.suzhou.com.cn/fy-project/4"
+  },
+  "b-mudanting-youyuan-3": {
+    "title": {
+      "zh": "央视戏曲频道｜《牡丹亭·游园》",
+      "en": "CCTV Opera: The Garden"
+    },
+    "url": "https://tv.cctv.com/2019/11/14/VIDEIj5avldRfzedfSczu4ym191114.shtml"
+  },
+  "b-liumengmei-shihua-1": {
+    "title": {
+      "zh": "中国非物质文化遗产网｜苏州弹词",
+      "en": "China Intangible Cultural Heritage: Suzhou tanci"
+    },
+    "url": "https://www.ihchina.cn/project_details/13581/"
+  },
+  "b-liumengmei-shihua-2": {
+    "title": {
+      "zh": "中国非物质文化遗产网｜苏州弹词创演",
+      "en": "China Intangible Cultural Heritage: creating and performing tanci"
+    },
+    "url": "https://www.ihchina.cn/luntan_details/7715.html"
+  },
+  "b-liumengmei-shihua-3": {
+    "title": {
+      "zh": "Apple Music｜高博文演唱",
+      "en": "Apple Music: Gao Bowen"
+    },
+    "url": "https://music.apple.com/us/song/1592269696"
+  },
+  "b-yangzhou-jiang-kui-yangzhou-man-1": {
+    "title": {
+      "zh": "香港中文大学图书馆 · 二十世纪粤语吟诵 · 何叔惠（词）",
+      "en": "CUHK Library: Ho Shuk-wai and Cantonese poetry chanting"
+    },
+    "url": "https://dsprojects.lib.cuhk.edu.hk/zh-hans/projects/20th-cantonese-poetry-chanting/ho-shukwai/#:~:text=%E5%A7%9C%E5%A4%94%E3%80%88%E6%8F%9A%E5%B7%9E%E6%85%A2%E3%80%89"
+  },
+  "b-yangzhou-jiang-kui-yangzhou-man-2": {
+    "title": {
+      "zh": "香港教育局 · 《扬州慢》词序、创作背景（第 76 篇）",
+      "en": "Hong Kong Education Bureau: Yangzhou Man, preface and commentary"
+    },
+    "url": "https://www.edb.gov.hk/attachment/tc/curriculum-development/kla/chi-edu/resources/secondary-edu/lang/chi_chapter/P076.pdf"
+  },
+  "b-yangzhou-jiang-kui-yangzhou-man-3": {
+    "title": {
+      "zh": "yCantonese 推广粤文化 · 何叔惠吟诵《扬州慢》",
+      "en": "yCantonese: Ho Shuk-wai chants Yangzhou Man"
+    },
+    "url": "https://ycantonese.org/%E5%A7%9C%E5%A4%94-%E6%8F%9A%E5%B7%9E%E6%85%A2-%E4%BD%95%E5%8F%94%E6%83%A0%E8%80%81%E5%B8%AB%E5%90%9F%E8%AA%A6/"
+  },
+  "b-yueju-shiba-xiangsong-1": {
+    "title": {
+      "zh": "中国非物质文化遗产网｜越剧",
+      "en": "China Intangible Cultural Heritage: Yue opera"
+    },
+    "url": "https://www.ihchina.cn/project_details/13267.html"
+  },
+  "b-yueju-shiba-xiangsong-2": {
+    "title": {
+      "zh": "Apple Music｜《梁山伯与祝英台（壹）》第 4 轨",
+      "en": "Apple Music: The Butterfly Lovers, volume 1, track 4"
+    },
+    "url": "https://music.apple.com/cn/album/1876925956?i=1876925965"
+  },
+  "b-dongyang-san-wu-qi-1": {
+    "title": {
+      "zh": "浙江艺术职业学院｜赵松庭与他的《三五七》",
+      "en": "Zhejiang Vocational Academy of Art: Zhao Songting and San Wu Qi"
+    },
+    "url": "https://web.zjvaa.edu.cn/a/2011324/4658.shtml"
+  },
+  "b-dongyang-san-wu-qi-2": {
+    "title": {
+      "zh": "《星海音乐学院学报》｜笛曲《三五七》的婺剧音乐渊源",
+      "en": "Journal of Xinghai Conservatory of Music: Wu opera sources of San Wu Qi"
+    },
+    "url": "https://xhyy.cbpt.cnki.net/portal/journal/portal/client/paper/4b87c1f3721c022d8cdab0f608d94173"
+  },
+  "b-dongyang-san-wu-qi-3": {
+    "title": {
+      "zh": "Apple Music｜蒋国基《三五七》",
+      "en": "Apple Music: Jiang Guoji"
+    },
+    "url": "https://music.apple.com/cn/song/1632209634"
+  },
+  "b-huangmei-tianxianpei-1": {
+    "title": {
+      "zh": "湖北省文化和旅游厅｜黄梅戏在鄂皖的流传",
+      "en": "Hubei Department of Culture and Tourism: Huangmei opera in Hubei and Anhui"
+    },
+    "url": "https://wlt.hubei.gov.cn/bmdt/mtjj/202208/t20220823_4276702.shtml"
+  },
+  "b-huangmei-tianxianpei-2": {
+    "title": {
+      "zh": "Apple Music｜袁媛、梅院军《夫妻双双把家还》",
+      "en": "Apple Music: Yuan Yuan and Mei Yuanjun"
+    },
+    "url": "https://music.apple.com/cn/album/1744003303?i=1744003611"
+  },
+  "b-fengyang-huagu-1": {
+    "title": {
+      "zh": "中国非物质文化遗产网｜凤阳花鼓",
+      "en": "China Intangible Cultural Heritage: Fengyang flower drums"
+    },
+    "url": "https://www.ihchina.cn/project_details/13651.html"
+  },
+  "b-fengyang-huagu-2": {
+    "title": {
+      "zh": "Apple Music｜龚琳娜《凤阳花鼓》",
+      "en": "Apple Music: Gong Linna"
+    },
+    "url": "https://music.apple.com/cn/song/1778099936"
+  },
+  "b-bainiao-guichao-1": {
+    "title": {
+      "zh": "闽南文化生态保护区｜泉州南音在新加坡",
+      "en": "Minnan Cultural Ecology Protection Area: Quanzhou nanyin in Singapore"
+    },
+    "url": "https://www.mnwhstq.com/szzy/mnmx/ctxjyqy/201605/t20160517_21894.htm"
+  },
+  "b-bainiao-guichao-2": {
+    "title": {
+      "zh": "泉州数字文化网｜泉州南音曲谱",
+      "en": "Quanzhou Digital Culture: nanyin scores"
+    },
+    "url": "https://www.qzcul.com/whdt/202506/t20250613_214727.htm"
+  },
+  "b-bainiao-guichao-3": {
+    "title": {
+      "zh": "央视《乐在旅途》｜泉州南音乐团",
+      "en": "CCTV: Quanzhou Nanyin Ensemble"
+    },
+    "url": "https://tv.cctv.com/2025/04/05/VIDEfKvpgEhkmfi2rWp2xbtc250405.shtml"
+  },
+  "b-nanyin-meihuacao-2": {
+    "title": {
+      "zh": "Apple Music｜《梅花操》",
+      "en": "Apple Music: Meihua Cao"
+    },
+    "url": "https://music.apple.com/us/song/1417373747"
+  },
+  "b-xingguo-da-zhi-shange-1": {
+    "title": {
+      "zh": "兴国县人民政府｜兴国山歌曲例",
+      "en": "Xingguo County Government: mountain-song examples"
+    },
+    "url": "https://www.xingguo.gov.cn/xgzf/c114397/202206/361a57190145491ba1585c61741f2043.shtml"
+  },
+  "b-xingguo-da-zhi-shange-2": {
+    "title": {
+      "zh": "兴国县人民政府｜兴国山歌",
+      "en": "Xingguo County Government: mountain songs"
+    },
+    "url": "https://www.xingguo.gov.cn/xgzf/c114408/201107/18bcd867f8df4e1bbfc7d7aa6c557bb7.shtml"
+  },
+  "b-xingguo-da-zhi-shange-3": {
+    "title": {
+      "zh": "央视网｜黄训国演唱",
+      "en": "CCTV: Huang Xunguo"
+    },
+    "url": "https://tv.cctv.com/2024/11/08/VIDE2xBr1Lv9VYRTcyCCVBwb241108.shtml"
+  },
+  "b-shicheng-dao-caicha-1": {
+    "title": {
+      "zh": "石城县人民政府｜石城灯彩",
+      "en": "Shicheng County Government: lantern traditions"
+    },
+    "url": "https://www.shicheng.gov.cn/scxzf/c114481/201810/ef2218011bc3411b82659c73c7151a1c.shtml"
+  },
+  "b-shicheng-dao-caicha-2": {
+    "title": {
+      "zh": "赣州市文化广电旅游局｜茶篮灯",
+      "en": "Ganzhou Culture and Tourism Bureau: tea-basket lanterns"
+    },
+    "url": "https://wlj.ganzhou.gov.cn/whgdxwcblyj/c103356/202012/50423a4309db41a0b9064337e1dfc4bc.shtml"
+  },
+  "b-shicheng-dao-caicha-3": {
+    "title": {
+      "zh": "Apple Music｜《倒采茶（石城民歌）》",
+      "en": "Apple Music: Dao Caicha"
+    },
+    "url": "https://music.apple.com/us/album/1608560212?i=1608562479"
+  },
+  "b-bainiao-chaofeng-1": {
+    "title": {
+      "zh": "济宁市文化和旅游局｜鲁西南鼓吹乐",
+      "en": "Jining Culture and Tourism Bureau: wind music of southwestern Shandong"
+    },
+    "url": "https://whlyj.jining.gov.cn/art/2021/1/26/art_69979_2705984.html"
+  },
+  "b-bainiao-chaofeng-2": {
+    "title": {
+      "zh": "《嘉祥县志》音乐条目（地方志转录）",
+      "en": "Jiaxiang County Gazetteer: music"
+    },
+    "url": "https://shandong-chorography.org/database/c86/section/1/article/548/"
+  },
+  "b-bainiao-chaofeng-3": {
+    "title": {
+      "zh": "中国民族音乐资料馆｜任同祥",
+      "en": "Chinese Music Archive: Ren Tongxiang"
+    },
+    "url": "https://chinesemusics.com/zh_cn/2023/08/31/%E4%BB%BB%E5%90%8C%E7%A5%A5/"
+  },
+  "b-bainiao-chaofeng-4": {
+    "title": {
+      "zh": "央视音乐厅｜刘西站现场版",
+      "en": "CCTV Concert Hall: Liu Xizhan"
+    },
+    "url": "https://tv.cctv.com/2022/07/04/VIDEiFwvqZTD0FimFqkpYmIy220704.shtml"
+  },
+  "b-yuncheng-siduanjin-1": {
+    "title": {
+      "zh": "中国非物质文化遗产网｜山东古筝乐",
+      "en": "China Intangible Cultural Heritage: Shandong zheng music"
+    },
+    "url": "https://www.ihchina.cn/project_details/12692.html"
+  },
+  "b-yuncheng-siduanjin-2": {
+    "title": {
+      "zh": "中国民族音乐资料馆｜赵玉斋",
+      "en": "Chinese Music Archive: Zhao Yuzhai"
+    },
+    "url": "https://roi-chinesemusic.com/zh_cn/2023/08/31/%E8%B6%99%E7%8E%89%E9%BD%8B/"
+  },
+  "b-yuncheng-siduanjin-3": {
+    "title": {
+      "zh": "沈阳音乐学院《四段锦》解析与演奏活动报道",
+      "en": "Report on the Shenyang Conservatory Si Duan Jin event"
+    },
+    "url": "https://m.guzheng.cn/news/11548.html"
+  },
+  "b-yuncheng-siduanjin-4": {
+    "title": {
+      "zh": "筝界青年论坛｜赵玉斋的改编与双手和弦",
+      "en": "Zheng Youth Forum: Zhao Yuzhai and chords"
+    },
+    "url": "https://m.guzheng.cn/news/wzzl/62649.html"
+  },
+  "b-yuncheng-siduanjin-5": {
+    "title": {
+      "zh": "Apple Music｜赵玉斋《四段锦》",
+      "en": "Apple Music: Zhao Yuzhai"
+    },
+    "url": "https://music.apple.com/cn/song/1423190647"
+  },
+  "b-gongyi-yuju-hua-mulan-1": {
+    "title": {
+      "zh": "巩义市人民政府 · 常香玉故里",
+      "en": "Gongyi Government: the home region of Chang Xiangyu"
+    },
+    "url": "https://www.gongyishi.gov.cn/gzdt/10004963.jhtml"
+  },
+  "b-gongyi-yuju-hua-mulan-2": {
+    "title": {
+      "zh": "文旅部 · 豫剧《花木兰》",
+      "en": "Ministry of Culture and Tourism: Hua Mulan"
+    },
+    "url": "https://www.mct.gov.cn/whzx/qgwhxxlb/hn/201606/t20160602_788519.htm"
+  },
+  "b-gongyi-yuju-hua-mulan-3": {
+    "title": {
+      "zh": "黄冈师范学院音乐学院所载音乐教材",
+      "en": "Huanggang Normal University: music teaching materials"
+    },
+    "url": "https://music.hgnu.edu.cn/_upload/article/files/09/d4/faf43ffb4e08b61cf64ee0adaf16/9e893fdc-b47f-484c-a549-e41df3b03d96.pdf"
+  },
+  "b-gongyi-yuju-hua-mulan-4": {
+    "title": {
+      "zh": "央视 · 戏曲影视剧场",
+      "en": "CCTV: film and television opera"
+    },
+    "url": "https://tv.cctv.com/2024/04/14/VIDEOmM2kb65Bbyy25YAdicN240414.shtml"
+  },
+  "b-dengzhou-naoyuanxiao-1": {
+    "title": {
+      "zh": "中国民族音乐资料馆｜曹东扶",
+      "en": "Chinese Music Archive: Cao Dongfu"
+    },
+    "url": "https://chinesemusics.com/zh_cn/2023/08/31/%E6%9B%B9%E6%9D%B1%E6%89%B6/"
+  },
+  "b-dengzhou-naoyuanxiao-2": {
+    "title": {
+      "zh": "周望师生筝乐分享会｜演出曲目说明",
+      "en": "Zhou Wang and students: concert programme notes"
+    },
+    "url": "https://m.guzheng.cn/news/289981.html"
+  },
+  "b-dengzhou-naoyuanxiao-3": {
+    "title": {
+      "zh": "Apple Music｜周望《闹元宵》",
+      "en": "Apple Music: Zhou Wang"
+    },
+    "url": "https://music.apple.com/cn/album/1648399997?i=1648400362"
+  },
+  "b-lichuan-longchuan-diao-1": {
+    "title": {
+      "zh": "湖北省文旅厅 · 利川灯歌",
+      "en": "Hubei Department of Culture and Tourism: Lichuan lantern songs"
+    },
+    "url": "https://wlt.hubei.gov.cn/hbsfwzwhycw/bhcc/fydt/esz/202005/t20200525_2295627.shtml"
+  },
+  "b-lichuan-longchuan-diao-2": {
+    "title": {
+      "zh": "央视 · 杨娟演唱版",
+      "en": "CCTV: comparison performance by Yang Juan"
+    },
+    "url": "https://tv.cctv.com/2026/02/21/VIDEtJsYVu2Bda3MnGVxoagX260221.shtml"
+  },
+  "b-lichuan-longchuan-diao-3": {
+    "title": {
+      "zh": "Apple Music · 杨曙光、吕继宏",
+      "en": "Apple Music: Yang Shuguang and Lü Jihong"
+    },
+    "url": "https://music.apple.com/cn/album/1834341656?i=1834341661"
+  },
+  "b-suizhou-chu-shang-1": {
+    "title": {
+      "zh": "湖北省文化和旅游厅 · 曾侯乙编钟",
+      "en": "Hubei Department of Culture and Tourism: the Zeng bells"
+    },
+    "url": "https://wlt.hubei.gov.cn/bmdt/xydt/202012/t20201214_3082063.shtml"
+  },
+  "b-suizhou-chu-shang-2": {
+    "title": {
+      "zh": "央视 · 古韵千秋",
+      "en": "CCTV: Gu Yun Qian Qiu"
+    },
+    "url": "https://tv.cctv.com/2024/10/01/VIDEKhgBcZtmKb2PxX4IQNsX241001.shtml"
+  },
+  "b-honghu-waves-1": {
+    "title": {
+      "zh": "文旅部 · 民族歌剧《洪湖赤卫队》",
+      "en": "Ministry of Culture and Tourism: The Red Guards of Honghu Lake"
+    },
+    "url": "https://www.mct.gov.cn/ggfw/zyjzzt/yanchu/yanchujqrm/202107/t20210730_926803.html"
+  },
+  "b-honghu-waves-2": {
+    "title": {
+      "zh": "湖北鄂州华容区政府 · 歌剧故事背景",
+      "en": "Huarong District Government: the story behind the opera"
+    },
+    "url": "https://www.hbhr.gov.cn/ztzl/lxyz/202112/t20211201_445522.html"
+  },
+  "b-honghu-waves-3": {
+    "title": {
+      "zh": "Apple Music · 王玉珍、傅凌版",
+      "en": "Apple Music: Wang Yuzhen and Fu Ling"
+    },
+    "url": "https://music.apple.com/cn/song/1842728265"
+  },
+  "b-changde-liuhai-kanqiao-1": {
+    "title": {
+      "zh": "常德市人民政府 · 刘海砍樵传说",
+      "en": "Changde Government: the Liu Hai legend"
+    },
+    "url": "https://www.changde.gov.cn/lccd/whcd/lsms/content_1010873"
+  },
+  "b-changde-liuhai-kanqiao-2": {
+    "title": {
+      "zh": "湖南省文旅厅 · 常德传说的传承",
+      "en": "Hunan Department of Culture and Tourism: the Changde tradition"
+    },
+    "url": "https://whhlyt.hunan.gov.cn/whhlyt/news/mtjj/201412/t20141223_5421253.html"
+  },
+  "b-changde-liuhai-kanqiao-3": {
+    "title": {
+      "zh": "Apple Music · 所选单曲",
+      "en": "Apple Music: Liu Hai Cuts Firewood"
+    },
+    "url": "https://music.apple.com/cn/song/1842744371"
+  },
+  "b-sangzhi-masang-dengtai-1": {
+    "title": {
+      "zh": "湖南省文旅厅 · 桑植民歌",
+      "en": "Hunan Department of Culture and Tourism: Sangzhi folk songs"
+    },
+    "url": "https://whhlyt.hunan.gov.cn/whhlyt/wldhwhls/202208/t20220816_27583932.html"
+  },
+  "b-sangzhi-masang-dengtai-2": {
+    "title": {
+      "zh": "湖南省交通运输厅史料专栏 · 旧山歌改词",
+      "en": "Hunan historical accounts: new lyrics for an older mountain song"
+    },
+    "url": "https://jtt.hunan.gov.cn/jjzdgz/bwcxljsm/cxgs/201907/t20190730_5407856.html"
+  },
+  "b-sangzhi-masang-dengtai-3": {
+    "title": {
+      "zh": "Apple Music · 邓海伦版",
+      "en": "Apple Music: Deng Hailun"
+    },
+    "url": "https://music.apple.com/cn/album/6774686955?i=6774688794"
+  },
+  "gso-dragon": {
+    "title": {
+      "zh": "广州交响乐团 · 2024 广州新年音乐会",
+      "en": "Guangzhou Symphony Orchestra · 2024 Guangzhou New Year Concert"
+    },
+    "url": "https://www.gso.org.cn/portfolio/concert-2024-01-01/index.html"
   }
 }

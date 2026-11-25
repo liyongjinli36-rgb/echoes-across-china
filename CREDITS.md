@@ -13,6 +13,10 @@
 
 - 站内《流水》由 Charlie Huang 于 2006 年 4 月 15 日在英国伯明翰演奏录制，使用 1876 年《天闻阁琴谱》的版本。站内为上游的 MP3 转码，按 CC BY 2.5 署名提供。[Wikimedia Commons 原始 Ogg](https://commons.wikimedia.org/wiki/File:Liu_Shui.ogg), [CC BY 2.5](https://creativecommons.org/licenses/by/2.5/)
 - The in-page recording of Flowing Water was performed by Charlie Huang and recorded in Birmingham, UK, on 15 April 2006, using the 1876 Tianwen Ge Qinpu version. The asset is the upstream MP3 conversion, credited under CC BY 2.5. [Original Ogg on Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Liu_Shui.ogg), [CC BY 2.5](https://creativecommons.org/licenses/by/2.5/)
+- 站内《二泉映月》选段由张沛坚演奏二胡，David290 录音，阿炳作曲。选取原录音 0:12.00–0:39.90，调整音量，首尾淡化并转为 MP3，沿用 CC BY-SA 4.0。无锡条目另附阿炳本人 1950 年采录的馆藏链接。[录音原件](https://commons.wikimedia.org/wiki/File:二泉映月.ogg) · [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)
+- Zhang Peijian plays erhu in the bundled excerpt from *Moon Reflected on Second Spring*, composed by Abing and recorded by David290. The 0:12.00–0:39.90 excerpt has been level-adjusted, faded at the ends and encoded as MP3. It is shared under CC BY-SA 4.0. The Wuxi card also links to the archive of Abing’s 1950 performance.
+- 《鹧鸪飞》（陆春龄）与《龙腾虎跃》（陈佐辉）使用 Apple Music 官方嵌入式试听，录音由平台提供。 / Apple Music streams the previews by Lu Chunling and Chen Zuohui through its embedded player. [《鹧鸪飞》](https://music.apple.com/cn/album/1888450245?i=1888450256) · [《龙腾虎跃》](https://music.apple.com/cn/album/6774694291?i=6774694297)
+- 华东与华中各曲卡列明实际播放版本、表演者和选段。Apple Music 的试听由官方播放器传输，央视和馆藏演出通过原站播放。 / The East and Central China cards identify the selected performers and excerpts. Apple Music streams its own previews. Other performances open on the linked programme or archive page.
 - 阿炳录音、荣鸿曾古琴讲演及昆曲、京剧、南音等演出资料由各机构网站提供。条目中的链接指向原馆站，文件版权依各站标示。
 - Abing’s recordings, Bell Yung’s guqin recital and performance materials for Kunqu, Peking opera and Nanyin are hosted by their respective institutions. Links open the institutional sources, whose own rights statements apply.
 

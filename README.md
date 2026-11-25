@@ -20,10 +20,11 @@ node scripts/stage_music_atlas.cjs
 python3 -m http.server 8765 --bind 127.0.0.1 --directory dist
 ```
 
+- [华东与华中 · 24 首地区曲目](http://127.0.0.1:8765/?lang=zh&region=east-central) · [East and Central China](http://127.0.0.1:8765/?lang=en&region=east-central)
 - [简体中文首页](http://127.0.0.1:8765/?lang=zh) · [English home](http://127.0.0.1:8765/?lang=en)
 - [唐代概览 · Tang overview](http://127.0.0.1:8765/?lang=en&era=tang)
 - [1598 年《牡丹亭》 · The Peony Pavilion](http://127.0.0.1:8765/?lang=en&year=1598&music=kunqu)
-- [1950 年《二泉映月》录音 · Abing’s 1950 recording](http://127.0.0.1:8765/?lang=zh&year=1950&music=erquan-yingyue)
+- [无锡采录资料及张沛坚演奏选段 · Wuxi recording history and Zhang Peijian’s excerpt](http://127.0.0.1:8765/?lang=zh&year=1950&music=erquan-yingyue)
 - [古琴录音 · Guqin recording](http://127.0.0.1:8765/?lang=en&music=guqin)
 
 点击时期色带或在侧栏选择时期，可查看概览。拖动时间轴下沿或滑块可切换具体年份，也可以直接输入年份。负数表示公元前。左右按钮逐个跳转音乐史节点，播放按钮按年份依次播放节点。地图上可用鼠标或触屏拖动，也可用滚轮、双指或缩放按钮改变视野。点击标记或搜索结果可阅读分析和来源。
@@ -38,9 +39,9 @@ The register contains 920 records covering 659 project codes. Sourced dates in `
 
 ## 课程材料与证据 · Course materials and evidence
 
-24 条中英条目、8 个有明确年份的节点、5 站课堂导览。课程框架和指定案例取自方博的六套 UCUG 2500 讲义，条目列出关联页码。昆曲与京剧以导论第 8、17 页定位课程范围，分析和年代另引联合国教科文组织、国会图书馆、印第安纳大学出版社与北京市政府资料。课件仅作引用，站点发布包不含讲义原件。
+46 条中英曲目与乐种条目、8 个有明确年份的节点、5 站课堂导览。课程框架和指定案例取自方博的六套 UCUG 2500 讲义，条目列出关联页码。昆曲与京剧以导论第 8、17 页定位课程范围，分析和年代另引联合国教科文组织、国会图书馆、印第安纳大学出版社与北京市政府资料。课件仅作引用，站点发布包不含讲义原件。
 
-The atlas contains 24 bilingual entries, eight dated milestones and a five-stop classroom guide. Its structure and assigned examples follow six UCUG 2500 lectures by Noah B. Fang. Entries cite the relevant slides. The introduction identifies the opera topics on slides 8 and 17, with UNESCO, the Library of Congress, Indiana University Press and the Beijing Municipal Government providing additional documentation. The teaching decks are cited and excluded from the site package.
+The atlas contains 46 bilingual work and genre entries, eight dated milestones and a five-stop classroom guide. Its structure and assigned examples follow six UCUG 2500 lectures by Noah B. Fang. Entries cite the relevant slides. The introduction identifies the opera topics on slides 8 and 17, with UNESCO, the Library of Congress, Indiana University Press and the Beijing Municipal Government providing additional documentation. The teaching decks are cited and excluded from the site package.
 
 ## 地图与代码 · Map and code
 
@@ -59,9 +60,9 @@ The upstream baseline is `f628e2d573b83c7f312faae6fa075b649893d9d7` on local `ma
 
 ### 年代和地图限制 · Dating and map coverage
 
-时期设定保存了原地图的时间轴分配，并另列常见历史起讫年。选择代表快照只会改变地图底图，音乐卡片使用自身的年代证据。指定年份按照上游分期映射到快照。例如，1598 年显示 1513–1615 年分期。公元前 403 年以前以地形定位考古地点。1949 年起，上游现代入口依赖 DataV 省界。音乐版采用地形与河流参照。现有录音播放器提供一份经核对许可的古琴录音，其他馆藏通过来源链接访问。
+时期设定保存了原地图的时间轴分配，并另列常见历史起讫年。选择代表快照只会改变地图底图，音乐卡片使用自身的年代证据。指定年份按照上游分期映射到快照。例如，1598 年显示 1513–1615 年分期。公元前 403 年以前以地形定位考古地点。1949 年起，上游现代入口依赖 DataV 省界。音乐版采用地形与河流参照。各曲卡列明演奏者和版本，可通过本地授权选段、Apple Music 官方播放器或原站节目试听。
 
-The era configuration preserves upstream year assignments and separately lists familiar historical date ranges. A representative snapshot sets the base map, and music cards carry their own dating evidence. Selected years use upstream snapshot intervals. For example, 1598 uses the 1513–1615 phase. Before 403 BCE, terrain provides context for archaeological finds. From 1949 onward, the upstream map relies on DataV provincial outlines, so the music edition uses terrain and rivers as its reference. The in-page player includes one rights-checked guqin recording. Other recordings and performances are available through source links.
+The era configuration preserves upstream year assignments and separately lists familiar historical date ranges. A representative snapshot sets the base map, and music cards carry their own dating evidence. Selected years use upstream snapshot intervals. For example, 1598 uses the 1513–1615 phase. Before 403 BCE, terrain provides context for archaeological finds. From 1949 onward, the upstream map relies on DataV provincial outlines, so the music edition uses terrain and rivers as its reference. Cards identify each performer and version. Playback uses licensed local audio, official Apple Music previews or original performance pages.
 
 ## 校验与打包 · Validate and stage
 
