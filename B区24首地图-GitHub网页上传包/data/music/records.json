@@ -1,0 +1,4184 @@
+[
+  {
+    "id": "xintianyou",
+    "category": "folk",
+    "title": {
+      "zh": "信天游",
+      "en": "Xintianyou"
+    },
+    "aliases": [
+      "Xin Tian You",
+      "陕北山歌"
+    ],
+    "location": {
+      "name": {
+        "zh": "延安",
+        "en": "Yan’an"
+      },
+      "coordinates": [
+        109.49,
+        36.59
+      ],
+      "role": {
+        "zh": "陕北民歌传承区域",
+        "en": "Region of northern Shaanxi folk-song practice"
+      }
+    },
+    "period": {
+      "zh": "起源年代待考",
+      "en": "Origin date undetermined"
+    },
+    "time": {
+      "precision": "undated",
+      "start": null,
+      "end": null,
+      "era": null
+    },
+    "description": {
+      "zh": "陕北民歌中的山歌类型。两句一节常以上句起兴、下句点明情意，用陕北方言演唱。",
+      "en": "A genre of mountain song from northern Shaanxi. A two-line stanza often opens with an image and turns to the singer’s concern in the second line, sung in local speech."
+    },
+    "analysis": {
+      "zh": "听两句结尾的差异。上句可把元音拖长，第二句收束全节。换词时，旋律骨架可重复，字腔随语气微调。",
+      "en": "Compare the ends of the two lines. The first may extend a vowel, while the second closes the stanza. New words can reuse the melodic outline, with articulation adjusted to the text."
+    },
+    "instruments": {
+      "zh": "人声，伴奏随场合和版本而异",
+      "en": "Voice, with accompaniment varying by setting and version"
+    },
+    "uncertainty": {
+      "zh": "起始年份未定，地图以选定地区的传承或活动为参照。",
+      "en": "The origin year is undetermined. The map uses an associated place of practice or activity."
+    },
+    "sources": [
+      {
+        "id": "course3",
+        "pages": "14"
+      },
+      {
+        "id": "heritage:12603"
+      }
+    ],
+    "confidence": "documented-association"
+  },
+  {
+    "id": "wuge",
+    "category": "folk",
+    "title": {
+      "zh": "吴歌",
+      "en": "Wu Ge"
+    },
+    "aliases": [],
+    "location": {
+      "name": {
+        "zh": "青浦",
+        "en": "Qingpu"
+      },
+      "coordinates": [
+        121.12,
+        31.15
+      ],
+      "role": {
+        "zh": "青浦田山歌传承地",
+        "en": "Area of Qingpu field-song practice"
+      }
+    },
+    "period": {
+      "zh": "起源年代待考",
+      "en": "Origin date undetermined"
+    },
+    "time": {
+      "precision": "undated",
+      "start": null,
+      "end": null,
+      "era": null
+    },
+    "description": {
+      "zh": "吴语地区多种口传歌唱的通称。青浦田山歌把歌唱带进稻作环境，苏南与浙北也有地方传统。",
+      "en": "An umbrella term for oral song traditions in Wu-speaking regions. Qingpu field songs were sung in rice-growing settings, with related local traditions in southern Jiangsu and northern Zhejiang."
+    },
+    "analysis": {
+      "zh": "对唱时，留心领唱和应答的交接，以及方言语势如何进入旋律。田间歌唱与舞台改编的速度、伴奏和段落长度可以不同。",
+      "en": "In responsive singing, listen for the handoff and how the contours of Wu speech enter the melody. Field singing and staged versions can differ in pace, accompaniment and stanza length."
+    },
+    "instruments": {
+      "zh": "人声，伴奏随场合和版本而异",
+      "en": "Voice, with accompaniment varying by setting and version"
+    },
+    "uncertainty": {
+      "zh": "起始年份未定，地图以选定地区的传承或活动为参照。",
+      "en": "The origin year is undetermined. The map uses an associated place of practice or activity."
+    },
+    "sources": [
+      {
+        "id": "course3",
+        "pages": "12"
+      },
+      {
+        "id": "media-wuge"
+      }
+    ],
+    "confidence": "course-example",
+    "watch": "https://www.ihchina.cn/art/detail/id/29413.html"
+  },
+  {
+    "id": "hebei-flower",
+    "category": "folk",
+    "title": {
+      "zh": "河北花调",
+      "en": "Hebei Flower Songs"
+    },
+    "aliases": [],
+    "location": {
+      "name": {
+        "zh": "河北",
+        "en": "Hebei"
+      },
+      "coordinates": [
+        115.48,
+        38.87
+      ],
+      "role": {
+        "zh": "课程示例的地区标记",
+        "en": "Regional label for a course example"
+      }
+    },
+    "period": {
+      "zh": "起源年代待考",
+      "en": "Origin date undetermined"
+    },
+    "time": {
+      "precision": "undated",
+      "start": null,
+      "end": null,
+      "era": null
+    },
+    "description": {
+      "zh": "以课程中的河北花调为聆听入口，观察地方小调如何处理花名、比兴和叠句。",
+      "en": "The course’s Hebei flower-song example introduces the use of flower names, figurative openings and repeated lines in local tunes."
+    },
+    "analysis": {
+      "zh": "可把每节新增的词和复现的曲调分开听，再比较衬字在换气、接句和落音前的作用。",
+      "en": "Separate new words from recurring melody, then compare how filler syllables shape breathing, phrase links and cadences."
+    },
+    "instruments": {
+      "zh": "人声，伴奏随场合和版本而异",
+      "en": "Voice, with accompaniment varying by setting and version"
+    },
+    "uncertainty": {
+      "zh": "起始年份未定，地图以选定地区的传承或活动为参照。",
+      "en": "The origin year is undetermined. The map uses an associated place of practice or activity."
+    },
+    "sources": [
+      {
+        "id": "course3",
+        "pages": "8"
+      }
+    ],
+    "confidence": "course-example"
+  },
+  {
+    "id": "cantonese-tunes",
+    "category": "folk",
+    "title": {
+      "zh": "粤语小调",
+      "en": "Cantonese Tunes"
+    },
+    "aliases": [],
+    "location": {
+      "name": {
+        "zh": "广州",
+        "en": "Guangzhou"
+      },
+      "coordinates": [
+        113.26,
+        23.13
+      ],
+      "role": {
+        "zh": "粤语歌唱活动中心之一",
+        "en": "One centre of Cantonese singing practice"
+      }
+    },
+    "period": {
+      "zh": "起源年代待考",
+      "en": "Origin date undetermined"
+    },
+    "time": {
+      "precision": "undated",
+      "start": null,
+      "end": null,
+      "era": null
+    },
+    "description": {
+      "zh": "课程用粤语小调示范华南地区歌唱。粤语歌谣包含多种体裁，地图标示粤语音乐活动中心之一。",
+      "en": "The course uses Cantonese tunes as an example of southern singing. Cantonese song comprises multiple genres, and the marker identifies one centre of Cantonese musical life."
+    },
+    "analysis": {
+      "zh": "听一个短句中各字的音高走向，再听句末拖腔。声调、词义和曲调的关系可随演唱版本变化。",
+      "en": "Trace the pitch of each syllable in a short line, then listen to the extended cadence. The relation between lexical tone, meaning and tune can vary by performance."
+    },
+    "instruments": {
+      "zh": "人声，伴奏随场合和版本而异",
+      "en": "Voice, with accompaniment varying by setting and version"
+    },
+    "uncertainty": {
+      "zh": "起始年份未定，地图以选定地区的传承或活动为参照。",
+      "en": "The origin year is undetermined. The map uses an associated place of practice or activity."
+    },
+    "sources": [
+      {
+        "id": "course3",
+        "pages": "10"
+      }
+    ],
+    "confidence": "course-example"
+  },
+  {
+    "id": "hubei-hunan",
+    "category": "folk",
+    "title": {
+      "zh": "鄂湘民歌",
+      "en": "Hubei and Hunan Folk Songs"
+    },
+    "aliases": [],
+    "location": {
+      "name": {
+        "zh": "鄂湘交界",
+        "en": "Hubei–Hunan region"
+      },
+      "coordinates": [
+        112.92,
+        29.45
+      ],
+      "role": {
+        "zh": "两省的区域参照点",
+        "en": "Regional reference point for the two provinces"
+      }
+    },
+    "period": {
+      "zh": "起源年代待考",
+      "en": "Origin date undetermined"
+    },
+    "time": {
+      "precision": "undated",
+      "start": null,
+      "end": null,
+      "era": null
+    },
+    "description": {
+      "zh": "课程把湖北和湖南并置，便于比较长江中游地区的民歌。两省内有各自的方言、族群和演唱场合。",
+      "en": "The lecture pairs Hubei and Hunan for a comparison of folk song in the middle Yangtze region. Each province has its own range of dialects, communities and performance settings."
+    },
+    "analysis": {
+      "zh": "比较劳动号子的齐入与小调中一人转腔的自由度。选择具体录音时，可先确认唱词、歌者与采录地点。",
+      "en": "Compare coordinated entries in a work call with the flexibility of a solo turn in a short tune. Identify the text, performers and recording location when working with a specific recording."
+    },
+    "instruments": {
+      "zh": "人声，伴奏随场合和版本而异",
+      "en": "Voice, with accompaniment varying by setting and version"
+    },
+    "uncertainty": {
+      "zh": "起始年份未定，地图以选定地区的传承或活动为参照。",
+      "en": "The origin year is undetermined. The map uses an associated place of practice or activity."
+    },
+    "sources": [
+      {
+        "id": "course3",
+        "pages": "16"
+      }
+    ],
+    "confidence": "course-example"
+  },
+  {
+    "id": "dizi",
+    "category": "solo",
+    "title": {
+      "zh": "鹧鸪飞",
+      "en": "Flying Partridges"
+    },
+    "aliases": [
+      "Zhegu Fei",
+      "Dizi",
+      "陆春龄",
+      "Lu Chunling",
+      "笛子",
+      "上海",
+      "Shanghai",
+      "竹笛独奏",
+      "Dizi solo"
+    ],
+    "location": {
+      "name": {
+        "zh": "上海",
+        "en": "Shanghai"
+      },
+      "coordinates": [
+        121.47,
+        31.23
+      ],
+      "role": {
+        "zh": "演奏家活动地",
+        "en": "Performer’s home and working city"
+      }
+    },
+    "period": {
+      "zh": "平台标注此版发行于 1970 年；2023 年上海音乐学院又将本曲列入音乐会节目单。",
+      "en": "The platform dates this release to 1970. The work also appeared in a 2023 Shanghai Conservatory concert programme."
+    },
+    "time": {
+      "precision": "interval",
+      "start": 2023,
+      "end": 2023,
+      "era": "prc"
+    },
+    "description": {
+      "zh": "陆春龄是上海的江南丝竹传承人。《鹧鸪飞》是他的代表曲之一，选上海是为了听他怎样处理一根竹笛的长音。",
+      "en": "Shanghai was home to Lu Chunling, a silk-and-bamboo musician associated with this solo. Listen for the small changes he makes within a sustained flute note."
+    },
+    "analysis": {
+      "zh": "以笛膜的明亮音色为起点，听长音里的气息、句间换气和手指加花。速度或句幅的变化可以用来辨认段落。",
+      "en": "Begin with the membrane’s bright buzz and listen for breath within held tones, breaths between phrases and finger ornaments. Changes in pace or phrase length can mark sections."
+    },
+    "instruments": {
+      "zh": "竹笛",
+      "en": "Dizi bamboo flute"
+    },
+    "uncertainty": {
+      "zh": "本条时间标记指向上海音乐学院收录本曲的节目单。所选录音的年代另见版本说明。",
+      "en": "The timeline marks the Shanghai Conservatory programme. The period note separately identifies the selected recording or broadcast."
+    },
+    "sources": [
+      {
+        "id": "course5",
+        "pages": "10–11"
+      },
+      {
+        "id": "lu"
+      },
+      {
+        "id": "b-dizi-2"
+      },
+      {
+        "id": "b-dizi-3"
+      }
+    ],
+    "confidence": "documented-association",
+    "people": {
+      "zh": "陆春龄",
+      "en": "Lu Chunling"
+    },
+    "region": "east-central",
+    "genre": {
+      "zh": "竹笛独奏",
+      "en": "Dizi solo"
+    },
+    "province": {
+      "zh": "上海",
+      "en": "Shanghai"
+    },
+    "course": {
+      "zh": "课堂曲目，《5 Chinese Instrumental Solo Music》第 10 页。",
+      "en": "Course repertoire"
+    },
+    "media": {
+      "type": "embed",
+      "source": "https://music.apple.com/cn/album/1888450245?i=1888450256",
+      "performer": {
+        "zh": "陆春龄",
+        "en": "Lu Chunling"
+      },
+      "embed": "https://embed.music.apple.com/cn/album/1888450245?i=1888450256",
+      "title": {
+        "zh": "鹧鸪飞",
+        "en": "Flying Partridges"
+      },
+      "credit": {
+        "zh": "陆春龄演奏；使用 Apple Music 官方单曲播放器。",
+        "en": "Lu Chunling. Official Apple Music track preview."
+      },
+      "prompt": {
+        "zh": "跟住一个长音：它在哪个地方颤了一下，或拐向另一个音？",
+        "en": "Follow one sustained note. Where does it flutter or turn towards a new pitch?"
+      },
+      "excerpt": {
+        "zh": "平台固定试听，约 30 秒；起点由官方播放器决定。",
+        "en": "Official preview, about 30 seconds. The provider selects the passage."
+      }
+    }
+  },
+  {
+    "id": "erquan-yingyue",
+    "category": "solo",
+    "title": {
+      "zh": "二泉映月",
+      "en": "Moon Reflected on Second Spring"
+    },
+    "aliases": [
+      "Erquan Yingyue",
+      "Moon Reflected in the Second Spring",
+      "Abing",
+      "阿炳",
+      "华彦钧",
+      "二胡",
+      "Erhu",
+      "江苏",
+      "Jiangsu",
+      "二胡独奏",
+      "Erhu solo",
+      "张沛坚",
+      "Zhang Peijian"
+    ],
+    "location": {
+      "name": {
+        "zh": "无锡",
+        "en": "Wuxi"
+      },
+      "coordinates": [
+        120.3,
+        31.57
+      ],
+      "role": {
+        "zh": "阿炳演奏的采录地",
+        "en": "City where Abing was recorded"
+      }
+    },
+    "period": {
+      "zh": "1950 年在无锡采录阿炳演奏；创作年待考。本次张沛坚录音于 2011 年已上传，具体录制年未署。",
+      "en": "Abing was recorded in Wuxi in 1950. The composition date is uncertain. Zhang’s recording was uploaded in 2011; its session date is unlisted."
+    },
+    "time": {
+      "precision": "interval",
+      "start": 1950,
+      "end": 1950,
+      "era": "prc"
+    },
+    "description": {
+      "zh": "地图上的无锡指阿炳留下原声的城市。此处播放张沛坚的版本，可另开馆藏原声比一比同一句在两位演奏者手里怎样收住。",
+      "en": "Wuxi marks Abing’s recording session. The clip features Zhang Peijian. Open the archive to compare how the two players end a phrase."
+    },
+    "analysis": {
+      "zh": "跟随反复出现的乐句轮廓，比较它每次回归时的音区、弓压和滑音。连弓保留了句子的方向，音头与声尾的变化使重复获得不同表情。课程以此讨论意境与气韵生动。",
+      "en": "Follow a recurring phrase and compare its register, bow pressure and slides on each return. Connected bowing sustains the phrase’s direction, while changing attacks and releases give the repetition new inflections. The course uses the piece to discuss yijing and qiyun shengdong."
+    },
+    "instruments": {
+      "zh": "二胡",
+      "en": "Erhu two-string fiddle"
+    },
+    "uncertainty": {
+      "zh": "本条时间标记指向阿炳本人演奏的采录。所选录音的年代另见版本说明。",
+      "en": "The timeline marks the recording of Abing himself. The period note separately identifies the selected recording or broadcast."
+    },
+    "sources": [
+      {
+        "id": "course5",
+        "pages": "12"
+      },
+      {
+        "id": "course2",
+        "pages": "6"
+      },
+      {
+        "id": "abing"
+      },
+      {
+        "id": "b-erquan-yingyue-1"
+      },
+      {
+        "id": "b-erquan-yingyue-2"
+      },
+      {
+        "id": "b-erquan-yingyue-3"
+      },
+      {
+        "id": "b-erquan-yingyue-4"
+      }
+    ],
+    "listen": "https://lib.zgysyjy.org.cn/ting_detail/598530.html",
+    "confidence": "documented-association",
+    "people": {
+      "zh": "阿炳、杨荫浏、曹安和",
+      "en": "Abing, Yang Yinliu and Cao Anhe"
+    },
+    "region": "east-central",
+    "genre": {
+      "zh": "二胡独奏",
+      "en": "Erhu solo"
+    },
+    "province": {
+      "zh": "江苏",
+      "en": "Jiangsu"
+    },
+    "course": {
+      "zh": "课堂曲目，《5 Chinese Instrumental Solo Music》第 12 页；《2 Aesthetic Appeal of Traditional Chinese Music》第 6 页。",
+      "en": "Course repertoire"
+    },
+    "media": {
+      "type": "local",
+      "source": "https://commons.wikimedia.org/wiki/File:二泉映月.ogg",
+      "performer": {
+        "zh": "张沛坚",
+        "en": "Zhang Peijian"
+      },
+      "file": "assets/audio/erquan-zhang-excerpt.mp3",
+      "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "title": {
+        "zh": "二泉映月",
+        "en": "Moon Reflected on Second Spring"
+      },
+      "credit": {
+        "zh": "阿炳作曲；张沛坚演奏；David290 录音。自原录音截取，调节音量、首尾淡化并转为 MP3。节选按 CC BY-SA 4.0 分发。",
+        "en": "Composed by Abing, played by Zhang Peijian and recorded by David290. This excerpt is trimmed, level-adjusted, faded and converted to MP3. The recording and excerpt are licensed CC BY-SA 4.0."
+      },
+      "prompt": {
+        "zh": "轻轻哼一遍开头的乐句。哪两个音之间能听到连续的滑动？",
+        "en": "Hum the opening phrase. Between which two notes can you hear the pitch slide?"
+      },
+      "licenseLabel": "CC BY-SA 4.0",
+      "excerpt": {
+        "zh": "原录音 00:12.00–00:39.90；包内音频直接从所选乐句播放。",
+        "en": "00:12.00–00:39.90 of the original recording. The local excerpt starts at the selected passage."
+      },
+      "originalRangeSeconds": [
+        12.0,
+        39.9
+      ]
+    }
+  },
+  {
+    "id": "guqin",
+    "category": "solo",
+    "title": {
+      "zh": "古琴 · 流水",
+      "en": "Guqin · Flowing Water"
+    },
+    "aliases": [
+      "Liushui",
+      "Liu Shui",
+      "流水",
+      "Flowing Streams",
+      "管平湖",
+      "Guan Pinghu",
+      "Bell Yung",
+      "荣鸿曾"
+    ],
+    "location": {
+      "name": {
+        "zh": "北京",
+        "en": "Beijing"
+      },
+      "coordinates": [
+        116.41,
+        39.92
+      ],
+      "role": {
+        "zh": "管平湖的活动城市",
+        "en": "City associated with performer Guan Pinghu"
+      }
+    },
+    "period": {
+      "zh": "《流水》见于1425年琴谱",
+      "en": "Flowing Water appears in tablature from 1425"
+    },
+    "time": {
+      "precision": "interval",
+      "start": 1425,
+      "end": 1425,
+      "era": "ming"
+    },
+    "description": {
+      "zh": "古琴有七弦。《流水》见于1425年的《神奇秘谱》。管平湖的演奏收入1977年发射的旅行者金唱片，地图标示其活动城市北京。",
+      "en": "The guqin has seven strings. Flowing Water appears in the Shenqi Mipu of 1425. Guan Pinghu’s performance travelled on the Voyager Golden Record in 1977. The marker locates Beijing, where he worked."
+    },
+    "analysis": {
+      "zh": "对照散音、按音和泛音的衰减，听滚拂形成的密集声势如何与较疏的句子交替。停顿让前一句余音仍可被感知。这样的距离感与流动感可从意境理解，也可与课程所谈道家自然观及儒家修身并读。",
+      "en": "Compare the decay of open, stopped and harmonic tones. Listen for dense sweeps across the strings alternating with sparser phrases. Pauses let the preceding resonance remain audible. The resulting space and motion invite a reading through yijing, alongside the course’s discussion of Daoist naturalness and Confucian self-cultivation."
+    },
+    "instruments": {
+      "zh": "古琴",
+      "en": "Guqin seven-string zither"
+    },
+    "uncertainty": {
+      "zh": "明代琴谱、清代谱本及近现代录音是不同阶段的证据。本站播放器为 Charlie Huang 的 2006 年演奏，旅行者金唱片所载为管平湖的演奏。",
+      "en": "Ming and Qing tablatures and later recordings document different stages. The in-page player is Charlie Huang’s 2006 performance. The Voyager Golden Record carries Guan Pinghu’s performance."
+    },
+    "sources": [
+      {
+        "id": "course5",
+        "pages": "14,21,23–24"
+      },
+      {
+        "id": "course2",
+        "pages": "4–5"
+      },
+      {
+        "id": "guqin"
+      },
+      {
+        "id": "si"
+      },
+      {
+        "id": "nasa"
+      }
+    ],
+    "media": {
+      "file": "assets/audio/liu_shui.mp3",
+      "title": {
+        "zh": "《流水》· 2006年录音",
+        "en": "Flowing Water · 2006 recording"
+      },
+      "performer": {
+        "zh": "Charlie Huang",
+        "en": "Charlie Huang"
+      },
+      "credit": {
+        "zh": "录于英国伯明翰。使用1876年《天闻阁琴谱》版本。本站沿用上游转码的 MP3。",
+        "en": "Recorded in Birmingham using the 1876 Tianwen Ge Qinpu version. This site uses the upstream MP3 conversion."
+      },
+      "source": "https://commons.wikimedia.org/wiki/File:Liu_Shui.ogg",
+      "license": "https://creativecommons.org/licenses/by/2.5/",
+      "licenseLabel": "CC BY 2.5",
+      "prompt": {
+        "zh": "先听开头半分钟。每次拨弦后，你还能听到琴弦响多久？",
+        "en": "Listen to the opening half minute. How long does each string keep ringing after the pluck?"
+      }
+    },
+    "listen": "https://archive.asia.si.edu/podcasts/related/yungpainting/progNotes.asp",
+    "confidence": "documented-association",
+    "people": {
+      "zh": "管平湖、Charlie Huang、荣鸿曾",
+      "en": "Guan Pinghu, Charlie Huang and Bell Yung"
+    }
+  },
+  {
+    "id": "pipa",
+    "category": "solo",
+    "title": {
+      "zh": "琵琶",
+      "en": "Pipa"
+    },
+    "aliases": [],
+    "location": {
+      "name": {
+        "zh": "西安",
+        "en": "Xi’an"
+      },
+      "coordinates": [
+        108.94,
+        34.34
+      ],
+      "role": {
+        "zh": "唐都与器乐图像的历史参照",
+        "en": "Tang capital and context for instrument imagery"
+      }
+    },
+    "period": {
+      "zh": "唐代已有琵琶图像",
+      "en": "Tang images document the pipa"
+    },
+    "time": {
+      "precision": "approximate",
+      "start": 618,
+      "end": 906,
+      "era": "tang"
+    },
+    "description": {
+      "zh": "四弦弹拨乐器。唐代长安的标记提供早期乐器图像与交流的历史参照，现代独奏的竖抱和指法在后世逐渐定型。",
+      "en": "A four-string plucked lute. The Chang’an marker gives context for Tang-period depictions and exchange. The upright hold and finger technique of modern solo performance developed over later centuries."
+    },
+    "analysis": {
+      "zh": "听单次弹弦与轮指的区别。轮指快速重复发声，能让短促的弹拨音听来连贯。扫弦可把旋律性声部转为多弦齐发的音响。",
+      "en": "Compare individual plucks with the finger roll, whose rapid repetitions sustain an otherwise short sound. A sweep can move the texture from a melodic line to several strings sounding together."
+    },
+    "instruments": {
+      "zh": "四弦琵琶",
+      "en": "Four-string pipa lute"
+    },
+    "uncertainty": {
+      "zh": "口传、改编与记录可能分属不同时期。地图用已知关联地点定位。",
+      "en": "Oral transmission, adaptation and documentation may belong to different periods. The map marks a known association."
+    },
+    "sources": [
+      {
+        "id": "course5",
+        "pages": "16"
+      },
+      {
+        "id": "pipa"
+      },
+      {
+        "id": "tangPipa"
+      }
+    ],
+    "confidence": "documented-association"
+  },
+  {
+    "id": "guzheng",
+    "category": "solo",
+    "title": {
+      "zh": "古筝",
+      "en": "Guzheng"
+    },
+    "aliases": [],
+    "location": {
+      "name": {
+        "zh": "潮州",
+        "en": "Chaozhou"
+      },
+      "coordinates": [
+        116.62,
+        23.66
+      ],
+      "role": {
+        "zh": "潮州筝传承地",
+        "en": "Area of Chaozhou zheng practice"
+      }
+    },
+    "period": {
+      "zh": "起源年代待考",
+      "en": "Origin date undetermined"
+    },
+    "time": {
+      "precision": "undated",
+      "start": null,
+      "end": null,
+      "era": null
+    },
+    "description": {
+      "zh": "筝的弦各有可移动的琴码。课程用现代二十一弦筝介绍独奏，潮州标记指向一种地方传承。",
+      "en": "Each zheng string has a movable bridge. The course introduces the solo instrument through the modern twenty-one-string form. Chaozhou marks one regional tradition."
+    },
+    "analysis": {
+      "zh": "辨别右手拨弦产生的音头和左手在码外按弦产生的变音。一个音上的按、颤或回落可决定整句的走向与韵味。",
+      "en": "Separate the attack from the right-hand pluck and the pitch change made by pressing the other side of the bridge with the left hand. Pressure, oscillation or release on one note can shape the whole phrase."
+    },
+    "instruments": {
+      "zh": "筝",
+      "en": "Zheng plucked zither"
+    },
+    "uncertainty": {
+      "zh": "起始年份未定，地图以选定地区的传承或活动为参照。",
+      "en": "The origin year is undetermined. The map uses an associated place of practice or activity."
+    },
+    "sources": [
+      {
+        "id": "course5",
+        "pages": "17"
+      }
+    ],
+    "confidence": "course-example"
+  },
+  {
+    "id": "dragon-drum",
+    "category": "solo",
+    "title": {
+      "zh": "龙腾虎跃",
+      "en": "Dragon Soaring, Tiger Leaping"
+    },
+    "aliases": [],
+    "location": {
+      "name": {
+        "zh": "广州",
+        "en": "Guangzhou"
+      },
+      "coordinates": [
+        113.31,
+        23.11
+      ],
+      "role": {
+        "zh": "2024 年广州新年音乐会演出地",
+        "en": "City of the 2024 Guangzhou New Year Concert"
+      }
+    },
+    "period": {
+      "zh": "2024 年广州新年音乐会",
+      "en": "Guangzhou New Year Concert, 2024"
+    },
+    "time": {
+      "precision": "interval",
+      "start": 2024,
+      "end": 2024,
+      "era": "prc"
+    },
+    "description": {
+      "zh": "李民雄的《龙腾虎跃》取材于浙东锣鼓。2024 年广州新年音乐会安排陈佐辉和付艺霏领奏此曲。",
+      "en": "Li Minxiong drew on eastern Zhejiang percussion for this work. The 2024 Guangzhou New Year Concert programme names Chen Zuohui and Fu Yifei as percussion soloists."
+    },
+    "analysis": {
+      "zh": "区分强击、轻击、密集滚奏与短休止。节奏型重复形成预期，改变力度或击点会让下一次出现获得不同重心。",
+      "en": "Distinguish accented strokes, soft strokes, dense rolls and short rests. Repeated patterns set up expectations, while changes of force or contact point shift the emphasis on the next return."
+    },
+    "instruments": {
+      "zh": "鼓与打击乐",
+      "en": "Drums and percussion"
+    },
+    "uncertainty": {
+      "zh": "吹打乐版本完成于 1980 年。地图年份对应广州的音乐会；播放器选用陈佐辉专辑中的鼓乐合奏版。",
+      "en": "The wind and percussion version dates to 1980. The map year refers to the Guangzhou concert. The player uses the drum ensemble version from Chen Zuohui’s album."
+    },
+    "sources": [
+      {
+        "id": "course5",
+        "pages": "18–19"
+      },
+      {
+        "id": "gso-dragon"
+      }
+    ],
+    "confidence": "course-example",
+    "people": {
+      "zh": "李民雄",
+      "en": "Li Minxiong"
+    },
+    "media": {
+      "embed": "https://embed.music.apple.com/cn/album/6774694291?i=6774694297",
+      "title": {
+        "zh": "《龙腾虎跃》鼓乐合奏试听",
+        "en": "Dragon Soaring, Tiger Leaping · drum ensemble preview"
+      },
+      "performer": {
+        "zh": "陈佐辉",
+        "en": "Chen Zuohui"
+      },
+      "credit": {
+        "zh": "Apple Music 官方试听，选自《中国风 民族篇－陈佐辉敲击乐专场音乐会》，需联网。",
+        "en": "Online Apple Music preview from Chen Zuohui’s percussion concert album."
+      },
+      "source": "https://music.apple.com/cn/album/6774694291?i=6774694297",
+      "prompt": {
+        "zh": "跟着鼓点拍手。鼓点变密时，你还能跟住原来的拍子吗？",
+        "en": "Tap along to the drums. Can you keep the same pulse when the strokes come closer together?"
+      }
+    }
+  },
+  {
+    "id": "shandong-guchui",
+    "category": "ensemble",
+    "title": {
+      "zh": "山东鼓吹",
+      "en": "Shandong Guchui"
+    },
+    "aliases": [],
+    "location": {
+      "name": {
+        "zh": "嘉祥",
+        "en": "Jiaxiang"
+      },
+      "coordinates": [
+        116.35,
+        35.41
+      ],
+      "role": {
+        "zh": "地方吹打乐传承地",
+        "en": "Area of local wind-and-percussion practice"
+      }
+    },
+    "period": {
+      "zh": "起源年代待考",
+      "en": "Origin date undetermined"
+    },
+    "time": {
+      "precision": "undated",
+      "start": null,
+      "end": null,
+      "era": null
+    },
+    "description": {
+      "zh": "山东地方吹打乐，常见于节庆和礼俗场合，组合可随场合与谱系变化。",
+      "en": "A Shandong wind-and-percussion tradition heard at celebrations and ceremonial occasions. Its lineup varies with occasion and lineage."
+    },
+    "analysis": {
+      "zh": "听唢呐带出的旋律与鼓锣的节奏标点。留心吹奏加花时，锣鼓保持或改变了哪些重音。",
+      "en": "Listen to the tune projected by the suona and the punctuation of drums and gongs. Notice which accents stay fixed or shift as the wind line is ornamented."
+    },
+    "instruments": {
+      "zh": "唢呐、笛、鼓、锣等",
+      "en": "Suona, dizi, drums, gongs and others"
+    },
+    "uncertainty": {
+      "zh": "起始年份未定，地图以选定地区的传承或活动为参照。",
+      "en": "The origin year is undetermined. The map uses an associated place of practice or activity."
+    },
+    "sources": [
+      {
+        "id": "course6",
+        "pages": "10,13"
+      },
+      {
+        "id": "timeline-shandong-guchui"
+      }
+    ],
+    "confidence": "course-example"
+  },
+  {
+    "id": "shifan-luogu",
+    "category": "ensemble",
+    "title": {
+      "zh": "楚州十番锣鼓",
+      "en": "Chuzhou Shifan Luogu"
+    },
+    "aliases": [],
+    "location": {
+      "name": {
+        "zh": "淮安",
+        "en": "Huai’an"
+      },
+      "coordinates": [
+        119.02,
+        33.61
+      ],
+      "role": {
+        "zh": "楚州十番锣鼓传承地",
+        "en": "Area of Chuzhou shifan luogu practice"
+      }
+    },
+    "period": {
+      "zh": "楚州十番锣鼓约于清道光年间形成",
+      "en": "Chuzhou Shifan Luogu formed around the Daoguang reign"
+    },
+    "time": {
+      "precision": "approximate",
+      "start": 1821,
+      "end": 1850,
+      "era": "qing"
+    },
+    "description": {
+      "zh": "江南十番音乐包含地方变体。地图以楚州十番锣鼓为例，舞台听辨可以从鼓、锣、钹的音色分工入手。",
+      "en": "Shifan music has regional variants. The map points to Chuzhou shifan luogu. An entry point for listening is the division of timbre among drums, gongs and cymbals."
+    },
+    "analysis": {
+      "zh": "跟随一个短锣鼓型如何在不同打击乐器间交错。比较合击形成的重音与分击形成的层次，辨认过渡段的速度变化。",
+      "en": "Track how a short percussion pattern interlocks across instruments. Compare massed accents with staggered layers and notice tempo changes at transitions."
+    },
+    "instruments": {
+      "zh": "鼓、锣、钹等",
+      "en": "Drums, gongs, cymbals and others"
+    },
+    "uncertainty": {
+      "zh": "起始年份未定，地图以选定地区的传承或活动为参照。",
+      "en": "The origin year is undetermined. The map uses an associated place of practice or activity."
+    },
+    "sources": [
+      {
+        "id": "course6",
+        "pages": "10,14"
+      },
+      {
+        "id": "heritage2008"
+      },
+      {
+        "id": "timeline-shifan-luogu"
+      },
+      {
+        "id": "timeline-shifan-luogu-date"
+      }
+    ],
+    "confidence": "documented-association"
+  },
+  {
+    "id": "jiangnan-sizhu",
+    "category": "ensemble",
+    "title": {
+      "zh": "江南丝竹",
+      "en": "Jiangnan Sizhu"
+    },
+    "aliases": [],
+    "location": {
+      "name": {
+        "zh": "太仓",
+        "en": "Taicang"
+      },
+      "coordinates": [
+        121.1,
+        31.46
+      ],
+      "role": {
+        "zh": "苏南丝竹传承地",
+        "en": "Silk-and-bamboo practice in southern Jiangsu"
+      }
+    },
+    "period": {
+      "zh": "明嘉靖至隆庆年间的形成线索",
+      "en": "Early development in the Jiajing–Longqing reigns"
+    },
+    "time": {
+      "precision": "approximate",
+      "start": 1522,
+      "end": 1572,
+      "era": "ming"
+    },
+    "description": {
+      "zh": "流传于上海、苏南及浙西等地的合奏传统。丝竹指弦乐与竹管，常见二胡、笛、琵琶、扬琴等。",
+      "en": "An ensemble tradition of Shanghai, southern Jiangsu and western Zhejiang. Silk and bamboo refers to strings and bamboo winds, with erhu, dizi, pipa and yangqin among common instruments."
+    },
+    "analysis": {
+      "zh": "用不同乐器的落音找出同一骨干旋律。各声部可以在同一拍内使用不同装饰，造成支声织体。听笛子的密集加花与二胡延长的音在下一共同落点重新会合。",
+      "en": "Use cadential notes in different parts to trace a shared tune. Players can ornament the same beat differently, producing heterophony. Listen for a busy dizi figure and a longer erhu note meeting again on the next shared arrival."
+    },
+    "instruments": {
+      "zh": "二胡、笛、琵琶、扬琴等",
+      "en": "Erhu, dizi, pipa, yangqin and others"
+    },
+    "uncertainty": {
+      "zh": "口传、改编与记录可能分属不同时期。地图用已知关联地点定位。",
+      "en": "Oral transmission, adaptation and documentation may belong to different periods. The map marks a known association."
+    },
+    "sources": [
+      {
+        "id": "course6",
+        "pages": "11,15"
+      },
+      {
+        "id": "sizhu"
+      },
+      {
+        "id": "media-jiangnan-sizhu"
+      },
+      {
+        "id": "origin-jiangnan-sizhu"
+      }
+    ],
+    "confidence": "documented-association",
+    "listen": "https://lib.zgysyjy.org.cn/ting_detail/596857.html"
+  },
+  {
+    "id": "guangdong-music",
+    "category": "ensemble",
+    "title": {
+      "zh": "广东音乐",
+      "en": "Guangdong Music"
+    },
+    "aliases": [],
+    "location": {
+      "name": {
+        "zh": "广州",
+        "en": "Guangzhou"
+      },
+      "coordinates": [
+        113.33,
+        23.1
+      ],
+      "role": {
+        "zh": "珠江三角洲音乐传承地",
+        "en": "Area of Pearl River Delta musical practice"
+      }
+    },
+    "period": {
+      "zh": "明清之际逐渐萌发",
+      "en": "Early development across the Ming–Qing transition"
+    },
+    "time": {
+      "precision": "approximate",
+      "start": 1550,
+      "end": 1722,
+      "era": "ming"
+    },
+    "description": {
+      "zh": "珠江三角洲的器乐传统。二十世纪的硬弓组合与后来常听到的粤胡、扬琴、秦琴组合展示了音色演变。",
+      "en": "An instrumental tradition of the Pearl River Delta. Twentieth-century hard-bow groups and the familiar combination of yuehu, yangqin and qinqin illustrate changing ensemble sonorities."
+    },
+    "analysis": {
+      "zh": "听粤胡如何用滑音修饰旋律、扬琴如何用短促的击弦音衬托。比较乐句中的短动机重复与切分，以及它们对前进感的作用。",
+      "en": "Listen for the yuehu’s slides and the yangqin’s sharply struck contributions. Compare repeated short motives and syncopated accents and how they propel a phrase."
+    },
+    "instruments": {
+      "zh": "粤胡、扬琴、秦琴等",
+      "en": "Yuehu, yangqin, qinqin and others"
+    },
+    "uncertainty": {
+      "zh": "口传、改编与记录可能分属不同时期。地图用已知关联地点定位。",
+      "en": "Oral transmission, adaptation and documentation may belong to different periods. The map marks a known association."
+    },
+    "sources": [
+      {
+        "id": "course6",
+        "pages": "11,16"
+      },
+      {
+        "id": "gdm"
+      },
+      {
+        "id": "origin-guangdong-music"
+      }
+    ],
+    "confidence": "documented-association"
+  },
+  {
+    "id": "orchestra",
+    "category": "ensemble",
+    "title": {
+      "zh": "现代民族管弦乐",
+      "en": "Modern Chinese Orchestra"
+    },
+    "aliases": [],
+    "location": {
+      "name": {
+        "zh": "上海",
+        "en": "Shanghai"
+      },
+      "coordinates": [
+        121.44,
+        31.18
+      ],
+      "role": {
+        "zh": "现代乐团活动城市之一",
+        "en": "One centre of modern orchestral activity"
+      }
+    },
+    "period": {
+      "zh": "20世纪二三十年代已有新型民族乐团的探索",
+      "en": "New Chinese orchestral forms were explored in the 1920s–1930s"
+    },
+    "time": {
+      "precision": "approximate",
+      "start": 1920,
+      "end": 1939,
+      "era": "roc"
+    },
+    "description": {
+      "zh": "现代民族乐团把吹管、拉弦、弹拨、打击组织为可分组的大型编制。上海标示近现代乐团活动地点之一。",
+      "en": "The modern Chinese orchestra organizes winds, bowed strings, plucked strings and percussion into sections. Shanghai marks one centre of modern ensemble activity."
+    },
+    "analysis": {
+      "zh": "听旋律如何在不同组间转移，并对照齐奏、和声衬托与独奏突出的段落。与小型丝竹相比，大型编制常以配器与声部调度来塑造音响。",
+      "en": "Follow the tune as it passes between sections, comparing unison, harmonic support and featured solos. Alongside small sizhu groups, the orchestra shows how scoring and sectional balance shape sound on a larger scale."
+    },
+    "instruments": {
+      "zh": "吹管、拉弦、弹拨、打击乐四组",
+      "en": "Wind, bowed string, plucked string and percussion sections"
+    },
+    "uncertainty": {
+      "zh": "这里标的是民国时期的大同乐会等探索。新中国成立后，各地又陆续组建专业民族乐团。",
+      "en": "The dates mark early experiments such as the Datong Music Society during the Republic. Professional orchestras were subsequently established across China after 1949."
+    },
+    "sources": [
+      {
+        "id": "course6",
+        "pages": "9,12,17"
+      },
+      {
+        "id": "hkco"
+      },
+      {
+        "id": "timeline-orchestra"
+      }
+    ],
+    "confidence": "documented-association"
+  },
+  {
+    "id": "kuaiban",
+    "category": "narrative",
+    "title": {
+      "zh": "快板",
+      "en": "Kuaiban"
+    },
+    "aliases": [],
+    "location": {
+      "name": {
+        "zh": "天津",
+        "en": "Tianjin"
+      },
+      "coordinates": [
+        117.2,
+        39.13
+      ],
+      "role": {
+        "zh": "快板书活动地",
+        "en": "City associated with modern kuaibanshu"
+      }
+    },
+    "period": {
+      "zh": "起源年代待考",
+      "en": "Origin date undetermined"
+    },
+    "time": {
+      "precision": "undated",
+      "start": null,
+      "end": null,
+      "era": null
+    },
+    "description": {
+      "zh": "以竹板给说唱打出节奏的曲艺。地图标示现代快板书发展相关的北方城市。",
+      "en": "A narrative form in which bamboo clappers articulate the rhythm of delivery. The marker shows a northern city associated with modern kuaibanshu."
+    },
+    "analysis": {
+      "zh": "把重拍板、较轻的眼与口语句首分开听。演员可提前、正踩或延后进入，借停顿或节奏加密安排包袱。",
+      "en": "Listen separately to accented ban, lighter yan and the start of a spoken line. An early, aligned or delayed entry, a pause or a rush of syllables can prepare a punchline."
+    },
+    "instruments": {
+      "zh": "人声、大板、节子",
+      "en": "Voice, large and small bamboo clappers"
+    },
+    "uncertainty": {
+      "zh": "起始年份未定，地图以选定地区的传承或活动为参照。",
+      "en": "The origin year is undetermined. The map uses an associated place of practice or activity."
+    },
+    "sources": [
+      {
+        "id": "course7",
+        "pages": "9,17–21"
+      }
+    ],
+    "confidence": "course-example"
+  },
+  {
+    "id": "jingyun-dagu",
+    "category": "narrative",
+    "title": {
+      "zh": "京韵大鼓",
+      "en": "Jingyun Dagu"
+    },
+    "aliases": [],
+    "location": {
+      "name": {
+        "zh": "北京",
+        "en": "Beijing"
+      },
+      "coordinates": [
+        116.42,
+        39.95
+      ],
+      "role": {
+        "zh": "京音鼓曲演出和传承地",
+        "en": "Centre for performance and transmission of Beijing drum song"
+      }
+    },
+    "period": {
+      "zh": "清末民初逐步成形",
+      "en": "Formed around the late Qing and early Republic"
+    },
+    "time": {
+      "precision": "approximate",
+      "start": 1880,
+      "end": 1920,
+      "era": "qing"
+    },
+    "description": {
+      "zh": "以京音说唱的鼓曲。书鼓、板和三弦、四胡等形成有层次的伴奏，骆玉笙是课程介绍的演唱家。",
+      "en": "A drum-song genre using Beijing speech. Drum and clappers combine with strings such as sanxian and sihu. The lecture introduces singer Luo Yusheng."
+    },
+    "analysis": {
+      "zh": "听长拖腔如何在句尾收回叙事，以及鼓点如何给段落加标点。伴奏可随字腔衔接、托住或回应唱句。",
+      "en": "Listen for drawn-out cadences returning to the story and drum accents punctuating sections. Strings can connect, sustain or respond to sung phrases."
+    },
+    "instruments": {
+      "zh": "人声、书鼓、板、三弦、四胡等",
+      "en": "Voice, story drum, clappers, sanxian, sihu and others"
+    },
+    "uncertainty": {
+      "zh": "口传、改编与记录可能分属不同时期。地图用已知关联地点定位。",
+      "en": "Oral transmission, adaptation and documentation may belong to different periods. The map marks a known association."
+    },
+    "sources": [
+      {
+        "id": "course7",
+        "pages": "10"
+      },
+      {
+        "id": "heritage2006"
+      },
+      {
+        "id": "media-jingyun-dagu"
+      },
+      {
+        "id": "origin-jingyun-dagu"
+      }
+    ],
+    "confidence": "documented-association",
+    "people": {
+      "zh": "骆玉笙",
+      "en": "Luo Yusheng"
+    },
+    "watch": "https://www.ihchina.cn/news_1_details/11215.html"
+  },
+  {
+    "id": "shaanbei-shuoshu",
+    "category": "narrative",
+    "title": {
+      "zh": "陕北说书",
+      "en": "Shaanbei Shuoshu"
+    },
+    "aliases": [],
+    "location": {
+      "name": {
+        "zh": "榆林",
+        "en": "Yulin"
+      },
+      "coordinates": [
+        109.74,
+        38.29
+      ],
+      "role": {
+        "zh": "陕北说书传承地",
+        "en": "Area of northern Shaanxi storytelling"
+      }
+    },
+    "period": {
+      "zh": "20世纪三四十年代已有重要改造，发源年份待考",
+      "en": "Substantially reworked in the 1930s–1940s, exact origin undetermined"
+    },
+    "time": {
+      "precision": "approximate",
+      "start": 1930,
+      "end": 1949,
+      "era": "roc"
+    },
+    "description": {
+      "zh": "陕北方言的说书传统，历史上有盲艺人走村串户演出。说书人可自弹三弦。",
+      "en": "A storytelling tradition in northern Shaanxi speech. Blind itinerant performers historically travelled between villages. A storyteller may accompany themself on sanxian."
+    },
+    "analysis": {
+      "zh": "留心说白转为有音高的唱句时，拨弦和拍击怎样接管节拍。人物对话、讲述和评议可在相邻句中转换。",
+      "en": "Notice how plucking and clapper strokes take up the pulse as spoken delivery turns into pitched song. Dialogue, narration and commentary can switch in adjacent lines."
+    },
+    "instruments": {
+      "zh": "人声、三弦、拍板等",
+      "en": "Voice, sanxian, clappers and others"
+    },
+    "uncertainty": {
+      "zh": "起始年份未定，地图以选定地区的传承或活动为参照。",
+      "en": "The origin year is undetermined. The map uses an associated place of practice or activity."
+    },
+    "sources": [
+      {
+        "id": "course7",
+        "pages": "11"
+      },
+      {
+        "id": "shuoshu"
+      },
+      {
+        "id": "timeline-shaanbei-shuoshu"
+      }
+    ],
+    "confidence": "documented-association"
+  },
+  {
+    "id": "nanyin",
+    "category": "narrative",
+    "title": {
+      "zh": "泉州南音",
+      "en": "Quanzhou Nanyin"
+    },
+    "aliases": [
+      "南管",
+      "Nanguan"
+    ],
+    "location": {
+      "name": {
+        "zh": "泉州",
+        "en": "Quanzhou"
+      },
+      "coordinates": [
+        118.68,
+        24.88
+      ],
+      "role": {
+        "zh": "泉州南音传承地",
+        "en": "Centre of Quanzhou Nanyin practice"
+      }
+    },
+    "period": {
+      "zh": "曲目保留宋元时期的线索，成形时间待考",
+      "en": "Song and Yuan repertory connections, formation date undetermined"
+    },
+    "time": {
+      "precision": "approximate",
+      "start": 960,
+      "end": 1367,
+      "era": "nansong"
+    },
+    "description": {
+      "zh": "闽南语演唱与器乐共存的泉州传统。典型组合用横抱琵琶、洞箫、二弦、三弦与拍板。",
+      "en": "A Quanzhou tradition combining Minnan singing and instrumental repertories. A characteristic lineup includes horizontally held pipa, dongxiao, erxian, sanxian and clappers."
+    },
+    "analysis": {
+      "zh": "听声乐延长字音时箫与弦乐怎样呼应，以及拍板如何在舒缓节奏中定下位置。课程从说唱切入，南音还包含器乐谱套。",
+      "en": "Listen for the flute and strings around extended sung syllables and the clappers marking positions in a spacious rhythm. The course approaches Nanyin through sung narrative, alongside an instrumental suite repertory."
+    },
+    "instruments": {
+      "zh": "人声、琵琶、洞箫、二弦、三弦、拍板",
+      "en": "Voice, pipa, dongxiao, erxian, sanxian and clappers"
+    },
+    "uncertainty": {
+      "zh": "起始年份未定，地图以选定地区的传承或活动为参照。",
+      "en": "The origin year is undetermined. The map uses an associated place of practice or activity."
+    },
+    "sources": [
+      {
+        "id": "course7",
+        "pages": "13"
+      },
+      {
+        "id": "nanyin"
+      },
+      {
+        "id": "timeline-nanyin"
+      }
+    ],
+    "watch": "https://ich.unesco.org/en/RL/nanyin-00199?RL=00199",
+    "confidence": "documented-association"
+  },
+  {
+    "id": "suzhou-pingtan",
+    "category": "narrative",
+    "title": {
+      "zh": "苏州评弹",
+      "en": "Suzhou Pingtan"
+    },
+    "aliases": [
+      "Suzhou Tanci",
+      "Suzhou Pinghua",
+      "苏州弹词",
+      "苏州评话"
+    ],
+    "location": {
+      "name": {
+        "zh": "苏州",
+        "en": "Suzhou"
+      },
+      "coordinates": [
+        120.59,
+        31.3
+      ],
+      "role": {
+        "zh": "书场演出与传承地",
+        "en": "Centre for story-hall performance and transmission"
+      }
+    },
+    "period": {
+      "zh": "评话至迟于明末清初形成，评弹清中期兴盛",
+      "en": "Pinghua formed by the late Ming–early Qing, with pingtan flourishing in the mid-Qing"
+    },
+    "time": {
+      "precision": "approximate",
+      "start": 1580,
+      "end": 1795,
+      "era": "qing"
+    },
+    "description": {
+      "zh": "评弹合称苏州评话与苏州弹词。书场中可连日讲述长篇，苏州方言、角色口吻与曲调共同组织情节。",
+      "en": "Pingtan is the collective name for Suzhou pinghua storytelling and Suzhou tanci balladry. Story halls can present long works in instalments. Suzhou speech, character voices and tunes shape the story."
+    },
+    "analysis": {
+      "zh": "在弹词中听说、噱、弹、唱的切换。三弦或琵琶能交代进入唱段的节拍，也能在叙述停顿处留下余地。",
+      "en": "In tanci, listen for shifts among narration, humour, playing and singing. Sanxian or pipa can set the pulse of a sung passage and leave space where narration pauses."
+    },
+    "instruments": {
+      "zh": "人声、三弦、琵琶",
+      "en": "Voice, sanxian and pipa"
+    },
+    "uncertainty": {
+      "zh": "口传、改编与记录可能分属不同时期。地图用已知关联地点定位。",
+      "en": "Oral transmission, adaptation and documentation may belong to different periods. The map marks a known association."
+    },
+    "sources": [
+      {
+        "id": "course7",
+        "pages": "14"
+      },
+      {
+        "id": "pingtan"
+      },
+      {
+        "id": "timeline-suzhou-pingtan"
+      }
+    ],
+    "confidence": "documented-association"
+  },
+  {
+    "id": "kunqu",
+    "category": "opera",
+    "title": {
+      "zh": "昆曲",
+      "en": "Kunqu Opera"
+    },
+    "aliases": [
+      "Kun Qu",
+      "昆剧",
+      "牡丹亭",
+      "Peony Pavilion",
+      "Mudan Ting",
+      "汤显祖",
+      "Tang Xianzu"
+    ],
+    "location": {
+      "name": {
+        "zh": "昆山",
+        "en": "Kunshan"
+      },
+      "coordinates": [
+        120.98,
+        31.39
+      ],
+      "role": {
+        "zh": "昆曲发展及传承区域",
+        "en": "Region of Kunqu development and transmission"
+      }
+    },
+    "period": {
+      "zh": "昆山腔于元末明初形成",
+      "en": "Kunshan vocal style formed in the late Yuan and early Ming"
+    },
+    "time": {
+      "precision": "approximate",
+      "start": 1340,
+      "end": 1400,
+      "era": "yuan"
+    },
+    "description": {
+      "zh": "昆山及周边戏曲传统在明代发展。汤显祖1598年写成《牡丹亭》，剧本后来成为昆曲重要剧目。",
+      "en": "The theatrical tradition associated with Kunshan developed in the Ming. Tang Xianzu completed The Peony Pavilion in 1598, and it became a central work in the Kunqu repertory."
+    },
+    "analysis": {
+      "zh": "曲牌提供唱词和旋律的组织框架。听笛子贴着唱句走时，吐字、装饰与拖腔如何相互配合。旦角的眼神、手势和步法也可与乐句长短一并观察。",
+      "en": "Tune patterns, or qupai, organize text and melody. Listen for the flute close to the vocal line as diction, ornaments and sustained endings interact. Compare the gaze, gestures and steps of a dan-role performer with the timing of phrases."
+    },
+    "instruments": {
+      "zh": "人声、笛、鼓板及其他伴奏乐器",
+      "en": "Voice, dizi, drum, clappers and other accompaniment"
+    },
+    "uncertainty": {
+      "zh": "口传、改编与记录可能分属不同时期。地图用已知关联地点定位。",
+      "en": "Oral transmission, adaptation and documentation may belong to different periods. The map marks a known association."
+    },
+    "sources": [
+      {
+        "id": "course1",
+        "pages": "8, 17"
+      },
+      {
+        "id": "kunqu"
+      },
+      {
+        "id": "peony"
+      },
+      {
+        "id": "loc"
+      },
+      {
+        "id": "origin-kunqu"
+      }
+    ],
+    "watch": "https://ich.unesco.org/en/RL/kun-qu-opera-00004",
+    "confidence": "documented-association",
+    "people": {
+      "zh": "汤显祖",
+      "en": "Tang Xianzu"
+    }
+  },
+  {
+    "id": "peking-opera",
+    "category": "opera",
+    "title": {
+      "zh": "京剧",
+      "en": "Peking Opera"
+    },
+    "aliases": [
+      "Beijing Opera",
+      "Jingju",
+      "徽班进京"
+    ],
+    "location": {
+      "name": {
+        "zh": "北京",
+        "en": "Beijing"
+      },
+      "coordinates": [
+        116.39,
+        39.9
+      ],
+      "role": {
+        "zh": "戏班交流及演出中心",
+        "en": "Centre of troupe exchange and performance"
+      }
+    },
+    "period": {
+      "zh": "约19世纪中叶成形",
+      "en": "Formed around the mid-19th century"
+    },
+    "time": {
+      "precision": "approximate",
+      "start": 1830,
+      "end": 1870,
+      "era": "qing"
+    },
+    "description": {
+      "zh": "京剧在北京由多种声腔与表演实践逐渐汇合发展。1790年三庆徽班入京是其中一个有记录的节点。",
+      "en": "Peking opera emerged in Beijing as several vocal and performance traditions converged. The arrival of the Sanqing Anhui troupe in 1790 is one documented milestone."
+    },
+    "analysis": {
+      "zh": "辨别京胡随腔与锣鼓点提示动作的两种功能。生、旦、净、丑的声线和身段各有程式。比较西皮、二黄时，可先听句尾音型，再看同类唱腔如何因板式而变速。",
+      "en": "Distinguish the jinghu following a vocal line from percussion cues for action. Sheng, dan, jing and chou roles have distinct vocal and movement conventions. When comparing xipi and erhuang, start with cadences, then hear how rhythmic frameworks change the pacing of related material."
+    },
+    "instruments": {
+      "zh": "人声、京胡、月琴、鼓板、锣等",
+      "en": "Voice, jinghu, yueqin, drum, clappers, gongs and others"
+    },
+    "uncertainty": {
+      "zh": "口传、改编与记录可能分属不同时期。地图用已知关联地点定位。",
+      "en": "Oral transmission, adaptation and documentation may belong to different periods. The map marks a known association."
+    },
+    "sources": [
+      {
+        "id": "course1",
+        "pages": "8, 17"
+      },
+      {
+        "id": "jingju"
+      },
+      {
+        "id": "hui"
+      },
+      {
+        "id": "origin-peking-opera"
+      }
+    ],
+    "watch": "https://ich.unesco.org/en/RL/peking-opera-00418",
+    "confidence": "documented-association"
+  },
+  {
+    "id": "zeng-bells",
+    "category": "ensemble",
+    "title": {
+      "zh": "曾侯乙编钟",
+      "en": "Bells of Marquis Yi of Zeng"
+    },
+    "aliases": [
+      "Zeng Hou Yi",
+      "bianzhong"
+    ],
+    "location": {
+      "name": {
+        "zh": "随州",
+        "en": "Suizhou"
+      },
+      "coordinates": [
+        113.38,
+        31.71
+      ],
+      "role": {
+        "zh": "考古出土地",
+        "en": "Archaeological findspot"
+      }
+    },
+    "period": {
+      "zh": "约公元前433年",
+      "en": "Around 433 BCE"
+    },
+    "time": {
+      "precision": "approximate",
+      "start": -450,
+      "end": -420,
+      "era": "early"
+    },
+    "description": {
+      "zh": "曾侯乙墓出土的成组青铜编钟，为战国早期乐器、音律与礼仪实践留下物证。",
+      "en": "The graduated bronze bells from the tomb of Marquis Yi of Zeng document instruments, tuning and ritual practice in the early Warring States."
+    },
+    "analysis": {
+      "zh": "敲击同一钟的不同部位可以发出两个音高，往往相隔三度。把钟作为整套乐器来看，音区和音阶由多枚钟共同构成。",
+      "en": "Striking different points on the same bell can produce two pitches, often a third apart. The full set distributes its range and pitch collection across many bells."
+    },
+    "instruments": {
+      "zh": "青铜编钟，墓中另出土弦乐器、管乐器和鼓",
+      "en": "Bronze bells, with strings, winds and drums also found in the tomb"
+    },
+    "uncertainty": {
+      "zh": "约公元前433年为墓葬年代参照。器物可提示音响与编制，具体演奏曲目仍待考。",
+      "en": "The burial is dated to around 433 BCE. Objects reveal possible sounds and ensemble resources. The specific repertory remains uncertain."
+    },
+    "sources": [
+      {
+        "id": "zeng"
+      }
+    ],
+    "watch": "https://music.si.edu/story/sync-ancient-chinese-bronze-bells-smithsonian",
+    "confidence": "documented-association"
+  },
+  {
+    "id": "liuhe-molihua",
+    "region": "east-central",
+    "title": {
+      "zh": "茉莉花（江苏民歌）",
+      "en": "Jasmine Flower (Jiangsu version)"
+    },
+    "location": {
+      "name": {
+        "zh": "南京六合",
+        "en": "Luhe, Nanjing"
+      },
+      "coordinates": [
+        118.82,
+        32.34
+      ],
+      "role": {
+        "zh": "旋律采集地区",
+        "en": "Area where the source melody was collected"
+      }
+    },
+    "period": {
+      "zh": "1942 年，何仿在六合采集《鲜花调》。1957 年整理改词为《茉莉花》。本版发行标年为 2008 年。",
+      "en": "He Fang collected the local Flower Tune in 1942 and adapted its lyrics in 1957. This recording is listed as a 2008 release."
+    },
+    "description": {
+      "zh": "同名《茉莉花》在不同地方有不同唱法。六合点对应何仿采集《鲜花调》的地区。这里选龚琳娜唱的江苏版，听反复句末的走向。",
+      "en": "Several regional songs share the name Jasmine Flower. Luhe marks the collection of the local melody; Gong Linna sings the Jiangsu version here."
+    },
+    "instruments": {
+      "zh": "女声",
+      "en": "Female voice"
+    },
+    "genre": {
+      "zh": "江苏民歌",
+      "en": "Jiangsu folk song"
+    },
+    "province": {
+      "zh": "江苏",
+      "en": "Jiangsu"
+    },
+    "course": {
+      "zh": "课堂乐种拓展，《3 Chinese Folk Song》第 11–12 页介绍东部民歌；该曲为补充的江苏例子。",
+      "en": "Extension of a genre or instrument covered in class"
+    },
+    "media": {
+      "type": "embed",
+      "source": "https://music.apple.com/cn/album/1811349351?i=1811349833",
+      "performer": {
+        "zh": "龚琳娜",
+        "en": "Gong Linna"
+      },
+      "embed": "https://embed.music.apple.com/cn/album/1811349351?i=1811349833",
+      "title": {
+        "zh": "茉莉花（江苏民歌）",
+        "en": "Jasmine Flower (Jiangsu version)"
+      },
+      "credit": {
+        "zh": "龚琳娜演唱，Apple Music 官方单曲试听。",
+        "en": "Gong Linna. Official Apple Music track preview."
+      },
+      "prompt": {
+        "zh": "跟着哼出一句，下一句听着相似时，尾音落到同一处了吗？",
+        "en": "Hum one line. When a similar one follows, does it end on the same note?"
+      },
+      "excerpt": {
+        "zh": "平台固定试听，约 30 秒；起点由官方播放器决定。",
+        "en": "Official preview, about 30 seconds. The provider selects the passage."
+      }
+    },
+    "category": "folk",
+    "time": {
+      "precision": "interval",
+      "start": 1942,
+      "end": 1942,
+      "era": "roc"
+    },
+    "uncertainty": {
+      "zh": "本条时间标记指向何仿采集《鲜花调》。所选录音的年代另见版本说明。",
+      "en": "The timeline marks He Fang’s collection of the local source tune. The period note separately identifies the selected recording or broadcast."
+    },
+    "analysis": {
+      "zh": "听重复句的尾音，可以辨出同一旋律在两句之间的变化。",
+      "en": "Compare cadences to hear small differences between repeated phrases."
+    },
+    "people": {
+      "zh": "龚琳娜",
+      "en": "Gong Linna"
+    },
+    "sources": [
+      {
+        "id": "course3",
+        "pages": "11–12"
+      },
+      {
+        "id": "b-liuhe-molihua-1"
+      },
+      {
+        "id": "b-liuhe-molihua-2"
+      }
+    ],
+    "confidence": "documented-association",
+    "aliases": [
+      "江苏",
+      "Jiangsu",
+      "江苏民歌",
+      "Jiangsu folk song",
+      "龚琳娜",
+      "Gong Linna"
+    ]
+  },
+  {
+    "id": "jiangnan-zhonghua-liuban",
+    "region": "east-central",
+    "title": {
+      "zh": "中花六板",
+      "en": "Zhonghua Liuban"
+    },
+    "location": {
+      "name": {
+        "zh": "太仓",
+        "en": "Taicang"
+      },
+      "coordinates": [
+        121.1,
+        31.46
+      ],
+      "role": {
+        "zh": "江南丝竹传承地",
+        "en": "Local centre of silk-and-bamboo music"
+      }
+    },
+    "period": {
+      "zh": "传统曲调，成曲年待考。范临风版收于 2024 年的《丝竹生生》。",
+      "en": "The date of the traditional tune is unknown. This performance appeared on Fan Linfeng’s 2024 album."
+    },
+    "description": {
+      "zh": "太仓是苏南丝竹传承地。《中花六板》将《老六板》的旋律放慢加花。试着在绕来绕去的小音符中找回能哼唱的主干。",
+      "en": "Taicang is a centre of silk-and-bamboo music. This piece slows down and ornaments an older tune, Lao Liuban. Trace a singable line among the extra notes."
+    },
+    "instruments": {
+      "zh": "丝竹乐中的弦乐与竹管",
+      "en": "String and bamboo wind timbres"
+    },
+    "genre": {
+      "zh": "江南丝竹",
+      "en": "Jiangnan silk-and-bamboo music"
+    },
+    "province": {
+      "zh": "江苏",
+      "en": "Jiangsu"
+    },
+    "course": {
+      "zh": "课堂乐种拓展，《6 Chinese Instrumental Ensemble》第 11、15 页介绍江南丝竹。",
+      "en": "Extension of a genre or instrument covered in class"
+    },
+    "media": {
+      "type": "embed",
+      "source": "https://music.apple.com/cn/album/1767855692?i=1767855698",
+      "performer": {
+        "zh": "范临风（平台署名）",
+        "en": "Fan Linfeng (credited artist)"
+      },
+      "embed": "https://embed.music.apple.com/cn/album/1767855692?i=1767855698",
+      "title": {
+        "zh": "中花六板",
+        "en": "Zhonghua Liuban"
+      },
+      "credit": {
+        "zh": "《丝竹生生——范临风江南丝竹音乐专辑》；平台艺人署名范临风，℗ 上海音乐出版社有限公司。",
+        "en": "Artist credited as Fan Linfeng. From his silk-and-bamboo album, ℗ Shanghai Music Publishing House. Preview provided by Apple Music."
+      },
+      "prompt": {
+        "zh": "先哼一句最容易记住的旋律，再听：哪里有小音符绕着它转？",
+        "en": "Hum the easiest part to remember. Where do extra notes curl around it?"
+      },
+      "excerpt": {
+        "zh": "平台固定试听，约 30 秒；起点由官方播放器决定。",
+        "en": "Official preview, about 30 seconds. The provider selects the passage."
+      }
+    },
+    "category": "ensemble",
+    "time": {
+      "precision": "undated",
+      "start": null,
+      "end": null,
+      "era": null
+    },
+    "uncertainty": {
+      "zh": "这首作品的创作年待考。上方年代说明分别记录地方传统与所选版本的已知时间。",
+      "en": "The composition date is undetermined. The period note identifies dated evidence about the tradition and the selected performance."
+    },
+    "analysis": {
+      "zh": "先哼一条较长的旋律线，再把快速的加花音放回这条线上。",
+      "en": "Hum the main contour, then fit the quicker ornamental notes back around it."
+    },
+    "people": {
+      "zh": "范临风（平台署名）",
+      "en": "Fan Linfeng (credited artist)"
+    },
+    "sources": [
+      {
+        "id": "course6",
+        "pages": "11, 15"
+      },
+      {
+        "id": "b-jiangnan-zhonghua-liuban-1"
+      },
+      {
+        "id": "media-jiangnan-sizhu"
+      },
+      {
+        "id": "b-jiangnan-zhonghua-liuban-3"
+      }
+    ],
+    "confidence": "documented-association",
+    "aliases": [
+      "江苏",
+      "Jiangsu",
+      "江南丝竹",
+      "Jiangnan silk-and-bamboo music",
+      "范临风（平台署名）",
+      "Fan Linfeng (credited artist)"
+    ]
+  },
+  {
+    "id": "mudanting-youyuan",
+    "region": "east-central",
+    "title": {
+      "zh": "牡丹亭·游园",
+      "en": "The Peony Pavilion: A Stroll in the Garden"
+    },
+    "location": {
+      "name": {
+        "zh": "昆山",
+        "en": "Kunshan"
+      },
+      "coordinates": [
+        120.98,
+        31.39
+      ],
+      "role": {
+        "zh": "昆曲声腔发源和传承地",
+        "en": "Birthplace and centre of transmission of Kunqu singing"
+      }
+    },
+    "period": {
+      "zh": "明万历二十六年（1598），汤显祖写成剧本；所选节目于 2019 年播出。",
+      "en": "Tang Xianzu completed the play in 1598, during the Ming dynasty. The selected TV edition aired in 2019."
+    },
+    "description": {
+      "zh": "昆山是昆山腔形成的地方。这里以《游园》一折来听昆曲如何把唱词拉成长句。1598 年指剧本成书，地图点标示声腔的地方传统。",
+      "en": "The Kunshan vocal style took shape here. The Garden scene lets you hear how Kunqu turns words into long melodic phrases. The year 1598 dates the play. The pin locates the vocal tradition."
+    },
+    "instruments": {
+      "zh": "人声、戏曲伴奏",
+      "en": "Voices with opera accompaniment"
+    },
+    "genre": {
+      "zh": "昆曲折子戏",
+      "en": "Kunqu opera scene"
+    },
+    "province": {
+      "zh": "江苏",
+      "en": "Jiangsu"
+    },
+    "course": {
+      "zh": "课堂乐种拓展，《1 Introduction》第 17 页介绍昆曲。",
+      "en": "Extension of a genre or instrument covered in class"
+    },
+    "media": {
+      "type": "external",
+      "source": "https://tv.cctv.com/2019/11/14/VIDEIj5avldRfzedfSczu4ym191114.shtml",
+      "performer": {
+        "zh": "赵秀君（杜丽娘）、王竹馨（春香）",
+        "en": "Zhao Xiujun as Du Liniang and Wang Zhuxin as Chunxiang"
+      },
+      "watch": "https://tv.cctv.com/2019/11/14/VIDEIj5avldRfzedfSczu4ym191114.shtml",
+      "title": {
+        "zh": "牡丹亭·游园",
+        "en": "The Peony Pavilion: A Stroll in the Garden"
+      },
+      "credit": {
+        "zh": "汤显祖原著；赵秀君饰杜丽娘、王竹馨饰春香；音视频来源为央视戏曲频道。",
+        "en": "Play by Tang Xianzu. Zhao Xiujun plays Du Liniang and Wang Zhuxin plays Chunxiang. CCTV Opera Channel."
+      },
+      "prompt": {
+        "zh": "杜丽娘唱“姹紫嫣红开遍”时，试着把一个拉长的字哼完，再观察她的袖子怎样随着这一句移动。",
+        "en": "As Du Liniang sings of flowers blooming in every colour, try humming one sustained syllable. How does her sleeve move through the phrase?"
+      },
+      "excerpt": {
+        "zh": "原片 16:34–17:02（28 秒）。开始可见“原来姹紫嫣红开遍”，结束处已换至下一句“似这般都付与断井颓垣”。",
+        "en": "Play 16:34–17:02 in the original programme."
+      },
+      "originalRangeSeconds": [
+        994.0,
+        1022.0
+      ]
+    },
+    "category": "opera",
+    "time": {
+      "precision": "interval",
+      "start": 1598,
+      "end": 1598,
+      "era": "ming"
+    },
+    "uncertainty": {
+      "zh": "本条时间标记指向汤显祖写成剧本。所选录音的年代另见版本说明。",
+      "en": "The timeline marks Tang Xianzu’s completion of the play. The period note separately identifies the selected recording or broadcast."
+    },
+    "analysis": {
+      "zh": "看袖子的动作与唱腔怎样一起展开，一字可以延伸到几个音。",
+      "en": "Watch the movement of the sleeves alongside the vocal line. A single syllable can span several notes."
+    },
+    "people": {
+      "zh": "赵秀君（杜丽娘）、王竹馨（春香）",
+      "en": "Zhao Xiujun as Du Liniang and Wang Zhuxin as Chunxiang"
+    },
+    "sources": [
+      {
+        "id": "course1",
+        "pages": "17"
+      },
+      {
+        "id": "b-mudanting-youyuan-1"
+      },
+      {
+        "id": "peony"
+      },
+      {
+        "id": "b-mudanting-youyuan-3"
+      }
+    ],
+    "confidence": "documented-association",
+    "aliases": [
+      "江苏",
+      "Jiangsu",
+      "昆曲折子戏",
+      "Kunqu opera scene",
+      "赵秀君（杜丽娘）、王竹馨（春香）",
+      "Zhao Xiujun as Du Liniang and Wang Zhuxin as Chunxiang"
+    ]
+  },
+  {
+    "id": "liumengmei-shihua",
+    "region": "east-central",
+    "title": {
+      "zh": "柳梦梅拾画（弹词开篇）",
+      "en": "Liu Mengmei Finds the Portrait (tanci opening ballad)"
+    },
+    "location": {
+      "name": {
+        "zh": "苏州",
+        "en": "Suzhou"
+      },
+      "coordinates": [
+        120.62,
+        31.31
+      ],
+      "role": {
+        "zh": "苏州弹词发源与传承地",
+        "en": "Birthplace and centre of transmission of Suzhou tanci"
+      }
+    },
+    "period": {
+      "zh": "高博文版于 2020 年发行，此开篇的创作年待考。",
+      "en": "Gao Bowen’s recording was released in 2020. The date of composition of the opening ballad remains uncertain."
+    },
+    "description": {
+      "zh": "苏州弹词以苏州方言说唱，“开篇”是听长篇故事前可单独欣赏的短篇弹唱。这里听高博文怎样用吴语唱柳梦梅。",
+      "en": "Suzhou tanci uses the local Wu dialect in sung and spoken storytelling. A kaipian is a short opening ballad that can be heard on its own. Listen to Gao Bowen sing about Liu Mengmei."
+    },
+    "instruments": {
+      "zh": "人声、弹拨伴奏",
+      "en": "Voice and plucked-string accompaniment"
+    },
+    "genre": {
+      "zh": "苏州弹词开篇",
+      "en": "Suzhou tanci opening ballad"
+    },
+    "province": {
+      "zh": "江苏",
+      "en": "Jiangsu"
+    },
+    "course": {
+      "zh": "课堂乐种拓展，《7 Chinese Narrative Singing》第 14 页介绍苏州评弹。",
+      "en": "Extension of a genre or instrument covered in class"
+    },
+    "media": {
+      "type": "embed",
+      "source": "https://music.apple.com/cn/album/1592269694?i=1592269696",
+      "performer": {
+        "zh": "高博文",
+        "en": "Gao Bowen"
+      },
+      "embed": "https://embed.music.apple.com/cn/album/1592269694?i=1592269696",
+      "title": {
+        "zh": "柳梦梅拾画（弹词开篇）",
+        "en": "Liu Mengmei Finds the Portrait (tanci opening ballad)"
+      },
+      "credit": {
+        "zh": "高博文演唱；《乐典：评弹——高博文》；℗ 2020 SEE MUSIC (Shanghai) Co., Ltd.；使用平台单曲试听。",
+        "en": "Sung by Gao Bowen. ℗ 2020 SEE MUSIC (Shanghai) Co., Ltd. Preview provided by Apple Music."
+      },
+      "prompt": {
+        "zh": "高博文唱到一句末尾时，弹拨声和他一起停，还是把乐句接到下一句？",
+        "en": "When Gao Bowen reaches the end of a line, do the plucked strings pause with him or carry the phrase into the next line?"
+      },
+      "excerpt": {
+        "zh": "平台固定试听，约 30 秒。",
+        "en": "Official preview, about 30 seconds. The provider selects the passage."
+      }
+    },
+    "category": "narrative",
+    "time": {
+      "precision": "undated",
+      "start": null,
+      "end": null,
+      "era": null
+    },
+    "uncertainty": {
+      "zh": "这首作品的创作年待考。上方年代说明分别记录地方传统与所选版本的已知时间。",
+      "en": "The composition date is undetermined. The period note identifies dated evidence about the tradition and the selected performance."
+    },
+    "analysis": {
+      "zh": "一句吴语唱词快收住时，把注意力转到紧接着的弹拨声。",
+      "en": "Near the end of a line in the Wu dialect, shift your attention to the next plucked notes."
+    },
+    "people": {
+      "zh": "高博文",
+      "en": "Gao Bowen"
+    },
+    "sources": [
+      {
+        "id": "course7",
+        "pages": "14"
+      },
+      {
+        "id": "b-liumengmei-shihua-1"
+      },
+      {
+        "id": "b-liumengmei-shihua-2"
+      },
+      {
+        "id": "b-liumengmei-shihua-3"
+      }
+    ],
+    "confidence": "documented-association",
+    "aliases": [
+      "江苏",
+      "Jiangsu",
+      "苏州弹词开篇",
+      "Suzhou tanci opening ballad",
+      "高博文",
+      "Gao Bowen"
+    ]
+  },
+  {
+    "id": "yangzhou-jiang-kui-yangzhou-man",
+    "region": "east-central",
+    "title": {
+      "zh": "姜夔《扬州慢》（何叔惠吟诵）",
+      "en": "Yangzhou Man (Slow Tune of Yangzhou), chanted by Ho Shuk-wai"
+    },
+    "location": {
+      "name": {
+        "zh": "扬州",
+        "en": "Yangzhou"
+      },
+      "coordinates": [
+        119.42,
+        32.39
+      ],
+      "role": {
+        "zh": "词曲创作地、词中所写城市",
+        "en": "City where the work was composed and where the poem is set"
+      }
+    },
+    "period": {
+      "zh": "南宋淳熙三年（1176）冬至，姜夔经过扬州，作词并自创新调。香港中文大学图书馆将何叔惠此次吟诵标为 1974 年。",
+      "en": "Jiang Kui composed both words and tune on a visit to Yangzhou at the winter solstice of 1176. The Chinese University of Hong Kong Library dates this chanting performance to 1974."
+    },
+    "description": {
+      "zh": "词序写姜夔雪后入扬州，见满城萧条。地图标出词作的地点；录音展示这首词在二十世纪粤语私塾吟诵传统中的另一种声音。",
+      "en": "Jiang Kui’s preface describes arriving in snow-covered Yangzhou and seeing a city scarred by war. The pin locates his poem. The recording documents its later life in a Cantonese chanting tradition."
+    },
+    "instruments": {
+      "zh": "人声吟诵",
+      "en": "Solo chanting voice"
+    },
+    "genre": {
+      "zh": "南宋词作的粤语私塾调吟诵",
+      "en": "Cantonese poetry chanting of a Southern Song ci poem"
+    },
+    "province": {
+      "zh": "江苏",
+      "en": "Jiangsu"
+    },
+    "course": {
+      "zh": "课外拓展",
+      "en": "Additional repertoire"
+    },
+    "media": {
+      "type": "external",
+      "source": "https://www.youtube.com/watch?v=Uqowu1bjY6I&t=80s",
+      "performer": {
+        "zh": "何叔惠",
+        "en": "Ho Shuk-wai"
+      },
+      "watch": "https://www.youtube.com/watch?v=Uqowu1bjY6I&t=80s",
+      "title": {
+        "zh": "姜夔《扬州慢》（何叔惠吟诵）",
+        "en": "Yangzhou Man (Slow Tune of Yangzhou), chanted by Ho Shuk-wai"
+      },
+      "credit": {
+        "zh": "姜夔词；何叔惠 1974 年吟诵，yCantonese 发布，香港中文大学图书馆收录索引。本版本为私塾调吟诵，并非按南宋原谱演唱。采用原站链接。",
+        "en": "Words by Jiang Kui. Ho Shuk-wai’s 1974 Cantonese chant was published by yCantonese and indexed by the CUHK Library. This performance uses a later chanting tradition."
+      },
+      "prompt": {
+        "zh": "对着画面上的词，听何叔惠如何把一个字拖长，又在哪里停顿换气。自己把同一句按说话节奏读一遍，两种处理的节奏有什么区别？",
+        "en": "Follow the words on screen. Where does Ho prolong a syllable or pause for breath? Speak the same line aloud and compare its rhythm with his chant."
+      },
+      "excerpt": {
+        "zh": "建议 01:20–01:50，单曲链接从 01:20 起播。起点画面标“自胡马窥江去后”，终点转到“杜郎俊赏”，可比较上下阕交界的停连。",
+        "en": "Play 01:20–01:50 in the original programme."
+      },
+      "originalRangeSeconds": [
+        80.0,
+        110.0
+      ]
+    },
+    "category": "historicalEvidence",
+    "time": {
+      "precision": "interval",
+      "start": 1176,
+      "end": 1176,
+      "era": "nansong"
+    },
+    "uncertainty": {
+      "zh": "本条时间标记指向姜夔写词作曲。所选录音的年代另见版本说明。",
+      "en": "The timeline marks Jiang Kui’s composition of words and tune. The period note separately identifies the selected recording or broadcast."
+    },
+    "analysis": {
+      "zh": "对照上下阕交界处的词句，比较吟诵拖长和留白的位置。",
+      "en": "At the boundary between the stanzas, listen for prolonged syllables and the spaces between them."
+    },
+    "people": {
+      "zh": "何叔惠",
+      "en": "Ho Shuk-wai"
+    },
+    "sources": [
+      {
+        "id": "b-yangzhou-jiang-kui-yangzhou-man-1"
+      },
+      {
+        "id": "b-yangzhou-jiang-kui-yangzhou-man-2"
+      },
+      {
+        "id": "b-yangzhou-jiang-kui-yangzhou-man-3"
+      }
+    ],
+    "confidence": "documented-association",
+    "aliases": [
+      "江苏",
+      "Jiangsu",
+      "南宋词作的粤语私塾调吟诵",
+      "Cantonese poetry chanting of a Southern Song ci poem",
+      "何叔惠",
+      "Ho Shuk-wai"
+    ]
+  },
+  {
+    "id": "yueju-shiba-xiangsong",
+    "region": "east-central",
+    "title": {
+      "zh": "《梁山伯与祝英台》选段《十八相送》",
+      "en": "The Butterfly Lovers: The Eighteen Li Farewell"
+    },
+    "location": {
+      "name": {
+        "zh": "嵊州",
+        "en": "Shengzhou"
+      },
+      "coordinates": [
+        120.83,
+        29.59
+      ],
+      "role": {
+        "zh": "越剧发源地",
+        "en": "Birthplace of Yue opera"
+      }
+    },
+    "period": {
+      "zh": "清末，嵊县一带的唱书艺人发展出早期越剧。2020 年为所选数字专辑的发行标年，录音年份待考。",
+      "en": "Early Yue opera took shape around Sheng County in the late Qing. The selected digital album lists 2020 as its release year; the recording date is unconfirmed."
+    },
+    "description": {
+      "zh": "越剧从嵊县一带的说唱走上戏台。《十八相送》写梁山伯与祝英台在路上相送，角色之间的对答变成了唱段。",
+      "en": "Yue opera grew out of sung storytelling around present-day Shengzhou. On their farewell walk, Liang Shanbo and Zhu Yingtai carry on their conversation in song."
+    },
+    "instruments": {
+      "zh": "戏曲人声、伴奏",
+      "en": "Operatic voices and instrumental accompaniment"
+    },
+    "genre": {
+      "zh": "越剧",
+      "en": "Yue opera"
+    },
+    "province": {
+      "zh": "浙江",
+      "en": "Zhejiang"
+    },
+    "course": {
+      "zh": "课外拓展",
+      "en": "Additional repertoire"
+    },
+    "media": {
+      "type": "embed",
+      "source": "https://music.apple.com/cn/album/1876925956?i=1876925965",
+      "performer": {
+        "zh": "张桂凤、范瑞娟、傅全香（曲目联署）",
+        "en": "Zhang Guifeng, Fan Ruijuan and Fu Quanxiang (track credits)"
+      },
+      "embed": "https://embed.music.apple.com/cn/album/1876925956?i=1876925965",
+      "title": {
+        "zh": "《梁山伯与祝英台》选段《十八相送》",
+        "en": "The Butterfly Lovers: The Eighteen Li Farewell"
+      },
+      "credit": {
+        "zh": "张桂凤、范瑞娟、傅全香，选自《乐典：越剧——梁山伯与祝英台（壹）》，Apple Music 官方试听。",
+        "en": "Zhang Guifeng, Fan Ruijuan and Fu Quanxiang (track credits). Official Apple Music track preview."
+      },
+      "prompt": {
+        "zh": "听一句唱腔，哪个字先拉长、再转到下一个音？",
+        "en": "In one sung phrase, which syllable stretches out before turning to the next pitch?"
+      },
+      "excerpt": {
+        "zh": "平台固定试听，约 30 秒；起点由平台决定。",
+        "en": "Official preview, about 30 seconds. The provider selects the passage."
+      }
+    },
+    "category": "opera",
+    "time": {
+      "precision": "undated",
+      "start": null,
+      "end": null,
+      "era": null
+    },
+    "uncertainty": {
+      "zh": "这首作品的创作年待考。上方年代说明分别记录地方传统与所选版本的已知时间。",
+      "en": "The composition date is undetermined. The period note identifies dated evidence about the tradition and the selected performance."
+    },
+    "analysis": {
+      "zh": "惜别的对话由唱腔接续；沿一个字追踪到下一个转音。",
+      "en": "The farewell dialogue unfolds in song. Trace one syllable into its next melodic turn."
+    },
+    "people": {
+      "zh": "张桂凤、范瑞娟、傅全香（曲目联署）",
+      "en": "Zhang Guifeng, Fan Ruijuan and Fu Quanxiang (track credits)"
+    },
+    "sources": [
+      {
+        "id": "b-yueju-shiba-xiangsong-1"
+      },
+      {
+        "id": "b-yueju-shiba-xiangsong-2"
+      }
+    ],
+    "confidence": "documented-association",
+    "aliases": [
+      "浙江",
+      "Zhejiang",
+      "越剧",
+      "Yue opera",
+      "张桂凤、范瑞娟、傅全香（曲目联署）",
+      "Zhang Guifeng, Fan Ruijuan and Fu Quanxiang (track credits)"
+    ]
+  },
+  {
+    "id": "dongyang-san-wu-qi",
+    "region": "east-central",
+    "title": {
+      "zh": "《三五七》",
+      "en": "Three, Five, Seven (San Wu Qi)"
+    },
+    "location": {
+      "name": {
+        "zh": "东阳",
+        "en": "Dongyang"
+      },
+      "coordinates": [
+        120.24,
+        29.29
+      ],
+      "role": {
+        "zh": "曲作者成长、学习婺剧与吹笛的地方",
+        "en": "Where the composer learned the dizi and Wu opera"
+      }
+    },
+    "period": {
+      "zh": "1957 年，赵松庭据婺剧乱弹唱腔改编成笛子独奏曲。蒋国基的所选版本收在平台标为 1995 年发行的《水乡神笛》。",
+      "en": "Zhao Songting adapted a vocal tune from Wu opera for dizi in 1957. Jiang Guoji’s version appears on an album dated 1995."
+    },
+    "description": {
+      "zh": "赵松庭是东阳人，在当地跟婺剧笛师学习，也在东阳婺剧团工作过。这首独奏曲把戏台上本可以用人声唱出的曲调交给了竹笛。",
+      "en": "Born in Dongyang, Zhao Songting studied with a local opera flautist and worked with the Dongyang Wu Opera Troupe. His solo transfers a vocal tune from the stage to bamboo flute."
+    },
+    "instruments": {
+      "zh": "竹笛",
+      "en": "Dizi (bamboo transverse flute)"
+    },
+    "genre": {
+      "zh": "浙派竹笛独奏",
+      "en": "Zhejiang-school dizi solo"
+    },
+    "province": {
+      "zh": "浙江",
+      "en": "Zhejiang"
+    },
+    "course": {
+      "zh": "课外拓展",
+      "en": "Additional repertoire"
+    },
+    "media": {
+      "type": "embed",
+      "source": "https://music.apple.com/cn/album/1632209632?i=1632209634",
+      "performer": {
+        "zh": "蒋国基",
+        "en": "Jiang Guoji"
+      },
+      "embed": "https://embed.music.apple.com/cn/album/1632209632?i=1632209634",
+      "title": {
+        "zh": "《三五七》",
+        "en": "Three, Five, Seven (San Wu Qi)"
+      },
+      "credit": {
+        "zh": "赵松庭改编，蒋国基演奏，选自《水乡神笛》，Apple Music 官方试听。",
+        "en": "Arranged by Zhao Songting. Played by Jiang Guoji. Preview provided by Apple Music."
+      },
+      "prompt": {
+        "zh": "挑一口气吹完的一句来听：哪个音被拖住，接着又怎样用短音收尾？",
+        "en": "Follow one breath of the flute. Which note lingers, and how do shorter notes complete the phrase?"
+      },
+      "excerpt": {
+        "zh": "平台固定试听，约 30 秒；起点由平台决定。",
+        "en": "Official preview, about 30 seconds. The provider selects the passage."
+      }
+    },
+    "category": "solo",
+    "time": {
+      "precision": "interval",
+      "start": 1957,
+      "end": 1957,
+      "era": "prc"
+    },
+    "uncertainty": {
+      "zh": "本条时间标记指向赵松庭将婺剧唱腔改编为笛曲。所选录音的年代另见版本说明。",
+      "en": "The timeline marks Zhao Songting’s adaptation of the opera tune for dizi. The period note separately identifies the selected recording or broadcast."
+    },
+    "analysis": {
+      "zh": "用一句唱腔的长度来听笛声，比较持续长音和其后的短音。",
+      "en": "Follow the flute in vocal-length phrases, contrasting sustained notes with the shorter notes that follow."
+    },
+    "people": {
+      "zh": "蒋国基",
+      "en": "Jiang Guoji"
+    },
+    "sources": [
+      {
+        "id": "b-dongyang-san-wu-qi-1"
+      },
+      {
+        "id": "b-dongyang-san-wu-qi-2"
+      },
+      {
+        "id": "b-dongyang-san-wu-qi-3"
+      }
+    ],
+    "confidence": "documented-association",
+    "aliases": [
+      "浙江",
+      "Zhejiang",
+      "浙派竹笛独奏",
+      "Zhejiang-school dizi solo",
+      "蒋国基",
+      "Jiang Guoji"
+    ]
+  },
+  {
+    "id": "huangmei-tianxianpei",
+    "region": "east-central",
+    "title": {
+      "zh": "《天仙配》选段《夫妻双双把家还》",
+      "en": "The Heavenly Match: Husband and Wife Return Home"
+    },
+    "location": {
+      "name": {
+        "zh": "安庆",
+        "en": "Anqing"
+      },
+      "coordinates": [
+        117.05,
+        30.53
+      ],
+      "role": {
+        "zh": "黄梅戏发展与传承地",
+        "en": "Centre of Huangmei opera performance"
+      }
+    },
+    "period": {
+      "zh": "1955 年《天仙配》改编为电影。此处所选二人演唱版由平台标为 2005 年发行。",
+      "en": "A film adaptation of The Heavenly Match came out in 1955. The featured duet carries a 2005 release date."
+    },
+    "description": {
+      "zh": "黄梅戏在鄂皖交界流传，安庆是重要的发展地。这段唱的是董永与七仙女结伴回家，听众可以循两个人声辨认角色。",
+      "en": "Huangmei opera circulated between Hubei and Anhui and flourished around Anqing. The duet follows Dong Yong and the Seventh Fairy on their way home."
+    },
+    "instruments": {
+      "zh": "双人戏曲演唱、伴奏",
+      "en": "Two operatic voices and accompaniment"
+    },
+    "genre": {
+      "zh": "黄梅戏",
+      "en": "Huangmei opera"
+    },
+    "province": {
+      "zh": "安徽",
+      "en": "Anhui"
+    },
+    "course": {
+      "zh": "课外拓展",
+      "en": "Additional repertoire"
+    },
+    "media": {
+      "type": "embed",
+      "source": "https://music.apple.com/cn/album/1744003303?i=1744003611",
+      "performer": {
+        "zh": "袁媛、梅院军",
+        "en": "Yuan Yuan and Mei Yuanjun"
+      },
+      "embed": "https://embed.music.apple.com/cn/album/1744003303?i=1744003611",
+      "title": {
+        "zh": "《天仙配》选段《夫妻双双把家还》",
+        "en": "The Heavenly Match: Husband and Wife Return Home"
+      },
+      "credit": {
+        "zh": "袁媛、梅院军演唱，2005 年单曲，Apple Music 官方试听。",
+        "en": "Yuan Yuan and Mei Yuanjun. Official Apple Music track preview."
+      },
+      "prompt": {
+        "zh": "听两个人声第一次交接时，后一句沿用了前一句怎样的旋律？",
+        "en": "When one singer answers the other, which part of the first melodic phrase comes back?"
+      },
+      "excerpt": {
+        "zh": "平台固定试听，约 30 秒；起点由平台决定。",
+        "en": "Official preview, about 30 seconds. The provider selects the passage."
+      }
+    },
+    "category": "opera",
+    "time": {
+      "precision": "interval",
+      "start": 1955,
+      "end": 1955,
+      "era": "prc"
+    },
+    "uncertainty": {
+      "zh": "本条时间标记指向《天仙配》被改编为电影。所选录音的年代另见版本说明。",
+      "en": "The timeline marks the film adaptation of The Heavenly Match. The period note separately identifies the selected recording or broadcast."
+    },
+    "analysis": {
+      "zh": "把两个人的唱句连起来听，比较换人之后保留和改变的旋律。",
+      "en": "Hear the duet in pairs of lines. Compare the melodic features that carry over when the singer changes."
+    },
+    "people": {
+      "zh": "袁媛、梅院军",
+      "en": "Yuan Yuan and Mei Yuanjun"
+    },
+    "sources": [
+      {
+        "id": "b-huangmei-tianxianpei-1"
+      },
+      {
+        "id": "b-huangmei-tianxianpei-2"
+      }
+    ],
+    "confidence": "documented-association",
+    "aliases": [
+      "安徽",
+      "Anhui",
+      "黄梅戏",
+      "Huangmei opera",
+      "袁媛、梅院军",
+      "Yuan Yuan and Mei Yuanjun"
+    ]
+  },
+  {
+    "id": "fengyang-huagu",
+    "region": "east-central",
+    "title": {
+      "zh": "《凤阳花鼓》",
+      "en": "Fengyang Flower Drum"
+    },
+    "location": {
+      "name": {
+        "zh": "凤阳",
+        "en": "Fengyang"
+      },
+      "coordinates": [
+        117.56,
+        32.87
+      ],
+      "role": {
+        "zh": "花鼓传统流传地",
+        "en": "Home of the Fengyang flower-drum tradition"
+      }
+    },
+    "period": {
+      "zh": "非遗名录记载凤阳花鼓一般认为形成于明代。龚琳娜版收在平台标为 2008 年发行的专辑《走西口》。",
+      "en": "The national heritage register places the emergence of the performance tradition in the Ming. Gong Linna’s recording appears on a 2008 album."
+    },
+    "description": {
+      "zh": "凤阳县流传的花鼓表演把说唱、舞步和自击节拍连在一起。龚琳娜的唱片版本适合和小鼓伴唱的表演形式作比较。",
+      "en": "In Fengyang, performers traditionally sing and move while keeping their own beat. Gong Linna’s recording offers a point of comparison with that practice."
+    },
+    "instruments": {
+      "zh": "人声、伴奏；传统表演使用小鼓等",
+      "en": "Voice and accompaniment; small drums feature in the traditional form"
+    },
+    "genre": {
+      "zh": "凤阳花鼓题材民歌",
+      "en": "Folk song associated with the Fengyang flower drum"
+    },
+    "province": {
+      "zh": "安徽",
+      "en": "Anhui"
+    },
+    "course": {
+      "zh": "课外拓展",
+      "en": "Additional repertoire"
+    },
+    "media": {
+      "type": "embed",
+      "source": "https://music.apple.com/cn/album/1778099577?i=1778099936",
+      "performer": {
+        "zh": "龚琳娜",
+        "en": "Gong Linna"
+      },
+      "embed": "https://embed.music.apple.com/cn/album/1778099577?i=1778099936",
+      "title": {
+        "zh": "《凤阳花鼓》",
+        "en": "Fengyang Flower Drum"
+      },
+      "credit": {
+        "zh": "龚琳娜演唱，选自《走西口》，Apple Music 官方试听。",
+        "en": "Gong Linna. Official Apple Music track preview."
+      },
+      "prompt": {
+        "zh": "试着随歌声打拍子：哪些字落在重拍上，哪些字轻轻带过？",
+        "en": "Tap a pulse as you listen. Which syllables land on a strong beat, and which pass lightly?"
+      },
+      "excerpt": {
+        "zh": "平台固定试听，约 30 秒；起点由平台决定。",
+        "en": "Official preview, about 30 seconds. The provider selects the passage."
+      }
+    },
+    "category": "folk",
+    "time": {
+      "precision": "undated",
+      "start": null,
+      "end": null,
+      "era": null
+    },
+    "uncertainty": {
+      "zh": "这首作品的创作年待考。上方年代说明分别记录地方传统与所选版本的已知时间。",
+      "en": "The composition date is undetermined. The period note identifies dated evidence about the tradition and the selected performance."
+    },
+    "analysis": {
+      "zh": "一边打拍子一边轻声念词，比较同一拍上字音的轻重。",
+      "en": "Keep time while speaking the words softly and compare the weight of different syllables on the beat."
+    },
+    "people": {
+      "zh": "龚琳娜",
+      "en": "Gong Linna"
+    },
+    "sources": [
+      {
+        "id": "b-fengyang-huagu-1"
+      },
+      {
+        "id": "b-fengyang-huagu-2"
+      }
+    ],
+    "confidence": "documented-association",
+    "aliases": [
+      "安徽",
+      "Anhui",
+      "凤阳花鼓题材民歌",
+      "Folk song associated with the Fengyang flower drum",
+      "龚琳娜",
+      "Gong Linna"
+    ]
+  },
+  {
+    "id": "bainiao-guichao",
+    "region": "east-central",
+    "title": {
+      "zh": "百鸟归巢",
+      "en": "A Hundred Birds Return to the Nest"
+    },
+    "location": {
+      "name": {
+        "zh": "泉州",
+        "en": "Quanzhou"
+      },
+      "coordinates": [
+        118.59,
+        24.91
+      ],
+      "role": {
+        "zh": "乐种及曲目传承地",
+        "en": "City where the tradition and this suite are transmitted"
+      }
+    },
+    "period": {
+      "zh": "传统套曲，创作年待考；本版节目于 2025 年 4 月播出。",
+      "en": "Traditional suite of undetermined date. CCTV presented this performance in April 2025."
+    },
+    "description": {
+      "zh": "泉州南音的“谱”指成套的器乐曲，《百鸟归巢》是四大名谱之一。这一版把工乂谱唱出了声，可以边听边跟着队员的竹器击节。",
+      "en": "In Quanzhou nanyin, pu denotes an instrumental suite. This is one of the four celebrated suites. In this rendition the ensemble sings the notation aloud and keeps time with bamboo percussion."
+    },
+    "instruments": {
+      "zh": "人声唱谱、竹制打击乐器、南音乐队",
+      "en": "Voices singing notation, bamboo percussion and nanyin ensemble"
+    },
+    "genre": {
+      "zh": "泉州南音，传统器乐套曲的舞台演绎",
+      "en": "Quanzhou nanyin, a staged interpretation of an instrumental suite"
+    },
+    "province": {
+      "zh": "福建",
+      "en": "Fujian"
+    },
+    "course": {
+      "zh": "课堂乐种拓展，《7 Chinese Narrative Singing》第 13 页介绍泉州南音。",
+      "en": "Extension of a genre or instrument covered in class"
+    },
+    "media": {
+      "type": "external",
+      "source": "https://tv.cctv.com/2025/04/05/VIDEfKvpgEhkmfi2rWp2xbtc250405.shtml",
+      "performer": {
+        "zh": "泉州南音乐团",
+        "en": "Quanzhou Nanyin Ensemble"
+      },
+      "watch": "https://tv.cctv.com/2025/04/05/VIDEfKvpgEhkmfi2rWp2xbtc250405.shtml",
+      "title": {
+        "zh": "百鸟归巢",
+        "en": "A Hundred Birds Return to the Nest"
+      },
+      "credit": {
+        "zh": "泉州南音乐团演奏；音视频来源为央视《乐在旅途》第三季。",
+        "en": "Quanzhou Nanyin Ensemble. Footage from season 3 of CCTV’s Yue Zai Lü Tu."
+      },
+      "prompt": {
+        "zh": "先跟着唱谱声哼一句，再跟着队员手中的竹器打拍子。哪几个音和敲击落在一起？",
+        "en": "First hum a phrase with the sung notation, then tap with the bamboo percussion. Which notes coincide with a strike?"
+      },
+      "excerpt": {
+        "zh": "原片 00:35–01:00（25 秒）。画面字幕“南音工乂谱唱谱”，可见队员执竹制打击乐器、乐队在旁合奏。",
+        "en": "Play 00:35–01:00 in the original programme."
+      },
+      "originalRangeSeconds": [
+        35.0,
+        60.0
+      ]
+    },
+    "category": "ensemble",
+    "time": {
+      "precision": "undated",
+      "start": null,
+      "end": null,
+      "era": null
+    },
+    "uncertainty": {
+      "zh": "这首作品的创作年待考。上方年代说明分别记录地方传统与所选版本的已知时间。",
+      "en": "The composition date is undetermined. The period note identifies dated evidence about the tradition and the selected performance."
+    },
+    "analysis": {
+      "zh": "人声唱出谱字，竹器击节，先后跟听这两层就能辨认彼此的落点。",
+      "en": "Listen to the sung notation and the bamboo percussion in turn, then put the two layers together."
+    },
+    "people": {
+      "zh": "泉州南音乐团",
+      "en": "Quanzhou Nanyin Ensemble"
+    },
+    "sources": [
+      {
+        "id": "course7",
+        "pages": "13"
+      },
+      {
+        "id": "b-bainiao-guichao-1"
+      },
+      {
+        "id": "b-bainiao-guichao-2"
+      },
+      {
+        "id": "b-bainiao-guichao-3"
+      }
+    ],
+    "confidence": "documented-association",
+    "aliases": [
+      "福建",
+      "Fujian",
+      "泉州南音，传统器乐套曲的舞台演绎",
+      "Quanzhou nanyin, a staged interpretation of an instrumental suite",
+      "泉州南音乐团",
+      "Quanzhou Nanyin Ensemble"
+    ]
+  },
+  {
+    "id": "nanyin-meihuacao",
+    "region": "east-central",
+    "title": {
+      "zh": "梅花操",
+      "en": "Plum Blossom Melody"
+    },
+    "location": {
+      "name": {
+        "zh": "泉州",
+        "en": "Quanzhou"
+      },
+      "coordinates": [
+        118.59,
+        24.91
+      ],
+      "role": {
+        "zh": "乐种及曲目传承地",
+        "en": "City where this nanyin suite is transmitted"
+      }
+    },
+    "period": {
+      "zh": "传统器乐曲，成曲年待考；所选专辑发行于 2001 年。",
+      "en": "Traditional instrumental suite, date of composition unknown. The selected album was released in 2001."
+    },
+    "description": {
+      "zh": "《梅花操》与《百鸟归巢》同列泉州南音四大名谱。在同一地图点切换两曲，可以比较两种旋律走向。",
+      "en": "This piece and A Hundred Birds Return to the Nest belong to the four celebrated Quanzhou nanyin suites. Switch between them at this pin and compare their phrasing."
+    },
+    "instruments": {
+      "zh": "南音器乐合奏",
+      "en": "Nanyin instrumental ensemble"
+    },
+    "genre": {
+      "zh": "泉州南音器乐套曲",
+      "en": "Quanzhou nanyin instrumental suite"
+    },
+    "province": {
+      "zh": "福建",
+      "en": "Fujian"
+    },
+    "course": {
+      "zh": "课堂乐种拓展，《7 Chinese Narrative Singing》第 13 页介绍泉州南音。",
+      "en": "Extension of a genre or instrument covered in class"
+    },
+    "media": {
+      "type": "embed",
+      "source": "https://music.apple.com/cn/album/1417372769?i=1417373747",
+      "performer": {
+        "zh": "郭卫红、王大浩、萧培玲",
+        "en": "Guo Weihong, Wang Dahao and Xiao Peiling"
+      },
+      "embed": "https://embed.music.apple.com/cn/album/1417372769?i=1417373747",
+      "title": {
+        "zh": "梅花操",
+        "en": "Plum Blossom Melody"
+      },
+      "credit": {
+        "zh": "郭卫红、王大浩、萧培玲演奏；收录于《福建南音（中国地方音乐大系4）》，℗ 2001 广东星外星文化传播有限公司；使用平台单曲试听。",
+        "en": "Guo Weihong, Wang Dahao and Xiao Peiling. From Fujian Nanyin, ℗ 2001 Guangdong Xingwaixing Culture Communication. Apple Music preview."
+      },
+      "prompt": {
+        "zh": "请跟着旋律哼一小句：在哪儿会多停一拍，在哪儿又会接连走过几个音？",
+        "en": "Hum a short phrase. Where does it linger on a note, and where do several notes follow in quick succession?"
+      },
+      "excerpt": {
+        "zh": "平台固定试听，约 30 秒。",
+        "en": "Official preview, about 30 seconds. The provider selects the passage."
+      }
+    },
+    "category": "ensemble",
+    "time": {
+      "precision": "undated",
+      "start": null,
+      "end": null,
+      "era": null
+    },
+    "uncertainty": {
+      "zh": "这首作品的创作年待考。上方年代说明分别记录地方传统与所选版本的已知时间。",
+      "en": "The composition date is undetermined. The period note identifies dated evidence about the tradition and the selected performance."
+    },
+    "analysis": {
+      "zh": "跟着器乐旋律哼唱长短音，和同在泉州的《百鸟归巢》比较乐句。",
+      "en": "Hum the long and short notes of this instrumental line and compare its phrasing with A Hundred Birds Return to the Nest."
+    },
+    "people": {
+      "zh": "郭卫红、王大浩、萧培玲",
+      "en": "Guo Weihong, Wang Dahao and Xiao Peiling"
+    },
+    "sources": [
+      {
+        "id": "course7",
+        "pages": "13"
+      },
+      {
+        "id": "b-bainiao-guichao-1"
+      },
+      {
+        "id": "b-nanyin-meihuacao-2"
+      }
+    ],
+    "confidence": "documented-association",
+    "aliases": [
+      "福建",
+      "Fujian",
+      "泉州南音器乐套曲",
+      "Quanzhou nanyin instrumental suite",
+      "郭卫红、王大浩、萧培玲",
+      "Guo Weihong, Wang Dahao and Xiao Peiling"
+    ]
+  },
+  {
+    "id": "xingguo-da-zhi-shange",
+    "region": "east-central",
+    "title": {
+      "zh": "《打支山歌过横排》",
+      "en": "A Mountain Song Across the Ridge"
+    },
+    "location": {
+      "name": {
+        "zh": "兴国",
+        "en": "Xingguo"
+      },
+      "coordinates": [
+        115.36,
+        26.34
+      ],
+      "role": {
+        "zh": "兴国山歌传唱地",
+        "en": "Home of Xingguo mountain singing"
+      }
+    },
+    "period": {
+      "zh": "单曲创作年待考。所选黄训国版本于 2024 年 11 月 8 日由央视《民歌中国》播出。",
+      "en": "The song’s composition date is unconfirmed. CCTV broadcast this performance by Huang Xunguo on 8 November 2024."
+    },
+    "description": {
+      "zh": "在兴国，山歌可以从一声“哎呀嘞”起兴，再转入即景唱词。县政府把《打支山歌过横排》列作当地山歌的例子。",
+      "en": "Singers in Xingguo often start a mountain song with the call “ai ya lei” before unfolding the verse. The county identifies this piece as a local example."
+    },
+    "instruments": {
+      "zh": "男声演唱、舞台伴奏",
+      "en": "Male voice and stage accompaniment"
+    },
+    "genre": {
+      "zh": "兴国山歌",
+      "en": "Xingguo mountain song"
+    },
+    "province": {
+      "zh": "江西",
+      "en": "Jiangxi"
+    },
+    "course": {
+      "zh": "课外拓展",
+      "en": "Additional repertoire"
+    },
+    "media": {
+      "type": "external",
+      "source": "https://tv.cctv.com/2024/11/08/VIDE2xBr1Lv9VYRTcyCCVBwb241108.shtml",
+      "performer": {
+        "zh": "黄训国",
+        "en": "Huang Xunguo"
+      },
+      "watch": "https://tv.cctv.com/2024/11/08/VIDE2xBr1Lv9VYRTcyCCVBwb241108.shtml",
+      "title": {
+        "zh": "《打支山歌过横排》",
+        "en": "A Mountain Song Across the Ridge"
+      },
+      "credit": {
+        "zh": "黄训国演唱，中央广播电视总台《民歌中国》2024-11-08 播出版。",
+        "en": "Sung by Huang Xunguo on CCTV’s Folk Songs of China, broadcast 8 November 2024."
+      },
+      "prompt": {
+        "zh": "听第一声长腔到第一句歌词：歌手在哪个音转弯，又在哪里换气？",
+        "en": "Follow the first sustained call into the verse. Where does the singer bend a pitch, and where does he breathe?"
+      },
+      "excerpt": {
+        "zh": "建议从央视单曲正片 00:00 播至 00:30，正片全长约 02:10。",
+        "en": "Play 00:00–00:30 in the original programme."
+      },
+      "originalRangeSeconds": [
+        0.0,
+        30.0
+      ]
+    },
+    "category": "folk",
+    "time": {
+      "precision": "undated",
+      "start": null,
+      "end": null,
+      "era": null
+    },
+    "uncertainty": {
+      "zh": "这首作品的创作年待考。上方年代说明分别记录地方传统与所选版本的已知时间。",
+      "en": "The composition date is undetermined. The period note identifies dated evidence about the tradition and the selected performance."
+    },
+    "analysis": {
+      "zh": "把开头的呼声和随后的歌词听作两部分，留意由呼到唱的衔接。",
+      "en": "Hear the opening call and the following verse as two parts, and listen for the transition."
+    },
+    "people": {
+      "zh": "黄训国",
+      "en": "Huang Xunguo"
+    },
+    "sources": [
+      {
+        "id": "b-xingguo-da-zhi-shange-1"
+      },
+      {
+        "id": "b-xingguo-da-zhi-shange-2"
+      },
+      {
+        "id": "b-xingguo-da-zhi-shange-3"
+      }
+    ],
+    "confidence": "documented-association",
+    "aliases": [
+      "江西",
+      "Jiangxi",
+      "兴国山歌",
+      "Xingguo mountain song",
+      "黄训国",
+      "Huang Xunguo"
+    ]
+  },
+  {
+    "id": "shicheng-dao-caicha",
+    "region": "east-central",
+    "title": {
+      "zh": "《倒采茶》",
+      "en": "Tea Picking in Reverse Order"
+    },
+    "location": {
+      "name": {
+        "zh": "石城",
+        "en": "Shicheng"
+      },
+      "coordinates": [
+        116.35,
+        26.33
+      ],
+      "role": {
+        "zh": "民歌与灯彩表演传承地",
+        "en": "Local tradition of tea-picking songs and lantern performances"
+      }
+    },
+    "period": {
+      "zh": "20 世纪 50 年代，石城地方灯彩表演《倒采茶》已有获奖记录。本次使用 2002 年专辑收录的民歌版本。",
+      "en": "A lantern performance of Dao Caicha received awards in the 1950s in Shicheng. The featured folk-song version is from a 2002 album."
+    },
+    "description": {
+      "zh": "赣南茶篮灯中的“倒采茶”指从年末往年初回数月份来唱。石城有同名灯彩表演，唱片则把这首歌明确标为石城民歌。",
+      "en": "In southern Jiangxi tea-basket lantern songs, “reverse” refers to counting the months backwards. Shicheng has a lantern performance of this name, and the album explicitly identifies this track as a Shicheng folk song."
+    },
+    "instruments": {
+      "zh": "男女声演唱、伴奏",
+      "en": "Female and male voices with accompaniment"
+    },
+    "genre": {
+      "zh": "石城民歌",
+      "en": "Shicheng folk song"
+    },
+    "province": {
+      "zh": "江西",
+      "en": "Jiangxi"
+    },
+    "course": {
+      "zh": "课外拓展",
+      "en": "Additional repertoire"
+    },
+    "media": {
+      "type": "embed",
+      "source": "https://music.apple.com/us/album/1608560212?i=1608562479",
+      "performer": {
+        "zh": "黄玉英、熊家源",
+        "en": "Huang Yuying and Xiong Jiayuan"
+      },
+      "embed": "https://embed.music.apple.com/us/album/1608560212?i=1608562479",
+      "title": {
+        "zh": "《倒采茶》",
+        "en": "Tea Picking in Reverse Order"
+      },
+      "credit": {
+        "zh": "黄玉英、熊家源演唱，选自《采茶金曲》。本条采用 Apple Music 美国区官方试听。",
+        "en": "Sung by Huang Yuying and Xiong Jiayuan. Preview supplied by the US Apple Music storefront."
+      },
+      "prompt": {
+        "zh": "跟着一个句尾哼唱：下一句落下来时，还能哼回同一个收尾吗？",
+        "en": "Hum the end of one phrase. Can you sing the same ending as the next phrase comes to rest?"
+      },
+      "excerpt": {
+        "zh": "平台固定试听，约 30 秒；起点由平台决定。",
+        "en": "Official preview, about 30 seconds. The provider selects the passage."
+      }
+    },
+    "category": "folk",
+    "time": {
+      "precision": "approximate",
+      "start": 1950,
+      "end": 1959,
+      "era": "prc"
+    },
+    "uncertainty": {
+      "zh": "本条时间标记指向石城同名灯彩表演的获奖记录。所选录音的年代另见版本说明。",
+      "en": "The timeline marks the decade in which the local lantern performance received an award. The period note separately identifies the selected recording or broadcast."
+    },
+    "analysis": {
+      "zh": "在每句结束时轻哼收尾，比较下一句落音的方向。",
+      "en": "Hum each phrase ending and compare the direction of the following cadence."
+    },
+    "people": {
+      "zh": "黄玉英、熊家源",
+      "en": "Huang Yuying and Xiong Jiayuan"
+    },
+    "sources": [
+      {
+        "id": "b-shicheng-dao-caicha-1"
+      },
+      {
+        "id": "b-shicheng-dao-caicha-2"
+      },
+      {
+        "id": "b-shicheng-dao-caicha-3"
+      }
+    ],
+    "confidence": "documented-association",
+    "aliases": [
+      "江西",
+      "Jiangxi",
+      "石城民歌",
+      "Shicheng folk song",
+      "黄玉英、熊家源",
+      "Huang Yuying and Xiong Jiayuan"
+    ]
+  },
+  {
+    "id": "bainiao-chaofeng",
+    "region": "east-central",
+    "title": {
+      "zh": "百鸟朝凤",
+      "en": "A Hundred Birds Paying Homage to the Phoenix"
+    },
+    "location": {
+      "name": {
+        "zh": "嘉祥",
+        "en": "Jiaxiang"
+      },
+      "coordinates": [
+        116.34,
+        35.41
+      ],
+      "role": {
+        "zh": "编曲者家乡与鲁西南鼓吹乐传承地",
+        "en": "Home of the arranger and a centre of southwestern Shandong wind-and-percussion music"
+      }
+    },
+    "period": {
+      "zh": "1953 年，任同祥以此曲参加会演；央视刘西站版于 2022 年播出。",
+      "en": "Ren Tongxiang performed the piece in 1953. CCTV broadcast Liu Xizhan’s performance in 2022."
+    },
+    "description": {
+      "zh": "任同祥在嘉祥跟随当地鼓乐班学艺，把民间吹奏中的鸟鸣发展为唢呐独奏。这里听刘西站演奏任同祥编曲的乐队版本。",
+      "en": "Ren Tongxiang learned in local bands in Jiaxiang and developed bird imitations from folk repertory for solo suona. Liu Xizhan performs his arrangement with orchestra."
+    },
+    "instruments": {
+      "zh": "唢呐、民族乐团",
+      "en": "Suona and Chinese orchestra"
+    },
+    "genre": {
+      "zh": "鲁西南唢呐曲",
+      "en": "Southwestern Shandong suona music"
+    },
+    "province": {
+      "zh": "山东",
+      "en": "Shandong"
+    },
+    "course": {
+      "zh": "课堂乐种拓展，《6 Chinese Instrumental Ensemble》第 10 页介绍山东鼓吹与唢呐。",
+      "en": "Extension of a genre or instrument covered in class"
+    },
+    "media": {
+      "type": "external",
+      "source": "https://tv.cctv.com/2022/07/04/VIDEiFwvqZTD0FimFqkpYmIy220704.shtml",
+      "performer": {
+        "zh": "刘西站（唢呐），于帆指挥中国歌剧舞剧院民族乐团",
+        "en": "Liu Xizhan, suona, with the China National Opera and Dance Drama Theater Chinese Orchestra, conducted by Yu Fan"
+      },
+      "watch": "https://tv.cctv.com/2022/07/04/VIDEiFwvqZTD0FimFqkpYmIy220704.shtml",
+      "title": {
+        "zh": "百鸟朝凤",
+        "en": "A Hundred Birds Paying Homage to the Phoenix"
+      },
+      "credit": {
+        "zh": "任同祥编曲；唢呐刘西站，指挥于帆，中国歌剧舞剧院民族乐团协奏；音视频来源为央视音乐厅。",
+        "en": "Arranged by Ren Tongxiang. Liu Xizhan, suona, with the China National Opera and Dance Drama Theater Chinese Orchestra, conducted by Yu Fan. CCTV Concert Hall."
+      },
+      "prompt": {
+        "zh": "看刘西站把唢呐放下又举起：领奏的声音从哪一拍重新进入？闭上眼再听一次。",
+        "en": "Watch Liu Xizhan lower the suona and raise it again. Can you hear the beat on which the solo line returns? Try it again with your eyes closed."
+      },
+      "excerpt": {
+        "zh": "原片 03:13–03:40（27 秒）。约 03:20 刘西站将唢呐放在胸前，03:27 已再次举到嘴边。",
+        "en": "Play 03:13–03:40 in the original programme."
+      },
+      "originalRangeSeconds": [
+        193.0,
+        220.0
+      ]
+    },
+    "category": "solo",
+    "time": {
+      "precision": "interval",
+      "start": 1953,
+      "end": 1953,
+      "era": "prc"
+    },
+    "uncertainty": {
+      "zh": "本条时间标记指向任同祥的会演。所选录音的年代另见版本说明。",
+      "en": "The timeline marks Ren Tongxiang’s festival performance. The period note separately identifies the selected recording or broadcast."
+    },
+    "analysis": {
+      "zh": "在领奏暂停时留意乐队，再听唢呐重新进入时怎样从合奏中显出。",
+      "en": "Attend to the orchestra while the soloist pauses, then hear the suona emerge again from the ensemble."
+    },
+    "people": {
+      "zh": "刘西站（唢呐），于帆指挥中国歌剧舞剧院民族乐团",
+      "en": "Liu Xizhan, suona, with the China National Opera and Dance Drama Theater Chinese Orchestra, conducted by Yu Fan"
+    },
+    "sources": [
+      {
+        "id": "course6",
+        "pages": "10"
+      },
+      {
+        "id": "b-bainiao-chaofeng-1"
+      },
+      {
+        "id": "b-bainiao-chaofeng-2"
+      },
+      {
+        "id": "b-bainiao-chaofeng-3"
+      },
+      {
+        "id": "b-bainiao-chaofeng-4"
+      }
+    ],
+    "confidence": "documented-association",
+    "aliases": [
+      "山东",
+      "Shandong",
+      "鲁西南唢呐曲",
+      "Southwestern Shandong suona music",
+      "刘西站（唢呐），于帆指挥中国歌剧舞剧院民族乐团",
+      "Liu Xizhan, suona, with the China National Opera and Dance Drama Theater Chinese Orchestra, conducted by Yu Fan"
+    ]
+  },
+  {
+    "id": "yuncheng-siduanjin",
+    "region": "east-central",
+    "title": {
+      "zh": "四段锦",
+      "en": "Four Sections of Brocade"
+    },
+    "location": {
+      "name": {
+        "zh": "菏泽郓城",
+        "en": "Yuncheng, Heze"
+      },
+      "coordinates": [
+        115.94,
+        35.6
+      ],
+      "role": {
+        "zh": "山东古筝乐流传地、编曲者故乡",
+        "en": "Home of the arranger and a centre of Shandong zheng music"
+      }
+    },
+    "period": {
+      "zh": "1954 年赵玉斋改编传统乐曲。所选版本收录于 2001 年发行的《鲁筝》。",
+      "en": "Zhao Yuzhai arranged the traditional material in 1954. His performance appears on the album Lu Zheng, released in 2001."
+    },
+    "description": {
+      "zh": "郓城是赵玉斋的家乡，菏泽一带的民间乐师常以多件乐器合奏老八板曲子。赵玉斋把这种合奏的旋律改编成独奏，在《四段锦》末段用双手弹出和弦。",
+      "en": "Zhao Yuzhai came from Yuncheng. He adapted melodies from the regional ensemble repertory known as laobaban for a single zheng, using both hands to sound chords in the final section."
+    },
+    "instruments": {
+      "zh": "古筝独奏",
+      "en": "Solo guzheng"
+    },
+    "genre": {
+      "zh": "山东筝曲",
+      "en": "Shandong zheng music"
+    },
+    "province": {
+      "zh": "山东",
+      "en": "Shandong"
+    },
+    "course": {
+      "zh": "课堂乐种拓展（古筝独奏），《5 Chinese Instrumental Solo Music》第 4 页介绍古筝。",
+      "en": "Extension of a genre or instrument covered in class"
+    },
+    "media": {
+      "type": "embed",
+      "source": "https://music.apple.com/cn/album/1423189840?i=1423190647",
+      "performer": {
+        "zh": "赵玉斋（古筝）",
+        "en": "Zhao Yuzhai, guzheng"
+      },
+      "embed": "https://embed.music.apple.com/cn/album/1423189840?i=1423190647",
+      "title": {
+        "zh": "四段锦",
+        "en": "Four Sections of Brocade"
+      },
+      "credit": {
+        "zh": "编曲及古筝：赵玉斋。收录于《鲁筝（国乐大师（伍））》，2001 年发行。试听由 Apple Music 提供。",
+        "en": "Arranged and played by Zhao Yuzhai. The 2001 album Lu Zheng is previewed by Apple Music."
+      },
+      "prompt": {
+        "zh": "顺着一声拨弦听下去，哪一声余音还在响，下一声已经进来了？再和嘉祥《百鸟朝凤》的吹奏音色作比较。",
+        "en": "Follow one plucked note as it rings. Where does the next note enter before the last one has faded? Compare that sound with the suona at Jiaxiang."
+      },
+      "excerpt": {
+        "zh": "点击站内播放器，听平台提供的固定选段（约 30 秒）。",
+        "en": "Official preview, about 30 seconds. The provider selects the passage."
+      }
+    },
+    "category": "solo",
+    "time": {
+      "precision": "interval",
+      "start": 1954,
+      "end": 1954,
+      "era": "prc"
+    },
+    "uncertainty": {
+      "zh": "本条时间标记指向赵玉斋改编此曲。所选录音的年代另见版本说明。",
+      "en": "The timeline marks Zhao Yuzhai’s arrangement. The period note separately identifies the selected recording or broadcast."
+    },
+    "analysis": {
+      "zh": "盯住一次拨弦后的余音，听新音与前一个音怎样短暂重叠。",
+      "en": "Follow the resonance after a pluck to hear where its decay overlaps the next note."
+    },
+    "people": {
+      "zh": "赵玉斋（古筝）",
+      "en": "Zhao Yuzhai, guzheng"
+    },
+    "sources": [
+      {
+        "id": "course5",
+        "pages": "4"
+      },
+      {
+        "id": "b-yuncheng-siduanjin-1"
+      },
+      {
+        "id": "b-yuncheng-siduanjin-2"
+      },
+      {
+        "id": "b-yuncheng-siduanjin-3"
+      },
+      {
+        "id": "b-yuncheng-siduanjin-4"
+      },
+      {
+        "id": "b-yuncheng-siduanjin-5"
+      }
+    ],
+    "confidence": "documented-association",
+    "aliases": [
+      "山东",
+      "Shandong",
+      "山东筝曲",
+      "Shandong zheng music",
+      "赵玉斋（古筝）",
+      "Zhao Yuzhai, guzheng"
+    ]
+  },
+  {
+    "id": "gongyi-yuju-hua-mulan",
+    "region": "east-central",
+    "title": {
+      "zh": "《花木兰》选段《谁说女子不如男》",
+      "en": "Who Says Women Are Inferior to Men? (from Hua Mulan)"
+    },
+    "location": {
+      "name": {
+        "zh": "巩义",
+        "en": "Gongyi"
+      },
+      "coordinates": [
+        113.02,
+        34.75
+      ],
+      "role": {
+        "zh": "表演者故里、常派豫剧传承地",
+        "en": "Home region of the performer and a centre of Chang-school Yu opera"
+      }
+    },
+    "period": {
+      "zh": "1951 年已有常香玉的舞台演出，1956 年摄成戏曲电影；本页选自该影片，2024 年央视播出。",
+      "en": "Chang was performing the stage work by 1951. It was filmed in 1956; CCTV broadcast this film excerpt in 2024."
+    },
+    "description": {
+      "zh": "巩义是常香玉故里，当地传习她的《花木兰》唱段。此处落点指向演员和唱腔的传承。",
+      "en": "Gongyi is Chang Xiangyu’s home region. Her approach to this aria is taught there."
+    },
+    "instruments": {
+      "zh": "人声、戏曲伴奏",
+      "en": "Voice and opera ensemble"
+    },
+    "genre": {
+      "zh": "豫剧",
+      "en": "Yu opera"
+    },
+    "province": {
+      "zh": "河南",
+      "en": "Henan"
+    },
+    "course": {
+      "zh": "课外拓展",
+      "en": "Additional repertoire"
+    },
+    "media": {
+      "type": "external",
+      "source": "https://tv.cctv.com/2024/04/14/VIDEOmM2kb65Bbyy25YAdicN240414.shtml",
+      "performer": {
+        "zh": "常香玉（饰花木兰）",
+        "en": "Chang Xiangyu as Hua Mulan"
+      },
+      "watch": "https://tv.cctv.com/2024/04/14/VIDEOmM2kb65Bbyy25YAdicN240414.shtml",
+      "title": {
+        "zh": "《花木兰》选段《谁说女子不如男》",
+        "en": "Who Says Women Are Inferior to Men? (from Hua Mulan)"
+      },
+      "credit": {
+        "zh": "央视《戏曲影视剧场》所播电影片段，常香玉饰花木兰。采用原站链接。",
+        "en": "Chang Xiangyu as Hua Mulan in the film excerpt broadcast by CCTV."
+      },
+      "prompt": {
+        "zh": "木兰反驳刘大哥时，哪几个字咬得特别重，哪一处又把音拉长？",
+        "en": "As Mulan argues with Liu, which syllables does she accent and which does she stretch out?"
+      },
+      "excerpt": {
+        "zh": "建议 07:20–07:50。已定位 07:30 木兰独唱画面与“还有衣和衫”字幕；节目总长 08:34。",
+        "en": "Play 07:20–07:50 in the original programme."
+      },
+      "originalRangeSeconds": [
+        440.0,
+        470.0
+      ]
+    },
+    "category": "opera",
+    "time": {
+      "precision": "interval",
+      "start": 1951,
+      "end": 1951,
+      "era": "prc"
+    },
+    "uncertainty": {
+      "zh": "本条时间标记指向常香玉演出此剧的记录。所选录音的年代另见版本说明。",
+      "en": "The timeline marks a documented performance by Chang Xiangyu. The period note separately identifies the selected recording or broadcast."
+    },
+    "analysis": {
+      "zh": "同一句反驳中可以听字头和拖腔，比较两者怎样强调木兰的语气。",
+      "en": "Listen for consonant attacks and lengthened syllables within Mulan’s rebuttal, and compare their emphasis."
+    },
+    "people": {
+      "zh": "常香玉（饰花木兰）",
+      "en": "Chang Xiangyu as Hua Mulan"
+    },
+    "sources": [
+      {
+        "id": "b-gongyi-yuju-hua-mulan-1"
+      },
+      {
+        "id": "b-gongyi-yuju-hua-mulan-2"
+      },
+      {
+        "id": "b-gongyi-yuju-hua-mulan-3"
+      },
+      {
+        "id": "b-gongyi-yuju-hua-mulan-4"
+      }
+    ],
+    "confidence": "documented-association",
+    "aliases": [
+      "河南",
+      "Henan",
+      "豫剧",
+      "Yu opera",
+      "常香玉（饰花木兰）",
+      "Chang Xiangyu as Hua Mulan"
+    ]
+  },
+  {
+    "id": "dengzhou-naoyuanxiao",
+    "region": "east-central",
+    "title": {
+      "zh": "闹元宵",
+      "en": "Lantern Festival Revelry"
+    },
+    "location": {
+      "name": {
+        "zh": "邓州",
+        "en": "Dengzhou"
+      },
+      "coordinates": [
+        112.09,
+        32.69
+      ],
+      "role": {
+        "zh": "创编者曹东扶的家乡和早年习乐地",
+        "en": "Hometown and early musical training of composer Cao Dongfu"
+      }
+    },
+    "period": {
+      "zh": "1956 年曹东扶取材于河南民间音乐创编。周望的这一版本于 2020 年发行。",
+      "en": "Cao Dongfu composed the piece in 1956 using Henan folk material. Zhou Wang’s recording was released in 2020."
+    },
+    "description": {
+      "zh": "曹东扶小时候在邓县跟父亲学唱大调曲子，又在当地学筝。《闹元宵》把河南民间旋律写成一场元宵节的热闹场景，这里选周望演奏的古筝独奏。",
+      "en": "Cao Dongfu learned to sing Henan diaoqu songs from his father in Deng County and later studied zheng there. His Lantern Festival piece draws on Henan folk melodies. Here it is played by Zhou Wang."
+    },
+    "instruments": {
+      "zh": "古筝独奏",
+      "en": "Solo guzheng"
+    },
+    "genre": {
+      "zh": "河南筝曲",
+      "en": "Henan zheng music"
+    },
+    "province": {
+      "zh": "河南",
+      "en": "Henan"
+    },
+    "course": {
+      "zh": "课堂乐种拓展（古筝独奏），《5 Chinese Instrumental Solo Music》第 4 页介绍古筝。",
+      "en": "Extension of a genre or instrument covered in class"
+    },
+    "media": {
+      "type": "embed",
+      "source": "https://music.apple.com/cn/album/1648399997?i=1648400362",
+      "performer": {
+        "zh": "周望（古筝）",
+        "en": "Zhou Wang, guzheng"
+      },
+      "embed": "https://embed.music.apple.com/cn/album/1648399997?i=1648400362",
+      "title": {
+        "zh": "闹元宵",
+        "en": "Lantern Festival Revelry"
+      },
+      "credit": {
+        "zh": "创编：曹东扶。古筝：周望。收录于《古筝-周望演奏》，2020 年发行。试听由 Apple Music 提供。",
+        "en": "Composed by Cao Dongfu and played by Zhou Wang. Apple Music preview from her 2020 zheng album."
+      },
+      "prompt": {
+        "zh": "先用手指跟着拨弦打拍，哪一处节奏让你想到节庆？再听郓城《四段锦》，同一件乐器怎样处理相邻两个音之间的空隙？",
+        "en": "Tap along with the plucked notes. Which rhythm suggests a celebration to you? Compare the spaces between notes with those in the Yuncheng recording."
+      },
+      "excerpt": {
+        "zh": "点击站内播放器，听平台提供的固定选段（约 30 秒）。",
+        "en": "Official preview, about 30 seconds. The provider selects the passage."
+      }
+    },
+    "category": "solo",
+    "time": {
+      "precision": "interval",
+      "start": 1956,
+      "end": 1956,
+      "era": "prc"
+    },
+    "uncertainty": {
+      "zh": "本条时间标记指向曹东扶创编此曲。所选录音的年代另见版本说明。",
+      "en": "The timeline marks Cao Dongfu’s composition. The period note separately identifies the selected recording or broadcast."
+    },
+    "analysis": {
+      "zh": "在一串拨弦中选一个重音，再听接下来几个音怎样改变节奏。",
+      "en": "Pick out an accent within a string of plucked notes and follow the rhythm immediately after it."
+    },
+    "people": {
+      "zh": "周望（古筝）",
+      "en": "Zhou Wang, guzheng"
+    },
+    "sources": [
+      {
+        "id": "course5",
+        "pages": "4"
+      },
+      {
+        "id": "b-dengzhou-naoyuanxiao-1"
+      },
+      {
+        "id": "b-dengzhou-naoyuanxiao-2"
+      },
+      {
+        "id": "b-dengzhou-naoyuanxiao-3"
+      }
+    ],
+    "confidence": "documented-association",
+    "aliases": [
+      "河南",
+      "Henan",
+      "河南筝曲",
+      "Henan zheng music",
+      "周望（古筝）",
+      "Zhou Wang, guzheng"
+    ]
+  },
+  {
+    "id": "lichuan-longchuan-diao",
+    "region": "east-central",
+    "title": {
+      "zh": "龙船调",
+      "en": "Dragon Boat Tune"
+    },
+    "location": {
+      "name": {
+        "zh": "利川",
+        "en": "Lichuan"
+      },
+      "coordinates": [
+        108.94,
+        30.29
+      ],
+      "role": {
+        "zh": "灯歌流传地",
+        "en": "Lantern-song tradition"
+      }
+    },
+    "period": {
+      "zh": "灯歌在利川世代传唱，单曲形成时间待考。平台将这段双人版标为 1992 年。",
+      "en": "The song belongs to the lantern tradition in Lichuan. Its origin date is uncertain; this duet is listed as a 1992 release."
+    },
+    "description": {
+      "zh": "利川的节庆灯歌把划彩船的动作和歌唱放在一起。这一站听过河人和船夫的对话，两种声音一起把情节演出来。",
+      "en": "Lichuan’s lantern performances combine singing with mock-boat actions. The exchange between passenger and boatman turns the crossing into a small scene."
+    },
+    "instruments": {
+      "zh": "人声对答",
+      "en": "Two answering voices"
+    },
+    "genre": {
+      "zh": "利川灯歌",
+      "en": "Lichuan lantern song"
+    },
+    "province": {
+      "zh": "湖北",
+      "en": "Hubei"
+    },
+    "course": {
+      "zh": "课堂乐种拓展，《3 Chinese Folk Song》第 16 页介绍鄂湘民歌。",
+      "en": "Extension of a genre or instrument covered in class"
+    },
+    "media": {
+      "type": "embed",
+      "source": "https://music.apple.com/cn/album/1834341656?i=1834341661",
+      "performer": {
+        "zh": "杨曙光、吕继宏",
+        "en": "Yang Shuguang and Lü Jihong"
+      },
+      "embed": "https://embed.music.apple.com/cn/album/1834341656?i=1834341661",
+      "title": {
+        "zh": "龙船调",
+        "en": "Dragon Boat Tune"
+      },
+      "credit": {
+        "zh": "Apple Music 官方试听；杨曙光、吕继宏演唱。",
+        "en": "Yang Shuguang and Lü Jihong. Official Apple Music track preview."
+      },
+      "prompt": {
+        "zh": "在哪里从一人唱变成另一人应答？留意回答更像说话还是唱歌。",
+        "en": "Where does the second voice answer? Does the reply sound closer to speech or singing?"
+      },
+      "excerpt": {
+        "zh": "平台固定试听，约 30 秒；起点由官方播放器决定。",
+        "en": "Official preview, about 30 seconds. The provider selects the passage."
+      }
+    },
+    "category": "folk",
+    "time": {
+      "precision": "undated",
+      "start": null,
+      "end": null,
+      "era": null
+    },
+    "uncertainty": {
+      "zh": "这首作品的创作年待考。上方年代说明分别记录地方传统与所选版本的已知时间。",
+      "en": "The composition date is undetermined. The period note identifies dated evidence about the tradition and the selected performance."
+    },
+    "analysis": {
+      "zh": "把两个人声分别当作过河人和船夫，留意说白般的应答怎样衔接歌唱。",
+      "en": "Follow passenger and boatman as separate voices and listen for speech-like replies alongside the sung lines."
+    },
+    "people": {
+      "zh": "杨曙光、吕继宏",
+      "en": "Yang Shuguang and Lü Jihong"
+    },
+    "sources": [
+      {
+        "id": "course3",
+        "pages": "16"
+      },
+      {
+        "id": "b-lichuan-longchuan-diao-1"
+      },
+      {
+        "id": "b-lichuan-longchuan-diao-2"
+      },
+      {
+        "id": "b-lichuan-longchuan-diao-3"
+      }
+    ],
+    "confidence": "documented-association",
+    "aliases": [
+      "湖北",
+      "Hubei",
+      "利川灯歌",
+      "Lichuan lantern song",
+      "杨曙光、吕继宏",
+      "Yang Shuguang and Lü Jihong"
+    ]
+  },
+  {
+    "id": "suizhou-chu-shang",
+    "region": "east-central",
+    "title": {
+      "zh": "编钟《楚商》",
+      "en": "Chu Shang for Chime Bells"
+    },
+    "location": {
+      "name": {
+        "zh": "随州",
+        "en": "Suizhou"
+      },
+      "coordinates": [
+        113.38,
+        31.71
+      ],
+      "role": {
+        "zh": "用于说明编钟传统的考古出土地",
+        "en": "Archaeological findspot illustrating the bell tradition"
+      }
+    },
+    "period": {
+      "zh": "战国早期为曾侯乙编钟的器物年代，1978 年于随州出土；本曲选用 2024 年播出的当代演奏。",
+      "en": "The excavated bells date to the early Warring States period and were unearthed in Suizhou in 1978. The featured performance was broadcast in 2024."
+    },
+    "description": {
+      "zh": "随州的考古发现让观众认识成组的青铜钟。本站另用武汉音乐学院乐团的《楚商》听编钟如何敲出旋律，古器年代和所听的演出分别标注。",
+      "en": "A set of ancient bells unearthed at Suizhou introduces the instrument. A modern conservatory ensemble performs Chu Shang so listeners can follow a melody across a set of bells."
+    },
+    "instruments": {
+      "zh": "编钟及吹管、弹拨等乐器",
+      "en": "Bronze chime bells with winds and plucked strings"
+    },
+    "genre": {
+      "zh": "编钟演奏",
+      "en": "Bronze chime-bell music"
+    },
+    "province": {
+      "zh": "湖北",
+      "en": "Hubei"
+    },
+    "course": {
+      "zh": "课外拓展",
+      "en": "Additional repertoire"
+    },
+    "media": {
+      "type": "external",
+      "source": "https://tv.cctv.com/2024/10/01/VIDEKhgBcZtmKb2PxX4IQNsX241001.shtml",
+      "performer": {
+        "zh": "武汉音乐学院青年编钟乐团",
+        "en": "Youth Chime Bell Ensemble, Wuhan Conservatory of Music"
+      },
+      "watch": "https://tv.cctv.com/2024/10/01/VIDEKhgBcZtmKb2PxX4IQNsX241001.shtml",
+      "title": {
+        "zh": "编钟《楚商》",
+        "en": "Chu Shang for Chime Bells"
+      },
+      "credit": {
+        "zh": "武汉音乐学院青年编钟乐团演奏，央视《古韵千秋》播出。采用原站链接。",
+        "en": "Youth Chime Bell Ensemble of Wuhan Conservatory of Music. Performance broadcast by CCTV."
+      },
+      "prompt": {
+        "zh": "选一个钟声，听它的余音在下一次敲击后还能持续多久。",
+        "en": "Follow one bell stroke. For how long can you still hear it ringing after the next strike?"
+      },
+      "excerpt": {
+        "zh": "建议 01:20–01:50。01:35 可见乐团、编钟与其他乐器同台；节目总长 02:29。",
+        "en": "Play 01:20–01:50 in the original programme."
+      },
+      "originalRangeSeconds": [
+        80.0,
+        110.0
+      ]
+    },
+    "category": "ensemble",
+    "time": {
+      "precision": "interval",
+      "start": 1978,
+      "end": 1978,
+      "era": "prc"
+    },
+    "uncertainty": {
+      "zh": "本条时间标记指向随州曾侯乙编钟出土。所选录音的年代另见版本说明。",
+      "en": "The timeline marks the excavation of the Zeng bells in Suizhou. The period note separately identifies the selected recording or broadcast."
+    },
+    "analysis": {
+      "zh": "敲击带来清楚的音头，余音与下一次敲击可以重叠。",
+      "en": "Each strike has a clear attack, while its resonance can overlap the following strike."
+    },
+    "people": {
+      "zh": "武汉音乐学院青年编钟乐团",
+      "en": "Youth Chime Bell Ensemble, Wuhan Conservatory of Music"
+    },
+    "sources": [
+      {
+        "id": "b-suizhou-chu-shang-1"
+      },
+      {
+        "id": "b-suizhou-chu-shang-2"
+      }
+    ],
+    "confidence": "documented-association",
+    "aliases": [
+      "湖北",
+      "Hubei",
+      "编钟演奏",
+      "Bronze chime-bell music",
+      "武汉音乐学院青年编钟乐团",
+      "Youth Chime Bell Ensemble, Wuhan Conservatory of Music"
+    ]
+  },
+  {
+    "id": "honghu-waves",
+    "region": "east-central",
+    "title": {
+      "zh": "洪湖水·浪打浪",
+      "en": "Waves on Honghu Lake"
+    },
+    "location": {
+      "name": {
+        "zh": "洪湖",
+        "en": "Honghu"
+      },
+      "coordinates": [
+        113.48,
+        29.83
+      ],
+      "role": {
+        "zh": "歌剧故事发生地、唱词所咏湖区",
+        "en": "Setting of the opera and the lake landscape named in the song"
+      }
+    },
+    "period": {
+      "zh": "《洪湖赤卫队》1958 年排演，1959 年进京演出。Apple 单曲页列本版为 1970 年，录音日期待考。",
+      "en": "The opera went into rehearsal in 1958 and was staged in Beijing in 1959. Apple lists the selected track under 1970; its session date is unconfirmed."
+    },
+    "description": {
+      "zh": "地图定位歌剧故事中的洪湖地区。唱段把湖面、家乡与人物连在一起；所听的是王玉珍、傅凌的歌剧选曲。",
+      "en": "The map pin marks the Honghu setting of the opera. The song links the lake to the characters’ sense of home in a performance by Wang Yuzhen and Fu Ling."
+    },
+    "instruments": {
+      "zh": "女声、乐队伴奏",
+      "en": "Female voices with ensemble accompaniment"
+    },
+    "genre": {
+      "zh": "民族歌剧《洪湖赤卫队》选曲",
+      "en": "Song from the Chinese opera The Red Guards of Honghu Lake"
+    },
+    "province": {
+      "zh": "湖北",
+      "en": "Hubei"
+    },
+    "course": {
+      "zh": "课外拓展",
+      "en": "Additional repertoire"
+    },
+    "media": {
+      "type": "embed",
+      "source": "https://music.apple.com/cn/album/1842728169?i=1842728265",
+      "performer": {
+        "zh": "王玉珍、傅凌",
+        "en": "Wang Yuzhen and Fu Ling"
+      },
+      "embed": "https://embed.music.apple.com/cn/album/1842728169?i=1842728265",
+      "title": {
+        "zh": "洪湖水·浪打浪",
+        "en": "Waves on Honghu Lake"
+      },
+      "credit": {
+        "zh": "王玉珍、傅凌演唱，收于《光辉的历程 (2) —我的祖国》。平台试听。",
+        "en": "Wang Yuzhen and Fu Ling. Official Apple Music track preview."
+      },
+      "prompt": {
+        "zh": "歌声在哪个字上拉长了？试着用手划出那个长音向上或向下走的方向。",
+        "en": "Which syllable lasts longest in one phrase? Trace the direction of its pitch with your hand."
+      },
+      "excerpt": {
+        "zh": "平台固定试听约 30 秒，以播放器提供的片段为准。",
+        "en": "Official preview, about 30 seconds. The provider selects the passage."
+      }
+    },
+    "category": "opera",
+    "time": {
+      "precision": "interval",
+      "start": 1958,
+      "end": 1958,
+      "era": "prc"
+    },
+    "uncertainty": {
+      "zh": "本条时间标记指向《洪湖赤卫队》排演。所选录音的年代另见版本说明。",
+      "en": "The timeline marks the opera entering rehearsal. The period note separately identifies the selected recording or broadcast."
+    },
+    "analysis": {
+      "zh": "听女声怎样把一个字展开为一条旋律线，再用手划出音高的走向。",
+      "en": "Trace the shape of a syllable as the singers stretch it into a melodic line."
+    },
+    "people": {
+      "zh": "王玉珍、傅凌",
+      "en": "Wang Yuzhen and Fu Ling"
+    },
+    "sources": [
+      {
+        "id": "b-honghu-waves-1"
+      },
+      {
+        "id": "b-honghu-waves-2"
+      },
+      {
+        "id": "b-honghu-waves-3"
+      }
+    ],
+    "confidence": "documented-association",
+    "aliases": [
+      "湖北",
+      "Hubei",
+      "民族歌剧《洪湖赤卫队》选曲",
+      "Song from the Chinese opera The Red Guards of Honghu Lake",
+      "王玉珍、傅凌",
+      "Wang Yuzhen and Fu Ling"
+    ]
+  },
+  {
+    "id": "changde-liuhai-kanqiao",
+    "region": "east-central",
+    "title": {
+      "zh": "花鼓戏《刘海砍樵》",
+      "en": "Liu Hai Cuts Firewood"
+    },
+    "location": {
+      "name": {
+        "zh": "常德武陵",
+        "en": "Wuling District, Changde"
+      },
+      "coordinates": [
+        111.69,
+        29.04
+      ],
+      "role": {
+        "zh": "花鼓戏采用的民间传说流传地",
+        "en": "Home of the folk legend adapted for the opera"
+      }
+    },
+    "period": {
+      "zh": "20 世纪 50 年代已有何冬保演出该剧的记录；Apple 单曲页列本版为 1996 年，实际录制年份待考。",
+      "en": "He Dongbao performed the opera in the 1950s. Apple’s song page lists this version under 1996; its recording date is unconfirmed."
+    },
+    "description": {
+      "zh": "常德武陵流传的刘海故事成为花鼓戏的题材。把这里设为故事传承地，再听两位演员如何在一句问、一句答之间塑造人物。",
+      "en": "The Liu Hai legend told in Wuling furnished the plot for the opera. The two singers turn the exchange into a conversation between characters."
+    },
+    "instruments": {
+      "zh": "男女声对唱、伴奏",
+      "en": "Two voices with accompaniment"
+    },
+    "genre": {
+      "zh": "湖南花鼓戏对唱",
+      "en": "Hunan flower-drum opera duet"
+    },
+    "province": {
+      "zh": "湖南",
+      "en": "Hunan"
+    },
+    "course": {
+      "zh": "课外拓展",
+      "en": "Additional repertoire"
+    },
+    "media": {
+      "type": "embed",
+      "source": "https://music.apple.com/cn/album/1842744370?i=1842744371",
+      "performer": {
+        "zh": "李谷一、姜昆",
+        "en": "Li Guyi and Jiang Kun"
+      },
+      "embed": "https://embed.music.apple.com/cn/album/1842744370?i=1842744371",
+      "title": {
+        "zh": "花鼓戏《刘海砍樵》",
+        "en": "Liu Hai Cuts Firewood"
+      },
+      "credit": {
+        "zh": "李谷一、姜昆；中国唱片发行资料见 Apple 专辑。平台试听。",
+        "en": "Li Guyi and Jiang Kun. Official Apple Music track preview."
+      },
+      "prompt": {
+        "zh": "听两个人接话时，后一句是模仿前一句的语气，还是换了一种收尾？",
+        "en": "When the second voice answers, does it echo the first voice’s inflection or give the phrase a different ending?"
+      },
+      "excerpt": {
+        "zh": "平台固定试听约 30 秒，以播放器提供的片段为准。",
+        "en": "Official preview, about 30 seconds. The provider selects the passage."
+      }
+    },
+    "category": "opera",
+    "time": {
+      "precision": "approximate",
+      "start": 1950,
+      "end": 1959,
+      "era": "prc"
+    },
+    "uncertainty": {
+      "zh": "本条时间标记指向何冬保演出该剧的年代。所选录音的年代另见版本说明。",
+      "en": "The timeline marks the decade in which He Dongbao performed the opera. The period note separately identifies the selected recording or broadcast."
+    },
+    "analysis": {
+      "zh": "把对唱听成两个人物的接话，比较每个人唱完一句时的落点。",
+      "en": "Hear the duet as an exchange between characters. Compare the way each voice finishes a line."
+    },
+    "people": {
+      "zh": "李谷一、姜昆",
+      "en": "Li Guyi and Jiang Kun"
+    },
+    "sources": [
+      {
+        "id": "b-changde-liuhai-kanqiao-1"
+      },
+      {
+        "id": "b-changde-liuhai-kanqiao-2"
+      },
+      {
+        "id": "b-changde-liuhai-kanqiao-3"
+      }
+    ],
+    "confidence": "documented-association",
+    "aliases": [
+      "湖南",
+      "Hunan",
+      "湖南花鼓戏对唱",
+      "Hunan flower-drum opera duet",
+      "李谷一、姜昆",
+      "Li Guyi and Jiang Kun"
+    ]
+  },
+  {
+    "id": "sangzhi-masang-dengtai",
+    "region": "east-central",
+    "title": {
+      "zh": "马桑树儿搭灯台",
+      "en": "A Lantern Stand on the Masang Tree"
+    },
+    "location": {
+      "name": {
+        "zh": "张家界桑植",
+        "en": "Sangzhi, Zhangjiajie"
+      },
+      "coordinates": [
+        110.16,
+        29.4
+      ],
+      "role": {
+        "zh": "民歌流传地",
+        "en": "Local singing tradition"
+      }
+    },
+    "period": {
+      "zh": "1928 年有在旧山歌基础上改词的记载，原调起始年代待考。本版收于平台标为 2001 年的专辑。",
+      "en": "A new text was set to an existing local song in 1928. The tune’s origin is uncertain. Apple dates this release to 2001."
+    },
+    "description": {
+      "zh": "湖南省文旅厅将它列为桑植民歌的代表曲目。此站用邓海伦演唱版听山歌怎样把文字唱成长句。",
+      "en": "Hunan’s culture authority identifies the piece as part of the Sangzhi repertoire. Deng Hailun’s version offers a way to hear how the words unfold as a sustained melodic line."
+    },
+    "instruments": {
+      "zh": "女声、伴奏",
+      "en": "Female voice with accompaniment"
+    },
+    "genre": {
+      "zh": "桑植民歌",
+      "en": "Sangzhi folk song"
+    },
+    "province": {
+      "zh": "湖南",
+      "en": "Hunan"
+    },
+    "course": {
+      "zh": "课堂乐种拓展：《3 Chinese Folk Song》第 16 页讨论湖北、湖南民歌。此题名为拓展选曲。",
+      "en": "Extension of a genre or instrument covered in class"
+    },
+    "media": {
+      "type": "embed",
+      "source": "https://music.apple.com/cn/album/6774686955?i=6774688794",
+      "performer": {
+        "zh": "邓海伦",
+        "en": "Deng Hailun"
+      },
+      "embed": "https://embed.music.apple.com/cn/album/6774686955?i=6774688794",
+      "title": {
+        "zh": "马桑树儿搭灯台",
+        "en": "A Lantern Stand on the Masang Tree"
+      },
+      "credit": {
+        "zh": "邓海伦演唱，收于《中国纯美民间小调集 送情郎》第 17 轨。平台试听。",
+        "en": "Deng Hailun. Official Apple Music track preview."
+      },
+      "prompt": {
+        "zh": "在邓海伦的一句歌声里，哪一个字跨过了好几个音高？",
+        "en": "Within one of Deng Hailun’s phrases, which syllable travels across several pitches?"
+      },
+      "excerpt": {
+        "zh": "平台固定试听约 30 秒，以播放器提供的片段为准。",
+        "en": "Official preview, about 30 seconds. The provider selects the passage."
+      }
+    },
+    "category": "folk",
+    "time": {
+      "precision": "interval",
+      "start": 1928,
+      "end": 1928,
+      "era": "roc"
+    },
+    "uncertainty": {
+      "zh": "本条时间标记指向为流传山歌改词。所选录音的年代另见版本说明。",
+      "en": "The timeline marks new words being fitted to the traditional tune. The period note separately identifies the selected recording or broadcast."
+    },
+    "analysis": {
+      "zh": "在一个字跨过数个音高时继续跟住元音，把它与下一个字的音头分开听。",
+      "en": "Follow the vowel across notes and distinguish that continuous sound from the attack of the next syllable."
+    },
+    "people": {
+      "zh": "邓海伦",
+      "en": "Deng Hailun"
+    },
+    "sources": [
+      {
+        "id": "course3",
+        "pages": "16"
+      },
+      {
+        "id": "b-sangzhi-masang-dengtai-1"
+      },
+      {
+        "id": "b-sangzhi-masang-dengtai-2"
+      },
+      {
+        "id": "b-sangzhi-masang-dengtai-3"
+      }
+    ],
+    "confidence": "documented-association",
+    "aliases": [
+      "湖南",
+      "Hunan",
+      "桑植民歌",
+      "Sangzhi folk song",
+      "邓海伦",
+      "Deng Hailun"
+    ]
+  }
+]

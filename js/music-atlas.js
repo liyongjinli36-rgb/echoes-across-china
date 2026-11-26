@@ -3,6 +3,9 @@ import { buildRegistry, registerCategories, registerSources } from './music-regi
 
 const el = id => document.getElementById(id);
 const categories = [...new Set(['folk','solo','ensemble','narrative','opera',...registerCategories,'historicalEvidence','events'])];
+const regionLabels = new Map([['all','areaAll'],['north','areaNorth'],['east-central','areaEast'],['south','areaSouth']]);
+// These two recordings predate the region field in the source data.
+const legacyListeningRegions = new Map([['guqin','north'],['dragon-drum','south']]);
 const registryPageSize = 18;
 const speeds = [0.5, 1, 2, 4];
 const initialParams = new URLSearchParams(location.search);
@@ -96,6 +99,7 @@ class MusicAtlas extends window.HistoricalAtlasController {
     this.setStateFromUrl(params);
     const image = el('terrain-relief-img');
     image.setAttribute('href', image.getAttribute(this._isMobileViewport() ? 'data-href-mobile' : 'data-href'));
+    this.camera = this.regionCamera();
     this._applyCamera(true);
     this._buildScrubberBands({ skipRefreshLabels: true });
     this._bindScrubberDrag(el('scrubber-track'));
@@ -118,6 +122,7 @@ class MusicAtlas extends window.HistoricalAtlasController {
   }
 
   setStateFromUrl(params) {
+    this.region = regionLabels.has(params.get('region')) ? params.get('region') : 'all';
     const rawYear = Number(params.get('year'));
     const item = this.recordsById.get(params.get('music')) || null;
     let event = this.eventsById.get(params.get('event')) || null;
@@ -127,8 +132,11 @@ class MusicAtlas extends window.HistoricalAtlasController {
     if (legacyWork) event = null;
     const candidate = event?.year ?? (formerListingLink ? null : rawYear);
     this.selection = event || item || legacyWork;
+    if (this.selection && !this.inRegion(this.selection)) this.selection = null;
     if (Number.isInteger(candidate) && candidate >= this.minYear && candidate <= this.maxYear && candidate !== 0) {
       this.state = { mode:'year', eraId:this.eraAt(candidate).id, year:candidate };
+    } else if (!this.eraById.has(params.get('era')) && (!this.selection || this.selection.media || (this.selection.region && !this.selection.registered))) {
+      this.state = {mode:'all',eraId:'prc',year:null};
     } else {
       const era = this.eraById.get(params.get('era')) || this.eraById.get(this.selection?.time?.era) || this.eraById.get('ming');
       this.state = {mode:'overview', eraId:era.id, year:null};
@@ -139,9 +147,10 @@ class MusicAtlas extends window.HistoricalAtlasController {
   syncUrl() {
     const url = new URL(location.href);
     url.searchParams.set('lang', this.locale);
-    for (const entry of ['era','year','music','event']) url.searchParams.delete(entry);
-    if (this.state.mode === 'year') url.searchParams.set('year', this.state.year);
-    else url.searchParams.set('era', this.state.eraId);
+    for (const entry of ['region','era','year','music','event']) url.searchParams.delete(entry);
+    if (this.region !== 'all') url.searchParams.set('region',this.region);
+    if (this.state.mode === 'year') url.searchParams.set('year',this.state.year);
+    if (this.state.mode === 'overview') url.searchParams.set('era',this.state.eraId);
     if (this.selection) url.searchParams.set('music', this.selection.work || this.selection.id);
     if (this.selection?.work) url.searchParams.set('event', this.selection.id);
     if (url.href !== location.href) history.replaceState(history.state, '', url);
@@ -176,10 +185,61 @@ class MusicAtlas extends window.HistoricalAtlasController {
     this.render();
   }
 
-  selectEra(id) {
-    if (!this.eraById.has(id)) return;
+  inRegion(item) {
+    const record = item.work ? this.recordsById.get(item.work) : item;
+    return this.region === 'all' || (record?.region || legacyListeningRegions.get(record?.id)) === this.region;
+  }
+
+  visibleRecords() {
+    const pool = [...this.records,...this.registry.datedProjects];
+    const visible = pool.filter(record => this.inRegion(record) && this.filters.has(record.category) && this.hasRecord(record));
+    if (this.state.mode !== 'all') visible.sort((a,b) => a.time.start - b.time.start);
+    return visible;
+  }
+
+  regionCamera() {
+    const home = this._getDefaultCamera();
+    let coordinates;
+    if (this.region === 'all') {
+      if (this.state.mode !== 'all') return home;
+      coordinates = [[73,53],[135,18]];
+    } else {
+      coordinates = this.records.filter(r => this.inRegion(r)).map(r => r.location.coordinates);
+    }
+    if (!coordinates.length) return home;
+    const points = coordinates.map(point => this.projector.toScreen(...point));
+    const xs = points.map(p => p[0]), ys = points.map(p => p[1]);
+    const left = Math.min(...xs), top = Math.min(...ys);
+    const width = Math.max(...xs) - left, height = Math.max(...ys) - top;
+    const rect = this.svg.getBoundingClientRect();
+    const aspect = rect.width && rect.height ? rect.height / rect.width : home.h / home.w;
+    const padTop = Math.min(.32,105 / (rect.height || 500));
+    const padBottom = .13;
+    const w = Math.max(170,width * 1.35,height / (aspect * (1 - padTop - padBottom)) * 1.12);
+    const h = w * aspect;
+    return {x:left + width/2 - w/2,y:top + height/2 - h * (1+padTop-padBottom)/2,w,h,zoom:1000/w};
+  }
+
+  selectRegion(region) {
+    if (!regionLabels.has(region)) return;
     this.stopAutoplay();
-    this.state = {mode:'overview',eraId:id,year:null};
+    this.region = region;
+    this.selection = null;
+    this.guideIndex = -1;
+    this.searchActive = false;
+    el('music-search').value = '';
+    for (const section of ['registry','regions']) this.toggleBrowse(section,false);
+    this.state = {mode:'all',eraId:'prc',year:null};
+    this.setPanel(region !== 'all');
+    this.render();
+    el('chronicle-pane').scrollTop = 0;
+    this._animateCameraTo(this.regionCamera());
+  }
+
+  selectEra(id) {
+    if (id !== 'all' && !this.eraById.has(id)) return;
+    this.stopAutoplay();
+    this.state = id === 'all' ? {mode:'all',eraId:'prc',year:null} : {mode:'overview',eraId:id,year:null};
     this.selection = null;
     this.render();
   }
@@ -189,12 +249,13 @@ class MusicAtlas extends window.HistoricalAtlasController {
     let year = Math.max(this.minYear, Math.min(this.maxYear, Math.round(value)));
     if (!year) year = this.year < 0 ? 1 : -1;
     this.state = {mode:'year',eraId:this.eraAt(year).id,year};
-    this.selection = this.events.find(event => event.year === year) || null;
+    this.selection = this.events.find(event => event.year === year && this.inRegion(event)) || null;
     this.render();
   }
 
   selectItem(item, { focus = false } = {}) {
     const record = item.work ? this.recordsById.get(item.work) : item;
+    if (!this.inRegion(item)) this.selectRegion('all');
     this.selection = item;
     if (item.work) {
       this.state = {mode:'year',eraId:this.eraAt(item.year).id,year:item.year};
@@ -222,9 +283,11 @@ class MusicAtlas extends window.HistoricalAtlasController {
   setPanel(open) {
     el('workspace-body').classList.toggle('music-panel-open', open);
     el('music-panel-toggle').setAttribute('aria-expanded', String(open));
+    el('music-panel-toggle').textContent = this.t(open ? 'panelHide' : 'panelShow');
   }
 
   hasRecord(record) {
+    if (this.state.mode === 'all') return !record.registered || record.time?.start != null;
     return this.hasReached(record.time?.era,record.time?.start);
   }
 
@@ -238,15 +301,21 @@ class MusicAtlas extends window.HistoricalAtlasController {
     this.year = this.state.year ?? era.representativeYear;
     this.dynastyIdx = this._findDynastyIndex(this.year);
     const dynasty = this.dynasties[this.dynastyIdx];
-    const key = this.state.mode === 'overview' ? era.snapshot : era.snapshot && this._resolveSnapKey(dynasty, this.year);
+    const key = this.state.mode !== 'year' ? era.snapshot : era.snapshot && this._resolveSnapKey(dynasty, this.year);
     const snapshot = this.snapshots[key] || {polities:[]};
     this.phasePeriod = this.snapshotPeriod(era, dynasty, key);
-    el('era-select').value = era.id;
-    el('dynasty-title').textContent = this.l(era.title);
-    el('dynasty-span').textContent = this.state.year === null
-      ? `${this.t('overview')} · ${this.eraSpan(era)}`
-      : `${this.t('exact')} · ${this.yearLabel(this.year)}`;
-    el('dynasty-summary').textContent = `${this.l(era.note)} ${this.l(era.uncertainty)}`;
+    const allPeriods = this.state.mode === 'all';
+    const regional = this.region !== 'all';
+    this.setPanel(el('workspace-body').classList.contains('music-panel-open'));
+    for (const control of el('region-nav').querySelectorAll('button')) {
+      control.setAttribute('aria-pressed',String(control.dataset.region === this.region));
+    }
+    for (const id of ['registry-open','regions-open']) el(id).hidden = regional;
+    el('era-select').value = allPeriods ? 'all' : era.id;
+    el('dynasty-title').textContent = allPeriods || regional ? this.t(regionLabels.get(this.region)) : this.l(era.title);
+    el('dynasty-span').textContent = allPeriods ? this.t('allPeriods')
+      : this.state.year === null ? `${this.l(era.title)} · ${this.eraSpan(era)}` : this.yearLabel(this.year);
+    if (!allPeriods) el('dynasty-summary').textContent = `${this.l(era.note)} ${this.l(era.uncertainty)}`;
     const mapSignature = `${key}:${this.locale}:${this._hydroMask(this.year)}`;
     if (this.mapSignature !== mapSignature) {
       this.mapSignature = mapSignature;
@@ -272,7 +341,7 @@ class MusicAtlas extends window.HistoricalAtlasController {
   }
 
   snapshotPeriod(era, dynasty, key) {
-    if (!key || key === 's_prc') return null;
+    if (this.state.mode === 'all' || !key || key === 's_prc') return null;
     if (this.state.mode === 'overview') return era.period;
     const selected = this._resolvePhase(dynasty, this.year);
     const index = dynasty.phases?.indexOf(selected) ?? -1;
@@ -327,7 +396,7 @@ class MusicAtlas extends window.HistoricalAtlasController {
 
   renderEraOptions() {
     const select = el('era-select');
-    select.replaceChildren(...this.eras.map(era => {
+    select.replaceChildren(new Option(this.t('allPeriods'),'all'),...this.eras.map(era => {
       const option = node('option', `${this.l(era.title)} · ${this.eraSpan(era)}`);
       option.value = era.id;
       return option;
@@ -344,11 +413,10 @@ class MusicAtlas extends window.HistoricalAtlasController {
       input.addEventListener('change', () => {
         if (input.checked) this.filters.add(category);
         else this.filters.delete(category);
-        this.renderLists();
+        const selected = this.selection;
+        if (selected && !this.filters.has(selected.work ? 'events' : selected.category)) this.selection = null;
         this.registryPage = 0;
-        this.renderRegistry();
-        this.renderMarkers();
-        this.renderSearch();
+        this.render();
       });
       label.append(input,node('span', this.t(category)));
       return label;
@@ -358,19 +426,47 @@ class MusicAtlas extends window.HistoricalAtlasController {
   renderLists() {
     const list = el('tradition-list');
     list.replaceChildren();
-    for (const record of [...this.records,...this.registry.datedProjects].filter(record => this.filters.has(record.category) && this.hasRecord(record))) {
+    const visible = this.visibleRecords();
+    const allPeriods = this.state.mode === 'all';
+    const featured = allPeriods || this.region !== 'all';
+    const headingKey = allPeriods ? (this.region === 'all' ? 'featuredWorks' : 'areaWorks') : 'traditions';
+    el('tradition-heading').textContent = `${this.t(headingKey)} · ${visible.length}`;
+    if (allPeriods) {
+      const undated = visible.filter(record => record.time?.start == null).length;
+      const breakdown = this.t('periodBreakdown').replace('{dated}',visible.length - undated).replace('{undated}',undated);
+      el('dynasty-summary').textContent = `${this.t('allPeriodHelp')} ${breakdown}`;
+    }
+    const listening = el('listening-select');
+    const heading = new Option(this.t('classListening'),'');
+    heading.disabled = true;
+    const playable = this.region === 'all' ? this.records.filter(r => r.media) : visible.filter(r => r.media);
+    listening.replaceChildren(heading,...playable.map(r => new Option(`${this.l(r.location.name)} · ${this.l(r.title)}`,r.id)));
+    listening.value = '';
+    for (const record of visible) {
       const item = node('li');
       const control = button(this.l(record.title), () => this.selectItem(record, { focus:true }), 'music-row');
       control.dataset.music = record.id;
       if (this.selection === record) control.setAttribute('aria-current','true');
-      control.append(node('small', [this.t(record.category), this.l(record.location.name),
-        record.origin ? this.l(record.origin.label) : this.l(record.period)].filter(Boolean).join(' · ')));
+      const meta = this.state.mode === 'all' && record.media
+        ? [this.l(record.location.name), record.genre ? this.l(record.genre) : this.t(record.category), this.l(record.media.performer)]
+        : [this.t(record.category), this.l(record.location.name), record.origin ? this.l(record.origin.label) : this.l(record.period)];
+      control.append(node('small',meta.join(' · ')));
       item.append(control);
       list.append(item);
     }
-    if (!list.children.length) list.append(node('li',this.t('emptyEra'),'music-empty'));
+    if (!visible.length) {
+      const empty = node('li',this.t(featured ? 'noAreaWorks' : 'emptyEra'),'music-empty');
+      if (this.state.mode !== 'all') {
+        const reset = button(this.t('returnAllPeriods'),() => this.selectEra('all'),'music-inline');
+        reset.id = 'region-reset-period';
+        empty.append(reset);
+      }
+      list.append(empty);
+    }
     const events = el('music-events');
     events.replaceChildren();
+    events.parentElement.hidden = this.region !== 'all';
+    if (this.region !== 'all') return;
     if (!this.filters.has('events')) {
       events.append(node('li',this.t('emptyEvents'),'music-empty'));
       return;
@@ -459,29 +555,28 @@ class MusicAtlas extends window.HistoricalAtlasController {
   renderMarkers() {
     const container = el('music-markers');
     container.replaceChildren();
-    const entries = this.records.filter(record => this.filters.has(record.category) && this.hasRecord(record));
-    const eraEvents = this.events.filter(event => this.filters.has('events')
-      && this.hasReached(this.eraAt(event.year).id,event.year));
+    const visible = this.visibleRecords();
+    const eraEvents = this.region === 'all' && this.state.mode !== 'all' && this.filters.has('events')
+      ? this.events.filter(event => this.hasReached(this.eraAt(event.year).id,event.year)) : [];
     const query = this.searchActive ? normalized(el('music-search').value) : '';
-    const catalog = this.registry.datedProjects.filter(record => this.filters.has(record.category) && this.hasRecord(record));
     if (this.selection?.registered && this.filters.has(this.selection.category) && this.hasRecord(this.selection)) {
-      const index = catalog.findIndex(record => record.code === this.selection.code);
-      if (index >= 0) catalog[index] = this.selection;
+      const index = visible.findIndex(record => record.code === this.selection.code);
+      if (index >= 0) visible[index] = this.selection;
     }
-    const all = [...eraEvents, ...entries, ...catalog];
+    const all = [...eraEvents,...visible];
     if (this.selection && all.includes(this.selection)) {
       all.splice(all.indexOf(this.selection),1);
-      all.unshift(this.selection);
+      all.push(this.selection);
     }
     for (const item of all) {
       const record = item.work ? this.recordsById.get(item.work) : item;
       const point = item.location || record.location;
       const [x,y] = this.projector.toScreen(...point.coordinates);
-      const group = this._svgNode('g',{transform:`translate(${x},${y})`,'data-x':x,'data-y':y},container);
+      const group = this._svgNode('g',{transform:`translate(${x},${y})`},container);
       const pin = this._svgNode('g',{
         role:'button', tabindex:'0', class:`music-pin music-pin-${item.work ? 'events' : record.category}`,
         'data-search-match':String(!query || this.matchesQuery(item,query)),
-        'aria-label':`${this.l(item.title)} · ${this.l(point.name)}`,
+        'data-music':item.id, 'aria-label':`${this.l(item.title)} · ${this.l(point.name)}`,
         'aria-pressed':String(this.selection === item),
       },group);
       const activate = () => this.selectItem(item);
@@ -508,20 +603,8 @@ class MusicAtlas extends window.HistoricalAtlasController {
     if (!box.width || !box.height) return;
     const unit = Math.max(this.camera.w / box.width, this.camera.h / box.height);
     this.svg.style.setProperty('--music-unit', unit.toFixed(4));
-    const placed = [];
     for (const group of el('music-markers').children) {
-      let x = 0;
-      let y = 0;
-      const baseX = Number(group.dataset.x) / unit;
-      const baseY = Number(group.dataset.y) / unit;
-      for (let k = 1; placed.some(([px,py]) => Math.hypot(px - baseX - x, py - baseY - y) < 15); k++) {
-        const angle = k * 2.39996;
-        const radius = 13 * Math.sqrt(k);
-        x = Math.cos(angle) * radius;
-        y = Math.sin(angle) * radius;
-      }
-      placed.push([baseX + x,baseY + y]);
-      group.firstElementChild.setAttribute('transform',`translate(${x * unit},${y * unit}) scale(${unit})`);
+      group.firstElementChild.setAttribute('transform',`scale(${unit})`);
     }
   }
 
@@ -543,13 +626,13 @@ class MusicAtlas extends window.HistoricalAtlasController {
   _syncScrubberUi() {
     super._syncScrubberUi();
     const era = this.eraById.get(this.state.eraId);
-    const caption = this.state.mode === 'overview'
+    const caption = this.state.mode === 'all' ? this.t('allPeriods') : this.state.mode === 'overview'
       ? `${this.l(era.title)} · ${this.t('overview')}`
       : `${this.yearLabel(this.year)} · ${this.l(era.title)}`;
     el('bubble-text').textContent = caption;
     el('scrubber-Bubble').title = caption;
     el('scrubber-track').setAttribute('aria-valuetext',caption);
-    if (this.state.mode === 'overview') el('inp-year').value = '';
+    if (this.state.mode !== 'year') el('inp-year').value = '';
   }
 
   renderCard() {
@@ -557,7 +640,8 @@ class MusicAtlas extends window.HistoricalAtlasController {
     const card = el('music-card');
     card.hidden = !item;
     const record = item?.work ? this.recordsById.get(item.work) : item;
-    this.renderAudio(record?.media);
+    const panelVisible = getComputedStyle(el('music-panel-body')).display !== 'none';
+    this.renderAudio(panelVisible ? record?.media : null);
     if (!item) {
       el('music-card-title').textContent = '';
       el('music-card-text').replaceChildren();
@@ -579,8 +663,15 @@ class MusicAtlas extends window.HistoricalAtlasController {
     const place = node('p', `${this.l(location.name)} · ${this.l(location.role)}`, 'music-card-place');
     place.append(button(this.t('focus'), () => this._panToward(...location.coordinates), 'music-inline'));
     body.append(place);
+    const siblings = this.visibleRecords().filter(r => r !== record && r.media && r.location.coordinates.join() === location.coordinates.join());
+    if (record.media && siblings.length) {
+      const related = node('div','','same-place-works');
+      related.append(node('strong',this.t('samePlace')));
+      for (const r of siblings) related.append(button(this.l(r.title),() => this.selectItem(r),'music-inline'));
+      body.append(related);
+    }
     for (const [key,value] of [
-      ['instruments',record.instruments],['analysis',record.analysis],['people',record.people],['uncertainty',record.uncertainty],
+      ['instruments',record.instruments],['analysis',record.analysis],['people',record.people],['uncertainty',record.uncertainty],['courseLink',record.course],
     ]) {
       if (!value) continue;
       const section = node('details', '', 'music-card-section');
@@ -589,7 +680,7 @@ class MusicAtlas extends window.HistoricalAtlasController {
       section.append(node('summary',this.t(key)),node('p',this.l(value)));
       body.append(section);
     }
-    if (record.watch) body.append(external(this.t('historicalMedia'),record.watch));
+    if (record.watch && record.watch !== record.media?.source) body.append(external(this.t('historicalMedia'),record.watch));
     if (record.listen) body.append(external(this.t('externalAudio'),record.listen));
     const refs = node('details', '', 'music-card-section');
     refs.dataset.section = 'references';
@@ -645,22 +736,142 @@ class MusicAtlas extends window.HistoricalAtlasController {
   renderAudio(media) {
     const audio = el('audio-player');
     el('music-audio').hidden = !media;
-    if (!media) {
+    if (audio.hasAttribute('src') && audio.getAttribute('src') !== media?.file) {
       audio.pause();
-      return;
+      audio.removeAttribute('src');
+      audio.load();
     }
-    if (audio.getAttribute('src') !== media.file) {
-      audio.pause();
-      this.audioState = 'idle';
-      audio.src = media.file;
+    this.renderOnlineMedia(media);
+    if (!media) return;
+
+    el('audio-local-controls').hidden = !media.file;
+    el('audio-status').hidden = !media.file;
+    const license = el('audio-license');
+    license.hidden = !media.license;
+    if (media.file) {
+      if (!audio.hasAttribute('src')) {
+        this.audioState = 'idle';
+        audio.src = media.file;
+      }
+      audio.setAttribute('aria-label', this.l(media.title));
+      license.href = media.license;
+      license.textContent = media.licenseLabel || this.t('license');
+      this.renderAudioStatus();
+      this.renderAudioProgress();
     }
     el('audio-title').textContent = `${this.l(media.title)} · ${this.l(media.performer)}`;
+    el('audio-prompt').hidden = !media.prompt;
+    el('audio-prompt').textContent = media.prompt ? this.l(media.prompt) : '';
+    el('audio-excerpt').hidden = !media.excerpt;
+    el('audio-excerpt').textContent = media.excerpt ? this.l(media.excerpt) : '';
     el('audio-note').textContent = this.l(media.credit);
     el('audio-source').href = media.source;
-    el('audio-license').href = media.license;
-    audio.setAttribute('aria-label', this.l(media.title));
-    this.renderAudioStatus();
-    this.renderAudioProgress();
+    el('audio-source').textContent = this.t(media.watch ? 'openPerformance' : 'recordingSource');
+  }
+
+  renderOnlineMedia(media) {
+    const container = el('audio-embed');
+    const online = media && (media.embed || media.cctv || media.video) ? media : null;
+    if ((this.onlinePlayback?.media ?? null) !== online) {
+      this.onlinePlayback?.stop();
+      container.replaceChildren();
+      this.onlinePlayback = null;
+      if (online?.embed) {
+        const frame = node('iframe',null,online.embed.startsWith('https://embed.music.apple.com/') ? 'audio-frame' : 'video-frame');
+        frame.allow = 'autoplay; encrypted-media; fullscreen; picture-in-picture';
+        frame.allowFullscreen = true;
+        frame.src = online.embed;
+        container.append(frame);
+        this.onlinePlayback = {media:online,element:frame,stop() {}};
+      } else if (online) {
+        this.mountRecordingVideo(container,online);
+      }
+    }
+    if (this.onlinePlayback) {
+      const {element,status} = this.onlinePlayback;
+      element.title = this.l(online.title);
+      if (status && !status.hidden) status.textContent = this.t('streamError');
+    }
+  }
+
+  mountRecordingVideo(container, media) {
+    const video = node('video',null,'video-frame');
+    video.controls = true;
+    video.playsInline = true;
+    video.preload = 'metadata';
+    const status = node('p',null,'audio-note');
+    status.setAttribute('role','status');
+    status.hidden = true;
+    const request = new AbortController();
+    let hls;
+    const playback = {
+      media,element:video,status,
+      stop() {
+        request.abort();
+        hls?.destroy();
+        video.pause();
+        video.removeAttribute('src');
+        video.load();
+      },
+    };
+    this.onlinePlayback = playback;
+    container.append(video,status);
+    const active = () => this.onlinePlayback === playback && !request.signal.aborted;
+    const showError = () => {
+      if (!active()) return;
+      status.textContent = this.t('streamError');
+      status.hidden = false;
+    };
+    video.addEventListener('error',showError);
+    const [start,end] = media.originalRangeSeconds || [];
+    if (start > 0) {
+      video.addEventListener('loadedmetadata',() => { video.currentTime = start; },{once:true});
+      video.addEventListener('play',() => {
+        if (video.currentTime < start || video.currentTime >= end) video.currentTime = start;
+      });
+      video.addEventListener('timeupdate',() => {
+        if (video.currentTime >= end) video.pause();
+      });
+    }
+    if (media.video) {
+      video.src = media.video;
+      return;
+    }
+    const endpoint = new URL('https://vdn.apps.cntv.cn/api/getHttpVideoInfo.do');
+    endpoint.searchParams.set('pid',media.cctv);
+    fetch(endpoint,{signal:request.signal})
+      .then(response => {
+        if (!response.ok) throw new Error('CCTV stream lookup failed');
+        return response.json();
+      })
+      .then(async ({hls_url:manifest}) => {
+        if (!active()) return;
+        const stream = new URL(manifest);
+        if (stream.protocol !== 'https:' || !stream.pathname.endsWith('.m3u8')) throw new Error('Invalid CCTV stream');
+        const native = video.canPlayType('application/vnd.apple.mpegurl');
+        if (native && (window.ManagedMediaSource || !window.MediaSource)) {
+          video.src = stream.href;
+          return;
+        }
+        const {default:Hls} = await import('https://cdn.jsdelivr.net/npm/hls.js@1.6.15/dist/hls.light.min.mjs');
+        if (!active()) return;
+        if (!Hls.isSupported()) {
+          if (!native) throw new Error('HLS is unsupported');
+          video.src = stream.href;
+          return;
+        }
+        hls = new Hls({startPosition:start ?? -1});
+        hls.on(Hls.Events.ERROR,(_event,data) => {
+          if (data.fatal) {
+            hls.destroy();
+            hls = undefined;
+            showError();
+          }
+        });
+        hls.loadSource(stream.href);
+        hls.attachMedia(video);
+      })
+      .catch(showError);
   }
 
   renderAudioProgress() {
@@ -690,7 +901,8 @@ class MusicAtlas extends window.HistoricalAtlasController {
       if (/^\d+$/.test(query)) return String(item.year) === query;
       return this.matchesQuery(this.recordsById.get(item.work),query);
     }
-    const terms = [...item.aliases,...Object.values(item.location?.name || {}),...Object.values(item.people || {})];
+    const terms = [...item.aliases,...Object.values(item.location?.name || {}),...Object.values(item.people || {}),
+      ...Object.values(item.province || {}),...Object.values(item.genre || {}),...Object.values(item.media?.performer || {})];
     return terms.some(match);
   }
 
@@ -703,9 +915,10 @@ class MusicAtlas extends window.HistoricalAtlasController {
     list.hidden = !open;
     input.setAttribute('aria-expanded',String(open));
     if (!open) return;
-    const eventMatches = this.filters.has('events') ? this.events.filter(event => this.matchesQuery(event,query)) : [];
-    const recordMatchesList = this.records.filter(record => this.filters.has(record.category) && this.matchesQuery(record,query));
-    const registryMatches = this.registry.entries.filter(record=>this.filters.has(record.category) && this.matchesQuery(record,query));
+    const eventMatches = this.region === 'all' && this.filters.has('events') ? this.events.filter(event => this.matchesQuery(event,query)) : [];
+    const searchable = this.region === 'all' ? this.records : this.visibleRecords();
+    const recordMatchesList = searchable.filter(record => this.filters.has(record.category) && this.matchesQuery(record,query));
+    const registryMatches = this.region === 'all' ? this.registry.entries.filter(record=>this.filters.has(record.category) && this.matchesQuery(record,query)) : [];
     for (const item of [...recordMatchesList,...eventMatches,...registryMatches].slice(0,16)) {
       const li = node('li');
       const details = item.registered ? `${this.t(item.category)} · ${this.registryDate(item)}`
@@ -742,6 +955,7 @@ class MusicAtlas extends window.HistoricalAtlasController {
   }
 
   selectGuide(index) {
+    if (index >= 0 && this.region !== 'all') this.selectRegion('all');
     this.guideIndex = index;
     if (index < 0) {
       this.renderGuide();
@@ -754,7 +968,7 @@ class MusicAtlas extends window.HistoricalAtlasController {
 
   step(direction) {
     const cutoff = this.state.year ?? this.year;
-    const available = this.filters.has('events') ? this.events : [];
+    const available = this.filters.has('events') ? this.events.filter(e => this.inRegion(e)) : [];
     const event = direction > 0 ? available.find(event => event.year > cutoff)
       : available.findLast(event => event.year < cutoff);
     if (event) this.selectItem(event);
@@ -789,17 +1003,32 @@ class MusicAtlas extends window.HistoricalAtlasController {
 
   toggleAutoplay() {
     if (this.playing) return this.stopAutoplay();
-    if (!this.filters.has('events')) return;
+    const first = this.events.find(e => this.inRegion(e));
+    if (!this.filters.has('events') || !first) return;
     this.playing = true;
-    if (!this.step(1)) this.selectItem(this.events[0]);
+    if (!this.step(1)) this.selectItem(first);
     this.renderPlayback();
     this.queueNext();
   }
 
   bindControls() {
+    for (const control of el('region-nav').querySelectorAll('button')) {
+      control.onclick = () => this.selectRegion(control.dataset.region);
+    }
     el('locale-zh').onclick = () => this.setLocale('zh');
     el('locale-en').onclick = () => this.setLocale('en');
     el('era-select').onchange = event => this.selectEra(event.target.value);
+    el('listening-select').onchange = event => {
+      const record = this.recordsById.get(event.target.value);
+      event.target.value = '';
+      this.stopAutoplay();
+      this.selectGuide(-1);
+      if (!this.filters.has(record.category)) {
+        this.filters.add(record.category);
+        this.renderFilters();
+      }
+      this.selectItem(record, {focus:true});
+    };
     el('act-step-prev').onclick = () => { this.stopAutoplay(); this.step(-1); };
     el('act-step-next').onclick = () => { this.stopAutoplay(); this.step(1); };
     el('act-autoplay').onclick = () => this.toggleAutoplay();
@@ -828,7 +1057,11 @@ class MusicAtlas extends window.HistoricalAtlasController {
       const values = {ArrowLeft:this.year-1,ArrowRight:this.year+1,Home:this.minYear,End:this.maxYear};
       this.jumpToYear(values[event.key] || (event.key === 'ArrowLeft' ? -1 : 1));
     });
-    el('music-panel-toggle').onclick = () => this.setPanel(el('music-panel-toggle').getAttribute('aria-expanded') !== 'true');
+    el('music-panel-toggle').onclick = () => {
+      this.setPanel(el('music-panel-toggle').getAttribute('aria-expanded') !== 'true');
+      this.renderCard();
+    };
+    window.matchMedia('(max-width: 900px)').addEventListener('change', () => this.renderCard());
     el('music-close').onclick = () => { this.selection = null; this.render(); };
     el('guide-toggle').onclick = () => this.selectGuide(this.guideIndex < 0 ? 0 : -1);
     el('registry-open').onclick = () => this.toggleBrowse('registry',el('music-registry').hidden);
@@ -935,6 +1168,7 @@ class MusicAtlas extends window.HistoricalAtlasController {
       const params = new URLSearchParams(location.search);
       this.setStateFromUrl(params);
       this.setLocale(localePreference(params));
+      this._animateCameraTo(this.regionCamera());
     });
     this.bindMapControls();
   }
@@ -942,7 +1176,7 @@ class MusicAtlas extends window.HistoricalAtlasController {
   bindMapControls() {
     el('zoom-in').onclick = () => this.zoomBy(1.28);
     el('zoom-out').onclick = () => this.zoomBy(1 / 1.28);
-    el('act-reset-camera').onclick = () => this._animateCameraTo(this._getDefaultCamera());
+    el('act-reset-camera').onclick = () => this._animateCameraTo(this.regionCamera());
     this.svg.addEventListener('wheel',event => {
       event.preventDefault();
       const delta = event.deltaY * (event.deltaMode === 1 ? 18 : event.deltaMode === 2 ? 240 : 1);

@@ -44,7 +44,8 @@
       {
         "id": "hist-zhou-pitch"
       }
-    ]
+    ],
+    "region": "north"
   },
   {
     "id": "chu-art",
@@ -91,7 +92,8 @@
       {
         "id": "hist-chu-art"
       }
-    ]
+    ],
+    "region": "east-central"
   },
   {
     "id": "qin-performers",
@@ -138,7 +140,8 @@
       {
         "id": "hist-qin-performers"
       }
-    ]
+    ],
+    "region": "north"
   },
   {
     "id": "han-dancers",
@@ -185,7 +188,8 @@
       {
         "id": "hist-han-dancers"
       }
-    ]
+    ],
+    "region": "north"
   },
   {
     "id": "han-story-drum",
@@ -232,7 +236,8 @@
       {
         "id": "hist-han-story-drum"
       }
-    ]
+    ],
+    "region": "south"
   },
   {
     "id": "cao-short-song",
@@ -279,7 +284,8 @@
       {
         "id": "hist-cao-short-song"
       }
-    ]
+    ],
+    "region": "north"
   },
   {
     "id": "jin-xunxu",
@@ -326,7 +332,8 @@
       {
         "id": "hist-jin-xunxu"
       }
-    ]
+    ],
+    "region": "east-central"
   },
   {
     "id": "huan-yi-flute",
@@ -373,7 +380,8 @@
       {
         "id": "hist-huan-yi-flute"
       }
-    ]
+    ],
+    "region": "east-central"
   },
   {
     "id": "wei-mounted",
@@ -420,7 +428,8 @@
       {
         "id": "hist-wei-mounted"
       }
-    ]
+    ],
+    "region": "north"
   },
   {
     "id": "seven-sages",
@@ -467,7 +476,8 @@
       {
         "id": "hist-seven-sages"
       }
-    ]
+    ],
+    "region": "east-central"
   },
   {
     "id": "sui-drum",
@@ -514,7 +524,8 @@
       {
         "id": "hist-sui-drum"
       }
-    ]
+    ],
+    "region": "north"
   },
   {
     "id": "sui-zither",
@@ -561,7 +572,8 @@
       {
         "id": "hist-sui-zither"
       }
-    ]
+    ],
+    "region": "north"
   },
   {
     "id": "tang-dance",
@@ -608,7 +620,8 @@
       {
         "id": "hist-tang-dance"
       }
-    ]
+    ],
+    "region": "north"
   },
   {
     "id": "han-xizai",
@@ -655,7 +668,8 @@
       {
         "id": "hist-han-xizai"
       }
-    ]
+    ],
+    "region": "east-central"
   },
   {
     "id": "song-qin",
@@ -702,7 +716,8 @@
       {
         "id": "hist-song-qin"
       }
-    ]
+    ],
+    "region": "east-central"
   },
   {
     "id": "jiang-kui-songs",
@@ -749,7 +764,8 @@
       {
         "id": "hist-jiang-kui-songs"
       }
-    ]
+    ],
+    "region": "east-central"
   },
   {
     "id": "yuan-zaju",
@@ -796,7 +812,8 @@
       {
         "id": "hist-yuan-zaju"
       }
-    ]
+    ],
+    "region": "north"
   },
   {
     "id": "ming-qin-score",
@@ -843,7 +860,8 @@
       {
         "id": "hist-ming-qin-score"
       }
-    ]
+    ],
+    "region": "east-central"
   },
   {
     "id": "qing-palace-opera",
@@ -890,7 +908,8 @@
       {
         "id": "hist-qing-palace-opera"
       }
-    ]
+    ],
+    "region": "north"
   },
   {
     "id": "mei-tour",
@@ -937,7 +956,8 @@
       {
         "id": "hist-mei-tour"
       }
-    ]
+    ],
+    "region": "north"
   },
   {
     "id": "qin-painting",
@@ -984,7 +1004,8 @@
       {
         "id": "hist-qin-painting"
       }
-    ]
+    ],
+    "region": "east-central"
   },
   {
     "id": "xuanhua-mural",
@@ -1031,7 +1052,8 @@
       {
         "id": "hist-xuanhua-mural"
       }
-    ]
+    ],
+    "region": "north"
   },
   {
     "id": "tang-camel-ensemble",
@@ -1078,7 +1100,8 @@
       {
         "id": "hist-tang-camel-ensemble"
       }
-    ]
+    ],
+    "region": "north"
   },
   {
     "id": "dunhuang-scores",
@@ -1125,7 +1148,8 @@
       {
         "id": "hist-dunhuang-scores"
       }
-    ]
+    ],
+    "region": "north"
   },
   {
     "id": "yuan-qin",
@@ -1171,6 +1195,1948 @@
     "sources": [
       {
         "id": "hist-yuan-qin"
+      }
+    ],
+    "region": "north"
+  },
+  {
+    "id": "qing-nanjing-peach-blossom-fan",
+    "category": "historicalEvidence",
+    "title": {
+      "zh": "孔尚任《桃花扇》成书",
+      "en": "Kong Shangren completes The Peach Blossom Fan"
+    },
+    "aliases": [],
+    "location": {
+      "name": {
+        "zh": "南京秦淮",
+        "en": "Qinhuai, Nanjing"
+      },
+      "coordinates": [
+        118.79,
+        32.02
+      ],
+      "role": {
+        "zh": "剧中人物活动及故事发生地",
+        "en": "Setting of the play and its characters"
+      }
+    },
+    "period": {
+      "zh": "1699年，孔尚任写成传奇《桃花扇》。",
+      "en": "Kong Shangren completed the chuanqi play in 1699."
+    },
+    "time": {
+      "precision": "interval",
+      "start": 1699,
+      "end": 1699,
+      "era": "qing"
+    },
+    "isEvidence": true,
+    "region": "east-central",
+    "description": {
+      "zh": "剧本以南京秦淮等地为人物活动中心，借侯方域和李香君的故事书写南明兴亡。剧本提供了清初传奇如何处理历史题材的实例。",
+      "en": "The play centres on Nanjing and the Qinhuai district. The story of Hou Fangyu and Li Xiangjun traces the fall of the Southern Ming and illustrates the treatment of history in early-Qing chuanqi."
+    },
+    "uncertainty": {
+      "zh": "1699年为成书时间。地图标剧中南京的历史空间。",
+      "en": "1699 dates the completion of the text. The marker shows its historical setting in Nanjing."
+    },
+    "sources": [
+      {
+        "id": "hist-qing-peach-fan"
+      }
+    ]
+  },
+  {
+    "id": "qing-huashi-pipa-score",
+    "category": "historicalEvidence",
+    "title": {
+      "zh": "华秋苹刊刻琵琶谱",
+      "en": "Hua Qiuping’s pipa tablature"
+    },
+    "aliases": [],
+    "location": {
+      "name": {
+        "zh": "江苏无锡",
+        "en": "Wuxi, Jiangsu"
+      },
+      "coordinates": [
+        120.3,
+        31.58
+      ],
+      "role": {
+        "zh": "华秋苹归乡辑谱地",
+        "en": "Place where Hua compiled the tablature after returning home"
+      }
+    },
+    "period": {
+      "zh": "1818年，地方文史资料记《华氏谱》初刻。",
+      "en": "Local historical records date the first printing of Hua’s pipa collection to 1818."
+    },
+    "time": {
+      "precision": "interval",
+      "start": 1818,
+      "end": 1818,
+      "era": "qing"
+    },
+    "isEvidence": true,
+    "region": "east-central",
+    "description": {
+      "zh": "华秋苹在无锡与同人采集考订南北两派琵琶曲。三卷谱集留下大曲与小曲，可用于追溯清代琵琶曲目的出版和流传。",
+      "en": "Hua and his colleagues in Wuxi collated pipa repertoire from the northern and southern traditions. The three volumes document the publication and circulation of solo and suite repertoire."
+    },
+    "uncertainty": {
+      "zh": "1818年采用地方文史资料记载的初刻时间。",
+      "en": "1818 follows the date of the initial printing in the local historical account."
+    },
+    "sources": [
+      {
+        "id": "hist-qing-huashi"
+      }
+    ]
+  },
+  {
+    "id": "qing-anqing-huiban",
+    "category": "historicalEvidence",
+    "title": {
+      "zh": "安庆花部与三庆徽班",
+      "en": "Anqing theatre and the Sanqing Anhui troupe"
+    },
+    "aliases": [],
+    "location": {
+      "name": {
+        "zh": "安徽安庆",
+        "en": "Anqing, Anhui"
+      },
+      "coordinates": [
+        117.05,
+        30.53
+      ],
+      "role": {
+        "zh": "《扬州画舫录》所记声腔来处",
+        "en": "Place of origin of a style named in the Yangzhou Pleasure-Barge Record"
+      }
+    },
+    "period": {
+      "zh": "1790年，三庆徽班入京演出。",
+      "en": "The Sanqing Anhui troupe performed in Beijing in 1790."
+    },
+    "time": {
+      "precision": "interval",
+      "start": 1790,
+      "end": 1790,
+      "era": "qing"
+    },
+    "isEvidence": true,
+    "region": "east-central",
+    "description": {
+      "zh": "《扬州画舫录》把三庆班与安庆花部相联系。此站从安庆说明徽班的地方声腔背景，可与北京徽班入京事件对照。",
+      "en": "The Yangzhou Pleasure-Barge Record links the Sanqing troupe to the Anqing theatre tradition. This point locates that regional background, alongside the separate Beijing performance event."
+    },
+    "uncertainty": {
+      "zh": "安庆为声腔关联地，1790年的实际演出地点在北京。",
+      "en": "Anqing locates the associated style. The 1790 performance took place in Beijing."
+    },
+    "sources": [
+      {
+        "id": "hist-qing-huiban"
+      }
+    ]
+  },
+  {
+    "id": "qing-qinqiang-wei-changsheng",
+    "category": "historicalEvidence",
+    "title": {
+      "zh": "魏长生与乾嘉秦腔",
+      "en": "Wei Changsheng and Qin opera in the Qianlong–Jiaqing era"
+    },
+    "aliases": [],
+    "location": {
+      "name": {
+        "zh": "陕西西安",
+        "en": "Xi’an, Shaanxi"
+      },
+      "coordinates": [
+        108.94,
+        34.27
+      ],
+      "role": {
+        "zh": "秦腔活动地，魏长生曾在此研习",
+        "en": "Qin opera centre where Wei worked on his art"
+      }
+    },
+    "period": {
+      "zh": "乾隆至嘉庆年间，魏长生多次进京演出。",
+      "en": "Wei performed in Beijing several times in the Qianlong–Jiaqing era."
+    },
+    "time": {
+      "precision": "approximate",
+      "start": 1736,
+      "end": 1820,
+      "era": "qing"
+    },
+    "isEvidence": true,
+    "region": "north",
+    "description": {
+      "zh": "魏长生往返于西安与北京，清代梆子声腔经戏班流动进入不同城市。西安点对应他的秦腔活动，入京演出属于另一地点。",
+      "en": "Wei travelled between Xi’an and Beijing. The movement of troupes carried Qing bangzi styles between cities. Xi’an represents his Qin opera activity; the capital engagements took place elsewhere."
+    },
+    "uncertainty": {
+      "zh": "时期对应乾嘉间的演出活动与传播线索。秦腔最初形成时间另有研究。",
+      "en": "The range reflects documentary evidence of Qing performances and circulation. The formation of Qin opera is a separate question."
+    },
+    "sources": [
+      {
+        "id": "hist-qing-qinqiang"
+      }
+    ]
+  },
+  {
+    "id": "qing-laoting-dagu-clappers",
+    "category": "historicalEvidence",
+    "title": {
+      "zh": "乐亭大鼓改用铁板",
+      "en": "Iron clappers enter Laoting drum song"
+    },
+    "aliases": [],
+    "location": {
+      "name": {
+        "zh": "河北乐亭",
+        "en": "Laoting, Hebei"
+      },
+      "coordinates": [
+        118.91,
+        39.43
+      ],
+      "role": {
+        "zh": "冀东大鼓传承地区",
+        "en": "Area of transmission for eastern Hebei drum song"
+      }
+    },
+    "period": {
+      "zh": "道光年间（1821–1850），艺人改用铁板。",
+      "en": "Performers adopted iron clappers during the Daoguang reign, 1821–1850."
+    },
+    "time": {
+      "precision": "approximate",
+      "start": 1821,
+      "end": 1850,
+      "era": "qing"
+    },
+    "isEvidence": true,
+    "region": "north",
+    "description": {
+      "zh": "据中国非遗网资料，温荣、冯福昌等艺人改用铁板。铁板的清脆音头能与三弦伴奏、唱词落字形成清楚的节奏层次。",
+      "en": "China ICH names Wen Rong and Feng Fuchang among the artists who adopted iron clappers. Their clear attack gives the sung syllables and sanxian accompaniment a distinct rhythmic layer."
+    },
+    "uncertainty": {
+      "zh": "年代为可考的伴奏变化。",
+      "en": "The dates refer to a documented change in accompaniment."
+    },
+    "sources": [
+      {
+        "id": "hist-qing-laoting"
+      }
+    ]
+  },
+  {
+    "id": "qing-haixing-xilu-bangzi",
+    "category": "historicalEvidence",
+    "title": {
+      "zh": "海兴西路梆子形成",
+      "en": "Formation of Xilu Bangzi in Haixing"
+    },
+    "aliases": [],
+    "location": {
+      "name": {
+        "zh": "河北海兴",
+        "en": "Haixing, Hebei"
+      },
+      "coordinates": [
+        117.5,
+        38.14
+      ],
+      "role": {
+        "zh": "地方声腔结合与传播地",
+        "en": "Place of local adaptation and circulation"
+      }
+    },
+    "period": {
+      "zh": "道光年间（1821–1850），西路梆子形成。",
+      "en": "Xilu Bangzi took shape during the Daoguang reign, 1821–1850."
+    },
+    "time": {
+      "precision": "approximate",
+      "start": 1821,
+      "end": 1850,
+      "era": "qing"
+    },
+    "isEvidence": true,
+    "region": "north",
+    "description": {
+      "zh": "山陕梆子流入今海兴，与当地曲调和说唱结合。西路梆子在清代传播到京津等地，是理解河北梆子发展的一条线索。",
+      "en": "Bangzi from Shanxi and Shaanxi reached Haixing and met local tunes and narrative traditions. Xilu Bangzi later circulated through Beijing, Tianjin and other cities, helping trace the development of Hebei Bangzi."
+    },
+    "uncertainty": {
+      "zh": "采用非遗项目说明所载的形成时期。",
+      "en": "The range follows the historical account in the heritage project entry."
+    },
+    "sources": [
+      {
+        "id": "hist-qing-xilu"
+      }
+    ]
+  },
+  {
+    "id": "qing-guangzhou-bawo-guild",
+    "category": "historicalEvidence",
+    "title": {
+      "zh": "广州八和会馆创立",
+      "en": "Founding of Guangzhou’s Bawo Guild"
+    },
+    "aliases": [],
+    "location": {
+      "name": {
+        "zh": "广州黄沙",
+        "en": "Huangsha, Guangzhou"
+      },
+      "coordinates": [
+        113.24,
+        23.11
+      ],
+      "role": {
+        "zh": "八和会馆原址所在地区",
+        "en": "District of the original guild hall"
+      }
+    },
+    "period": {
+      "zh": "1889年，粤剧艺人八和会馆在广州黄沙成立。",
+      "en": "The Cantonese opera guild was established in Huangsha in 1889."
+    },
+    "time": {
+      "precision": "interval",
+      "start": 1889,
+      "end": 1889,
+      "era": "qing"
+    },
+    "isEvidence": true,
+    "region": "south",
+    "description": {
+      "zh": "八和会馆按行当和职责分设堂号，反映粤剧从艺人与班社协作的组织方式。会馆和红船戏班共同支撑了粤剧在珠江流域的传播。",
+      "en": "The guild organised performers and theatre workers by role. This institutional structure and the travelling red-boat troupes helped Cantonese opera circulate through the Pearl River region."
+    },
+    "uncertainty": {
+      "zh": "1889年指建立行业会馆。地图标示原址所在地区。",
+      "en": "1889 dates the establishment of the guild. The marker shows the district of its original site."
+    },
+    "sources": [
+      {
+        "id": "hist-qing-bawo"
+      }
+    ]
+  },
+  {
+    "id": "qing-sichuan-opera-voices",
+    "category": "historicalEvidence",
+    "title": {
+      "zh": "乾嘉年间川剧声腔的地方化",
+      "en": "Local adaptation of Sichuan opera styles"
+    },
+    "aliases": [],
+    "location": {
+      "name": {
+        "zh": "四川成都",
+        "en": "Chengdu, Sichuan"
+      },
+      "coordinates": [
+        104.07,
+        30.67
+      ],
+      "role": {
+        "zh": "川剧传承地之一",
+        "en": "A centre of Sichuan opera transmission"
+      }
+    },
+    "period": {
+      "zh": "乾隆至嘉庆年间（1736–1820），外来声腔与四川地方音乐逐渐融合。",
+      "en": "Incoming vocal styles gradually combined with local Sichuan music during 1736–1820."
+    },
+    "time": {
+      "precision": "approximate",
+      "start": 1736,
+      "end": 1820,
+      "era": "qing"
+    },
+    "isEvidence": true,
+    "region": "south",
+    "description": {
+      "zh": "多种戏曲声腔传入四川后，与当地薅秧调、川江号子、小调等产生联系。地图标出传承城市成都。现今所称的五种声腔进一步融入同台演出，约在辛亥革命前后。",
+      "en": "Incoming styles encountered local rice-weeding songs, river chants and smaller tunes. The map marks Chengdu as one centre of transmission. The five styles later came together onstage around the 1911 Revolution."
+    },
+    "uncertainty": {
+      "zh": "这里标注的是清代地方化过程。五腔合为一体的时段另见非遗目录。",
+      "en": "The point dates the Qing period of musical adaptation. The heritage source separately describes the later union of the five styles."
+    },
+    "sources": [
+      {
+        "id": "south-chuanju-history"
+      }
+    ]
+  },
+  {
+    "id": "qing-yunnan-dianju",
+    "category": "historicalEvidence",
+    "title": {
+      "zh": "滇剧声腔形成",
+      "en": "Formation of Dian opera in Yunnan"
+    },
+    "aliases": [],
+    "location": {
+      "name": {
+        "zh": "云南昆明",
+        "en": "Kunming, Yunnan"
+      },
+      "coordinates": [
+        102.71,
+        25.04
+      ],
+      "role": {
+        "zh": "滇剧演出与传承中心",
+        "en": "A centre of Dian opera performance and transmission"
+      }
+    },
+    "period": {
+      "zh": "清道光年间（1821–1850），滇剧逐渐形成。",
+      "en": "Dian opera developed during the Daoguang reign, 1821–1850."
+    },
+    "time": {
+      "precision": "approximate",
+      "start": 1821,
+      "end": 1850,
+      "era": "qing"
+    },
+    "isEvidence": true,
+    "region": "south",
+    "description": {
+      "zh": "滇剧主要使用丝弦腔、胡琴腔和襄阳腔，分别联系秦腔、徽调、汉调等流传线索。三种声腔在云南演变，形成地方风格。",
+      "en": "Dian opera uses three principal vocal styles associated with Qin opera, Hui tunes and Han tunes. These styles developed a distinctive regional form in Yunnan."
+    },
+    "uncertainty": {
+      "zh": "地图以昆明标示传承地点。年代为剧种形成的约略范围。",
+      "en": "Kunming marks a centre of transmission. The dates give the approximate period of formation."
+    },
+    "sources": [
+      {
+        "id": "hist-qing-dianju"
+      }
+    ]
+  },
+  {
+    "id": "qing-hainan-qiongju",
+    "category": "historicalEvidence",
+    "title": {
+      "zh": "梆簧声腔传入海南",
+      "en": "Banghuang vocal styles reach Hainan"
+    },
+    "aliases": [],
+    "location": {
+      "name": {
+        "zh": "海南海口",
+        "en": "Haikou, Hainan"
+      },
+      "coordinates": [
+        110.35,
+        20.02
+      ],
+      "role": {
+        "zh": "琼剧传承地之一",
+        "en": "A centre of Qiong opera transmission"
+      }
+    },
+    "period": {
+      "zh": "咸丰年间（1851–1861），梆簧声腔传入海南。",
+      "en": "Banghuang styles reached Hainan during the Xianfeng reign, 1851–1861."
+    },
+    "time": {
+      "precision": "approximate",
+      "start": 1851,
+      "end": 1861,
+      "era": "qing"
+    },
+    "isEvidence": true,
+    "region": "south",
+    "description": {
+      "zh": "琼剧吸收外来唱腔并以海南话演唱，逐步发展出以板腔体为主的地方戏曲。约1897年，部分戏班合并，演出体制进一步调整。",
+      "en": "Qiong opera absorbed incoming vocal styles, used Hainanese and developed a metre-based local opera form. Troupe mergers around 1897 brought further organisational change."
+    },
+    "uncertainty": {
+      "zh": "年代对应有据可查的声腔传入。地图标海口一处主要传承地。",
+      "en": "The period dates the documented arrival of these styles. Haikou represents a major centre of transmission."
+    },
+    "sources": [
+      {
+        "id": "hist-qing-qiongju"
+      }
+    ]
+  },
+  {
+    "id": "qing-guilin-caidiao",
+    "category": "historicalEvidence",
+    "title": {
+      "zh": "桂北彩调的清代发展",
+      "en": "Qing-era development of Caidiao in northern Guangxi"
+    },
+    "aliases": [],
+    "location": {
+      "name": {
+        "zh": "广西桂林",
+        "en": "Guilin, Guangxi"
+      },
+      "coordinates": [
+        110.3,
+        25.27
+      ],
+      "role": {
+        "zh": "桂北彩调传承地区",
+        "en": "Area of Caidiao transmission in northern Guangxi"
+      }
+    },
+    "period": {
+      "zh": "清代，传入桂北的声腔与地方俚曲结合，形成彩调。",
+      "en": "Incoming styles met northern Guangxi folk tunes during the Qing, giving rise to Caidiao."
+    },
+    "time": {
+      "precision": "approximate",
+      "start": 1644,
+      "end": 1911,
+      "era": "qing"
+    },
+    "isEvidence": true,
+    "region": "south",
+    "description": {
+      "zh": "中国非遗网将彩调的形成与北方柳子戏传入桂北及地方小调相联系。今天的彩调剧可用于观察地方小调如何进入戏剧情境。",
+      "en": "China ICH relates the formation of Caidiao to the arrival of Liuzixi in northern Guangxi and its interaction with local tunes. The later theatre form shows how folk melodies can be used in drama."
+    },
+    "uncertainty": {
+      "zh": "出处给出清代范围，具体形成的起讫年份待考。",
+      "en": "The source places formation in the Qing. More precise dates are undetermined."
+    },
+    "sources": [
+      {
+        "id": "hist-qing-caidiao"
+      }
+    ]
+  },
+  {
+    "id": "qing-lvlu-zhengyi",
+    "category": "historicalEvidence",
+    "title": {
+      "zh": "康熙朝诏修《律吕正义》",
+      "en": "The Kangxi court commissions Lülü Zhengyi"
+    },
+    "aliases": [],
+    "location": {
+      "name": {
+        "zh": "北京",
+        "en": "Beijing"
+      },
+      "coordinates": [
+        116.4,
+        39.92
+      ],
+      "role": {
+        "zh": "清宫乐律编修所在地",
+        "en": "Place of compilation at the Qing court"
+      }
+    },
+    "period": {
+      "zh": "1713年，清廷在蒙养斋设馆修订音律著作。",
+      "en": "The court set up an office to compile works on tuning in 1713."
+    },
+    "time": {
+      "precision": "interval",
+      "start": 1713,
+      "end": 1713,
+      "era": "qing"
+    },
+    "isEvidence": true,
+    "region": "north",
+    "description": {
+      "zh": "《律吕正义》讨论管音、弦音、乐器制作，并介绍西洋五线谱。把它与明代律学著作并读，可以看到不同时期对宫廷定律的处理。",
+      "en": "Lülü Zhengyi covers pitch on pipes and strings, musical instrument construction, and Western staff notation. It can be compared with Ming writings on pitch to trace changes in court practice."
+    },
+    "uncertainty": {
+      "zh": "1713年对应设馆诏修，并非全书刊印时间。",
+      "en": "1713 dates the commission and establishment of the office."
+    },
+    "sources": [
+      {
+        "id": "hist-qing-lvlu"
+      }
+    ]
+  },
+  {
+    "id": "qing-guangzhou-waijiang-guild",
+    "category": "historicalEvidence",
+    "title": {
+      "zh": "广州外江梨园会馆",
+      "en": "Guangzhou Waijiang Opera Guild Hall"
+    },
+    "aliases": [],
+    "location": {
+      "name": {
+        "zh": "广州魁巷",
+        "en": "Kuixiang, Guangzhou"
+      },
+      "coordinates": [
+        113.26,
+        23.12
+      ],
+      "role": {
+        "zh": "会馆旧址所在地区",
+        "en": "District of the old guild hall"
+      }
+    },
+    "period": {
+      "zh": "1759年，广州外江梨园会馆建立。",
+      "en": "The Waijiang Opera Guild Hall was established in 1759."
+    },
+    "time": {
+      "precision": "interval",
+      "start": 1759,
+      "end": 1759,
+      "era": "qing"
+    },
+    "isEvidence": true,
+    "region": "south",
+    "description": {
+      "zh": "外江梨园会馆旧址在今广州解放中路魁巷。会馆碑由广州博物馆收藏，是清中叶不同戏班在广州活动的文物线索。",
+      "en": "The former guild hall was in Kuixiang near present-day Jiefang Middle Road. Its stele, now at Guangzhou Museum, documents the presence of opera troupes in mid-Qing Guangzhou."
+    },
+    "uncertainty": {
+      "zh": "地点标识会馆旧址所在街区。",
+      "en": "The marker identifies the district of the former guild hall."
+    },
+    "sources": [
+      {
+        "id": "hist-qing-waijiang"
+      }
+    ]
+  },
+  {
+    "id": "han-nanyue-bronze-instruments",
+    "category": "historicalEvidence",
+    "title": {
+      "zh": "南越王墓铜句鑃与编钟",
+      "en": "Bronze percussion from the Nanyue King’s tomb"
+    },
+    "aliases": [],
+    "location": {
+      "name": {
+        "zh": "广州象岗",
+        "en": "Xianggang, Guangzhou"
+      },
+      "coordinates": [
+        113.26,
+        23.14
+      ],
+      "role": {
+        "zh": "南越文王墓出土地",
+        "en": "Findspot of the tomb of the Nanyue King"
+      }
+    },
+    "period": {
+      "zh": "约公元前122年，南越文王墓随葬成组乐器。",
+      "en": "Sets of musical instruments were buried in the tomb around 122 BCE."
+    },
+    "time": {
+      "precision": "approximate",
+      "start": -125,
+      "end": -120,
+      "era": "xihan"
+    },
+    "isEvidence": true,
+    "region": "south",
+    "description": {
+      "zh": "墓中出土八件成组铜句鑃、编钟和编磬等。器物组合记录了西汉时期岭南王廷的金石乐器配置，也便于与西汉其他高等级墓葬比较。",
+      "en": "The burial yielded a set of eight bronze goudiao, bell chimes and stone chimes. The assemblage documents court instruments in Western Han Lingnan and supports comparison with other elite tombs."
+    },
+    "uncertainty": {
+      "zh": "年月对应墓葬定年估计。文物形制可考，实际演奏场景需要结合考古语境推断。",
+      "en": "The dates approximate the burial. The performance setting is inferred from archaeological context."
+    },
+    "sources": [
+      {
+        "id": "hist-nanyue-music"
+      },
+      {
+        "id": "hist-nanyue-comparison"
+      }
+    ]
+  },
+  {
+    "id": "han-luozhuang-music",
+    "category": "historicalEvidence",
+    "title": {
+      "zh": "洛庄汉墓编钟与编磬",
+      "en": "Bells and chime stones from the Luozhuang Han tomb"
+    },
+    "aliases": [],
+    "location": {
+      "name": {
+        "zh": "山东章丘",
+        "en": "Zhangqiu, Shandong"
+      },
+      "coordinates": [
+        117.54,
+        36.72
+      ],
+      "role": {
+        "zh": "洛庄汉墓出土地",
+        "en": "Findspot of the Luozhuang Han tomb"
+      }
+    },
+    "period": {
+      "zh": "约公元前186年，成组乐器随葬。",
+      "en": "Sets of musical instruments were buried around 186 BCE."
+    },
+    "time": {
+      "precision": "approximate",
+      "start": -190,
+      "end": -180,
+      "era": "xihan"
+    },
+    "isEvidence": true,
+    "region": "east-central",
+    "description": {
+      "zh": "洛庄汉墓出土成编的钟、磬。不同材质发声的器物同见于高等级墓葬，可与广州南越王墓的乐器组合对照。",
+      "en": "The Luozhuang burial yielded sets of bronze bells and stone chimes. Compare the materials and combinations with those from the Nanyue King’s tomb in Guangzhou."
+    },
+    "uncertainty": {
+      "zh": "年代采用比较研究中的墓葬估计值。",
+      "en": "The range follows the burial estimate given in the comparative study."
+    },
+    "sources": [
+      {
+        "id": "hist-nanyue-comparison"
+      }
+    ]
+  },
+  {
+    "id": "han-yinan-performance-relief",
+    "category": "historicalEvidence",
+    "title": {
+      "zh": "沂南汉画像石上的乐舞百戏",
+      "en": "Music, dance and feats in the Yinan Han reliefs"
+    },
+    "aliases": [],
+    "location": {
+      "name": {
+        "zh": "山东沂南北寨",
+        "en": "Beizhai, Yinan"
+      },
+      "coordinates": [
+        118.45,
+        35.55
+      ],
+      "role": {
+        "zh": "北寨汉画像石墓出土地",
+        "en": "Findspot of the Beizhai Han reliefs"
+      }
+    },
+    "period": {
+      "zh": "东汉晚期，墓室石刻表现乐舞百戏。",
+      "en": "A late Eastern Han tomb relief depicts music, dance and acrobatics."
+    },
+    "time": {
+      "precision": "approximate",
+      "start": 150,
+      "end": 219,
+      "era": "donghan"
+    },
+    "isEvidence": true,
+    "region": "east-central",
+    "description": {
+      "zh": "沂南北寨汉墓乐舞图刻有击鼓、吹奏与杂技等场景。可据图辨认伴奏乐队和场内不同表演的位置。",
+      "en": "The tomb relief shows drumming, wind players and acrobatics. Their relative positions reveal how musicians and performers were represented together."
+    },
+    "uncertainty": {
+      "zh": "墓葬年代采用东汉晚期的约略范围。",
+      "en": "The dates are an approximate late Eastern Han placement."
+    },
+    "sources": [
+      {
+        "id": "hist-yinan-relief"
+      }
+    ]
+  },
+  {
+    "id": "tang-nanzhao-court-music",
+    "category": "historicalEvidence",
+    "title": {
+      "zh": "南诏乐舞入唐",
+      "en": "Nanzhao music and dance reach the Tang court"
+    },
+    "aliases": [],
+    "location": {
+      "name": {
+        "zh": "云南大理",
+        "en": "Dali, Yunnan"
+      },
+      "coordinates": [
+        100.17,
+        25.69
+      ],
+      "role": {
+        "zh": "南诏政治文化中心所在地区",
+        "en": "Region of the Nanzhao political and cultural centre"
+      }
+    },
+    "period": {
+      "zh": "800年，南诏向唐廷献乐，后有《南诏奉圣乐》。",
+      "en": "Nanzhao presented music to the Tang court in 800. The material later became the Nanzhao Fengsheng music."
+    },
+    "time": {
+      "precision": "interval",
+      "start": 800,
+      "end": 800,
+      "era": "tang"
+    },
+    "isEvidence": true,
+    "region": "south",
+    "description": {
+      "zh": "南诏方面送来的歌舞经整理进入唐廷演出。大理点对应歌舞材料所关联的南诏中心地区，唐廷演出地点在长安。",
+      "en": "Music and dance sent by Nanzhao were adapted for the Tang court. Dali represents the Nanzhao context of the material. The court performance took place in Chang’an."
+    },
+    "uncertainty": {
+      "zh": "800年标献乐这一历史事件，现存资料描述的是乐舞传播。",
+      "en": "800 dates the presentation and documents the movement of the repertory."
+    },
+    "sources": [
+      {
+        "id": "hist-nanzhao-music"
+      }
+    ]
+  },
+  {
+    "id": "wudai-chengdu-yongling-musicians",
+    "category": "historicalEvidence",
+    "title": {
+      "zh": "前蜀永陵二十四伎乐",
+      "en": "The twenty-four musicians at Yongling"
+    },
+    "aliases": [],
+    "location": {
+      "name": {
+        "zh": "四川成都永陵",
+        "en": "Yongling, Chengdu"
+      },
+      "coordinates": [
+        104.05,
+        30.68
+      ],
+      "role": {
+        "zh": "前蜀王建陵寝",
+        "en": "Tomb of Wang Jian of Former Shu"
+      }
+    },
+    "period": {
+      "zh": "918年，前蜀王建去世。永陵棺床保留五代乐舞浮雕。",
+      "en": "Wang Jian of Former Shu died in 918. His tomb preserves Five Dynasties reliefs of dancers and musicians."
+    },
+    "time": {
+      "precision": "interval",
+      "start": 918,
+      "end": 918,
+      "era": "wudai"
+    },
+    "isEvidence": true,
+    "region": "south",
+    "description": {
+      "zh": "永陵石刻把舞者和不同乐器的演奏者排在同一画面。可辨认吹管、弹弦和打击乐在前蜀宫廷音乐图像中的配置。",
+      "en": "The reliefs place dancers alongside players of winds, strings and percussion. They document the visual representation of a Former Shu court ensemble."
+    },
+    "uncertainty": {
+      "zh": "918年为王建去世年，用于标定陵墓的历史背景。",
+      "en": "918 dates Wang Jian’s death and places the tomb in historical context."
+    },
+    "sources": [
+      {
+        "id": "hist-yongling-musicians"
+      }
+    ]
+  },
+  {
+    "id": "tang-sichuan-jiuxiao-qin",
+    "category": "historicalEvidence",
+    "title": {
+      "zh": "唐琴九霄环佩与蜀地斫琴",
+      "en": "The Tang qin Jiuxiao Huanpei and Sichuan luthiery"
+    },
+    "aliases": [],
+    "location": {
+      "name": {
+        "zh": "四川成都",
+        "en": "Chengdu, Sichuan"
+      },
+      "coordinates": [
+        104.07,
+        30.67
+      ],
+      "role": {
+        "zh": "蜀地斫琴传统参照",
+        "en": "Geographical reference for Sichuan qin making"
+      }
+    },
+    "period": {
+      "zh": "唐代，故宫藏九霄环佩琴为传世唐琴。",
+      "en": "Jiuxiao Huanpei in the Palace Museum is a surviving Tang qin."
+    },
+    "time": {
+      "precision": "approximate",
+      "start": 618,
+      "end": 906,
+      "era": "tang"
+    },
+    "isEvidence": true,
+    "region": "south",
+    "description": {
+      "zh": "器物可用来辨认伏羲式古琴的形制。该琴与蜀地雷氏斫琴传统存在归属讨论，成都点用于提示蜀地这一历史背景。",
+      "en": "The instrument illustrates the Fuxi qin form. Its relationship to the Sichuan Lei workshop tradition has been debated. Chengdu represents that regional context."
+    },
+    "uncertainty": {
+      "zh": "制作者尚有讨论。时代据馆藏断为唐代，具体制作年待考。",
+      "en": "The collection dates it to the Tang. Attribution and the exact year of manufacture are uncertain."
+    },
+    "sources": [
+      {
+        "id": "hist-jiuxiao-qin"
+      }
+    ]
+  },
+  {
+    "id": "warring-states-maoxian-bell",
+    "category": "historicalEvidence",
+    "title": {
+      "zh": "茂县牟托墓蝉纹青铜甬钟",
+      "en": "Cicada-pattern bronze bell from Maoxian"
+    },
+    "aliases": [],
+    "location": {
+      "name": {
+        "zh": "四川茂县牟托",
+        "en": "Moutuo, Maoxian"
+      },
+      "coordinates": [
+        103.86,
+        31.65
+      ],
+      "role": {
+        "zh": "牟托石椁墓出土区域",
+        "en": "Findspot area of the Moutuo stone-chamber tomb"
+      }
+    },
+    "period": {
+      "zh": "战国时期，青铜甬钟随葬。",
+      "en": "The bronze bell was buried during the Warring States period."
+    },
+    "time": {
+      "precision": "approximate",
+      "start": -403,
+      "end": -222,
+      "era": "zhanguo"
+    },
+    "isEvidence": true,
+    "region": "south",
+    "description": {
+      "zh": "甬钟出土于牟托1号石椁墓，现藏茂县羌族博物馆。钟的结构和纹饰为讨论战国铜乐器在川西北的传播提供了线索。",
+      "en": "The bell was found in Moutuo Tomb 1 and is held by the Maoxian Qiang Museum. Its form and decoration help trace bronze instruments in northwestern Sichuan."
+    },
+    "uncertainty": {
+      "zh": "展览按战国时期断代，具体铸造年份待考。时间轴采用本站的战国区间。",
+      "en": "The exhibition dates the object to the Warring States period. Its exact date is unknown; the marker uses this atlas’s corresponding band."
+    },
+    "sources": [
+      {
+        "id": "hist-bashu-exhibit"
+      }
+    ]
+  },
+  {
+    "id": "warring-states-fuling-bronze-zheng",
+    "category": "historicalEvidence",
+    "title": {
+      "zh": "重庆涪陵小田溪王纹钲",
+      "en": "Inscribed bronze zheng from Xiaotianxi"
+    },
+    "aliases": [],
+    "location": {
+      "name": {
+        "zh": "重庆涪陵",
+        "en": "Fuling, Chongqing"
+      },
+      "coordinates": [
+        107.39,
+        29.7
+      ],
+      "role": {
+        "zh": "小田溪2号墓出土区域",
+        "en": "Findspot area of Xiaotianxi Tomb 2"
+      }
+    },
+    "period": {
+      "zh": "战国时期，王纹钲入墓。",
+      "en": "The bronze zheng was buried during the Warring States period."
+    },
+    "time": {
+      "precision": "approximate",
+      "start": -403,
+      "end": -222,
+      "era": "zhanguo"
+    },
+    "isEvidence": true,
+    "region": "south",
+    "description": {
+      "zh": "小田溪2号墓出土的王纹钲现藏四川博物院。钲及同类铜乐器反映了川渝地区在战国时使用的不同打击乐器形制。",
+      "en": "The zheng from Xiaotianxi Tomb 2 is held by Sichuan Museum. It documents one of several forms of bronze percussion used in the Sichuan–Chongqing area."
+    },
+    "uncertainty": {
+      "zh": "标记依据馆方断代与出土地；用乐场景尚需考古资料支持。",
+      "en": "The marker follows the museum’s date and findspot. The performance setting remains a matter of archaeological interpretation."
+    },
+    "sources": [
+      {
+        "id": "hist-bashu-exhibit"
+      }
+    ]
+  },
+  {
+    "id": "song-luxian-theatre-relief",
+    "category": "historicalEvidence",
+    "title": {
+      "zh": "泸县南宋勾栏戏剧石刻",
+      "en": "Southern Song theatre relief from Luxian"
+    },
+    "aliases": [],
+    "location": {
+      "name": {
+        "zh": "四川泸县石桥",
+        "en": "Shiqiao, Luxian"
+      },
+      "coordinates": [
+        105.51,
+        29.16
+      ],
+      "role": {
+        "zh": "南宋石刻出土地",
+        "en": "Findspot of the Southern Song relief"
+      }
+    },
+    "period": {
+      "zh": "南宋时期，四川墓葬石刻表现勾栏戏剧。",
+      "en": "A Southern Song stone relief depicts theatre in a performance enclosure."
+    },
+    "time": {
+      "precision": "approximate",
+      "start": 1127,
+      "end": 1278,
+      "era": "nansong"
+    },
+    "isEvidence": true,
+    "region": "south",
+    "description": {
+      "zh": "泸县石桥出土的高浮雕以舞台表演为题，可用来观察南宋城市演出怎样被转化为墓葬图像。",
+      "en": "The high relief from Shiqiao, Luxian depicts stage performance. It shows how Southern Song theatre was represented in burial art."
+    },
+    "uncertainty": {
+      "zh": "所列时期对应石刻断代。",
+      "en": "The date follows the period assigned to the relief."
+    },
+    "sources": [
+      {
+        "id": "hist-bashu-exhibit"
+      }
+    ]
+  },
+  {
+    "id": "ming-chengdu-shu-tomb-musician",
+    "category": "historicalEvidence",
+    "title": {
+      "zh": "明代蜀王世子墓乐俑",
+      "en": "Musician figurine from the Ming Shu prince’s tomb"
+    },
+    "aliases": [],
+    "location": {
+      "name": {
+        "zh": "四川成都",
+        "en": "Chengdu, Sichuan"
+      },
+      "coordinates": [
+        104.07,
+        30.67
+      ],
+      "role": {
+        "zh": "蜀王世子朱悦燫墓出土城市",
+        "en": "Findspot city of the tomb of Zhu Yuezhao"
+      }
+    },
+    "period": {
+      "zh": "明代，蜀王世子墓随葬乐俑。",
+      "en": "A musician figurine was buried with a Shu prince in the Ming."
+    },
+    "time": {
+      "precision": "approximate",
+      "start": 1368,
+      "end": 1643,
+      "era": "ming"
+    },
+    "isEvidence": true,
+    "region": "south",
+    "description": {
+      "zh": "国家大剧院联合展览所示乐俑出自成都朱悦燫墓，可用于讨论明代地方王府在墓葬中如何表现用乐。",
+      "en": "The joint museum exhibition identifies the object as coming from Zhu Yuezhao’s tomb in Chengdu. It provides evidence of how music was represented in Ming princely burials."
+    },
+    "uncertainty": {
+      "zh": "展览断代为明代，器物制作及具体用乐日期待考。",
+      "en": "The exhibition dates the object to the Ming. The exact date and circumstances of musical use are undetermined."
+    },
+    "sources": [
+      {
+        "id": "hist-bashu-exhibit"
+      }
+    ]
+  },
+  {
+    "id": "beisong-chengdu-city-music",
+    "category": "historicalEvidence",
+    "title": {
+      "zh": "北宋成都的市井乐舞",
+      "en": "Urban music and dance in Northern Song Chengdu"
+    },
+    "aliases": [],
+    "location": {
+      "name": {
+        "zh": "四川成都",
+        "en": "Chengdu, Sichuan"
+      },
+      "coordinates": [
+        104.07,
+        30.67
+      ],
+      "role": {
+        "zh": "宋代城市乐舞活动地",
+        "en": "City of Song-period performance"
+      }
+    },
+    "period": {
+      "zh": "北宋时期，地方资料留下成都街巷的乐舞记忆。",
+      "en": "Local accounts describe street performance in Northern Song Chengdu."
+    },
+    "time": {
+      "precision": "approximate",
+      "start": 960,
+      "end": 1126,
+      "era": "beisong"
+    },
+    "isEvidence": true,
+    "region": "south",
+    "description": {
+      "zh": "成都博物馆的音乐展将北宋城市中的笙歌、百戏放入巴蜀音乐史，帮助理解演出如何进入市井空间。",
+      "en": "Chengdu Museum’s music exhibition places reed-organ music, singing and variety performance within the city’s Northern Song musical life."
+    },
+    "uncertainty": {
+      "zh": "地点与时段对应展览所述城市音乐背景。",
+      "en": "The marker identifies the city and period discussed in the exhibition."
+    },
+    "sources": [
+      {
+        "id": "hist-chengdu-city-music"
+      }
+    ]
+  },
+  {
+    "id": "roc-yanan-white-haired-girl",
+    "category": "historicalEvidence",
+    "title": {
+      "zh": "歌剧《白毛女》延安首演",
+      "en": "Premiere of The White-Haired Girl in Yan’an"
+    },
+    "aliases": [],
+    "location": {
+      "name": {
+        "zh": "陕西延安",
+        "en": "Yan’an, Shaanxi"
+      },
+      "coordinates": [
+        109.49,
+        36.59
+      ],
+      "role": {
+        "zh": "首演地点",
+        "en": "Place of the premiere"
+      }
+    },
+    "period": {
+      "zh": "1945年，延安鲁艺创排的《白毛女》在延安首演。",
+      "en": "The opera created by the Lu Xun Academy premiered in Yan’an in 1945."
+    },
+    "time": {
+      "precision": "interval",
+      "start": 1945,
+      "end": 1945,
+      "era": "roc"
+    },
+    "isEvidence": true,
+    "region": "north",
+    "description": {
+      "zh": "作品以民间故事为素材，将民间曲调和新歌剧的舞台叙事结合。地图记载的是这个歌剧版本的首演。",
+      "en": "The opera combines a folk story and musical material with the staging of a then-new opera form. The map dates this opera’s premiere."
+    },
+    "uncertainty": {
+      "zh": "1945年对应歌剧首演。其后电影和舞剧另有创作及首演时间。",
+      "en": "1945 dates the opera’s premiere. Film and ballet adaptations have their own histories."
+    },
+    "sources": [
+      {
+        "id": "hist-yanan-white-haired"
+      }
+    ]
+  },
+  {
+    "id": "prc-beijing-dongfanghong",
+    "category": "historicalEvidence",
+    "title": {
+      "zh": "音乐舞蹈史诗《东方红》公演",
+      "en": "Public performance of The East Is Red"
+    },
+    "aliases": [],
+    "location": {
+      "name": {
+        "zh": "北京人民大会堂",
+        "en": "Great Hall of the People, Beijing"
+      },
+      "coordinates": [
+        116.39,
+        39.9
+      ],
+      "role": {
+        "zh": "音乐舞蹈史诗演出地点",
+        "en": "Performance venue"
+      }
+    },
+    "period": {
+      "zh": "1964年10月，《东方红》在北京公演。",
+      "en": "The East Is Red was presented in Beijing in October 1964."
+    },
+    "time": {
+      "precision": "interval",
+      "start": 1964,
+      "end": 1964,
+      "era": "prc"
+    },
+    "isEvidence": true,
+    "region": "north",
+    "description": {
+      "zh": "这里标出大型舞台作品的演出地点。各段使用合唱、歌舞和朗诵等形式组织叙事，标题同名歌曲有另外的流传史。",
+      "en": "The marker is for the large-scale stage work. Its narrative moves through choral music, dance and recitation. The title song has a separate history."
+    },
+    "uncertainty": {
+      "zh": "1964年指舞台演出。",
+      "en": "1964 dates the stage performance."
+    },
+    "sources": [
+      {
+        "id": "hist-beijing-dongfanghong"
+      }
+    ]
+  },
+  {
+    "id": "prc-xinjiang-muqam-project",
+    "category": "historicalEvidence",
+    "title": {
+      "zh": "十二木卡姆采录整理启动",
+      "en": "Documentation of the Twelve Muqam begins"
+    },
+    "aliases": [],
+    "location": {
+      "name": {
+        "zh": "新疆乌鲁木齐",
+        "en": "Urumqi, Xinjiang"
+      },
+      "coordinates": [
+        87.62,
+        43.82
+      ],
+      "role": {
+        "zh": "万桐书赴疆开展抢救整理的工作地",
+        "en": "Centre of Wan Tongshu’s documentation work in Xinjiang"
+      }
+    },
+    "period": {
+      "zh": "1951年，万桐书赴新疆组织木卡姆采录整理。",
+      "en": "Wan Tongshu went to Xinjiang to organise Muqam documentation in 1951."
+    },
+    "time": {
+      "precision": "interval",
+      "start": 1951,
+      "end": 1951,
+      "era": "prc"
+    },
+    "isEvidence": true,
+    "region": "north",
+    "description": {
+      "zh": "整理者向吐尔迪·阿洪等艺人学习，记录唱奏和歌词。录音与后续刊谱为维吾尔十二木卡姆的流传留下直接资料。",
+      "en": "The team worked with performers including Turdi Akhun to document the music and lyrics. The recordings and later notation preserve direct evidence of the repertoire."
+    },
+    "uncertainty": {
+      "zh": "1951年对应整理工作的启动。木卡姆已有更早的流传史。",
+      "en": "1951 dates the start of this documentation project. The tradition circulated earlier."
+    },
+    "sources": [
+      {
+        "id": "hist-muqam-project"
+      },
+      {
+        "id": "hist-muqam-archive"
+      }
+    ]
+  },
+  {
+    "id": "sanguo-ji-kang-qin-fu",
+    "category": "historicalEvidence",
+    "title": {
+      "zh": "嵇康《琴赋》与曹魏琴学",
+      "en": "Ji Kang’s Qin Rhapsody and qin culture in Cao Wei"
+    },
+    "aliases": [],
+    "location": {
+      "name": {
+        "zh": "安徽淮北一带",
+        "en": "Huaibei area, Anhui"
+      },
+      "coordinates": [
+        116.79,
+        33.95
+      ],
+      "role": {
+        "zh": "嵇康籍贯参照",
+        "en": "Region associated with Ji Kang’s native place"
+      }
+    },
+    "period": {
+      "zh": "三国曹魏，嵇康撰写《琴赋》。",
+      "en": "Ji Kang wrote the Qin Rhapsody in the Cao Wei period."
+    },
+    "time": {
+      "precision": "approximate",
+      "start": 223,
+      "end": 262,
+      "era": "sanguo"
+    },
+    "isEvidence": true,
+    "region": "east-central",
+    "description": {
+      "zh": "《琴赋》讨论琴材、制作和琴音。地图以嵇康籍贯所在地区标点，可与西晋的乐律制度资料并读。",
+      "en": "The rhapsody discusses materials, construction and sound. The map locates Ji Kang’s native region. Compare the text with accounts of musical institutions in the Western Jin."
+    },
+    "uncertainty": {
+      "zh": "查到的资料支持曹魏归期。确切成文年与成文地点待考。",
+      "en": "The work is placed in Cao Wei. The exact date and place of writing are undetermined."
+    },
+    "sources": [
+      {
+        "id": "hist-ji-kang"
+      },
+      {
+        "id": "hist-ji-kang-qin"
+      }
+    ]
+  },
+  {
+    "id": "dongjin-guanzhong-seated-musicians",
+    "category": "historicalEvidence",
+    "title": {
+      "zh": "关中十六国坐乐俑",
+      "en": "Seated musician figurines from the Sixteen Kingdoms"
+    },
+    "aliases": [],
+    "location": {
+      "name": {
+        "zh": "陕西关中",
+        "en": "Guanzhong, Shaanxi"
+      },
+      "coordinates": [
+        108.94,
+        34.27
+      ],
+      "role": {
+        "zh": "相关墓葬区域",
+        "en": "Region of the excavated tombs"
+      }
+    },
+    "period": {
+      "zh": "十六国时期，关中墓葬中出现坐乐俑。",
+      "en": "Seated musician figurines occur in Guanzhong tombs of the Sixteen Kingdoms."
+    },
+    "time": {
+      "precision": "approximate",
+      "start": 317,
+      "end": 419,
+      "era": "dongjin"
+    },
+    "isEvidence": true,
+    "region": "north",
+    "description": {
+      "zh": "考古研究结合关中墓葬中的坐乐俑讨论墓葬制度和形制来源。俑的坐姿及乐器构成可与同时期南方音乐图像作比较。",
+      "en": "Archaeological research uses seated musicians from Guanzhong tombs to study burial customs and origins of the form. The poses and instruments can be compared with contemporary southern imagery."
+    },
+    "uncertainty": {
+      "zh": "十六国与东晋并存。此处使用网站与该段历史重合的年代带。",
+      "en": "The Sixteen Kingdoms and Eastern Jin were contemporary. This marker uses the atlas band that overlaps the evidence."
+    },
+    "sources": [
+      {
+        "id": "hist-guanzhong-musicians"
+      }
+    ]
+  },
+  {
+    "id": "ming-tibetan-opera-formative",
+    "category": "historicalEvidence",
+    "title": {
+      "zh": "明代藏戏形成的历史线索",
+      "en": "Ming-period accounts of the formation of Tibetan opera"
+    },
+    "aliases": [],
+    "location": {
+      "name": {
+        "zh": "西藏山南",
+        "en": "Shannan, Tibet"
+      },
+      "coordinates": [
+        91.77,
+        29.23
+      ],
+      "role": {
+        "zh": "藏戏早期传承活动的区域参照",
+        "en": "Regional context for early Tibetan opera"
+      }
+    },
+    "period": {
+      "zh": "15世纪，藏戏传统与唐东杰布的活动相联系。",
+      "en": "Accounts associate the opera tradition with Thangtong Gyalpo’s fifteenth-century activities."
+    },
+    "time": {
+      "precision": "approximate",
+      "start": 1400,
+      "end": 1499,
+      "era": "ming"
+    },
+    "isEvidence": true,
+    "region": "south",
+    "description": {
+      "zh": "西藏地方资料将唐东杰布与歌舞、戏班组织及藏戏历史相联系。这个年代点可与拉萨站的现代表演资料片对读。",
+      "en": "Tibetan sources associate Thangtong Gyalpo with song, dance and troupe organisation. This historical point can be compared with the modern performance film in the Lhasa entry."
+    },
+    "uncertainty": {
+      "zh": "形成过程和具体首演年有不同说法。地图使用传承区域参照。",
+      "en": "Accounts differ on the process and first performance date. The point represents a region associated with the tradition."
+    },
+    "sources": [
+      {
+        "id": "hist-ming-tibetan-opera"
+      }
+    ]
+  },
+  {
+    "id": "ming-henan-zhu-zaiyu-pitch",
+    "category": "historicalEvidence",
+    "title": {
+      "zh": "朱载堉记述新法密率",
+      "en": "Zhu Zaiyu documents his equal-temperament method"
+    },
+    "aliases": [],
+    "location": {
+      "name": {
+        "zh": "河南沁阳",
+        "en": "Qinyang, Henan"
+      },
+      "coordinates": [
+        112.94,
+        35.09
+      ],
+      "role": {
+        "zh": "朱载堉的主要活动地区之一",
+        "en": "One of Zhu Zaiyu’s places of activity"
+      }
+    },
+    "period": {
+      "zh": "1584年，朱载堉在《律学新说》中阐述新法密率。",
+      "en": "Zhu Zaiyu set out his equal-temperament method in a treatise dated 1584."
+    },
+    "time": {
+      "precision": "interval",
+      "start": 1584,
+      "end": 1584,
+      "era": "ming"
+    },
+    "isEvidence": true,
+    "region": "east-central",
+    "description": {
+      "zh": "新法密率用数学比例计算十二律之间的音高关系。此站可与北京清宫修订律书的时间节点对照。",
+      "en": "His method used mathematical ratios to calculate the relationships among the twelve pitches. Compare this with the later court compilation in Beijing."
+    },
+    "uncertainty": {
+      "zh": "1584年标著述时间。",
+      "en": "1584 dates the treatise."
+    },
+    "sources": [
+      {
+        "id": "hist-ming-zhu-pitch"
+      },
+      {
+        "id": "hist-zhu-dating"
+      }
+    ]
+  },
+  {
+    "id": "warring-xianyang-lushi-chunqiu",
+    "category": "historicalEvidence",
+    "title": {
+      "zh": "咸阳《吕氏春秋》中的音乐论述",
+      "en": "Musical thought in the Lüshi Chunqiu"
+    },
+    "aliases": [],
+    "location": {
+      "name": {
+        "zh": "陕西咸阳",
+        "en": "Xianyang, Shaanxi"
+      },
+      "coordinates": [
+        108.72,
+        34.36
+      ],
+      "role": {
+        "zh": "《吕氏春秋》成书后公布的秦都",
+        "en": "Qin capital where the completed text was made public"
+      }
+    },
+    "period": {
+      "zh": "公元前239年，《吕氏春秋》编成。",
+      "en": "The Lüshi Chunqiu was completed in 239 BCE."
+    },
+    "time": {
+      "precision": "interval",
+      "start": -239,
+      "end": -239,
+      "era": "zhanguo"
+    },
+    "isEvidence": true,
+    "region": "north",
+    "description": {
+      "zh": "这部书的《古乐》《大乐》等篇讨论音乐的来历、功用与秩序。地点对应成书及公布的秦都，可用作辨认战国乐论的文献站。",
+      "en": "Chapters on ancient music and great music discuss origins, functions and order. Xianyang locates the publication of the text and provides a point of reference for Warring States musical thought."
+    },
+    "uncertainty": {
+      "zh": "前239年指编成这部文献的通行定年。",
+      "en": "239 BCE is the conventional date for completion of the text."
+    },
+    "sources": [
+      {
+        "id": "hist-lushi-dating"
+      }
+    ]
+  },
+  {
+    "id": "donghan-suide-drum-dance",
+    "category": "historicalEvidence",
+    "title": {
+      "zh": "绥德东汉盘鼓舞画像石",
+      "en": "Drum-dance relief from Eastern Han Suide"
+    },
+    "aliases": [],
+    "location": {
+      "name": {
+        "zh": "陕西绥德",
+        "en": "Suide, Shaanxi"
+      },
+      "coordinates": [
+        110.26,
+        37.5
+      ],
+      "role": {
+        "zh": "墓门柱画像石出土地",
+        "en": "Findspot of the tomb entrance relief"
+      }
+    },
+    "period": {
+      "zh": "东汉时期，墓门柱石刻表现盘鼓舞与吹奏。",
+      "en": "An Eastern Han tomb-pillar relief depicts drum dancing and wind playing."
+    },
+    "time": {
+      "precision": "approximate",
+      "start": 25,
+      "end": 219,
+      "era": "donghan"
+    },
+    "isEvidence": true,
+    "region": "north",
+    "description": {
+      "zh": "画像石把盘鼓舞、弄丸和吹奏安排在相邻画面中。文物出自绥德，现藏故宫博物院。",
+      "en": "The relief depicts drum dancing, juggling and a wind player. It was found in Suide and is held by the Palace Museum."
+    },
+    "uncertainty": {
+      "zh": "东汉为故宫研究所采用的断代。",
+      "en": "The date follows the Palace Museum’s Eastern Han attribution."
+    },
+    "sources": [
+      {
+        "id": "hist-suide-drum-dance"
+      },
+      {
+        "id": "hist-suide-dating"
+      }
+    ]
+  },
+  {
+    "id": "xijin-chengdu-chenghan-whistle",
+    "category": "historicalEvidence",
+    "title": {
+      "zh": "成都成汉墓陶吹哨俑",
+      "en": "Terracotta whistle player from a Cheng Han tomb"
+    },
+    "aliases": [],
+    "location": {
+      "name": {
+        "zh": "成都桓侯巷",
+        "en": "Huanhou Lane, Chengdu"
+      },
+      "coordinates": [
+        104.05,
+        30.65
+      ],
+      "role": {
+        "zh": "成汉墓出土地",
+        "en": "Findspot of the Cheng Han tomb"
+      }
+    },
+    "period": {
+      "zh": "成汉玉衡二年（312年）纪年砖与陶吹哨俑见于同一墓葬。",
+      "en": "A brick dated 312 and a terracotta whistle player were found in the same Cheng Han burial."
+    },
+    "time": {
+      "precision": "interval",
+      "start": 312,
+      "end": 312,
+      "era": "xijin"
+    },
+    "isEvidence": true,
+    "region": "south",
+    "description": {
+      "zh": "成都博物馆藏桓侯巷出土的陶吹哨俑，保留了吹奏动作的图像。墓中的纪年砖为器物提供可核的年代参照。",
+      "en": "Chengdu Museum’s figurine preserves the image of a whistle player. A dated brick from the burial provides a chronological reference."
+    },
+    "uncertainty": {
+      "zh": "成汉与西晋晚期并存。地图采用312年所在年代带。",
+      "en": "Cheng Han coexisted with the late Western Jin. The atlas uses the band containing 312."
+    },
+    "sources": [
+      {
+        "id": "hist-chenghan-whistle"
+      }
+    ]
+  },
+  {
+    "id": "sui-anyang-celadon-musicians",
+    "category": "historicalEvidence",
+    "title": {
+      "zh": "安阳隋墓青釉伎乐俑",
+      "en": "Celadon musicians from a Sui tomb in Anyang"
+    },
+    "aliases": [],
+    "location": {
+      "name": {
+        "zh": "河南安阳置度村",
+        "en": "Zhiducun, Anyang"
+      },
+      "coordinates": [
+        114.3,
+        36.1
+      ],
+      "role": {
+        "zh": "隋墓出土地",
+        "en": "Findspot of the Sui tomb"
+      }
+    },
+    "period": {
+      "zh": "隋代，置度村八号墓随葬九件青釉伎乐俑。",
+      "en": "Nine celadon musician figurines were buried in Zhiducun Tomb 8 during the Sui."
+    },
+    "time": {
+      "precision": "approximate",
+      "start": 581,
+      "end": 617,
+      "era": "sui"
+    },
+    "isEvidence": true,
+    "region": "east-central",
+    "description": {
+      "zh": "九件瓷俑成组出土。河南博物院根据墓葬形制和器物组合，将这组俑置于隋代。",
+      "en": "The nine ceramic figurines were discovered as a group. Henan Museum dates them to the Sui from the burial structure and object assemblage."
+    },
+    "uncertainty": {
+      "zh": "墓无纪年墓志，年代为器物与墓葬形制断代。",
+      "en": "The tomb lacks a dated epitaph. The attribution follows its architecture and artefacts."
+    },
+    "sources": [
+      {
+        "id": "hist-anyang-sui-celadon"
+      }
+    ]
+  },
+  {
+    "id": "tang-mengjin-musician-figurines",
+    "category": "historicalEvidence",
+    "title": {
+      "zh": "洛阳孟津唐墓彩绘乐舞俑",
+      "en": "Painted Tang musicians and dancers from Mengjin"
+    },
+    "aliases": [],
+    "location": {
+      "name": {
+        "zh": "河南洛阳孟津",
+        "en": "Mengjin, Luoyang"
+      },
+      "coordinates": [
+        112.48,
+        34.83
+      ],
+      "role": {
+        "zh": "唐岑氏墓出土地区",
+        "en": "Region where the Tang Cen tomb was excavated"
+      }
+    },
+    "period": {
+      "zh": "唐代，洛阳孟津岑氏墓随葬一组乐舞俑。",
+      "en": "A set of musician and dancer figurines was buried in the Tang-period Cen tomb."
+    },
+    "time": {
+      "precision": "approximate",
+      "start": 618,
+      "end": 906,
+      "era": "tang"
+    },
+    "isEvidence": true,
+    "region": "east-central",
+    "description": {
+      "zh": "岑氏墓出土一组彩绘陶女乐舞俑，现藏洛阳博物馆。可与安阳隋墓的伎乐俑比较形制和组合。",
+      "en": "The tomb yielded a set of painted pottery female musicians and dancers held by Luoyang Museum. Compare their forms and grouping with the Sui musicians from Anyang."
+    },
+    "uncertainty": {
+      "zh": "采用馆方研究断代。",
+      "en": "The date follows museum research."
+    },
+    "sources": [
+      {
+        "id": "hist-mengjin-tang"
+      }
+    ]
+  },
+  {
+    "id": "nansong-jin-dongming-theatre",
+    "category": "historicalEvidence",
+    "title": {
+      "zh": "侯马金代董明墓戏俑砖雕",
+      "en": "Theatre brick carvings from the Jin Dong Ming tomb"
+    },
+    "aliases": [],
+    "location": {
+      "name": {
+        "zh": "山西侯马",
+        "en": "Houma, Shanxi"
+      },
+      "coordinates": [
+        111.37,
+        35.62
+      ],
+      "role": {
+        "zh": "金墓出土地",
+        "en": "Findspot of the Jin-period tomb"
+      }
+    },
+    "period": {
+      "zh": "1210年，金代董明墓留下戏台和五件彩绘戏俑。",
+      "en": "The Jin Dong Ming tomb, dated 1210, preserves a stage and five painted theatrical figurines."
+    },
+    "time": {
+      "precision": "interval",
+      "start": 1210,
+      "end": 1210,
+      "era": "nansong"
+    },
+    "isEvidence": true,
+    "region": "north",
+    "description": {
+      "zh": "墓室砖雕表现杂剧演出，其角色组合可用于考察同时期北方舞台。北方金朝与南宋同期。",
+      "en": "The tomb’s brick relief represents a zaju performance. Its role grouping documents northern theatre at the time. The Jin and Southern Song coexisted."
+    },
+    "uncertainty": {
+      "zh": "1210年为墓葬定年，年代带按全站统一的时间轴显示。",
+      "en": "1210 dates the burial. The marker uses this atlas’s corresponding date band."
+    },
+    "sources": [
+      {
+        "id": "hist-houma-dongming"
+      }
+    ]
+  },
+  {
+    "id": "early-chengdu-jinsha-stone-chimes",
+    "category": "historicalEvidence",
+    "title": {
+      "zh": "金沙遗址石磬",
+      "en": "Stone chimes from the Jinsha site"
+    },
+    "aliases": [],
+    "location": {
+      "name": {
+        "zh": "成都金沙遗址",
+        "en": "Jinsha site, Chengdu"
+      },
+      "coordinates": [
+        104.01,
+        30.68
+      ],
+      "role": {
+        "zh": "金沙祭祀区出土地",
+        "en": "Findspot in the sacrificial precinct"
+      }
+    },
+    "period": {
+      "zh": "商代晚期至西周，金沙遗址有石磬。",
+      "en": "Stone chimes from Jinsha date from the late Shang to the Western Zhou."
+    },
+    "time": {
+      "precision": "approximate",
+      "start": -1000,
+      "end": -771,
+      "era": "early"
+    },
+    "isEvidence": true,
+    "region": "south",
+    "description": {
+      "zh": "金沙祭祀区出土的石磬为成都平原早期击奏乐器留下考古证据。这里采用材质与器形明确的石磬，可与中原和长江流域的磬类器物对照。",
+      "en": "Stone chimes from the sacrificial precinct document early percussion on the Chengdu plain. Their material and shape can be compared with chimes from central China and the Yangtze basin."
+    },
+    "uncertainty": {
+      "zh": "器物采用商末至西周的考古断代，时间轴取其中与本站先秦范围重合的部分。",
+      "en": "The archaeological dating spans the late Shang and Western Zhou. The timeline uses the portion within the atlas’s early band."
+    },
+    "sources": [
+      {
+        "id": "hist-jinsha-chimes"
+      }
+    ]
+  },
+  {
+    "id": "nanbei-chengdu-wanfosi-musicians",
+    "category": "historicalEvidence",
+    "title": {
+      "zh": "成都万佛寺南朝伎乐石刻",
+      "en": "Southern Dynasties musicians carved at Wanfosi"
+    },
+    "aliases": [],
+    "location": {
+      "name": {
+        "zh": "成都万佛寺遗址",
+        "en": "Wanfosi site, Chengdu"
+      },
+      "coordinates": [
+        104.05,
+        30.68
+      ],
+      "role": {
+        "zh": "南朝造像碑出土地",
+        "en": "Findspot of the Southern Dynasties stele"
+      }
+    },
+    "period": {
+      "zh": "南朝梁中晚期，造像碑雕刻伎乐。",
+      "en": "Musicians were carved on a stele in the middle to late Liang period."
+    },
+    "time": {
+      "precision": "approximate",
+      "start": 502,
+      "end": 557,
+      "era": "nanbei"
+    },
+    "isEvidence": true,
+    "region": "south",
+    "description": {
+      "zh": "万佛寺遗址出土的造像碑WSZ50保留琵琶、笛、笙、鼓等乐器的图像。形制研究指出上下两层伎乐呈现不同的乐舞样式。",
+      "en": "Wanfosi stele WSZ50 depicts instruments including pipa, flute, sheng and drums. Research identifies different musical and dance conventions in its upper and lower registers."
+    },
+    "uncertainty": {
+      "zh": "造像碑没有纪年，梁代断代来自与同遗址造像的样式比较。",
+      "en": "The stele is undated. Its Liang attribution is based on comparison with other carvings from the site."
+    },
+    "sources": [
+      {
+        "id": "hist-wanfosi-study"
+      }
+    ]
+  },
+  {
+    "id": "dongjin-huayang-records-music",
+    "category": "historicalEvidence",
+    "title": {
+      "zh": "常璩《华阳国志》记录巴地歌舞",
+      "en": "Ba song and dance recorded in Huayang Guozhi"
+    },
+    "aliases": [],
+    "location": {
+      "name": {
+        "zh": "四川成都平原",
+        "en": "Chengdu Plain, Sichuan"
+      },
+      "coordinates": [
+        104.07,
+        30.67
+      ],
+      "role": {
+        "zh": "东晋巴蜀方志作者的地区关联",
+        "en": "Regional context of the Eastern Jin gazetteer’s author"
+      }
+    },
+    "period": {
+      "zh": "东晋，常璩《华阳国志》保存有关巴地歌舞的记述。",
+      "en": "Chang Qu’s Eastern Jin gazetteer preserves an account of Ba song and dance."
+    },
+    "time": {
+      "precision": "approximate",
+      "start": 317,
+      "end": 419,
+      "era": "dongjin"
+    },
+    "isEvidence": true,
+    "region": "south",
+    "description": {
+      "zh": "《巴志》在回顾更早历史时记下了巴人歌舞的叙述。地图使用常璩和巴蜀文献的区域背景，标记的是东晋书写留下的证据。",
+      "en": "The Ba chapter records an account of song and dance while recounting earlier history. The map marks the regional setting of the Eastern Jin written record."
+    },
+    "uncertainty": {
+      "zh": "东晋为文献成书时期。书中回顾的早期事件年代应另据材料判断。",
+      "en": "The Eastern Jin dates the compilation. Earlier events described in the text require separate assessment."
+    },
+    "sources": [
+      {
+        "id": "hist-huayang-text"
+      },
+      {
+        "id": "hist-huayang-study"
+      },
+      {
+        "id": "hist-huayang-edition"
       }
     ]
   }

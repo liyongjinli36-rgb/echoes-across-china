@@ -163,6 +163,10 @@
 #music-audio #audio-clock { font-size: .76rem; font-variant-numeric: tabular-nums; color: var(--text-secondary); }
 #music-audio h4 { margin: .5rem 0; }
 #music-audio p, .music-links, .music-credit { font-size: .8rem; }
+#music-audio { padding-block: .25rem .65rem; border-bottom: 1px solid var(--hairline); }
+#music-audio #audio-prompt { font-size: .9rem; line-height: 1.5; margin-block: .5rem; }
+#audio-embed .audio-frame { display: block; width: 100%; height: 175px; border: 0; border-radius: 8px; }
+#audio-embed .video-frame { display: block; width: 100%; aspect-ratio: 16 / 9; min-height: 200px; border: 0; border-radius: 8px; background: #211b17; }
 .music-help { border-top: 1px solid var(--hairline); margin-top: 1rem; padding: .5rem 0; font-size: .85rem; }
 .music-credit { padding: .5rem 0; color: var(--text-secondary); }
 .music-atlas :focus-visible { outline: 2px solid #923c29; outline-offset: 2px; }
@@ -225,6 +229,18 @@
   background: rgba(252,248,240,.96);
   border: 1px solid #b5a48e;
 }
+#listening-select {
+  width: 6.4em;
+  padding: .3rem .4rem;
+  border: 1px solid #773123;
+  border-radius: 6px;
+  background: #873c2e;
+  color: white;
+  font: 600 .85rem var(--sans-stack);
+  cursor: pointer;
+}
+:lang(en) #listening-select { width: 8.6em; }
+#listening-select option { background: #fbf7ef; color: var(--text-main); }
 .catalog-fields {
   display: grid;
   grid-template-columns: repeat(2,minmax(0,1fr));
@@ -250,3 +266,30 @@
 }
 .music-comparison h4 { margin: 0; }
 .music-comparison p { font-size: .9rem; line-height: 1.55; }
+
+.music-atlas #atlas-shell { grid-template-rows: auto auto minmax(0,1fr) auto; }
+#region-nav {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: .25rem clamp(.5rem,1.5vw,1.25rem);
+  gap: .15rem;
+  border-bottom: 1px solid var(--hairline);
+  background: var(--bg-parchment,#f5efe3);
+}
+#region-nav button {
+  border: 0;
+  border-radius: 4px;
+  background: transparent;
+  color: var(--text-main);
+  padding: .33rem .76rem;
+  font: 600 .85rem var(--sans-stack);
+  cursor: pointer;
+}
+#region-nav button[aria-pressed="true"] { background: #873c2e; color: #fff8ed; }
+#region-nav button:hover:not([aria-pressed="true"]) { background: #eadbc8; }
+.same-place-works { font-size: .85rem; margin: .6rem 0; }
+@media (max-width: 560px) {
+  #region-nav { gap: 0; padding-inline: .2rem; }
+  #region-nav button { flex: 1 1 0; padding: .3rem .12rem; font-size: .78rem; }
+}

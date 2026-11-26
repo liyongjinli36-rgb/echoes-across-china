@@ -26,6 +26,7 @@ const comparisons = json('data/music/regional-comparisons.json');
 const events = json('data/music/events.json');
 const keys = new Set();
 const categories = new Set(['folk','solo','ensemble','narrative','opera','historicalEvidence']);
+const atlasRegions = new Set(['north','east-central','south']);
 
 function localized(value, context) {
   for (const locale of ['zh','en']) {
@@ -81,15 +82,54 @@ for (const record of records) {
   assert.ok(time.precision === 'undated' ? time.era === null : eras.some(era=>era.id === time.era),id);
   assert.ok(['undated','approximate','interval'].includes(time.precision),id);
   assert.equal(time.precision === 'undated',time.start === null,id);
-  if (time.start !== null) assert.ok(Number.isInteger(time.end) && time.start <= time.end,id);
+  if (time.start !== null) {
+    const era = eras.find(item=>item.id === time.era);
+    assert.ok(Number.isInteger(time.start) && Number.isInteger(time.end)
+      && time.start <= time.end && time.start <= era.end && time.end >= era.start,id);
+  }
   validLocation(record.location,id);
   citations(record);
   if (record.people) localized(record.people,`${id} people`);
+  assert.ok(atlasRegions.has(record.region), `${id} region`);
+  if (record.province) localized(record.province, `${id} province`);
   if (media) {
     localized(media.title,`${id} audio title`);
     localized(media.credit,`${id} audio credit`);
-    assert.ok(media.performer.zh && media.performer.en && exists(media.file),id);
-    assert.ok(media.license && media.source,id);
+    localized(media.prompt,`${id} listening prompt`);
+    assert.ok(media.performer.zh && media.performer.en,id);
+    assert.equal(new URL(media.source).protocol,'https:',id);
+    assert.equal([media.file,media.embed,media.cctv,media.video,media.watch].filter(Boolean).length,1,`${id} playback target`);
+    if (media.type) {
+      const target = {local:'file',embed:'embed',cctv:'cctv',video:'video',external:'watch'}[media.type];
+      assert.ok(target && media[target], `${id} playback type`);
+    }
+    if (media.excerpt) localized(media.excerpt, `${id} excerpt`);
+    if (media.originalRangeSeconds) {
+      const [start,end] = media.originalRangeSeconds;
+      assert.ok(Number.isFinite(start) && start >= 0 && Number.isFinite(end) && end > start, `${id} playback range`);
+    }
+    if (media.file) {
+      assert.match(media.file,/^assets\/audio\/[\w.-]+$/,id);
+      assert.ok(exists(media.file) && media.licenseLabel,id);
+      assert.equal(new URL(media.license).protocol,'https:',id);
+    } else if (media.embed) {
+      const player = new URL(media.embed);
+      if (player.origin === 'https://embed.music.apple.com') {
+        assert.ok(player.searchParams.get('i'),id);
+      } else {
+        assert.equal(player.origin,'https://www.youtube-nocookie.com',id);
+        assert.match(player.pathname,/^\/embed\/[\w-]{11}$/,id);
+      }
+    } else if (media.cctv) {
+      assert.match(media.cctv,/^[\da-f]{32}$/i,id);
+      assert.equal(new URL(media.source).origin,'https://tv.cctv.com',id);
+    } else if (media.video) {
+      const video = new URL(media.video);
+      assert.equal(video.protocol,'https:',id);
+      assert.match(video.pathname,/\.mp4$/i,id);
+    } else {
+      assert.equal(new URL(media.watch).protocol,'https:',id);
+    }
   }
 }
 for (const [index,event] of events.entries()) {
@@ -130,6 +170,7 @@ for (const entry of registry.registrations) {
 }
 for (const [code,origin] of Object.entries(origins)) {
   assert.ok(projects.has(code),code);
+  assert.ok(atlasRegions.has(origin.region), `${code} historical region`);
   localized(origin.label,code);
   localized(origin.description,code);
   validLocation({...origin.location,role:{zh:'历史地点',en:'Historical location'}},code);
