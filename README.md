@@ -60,9 +60,9 @@ The upstream baseline is `f628e2d573b83c7f312faae6fa075b649893d9d7` on local `ma
 
 ### 年代和地图限制 · Dating and map coverage
 
-时期设定保存了原地图的时间轴分配，并另列常见历史起讫年。选择代表快照只会改变地图底图，音乐卡片使用自身的年代证据。指定年份按照上游分期映射到快照。例如，1598 年显示 1513–1615 年分期。公元前 403 年以前以地形定位考古地点。1949 年起，上游现代入口依赖 DataV 省界。音乐版采用地形与河流参照。各曲卡列明演奏者和版本，可通过本地授权选段、Apple Music 官方播放器或原站节目试听。
+时期设定保存了原地图的时间轴分配，并另列常见历史起讫年。选择代表快照只会改变地图底图，音乐卡片使用自身的年代证据。指定年份按照上游分期映射到快照。例如，1598 年显示 1513–1615 年分期。公元前 403 年以前以地形定位考古地点。1949 年起，上游现代入口依赖 DataV 省界。音乐版采用地形与河流参照。各曲卡列明表演者、版本和出处。试听在卡片内播放，使用本地授权录音、央视或光明网原版节目流，或发布平台提供的嵌入播放器。
 
-The era configuration preserves upstream year assignments and separately lists familiar historical date ranges. A representative snapshot sets the base map, and music cards carry their own dating evidence. Selected years use upstream snapshot intervals. For example, 1598 uses the 1513–1615 phase. Before 403 BCE, terrain provides context for archaeological finds. From 1949 onward, the upstream map relies on DataV provincial outlines, so the music edition uses terrain and rivers as its reference. Cards identify each performer and version. Playback uses licensed local audio, official Apple Music previews or original performance pages.
+The era configuration preserves upstream year assignments and separately lists familiar historical date ranges. A representative snapshot sets the base map, and music cards carry their own dating evidence. Selected years use upstream snapshot intervals. For example, 1598 uses the 1513–1615 phase. Before 403 BCE, terrain provides context for archaeological finds. From 1949 onward, the upstream map relies on DataV provincial outlines, so the music edition uses terrain and rivers as its reference. Cards identify each performer and version. Cards play recordings in place using licensed local files, streams from CCTV or Guangming Net, and embedded players from source platforms.
 
 ## 校验与打包 · Validate and stage
 

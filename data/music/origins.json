@@ -24,7 +24,8 @@
       "zh": "昆山腔由传入当地的南戏与昆山一带的语言、音乐和歌舞结合发展。后来明代的唱腔改革属于进一步发展。",
       "en": "Kunshan vocal style grew from southern theatre in interaction with local speech, music and dance. Later Ming vocal reforms mark another stage."
     },
-    "url": "https://www.ihchina.cn/project_details/13133.html"
+    "url": "https://www.ihchina.cn/project_details/13133.html",
+    "region": "east-central"
   },
   "IV-5": {
     "time": {
@@ -51,7 +52,8 @@
       "zh": "南戏经信江流入江西，在弋阳吸收地方语音与民间音乐，逐渐孕育出新的声腔。",
       "en": "Southern theatre travelled along the Xin River. In Yiyang it absorbed local speech and folk music, gradually developing a new vocal style."
     },
-    "url": "https://www.ihchina.cn/project_details/13146/"
+    "url": "https://www.ihchina.cn/project_details/13146/",
+    "region": "east-central"
   },
   "IV-12": {
     "time": {
@@ -78,7 +80,8 @@
       "zh": "高腔、昆腔、胡琴、弹戏与灯戏在同台演出中合流，形成今天川剧的多声腔格局。各声腔有各自更早的历史。",
       "en": "Five older vocal traditions converged on shared stages around the 1911 Revolution, forming the multi-style structure associated with Sichuan opera."
     },
-    "url": "https://www.ihchina.cn/art/detail/id/13160.html"
+    "url": "https://www.ihchina.cn/art/detail/id/13160.html",
+    "region": "south"
   },
   "IV-16": {
     "time": {
@@ -105,7 +108,8 @@
       "zh": "中国非遗网将其形成联系到关中的劝善调、民间音乐和方言。具体声腔源流仍有不同说法。",
       "en": "The national heritage account connects its formation with Guanzhong admonitory tunes, local music and dialect. The precise lineage remains debated."
     },
-    "url": "https://www.ihchina.cn/project_details/13165"
+    "url": "https://www.ihchina.cn/project_details/13165",
+    "region": "north"
   },
   "IV-18": {
     "time": {
@@ -132,7 +136,8 @@
       "zh": "蒲州梆子进入晋中，与当地秧歌和民间曲调结合成为中路梆子。晋剧之名较晚。",
       "en": "Puzhou bangzi entered central Shanxi and interacted with local yangge and tunes to form Zhonglu Bangzi. The name Jinju came later."
     },
-    "url": "https://www.ihchina.cn/project_details/13176/"
+    "url": "https://www.ihchina.cn/project_details/13176/",
+    "region": "north"
   },
   "IV-28": {
     "time": {
@@ -159,7 +164,8 @@
       "zh": "京剧由多种剧种逐步汇合，联合国教科文组织申报文本将成形放在19世纪中叶。1790年徽班进京是较早的背景事件。",
       "en": "Peking opera took shape through interaction among several genres. The UNESCO nomination places its formation in the mid-19th century. The arrival of Anhui troupes in 1790 was an earlier development."
     },
-    "url": "https://ich.unesco.org/doc/src/07402-EN.pdf"
+    "url": "https://ich.unesco.org/doc/src/07402-EN.pdf",
+    "region": "north"
   },
   "IV-51": {
     "time": {
@@ -186,7 +192,8 @@
       "zh": "冀东莲花落在唐山的城市舞台上经成兆才等人改编，逐渐成为评剧。",
       "en": "Eastern Hebei lianhualuo was adapted for Tangshan’s urban stage by Cheng Zhaocai and others, developing into Pingju."
     },
-    "url": "https://www.ihchina.cn/project_details/11363.html"
+    "url": "https://www.ihchina.cn/project_details/11363.html",
+    "region": "north"
   },
   "IV-53": {
     "time": {
@@ -213,7 +220,8 @@
       "zh": "嵊县的落地唱书吸收周边地方曲艺与戏曲，清末初步形成小歌班，后又在上海发展。",
       "en": "Late Qing small troupes in Shengxian grew from local storytelling and drew on nearby opera and narrative forms. The genre developed further in Shanghai."
     },
-    "url": "https://www.ihchina.cn/project_details/13266/"
+    "url": "https://www.ihchina.cn/project_details/13266/",
+    "region": "east-central"
   },
   "IV-60": {
     "time": {
@@ -240,7 +248,8 @@
       "zh": "黄梅地方戏约在嘉庆年间形成，随后在鄂东及周边传播，和皖地的传播与发展共同构成其历史。",
       "en": "A local theatre form emerged around the Jiaqing reign in Huangmei. Its spread through eastern Hubei and its subsequent development in Anhui are part of the longer history."
     },
-    "url": "https://www.ihchina.cn/project_details/23673"
+    "url": "https://www.ihchina.cn/project_details/23673",
+    "region": "east-central"
   },
   "IV-91": {
     "time": {
@@ -267,7 +276,8 @@
       "zh": "南宋成书的《东京梦华录》回记北宋汴京瓦舍中的影戏。这里标的是皮影戏的早期见证，各地方流派的形成时间另需考证。",
       "en": "The Southern Song memoir Dongjing Meng Hua Lu recalls shadow theatre in Northern Song Bianjing. This dates evidence for the wider art, while local lineages have their own histories."
     },
-    "url": "https://www.ihchina.cn/project_details/22173"
+    "url": "https://www.ihchina.cn/project_details/22173",
+    "region": "east-central"
   },
   "II-1": {
     "time": {
@@ -294,7 +304,8 @@
       "zh": "音乐工作者从20世纪40年代起在左权搜集记录当地民歌。开花调的实际发源时间仍待考。",
       "en": "Music researchers began collecting local songs in Zuoquan in the 1940s. The origin of Kaihua tunes remains undetermined."
     },
-    "url": "https://www.ihchina.cn/project_details/12408.html"
+    "url": "https://www.ihchina.cn/project_details/12408.html",
+    "region": "north"
   },
   "II-40": {
     "time": {
@@ -321,7 +332,8 @@
       "zh": "太仓一带的丝竹合奏与昆曲班社、地方礼俗共同发展，是江南丝竹早期历史的一条线索。",
       "en": "Silk-and-bamboo ensembles in the Taicang area developed alongside Kunqu troupes and local ceremonial practice, one thread in the history of Jiangnan sizhu."
     },
-    "url": "https://www.ihchina.cn/project_details/12529/"
+    "url": "https://www.ihchina.cn/project_details/12529/",
+    "region": "east-central"
   },
   "II-49": {
     "time": {
@@ -348,7 +360,8 @@
       "zh": "广东音乐在广府地区经历长期萌发和发展。这里标的是明清以来的早期阶段，后来的定型与传播持续到近代。",
       "en": "Guangdong music developed over a long period in the Cantonese-speaking region. This is an early stage, with consolidation and wider circulation continuing into modern times."
     },
-    "url": "https://www.ihchina.cn/Article/Index/detail?id=12552"
+    "url": "https://www.ihchina.cn/Article/Index/detail?id=12552",
+    "region": "south"
   },
   "II-61": {
     "time": {
@@ -375,12 +388,13 @@
       "zh": "现存谱本提供清代的可核实证据。关于它与唐宋音乐的渊源，可结合谱字和传统记述再判断。",
       "en": "The surviving manuscript gives verifiable Qing evidence. Proposed links with Tang and Song music can be assessed separately through notation and historical accounts."
     },
-    "url": "https://www.ihchina.cn/art/detail/id/20086.html"
+    "url": "https://www.ihchina.cn/art/detail/id/20086.html",
+    "region": "north"
   },
   "II-71": {
     "time": {
       "era": "nansong",
-      "start": 960,
+      "start": 1127,
       "end": 1367
     },
     "label": {
@@ -402,7 +416,8 @@
       "zh": "南音在闽南长期融合发展，曲目保留宋元词曲、戏曲音乐的线索。这个时段用于观察曲目渊源，成形年代仍难定。",
       "en": "Nanyin developed over a long period in southern Fujian. Its repertory preserves links with Song and Yuan song and theatrical music. The date range reflects these connections, with formation still uncertain."
     },
-    "url": "https://www.ihchina.cn/project_details/20112"
+    "url": "https://www.ihchina.cn/project_details/20112",
+    "region": "east-central"
   },
   "II-75": {
     "time": {
@@ -429,12 +444,13 @@
       "zh": "高邮一带的民歌样式在元明时期开始成形，后来的曲目包括劳动号子、情歌和生活歌。",
       "en": "This local song tradition began to take shape in the Yuan and Ming. Its repertory later included work, love and everyday songs."
     },
-    "url": "https://www.ihchina.cn/project_details/12605"
+    "url": "https://www.ihchina.cn/project_details/12605",
+    "region": "east-central"
   },
   "V-1": {
     "time": {
       "era": "qing",
-      "start": 1580,
+      "start": 1644,
       "end": 1722
     },
     "label": {
@@ -456,7 +472,8 @@
       "zh": "这个年代对应评弹中的苏州评话。评话以吴语讲说为主，弹词的唱腔和伴奏另有发展脉络。",
       "en": "The dating applies to Suzhou pinghua, the spoken storytelling branch. Suzhou tanci has its own history of singing and accompaniment."
     },
-    "url": "https://www.ihchina.cn/project_details/13581.html"
+    "url": "https://www.ihchina.cn/project_details/13581.html",
+    "region": "east-central"
   },
   "V-35": {
     "time": {
@@ -483,7 +500,8 @@
       "zh": "东北大秧歌与传入的莲花落融合，形成用东北方音表演、兼有歌舞的曲艺。",
       "en": "Northeastern yangge and lianhualuo from outside the region combined into a form of song, dance and narration in Northeastern speech."
     },
-    "url": "https://www.ihchina.cn/art/detail/id/13645.html"
+    "url": "https://www.ihchina.cn/art/detail/id/13645.html",
+    "region": "north"
   },
   "V-48": {
     "time": {
@@ -510,7 +528,8 @@
       "zh": "河间木板大鼓经艺人改革，逐步采用北京语音，吸收京剧技巧并扩充伴奏。",
       "en": "Performers reworked the Hejian drum-song tradition, adopting Beijing speech, drawing on opera techniques and expanding the accompaniment."
     },
-    "url": "https://www.ihchina.cn/project_details/13672"
+    "url": "https://www.ihchina.cn/project_details/13672",
+    "region": "north"
   },
   "V-108": {
     "time": {
@@ -537,7 +556,8 @@
       "zh": "粤曲在广府说唱文化中逐步形成，曲目可吸收地方器乐曲并填词演唱。",
       "en": "Cantonese narrative song developed in the Cantonese-speaking region. Its repertory could adapt local instrumental pieces by adding sung words."
     },
-    "url": "https://www.ihchina.cn/project_details/13753/"
+    "url": "https://www.ihchina.cn/project_details/13753/",
+    "region": "south"
   },
   "I-26": {
     "time": {
@@ -564,6 +584,7 @@
       "zh": "史诗原本在卫拉特蒙古部传唱，17世纪伴随迁徙传播到更广地区。早期形成的具体年代仍有不同说法。",
       "en": "The epic circulated among Oirat Mongols and spread more widely with migration in the 17th century. Its date of formation remains debated."
     },
-    "url": "https://www.ihchina.cn/project_details/12228"
+    "url": "https://www.ihchina.cn/project_details/12228",
+    "region": "north"
   }
 }

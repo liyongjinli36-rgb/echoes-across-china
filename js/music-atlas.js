@@ -135,7 +135,7 @@ class MusicAtlas extends window.HistoricalAtlasController {
     if (this.selection && !this.inRegion(this.selection)) this.selection = null;
     if (Number.isInteger(candidate) && candidate >= this.minYear && candidate <= this.maxYear && candidate !== 0) {
       this.state = { mode:'year', eraId:this.eraAt(candidate).id, year:candidate };
-    } else if (!this.eraById.has(params.get('era')) && (!this.selection || this.selection.media || this.selection.region)) {
+    } else if (!this.eraById.has(params.get('era')) && (!this.selection || this.selection.media || (this.selection.region && !this.selection.registered))) {
       this.state = {mode:'all',eraId:'prc',year:null};
     } else {
       const era = this.eraById.get(params.get('era')) || this.eraById.get(this.selection?.time?.era) || this.eraById.get('ming');
@@ -191,9 +191,10 @@ class MusicAtlas extends window.HistoricalAtlasController {
   }
 
   visibleRecords() {
-    const pool = this.region === 'all' && this.state.mode !== 'all'
-      ? [...this.records,...this.registry.datedProjects] : this.records;
-    return pool.filter(record => this.inRegion(record) && this.filters.has(record.category) && this.hasRecord(record));
+    const pool = [...this.records,...this.registry.datedProjects];
+    const visible = pool.filter(record => this.inRegion(record) && this.filters.has(record.category) && this.hasRecord(record));
+    if (this.state.mode !== 'all') visible.sort((a,b) => a.time.start - b.time.start);
+    return visible;
   }
 
   regionCamera() {
@@ -286,7 +287,7 @@ class MusicAtlas extends window.HistoricalAtlasController {
   }
 
   hasRecord(record) {
-    if (this.state.mode === 'all') return Boolean(record.region || record.media || record === this.selection);
+    if (this.state.mode === 'all') return !record.registered || record.time?.start != null;
     return this.hasReached(record.time?.era,record.time?.start);
   }
 
@@ -314,7 +315,7 @@ class MusicAtlas extends window.HistoricalAtlasController {
     el('dynasty-title').textContent = allPeriods || regional ? this.t(regionLabels.get(this.region)) : this.l(era.title);
     el('dynasty-span').textContent = allPeriods ? this.t('allPeriods')
       : this.state.year === null ? `${this.l(era.title)} · ${this.eraSpan(era)}` : this.yearLabel(this.year);
-    el('dynasty-summary').textContent = allPeriods ? this.t('allPeriodHelp') : `${this.l(era.note)} ${this.l(era.uncertainty)}`;
+    if (!allPeriods) el('dynasty-summary').textContent = `${this.l(era.note)} ${this.l(era.uncertainty)}`;
     const mapSignature = `${key}:${this.locale}:${this._hydroMask(this.year)}`;
     if (this.mapSignature !== mapSignature) {
       this.mapSignature = mapSignature;
@@ -426,9 +427,15 @@ class MusicAtlas extends window.HistoricalAtlasController {
     const list = el('tradition-list');
     list.replaceChildren();
     const visible = this.visibleRecords();
-    const featured = this.state.mode === 'all' || this.region !== 'all';
-    el('tradition-heading').textContent = featured
-      ? `${this.t(this.region === 'all' ? 'featuredWorks' : 'areaWorks')} · ${visible.length}` : this.t('traditions');
+    const allPeriods = this.state.mode === 'all';
+    const featured = allPeriods || this.region !== 'all';
+    const headingKey = allPeriods ? (this.region === 'all' ? 'featuredWorks' : 'areaWorks') : 'traditions';
+    el('tradition-heading').textContent = `${this.t(headingKey)} · ${visible.length}`;
+    if (allPeriods) {
+      const undated = visible.filter(record => record.time?.start == null).length;
+      const breakdown = this.t('periodBreakdown').replace('{dated}',visible.length - undated).replace('{undated}',undated);
+      el('dynasty-summary').textContent = `${this.t('allPeriodHelp')} ${breakdown}`;
+    }
     const listening = el('listening-select');
     const heading = new Option(this.t('classListening'),'');
     heading.disabled = true;
@@ -440,7 +447,7 @@ class MusicAtlas extends window.HistoricalAtlasController {
       const control = button(this.l(record.title), () => this.selectItem(record, { focus:true }), 'music-row');
       control.dataset.music = record.id;
       if (this.selection === record) control.setAttribute('aria-current','true');
-      const meta = featured && record.media
+      const meta = this.state.mode === 'all' && record.media
         ? [this.l(record.location.name), record.genre ? this.l(record.genre) : this.t(record.category), this.l(record.media.performer)]
         : [this.t(record.category), this.l(record.location.name), record.origin ? this.l(record.origin.label) : this.l(record.period)];
       control.append(node('small',meta.join(' · ')));
@@ -559,13 +566,13 @@ class MusicAtlas extends window.HistoricalAtlasController {
     const all = [...eraEvents,...visible];
     if (this.selection && all.includes(this.selection)) {
       all.splice(all.indexOf(this.selection),1);
-      all.unshift(this.selection);
+      all.push(this.selection);
     }
     for (const item of all) {
       const record = item.work ? this.recordsById.get(item.work) : item;
       const point = item.location || record.location;
       const [x,y] = this.projector.toScreen(...point.coordinates);
-      const group = this._svgNode('g',{transform:`translate(${x},${y})`,'data-x':x,'data-y':y},container);
+      const group = this._svgNode('g',{transform:`translate(${x},${y})`},container);
       const pin = this._svgNode('g',{
         role:'button', tabindex:'0', class:`music-pin music-pin-${item.work ? 'events' : record.category}`,
         'data-search-match':String(!query || this.matchesQuery(item,query)),
@@ -596,20 +603,8 @@ class MusicAtlas extends window.HistoricalAtlasController {
     if (!box.width || !box.height) return;
     const unit = Math.max(this.camera.w / box.width, this.camera.h / box.height);
     this.svg.style.setProperty('--music-unit', unit.toFixed(4));
-    const placed = [];
     for (const group of el('music-markers').children) {
-      let x = 0;
-      let y = 0;
-      const baseX = Number(group.dataset.x) / unit;
-      const baseY = Number(group.dataset.y) / unit;
-      for (let k = 1; placed.some(([px,py]) => Math.hypot(px - baseX - x, py - baseY - y) < 15); k++) {
-        const angle = k * 2.39996;
-        const radius = 13 * Math.sqrt(k);
-        x = Math.cos(angle) * radius;
-        y = Math.sin(angle) * radius;
-      }
-      placed.push([baseX + x,baseY + y]);
-      group.firstElementChild.setAttribute('transform',`translate(${x * unit},${y * unit}) scale(${unit})`);
+      group.firstElementChild.setAttribute('transform',`scale(${unit})`);
     }
   }
 
@@ -740,16 +735,13 @@ class MusicAtlas extends window.HistoricalAtlasController {
 
   renderAudio(media) {
     const audio = el('audio-player');
-    const embed = el('audio-embed');
     el('music-audio').hidden = !media;
     if (audio.hasAttribute('src') && audio.getAttribute('src') !== media?.file) {
       audio.pause();
       audio.removeAttribute('src');
       audio.load();
     }
-    if (embed.firstChild && embed.firstChild.getAttribute('src') !== media?.embed) {
-      embed.replaceChildren();
-    }
+    this.renderOnlineMedia(media);
     if (!media) return;
 
     el('audio-local-controls').hidden = !media.file;
@@ -766,14 +758,6 @@ class MusicAtlas extends window.HistoricalAtlasController {
       license.textContent = media.licenseLabel || this.t('license');
       this.renderAudioStatus();
       this.renderAudioProgress();
-    } else if (media.embed) {
-      if (!embed.firstChild) {
-        const frame = node('iframe');
-        frame.allow = 'autoplay; encrypted-media';
-        frame.src = media.embed;
-        embed.append(frame);
-      }
-      embed.firstChild.title = this.l(media.title);
     }
     el('audio-title').textContent = `${this.l(media.title)} · ${this.l(media.performer)}`;
     el('audio-prompt').hidden = !media.prompt;
@@ -782,7 +766,112 @@ class MusicAtlas extends window.HistoricalAtlasController {
     el('audio-excerpt').textContent = media.excerpt ? this.l(media.excerpt) : '';
     el('audio-note').textContent = this.l(media.credit);
     el('audio-source').href = media.source;
-    el('audio-source').textContent = this.t(media.embed ? 'providerListen' : media.file ? 'source' : 'openPerformance');
+    el('audio-source').textContent = this.t(media.watch ? 'openPerformance' : 'recordingSource');
+  }
+
+  renderOnlineMedia(media) {
+    const container = el('audio-embed');
+    const online = media && (media.embed || media.cctv || media.video) ? media : null;
+    if ((this.onlinePlayback?.media ?? null) !== online) {
+      this.onlinePlayback?.stop();
+      container.replaceChildren();
+      this.onlinePlayback = null;
+      if (online?.embed) {
+        const frame = node('iframe',null,online.embed.startsWith('https://embed.music.apple.com/') ? 'audio-frame' : 'video-frame');
+        frame.allow = 'autoplay; encrypted-media; fullscreen; picture-in-picture';
+        frame.allowFullscreen = true;
+        frame.src = online.embed;
+        container.append(frame);
+        this.onlinePlayback = {media:online,element:frame,stop() {}};
+      } else if (online) {
+        this.mountRecordingVideo(container,online);
+      }
+    }
+    if (this.onlinePlayback) {
+      const {element,status} = this.onlinePlayback;
+      element.title = this.l(online.title);
+      if (status && !status.hidden) status.textContent = this.t('streamError');
+    }
+  }
+
+  mountRecordingVideo(container, media) {
+    const video = node('video',null,'video-frame');
+    video.controls = true;
+    video.playsInline = true;
+    video.preload = 'metadata';
+    const status = node('p',null,'audio-note');
+    status.setAttribute('role','status');
+    status.hidden = true;
+    const request = new AbortController();
+    let hls;
+    const playback = {
+      media,element:video,status,
+      stop() {
+        request.abort();
+        hls?.destroy();
+        video.pause();
+        video.removeAttribute('src');
+        video.load();
+      },
+    };
+    this.onlinePlayback = playback;
+    container.append(video,status);
+    const active = () => this.onlinePlayback === playback && !request.signal.aborted;
+    const showError = () => {
+      if (!active()) return;
+      status.textContent = this.t('streamError');
+      status.hidden = false;
+    };
+    video.addEventListener('error',showError);
+    const [start,end] = media.originalRangeSeconds || [];
+    if (start > 0) {
+      video.addEventListener('loadedmetadata',() => { video.currentTime = start; },{once:true});
+      video.addEventListener('play',() => {
+        if (video.currentTime < start || video.currentTime >= end) video.currentTime = start;
+      });
+      video.addEventListener('timeupdate',() => {
+        if (video.currentTime >= end) video.pause();
+      });
+    }
+    if (media.video) {
+      video.src = media.video;
+      return;
+    }
+    const endpoint = new URL('https://vdn.apps.cntv.cn/api/getHttpVideoInfo.do');
+    endpoint.searchParams.set('pid',media.cctv);
+    fetch(endpoint,{signal:request.signal})
+      .then(response => {
+        if (!response.ok) throw new Error('CCTV stream lookup failed');
+        return response.json();
+      })
+      .then(async ({hls_url:manifest}) => {
+        if (!active()) return;
+        const stream = new URL(manifest);
+        if (stream.protocol !== 'https:' || !stream.pathname.endsWith('.m3u8')) throw new Error('Invalid CCTV stream');
+        const native = video.canPlayType('application/vnd.apple.mpegurl');
+        if (native && (window.ManagedMediaSource || !window.MediaSource)) {
+          video.src = stream.href;
+          return;
+        }
+        const {default:Hls} = await import('https://cdn.jsdelivr.net/npm/hls.js@1.6.15/dist/hls.light.min.mjs');
+        if (!active()) return;
+        if (!Hls.isSupported()) {
+          if (!native) throw new Error('HLS is unsupported');
+          video.src = stream.href;
+          return;
+        }
+        hls = new Hls({startPosition:start ?? -1});
+        hls.on(Hls.Events.ERROR,(_event,data) => {
+          if (data.fatal) {
+            hls.destroy();
+            hls = undefined;
+            showError();
+          }
+        });
+        hls.loadSource(stream.href);
+        hls.attachMedia(video);
+      })
+      .catch(showError);
   }
 
   renderAudioProgress() {

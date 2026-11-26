@@ -17,6 +17,7 @@ export function buildRegistry(registry, origins) {
       origin,
       time: origin?.time || null,
       location: origin?.location || null,
+      region: origin?.region || null,
       registered: true,
     };
   });
