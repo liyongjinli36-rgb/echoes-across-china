@@ -3139,5 +3139,63 @@
         "id": "hist-huayang-edition"
       }
     ]
+  },
+  {
+    "id": "dunhuang-foyemiaowan-qin",
+    "category": "historicalEvidence",
+    "title": {
+      "zh": "敦煌佛爷庙湾 M37 照墙的弹琴与听琴画像",
+      "en": "Qin player and listener on the screen wall of Foyemiaowan tomb M37"
+    },
+    "aliases": [],
+    "region": "north",
+    "province": {
+      "zh": "甘肃",
+      "en": "Gansu"
+    },
+    "location": {
+      "name": {
+        "zh": "敦煌 · 佛爷庙湾—新店台墓群",
+        "en": "Foyemiaowan–Xindiantai cemetery, Dunhuang"
+      },
+      "coordinates": [
+        94.79,
+        40.13
+      ],
+      "role": {
+        "zh": "墓群级参考点。调查报告第4页两数的东经、北纬标签倒置，依敦煌所在经纬度判读为东经94°47′36.4″、北纬40°08′04.0″，取至0.01°。M37单墓坐标待核。",
+        "en": "Approximate cemetery centre. The E/N labels are reversed on p. 4 of the survey. Read in Dunhuang’s geographic setting, the values are 94°47′36.4″E, 40°08′04.0″N, rounded to 0.01°. The position of tomb M37 remains unverified."
+      }
+    },
+    "period": {
+      "zh": "西晋早期（墓葬比较断代）",
+      "en": "Early Western Jin (comparative dating of the burial)"
+    },
+    "time": {
+      "precision": "approximate",
+      "start": 280,
+      "end": 316,
+      "era": "xijin"
+    },
+    "isEvidence": true,
+    "description": {
+      "zh": "照墙的一幅画像中，人物把琴横置膝上。相对的听者侧身、举手到耳边。王中旭结合姿态和其他带铭图像，把这对人物解读为伯牙与子期。",
+      "en": "On the screen wall, one figure holds a qin across his knees. Facing him, a listener leans in and raises a hand to his ear. Wang Zhongxu identifies the pair as Boya and Ziqi from these gestures and comparisons with inscribed images elsewhere."
+    },
+    "uncertainty": {
+      "zh": "M37未见明确纪年遗物，考古报告据当地纪年墓比较断为西晋早期；本墓也没有指明二人身份的题记。280–316年是地图西晋筛选区间，确切下葬年和所画曲目待核。坐标仅定位墓群，M37单墓位置待核。",
+      "en": "Comparison with dated local burials places M37 in the early Western Jin. Its finds carry no explicit date, and the figures have no identifying inscription. The atlas uses 280–316 for its Western Jin filter. The burial year and any specific piece depicted remain unknown. The coordinates locate the cemetery. The position of M37 itself is unverified."
+    },
+    "sources": [
+      {
+        "id": "hist-foyemiaowan-qin-p94"
+      },
+      {
+        "id": "hist-foyemiaowan-qin-p95"
+      },
+      {
+        "id": "hist-foyemiaowan-location"
+      }
+    ]
   }
 ]

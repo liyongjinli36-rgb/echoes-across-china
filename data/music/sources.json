@@ -1868,5 +1868,635 @@
       "en": "Chinese Music Archive · Yu Xunfa’s biography and recordings"
     },
     "url": "https://chinesemusics.com/zh_cn/2023/08/31/%E4%BF%9E%E9%81%9C%E7%99%BC/"
+  },
+  "recording-jingyun-dagu": {
+    "title": {
+      "zh": "央视戏曲频道 · 京韵大鼓《丑末寅初》· 骆玉笙",
+      "en": "CCTV-11 · Chou Mo Yin Chu · Luo Yusheng"
+    },
+    "url": "https://tv.cctv.com/2017/03/25/VIDEpD4DaEI14FKEuui1zYbL170325.shtml"
+  },
+  "north-urtiin-duu-ich": {
+    "title": {
+      "zh": "中国非物质文化遗产网 · 蒙古族长调民歌（Ⅱ-3）",
+      "en": "China Intangible Cultural Heritage · Mongolian long song (II-3)"
+    },
+    "url": "https://www.ihchina.cn/project_details/12410.html"
+  },
+  "north-xilingol-long-song": {
+    "title": {
+      "zh": "韩晓晨《“打”出民族灵魂的创作尝试——蒙古族音乐元素在原生态打击乐创作中的运用》，《文艺报》2021年11月12日第3版",
+      "en": "Han Xiaochen on Mongolian musical elements in percussion composition · Literary Gazette, 12 November 2021, p. 3"
+    },
+    "url": "https://wyb.chinawriter.com.cn/attachment/202111/12/dcddbb7c-e150-4f55-8d1a-68b26f79e12f.pdf"
+  },
+  "north-xilinhot-coordinates": {
+    "title": {
+      "zh": "联合国地名专家组 · 锡林浩特（中国地名研究所坐标）",
+      "en": "UN Group of Experts on Geographical Names · Xilin Hot, coordinates from the China Institute of Toponymy"
+    },
+    "url": "https://ungegn.un.org/dashboard/cities/details?id=2454"
+  },
+  "north-wang-long-song-interview": {
+    "title": {
+      "zh": "中国之声《中国大舞台》· 王宏伟谈学唱《小黄马》，2013年12月8日",
+      "en": "China National Radio · Wang Hongwei on learning Little Yellow Horse, 8 December 2013"
+    },
+    "url": "https://www.cnr.cn/zgzb/zgdwt64/wzsl/"
+  },
+  "north-xilingol-urtiin-duu-media": {
+    "title": {
+      "zh": "央视《回声嘹亮》· 蒙古长调《小黄马》",
+      "en": "CCTV · Little Yellow Horse, a Mongolian long song on Echoes Resound"
+    },
+    "url": "https://tv.cctv.com/2019/03/29/VIDEoiB8iIVnNxKobV0uHXxt190329.shtml"
+  },
+  "north-guqin-commons": {
+    "title": {
+      "zh": "Wikimedia Commons · Charlie Huang《流水》原始录音与许可",
+      "en": "Wikimedia Commons · Charlie Huang’s Liu Shui recording and licence"
+    },
+    "url": "https://commons.wikimedia.org/wiki/File:Liu_Shui.ogg"
+  },
+  "north-kuaiban-li-shaojie": {
+    "title": {
+      "zh": "天津图书馆 · 李少杰与李派快板",
+      "en": "Tianjin Library · Li Shaojie and the Li school of clapper storytelling"
+    },
+    "url": "https://www.tjl.tj.cn/ArticleContent.aspx?ChannelId=244&ID=10606"
+  },
+  "north-kuaiban-interview": {
+    "title": {
+      "zh": "中国非遗网 · 2019年全国非遗曲艺周传承人访谈",
+      "en": "China Intangible Cultural Heritage · Interviews at the 2019 national quyi week"
+    },
+    "url": "https://www.ihchina.cn/Article/Index/detail?id=19081"
+  },
+  "north-kuaiban-kanbing": {
+    "title": {
+      "zh": "央视《一鸣惊人》 · 李少杰表演快板书《看病》",
+      "en": "CCTV · Li Shaojie performs Seeing the Doctor"
+    },
+    "url": "https://tv.cctv.com/2018/08/24/VIDE2AfHelihkzMMlZe7r9VZ180824.shtml"
+  },
+  "heritage-yanan-shaanbei-folk": {
+    "title": {
+      "zh": "中国非遗网 · 陕北民歌（延安市）",
+      "en": "China ICH · Northern Shaanxi folk songs (Yan’an)"
+    },
+    "url": "https://www.ihchina.cn/project_details/12602/"
+  },
+  "recording-xintianyou": {
+    "title": {
+      "zh": "央视音乐频道《民歌中国》 · 赶牲灵 · 周彬",
+      "en": "Gan Shengling, a xintianyou sung by Zhou Bin · CCTV"
+    },
+    "url": "https://tv.cctv.com/2021/04/12/VIDEYNX1lC9urqQHClWURxus210412.shtml"
+  },
+  "recording-hebei-flower": {
+    "title": {
+      "zh": "央视音乐频道《民歌中国》 · 对花 · 王雯、吴治鹏",
+      "en": "Dui Hua (A Dialogue on Flowers), a Hebei folk song · CCTV"
+    },
+    "url": "https://tv.cctv.com/2024/05/18/VIDEZGAgGS7G7pZcwxdmUd5y240518.shtml"
+  },
+  "recording-shaanbei-shuoshu": {
+    "title": {
+      "zh": "央视综艺频道《一笑一周》 · 大闹天宫 · 熊竹英",
+      "en": "Havoc in Heaven, performed by Xiong Zhuying · CCTV"
+    },
+    "url": "https://tv.cctv.com/2024/12/25/VIDEsEbeoFLFgdzNuqbKT4zw241225.shtml"
+  },
+  "media-pipa-yulunpao": {
+    "title": {
+      "zh": "央视网《歌声与微笑》· 西安音乐学院专场，第13曲《郁轮袍》",
+      "en": "CCTV, Songs and Smiles · Xi’an Conservatory special, item 13: Yulunpao"
+    },
+    "url": "https://tv.cctv.com/2018/07/18/VIDEbFsrKlDmWX9gjhfyr2G4180718.shtml"
+  },
+  "performer-pipa-ren-chang": {
+    "title": {
+      "zh": "西安音乐学院民乐系 · 任畅及《郁轮袍》录制经历",
+      "en": "Xi’an Conservatory of Music · Ren Chang and the CCTV recording of Yulunpao"
+    },
+    "url": "https://myx.xacom.edu.cn/2021/1210/c84a39555/page.htm"
+  },
+  "work-pipa-yulunpao": {
+    "title": {
+      "zh": "西安音乐学院民乐系 · 平湖派琵琶武曲《郁轮袍》与打击乐",
+      "en": "Xi’an Conservatory of Music · Yulunpao in the Pinghu pipa tradition with percussion"
+    },
+    "url": "https://myx.xacom.edu.cn/2015/1023/c1518a32451/pagem.htm"
+  },
+  "media-peking-opera-kongchengji": {
+    "title": {
+      "zh": "央视网《CCTV空中剧院》· 谭孝曾、赵旭、刘洋《空城计》选段",
+      "en": "CCTV Opera Theatre · The Empty City Stratagem with Tan Xiaozeng, Zhao Xu and Liu Yang"
+    },
+    "url": "https://tv.cctv.com/2024/10/13/VIDEfvo0NmNIuVb8bWQL3Bg5241013.shtml"
+  },
+  "program-peking-opera-kongchengji": {
+    "title": {
+      "zh": "北京京剧院“大乐同和”演奏会节目单 · 第九项《空城计》",
+      "en": "Beijing Jingju Theatre Company · Programme of Zhao Xu’s concert, item 9"
+    },
+    "url": "https://peking.bjd.com.cn/content/s6509020ee4b09b6c72dd1959.html"
+  },
+  "script-peking-opera-kongchengji": {
+    "title": {
+      "zh": "《京剧丛刊》第一集 · 《空城计》剧本（中国京剧戏考录入）",
+      "en": "Peking Opera Scripts, Collection 1 · The Empty City Stratagem (Xikao transcription)"
+    },
+    "url": "https://scripts.xikao.com/play/04001001"
+  },
+  "concert-peking-opera-kongchengji": {
+    "title": {
+      "zh": "新华网 · 赵旭从艺五十周年京胡个人专场演出纪实",
+      "en": "Xinhua · Zhao Xu’s fiftieth-anniversary jinghu concert at Chang’an Grand Theatre"
+    },
+    "url": "https://www.xinhuanet.com/ent/20231116/a833976478df4b259ef00becce7d3f03/c.html"
+  },
+  "north-raohe-jialingkuo": {
+    "title": {
+      "zh": "中国非物质文化遗产网 · 赫哲族嫁令阔（饶河）",
+      "en": "China Intangible Cultural Heritage · Hezhe Jialingkuo in Raohe"
+    },
+    "url": "https://www.ihchina.cn/project_details/23448/"
+  },
+  "north-heze-tune-variants": {
+    "title": {
+      "zh": "中国非物质文化遗产网 · 赫哲族民间艺术濒临失传",
+      "en": "China Intangible Cultural Heritage · Hezhe folk arts and variants of the song"
+    },
+    "url": "https://www.ihchina.cn/luntan_details/8538.html"
+  },
+  "north-heze-li-cuilin": {
+    "title": {
+      "zh": "黑龙江省文化和旅游厅 · 赫哲族嫁令阔传承人李萃琳",
+      "en": "Heilongjiang Department of Culture and Tourism · Jialingkuo singer Li Cuilin"
+    },
+    "url": "https://wlt.hlj.gov.cn/wlt/c115584/202305/c00_31632854.shtml"
+  },
+  "north-geo-raohe": {
+    "title": {
+      "zh": "GeoNames 地名录 · 饶河",
+      "en": "GeoNames · Raohe"
+    },
+    "url": "https://www.geonames.org/2035223/raohe.html"
+  },
+  "north-raohe-deng-age-media": {
+    "title": {
+      "zh": "央视《民歌中国》· 李萃琳唱《狩猎的哥哥回来了》",
+      "en": "CCTV · Li Cuilin sings The Hunter Has Returned"
+    },
+    "url": "https://tv.cctv.com/2026/01/30/VIDEr86akkg2dxM9bWfGmmrT260130.shtml"
+  },
+  "hist-foyemiaowan-qin-p94": {
+    "title": {
+      "zh": "王中旭《敦煌佛爷庙湾墓伯牙弹琴画像之渊源与含义》·《故宫博物院院刊》2008年第1期，第94页图一、注一",
+      "en": "Wang Zhongxu on the Boya images at Foyemiaowan · Palace Museum Journal 2008/1, p. 94, fig. 1 and n. 1"
+    },
+    "url": "https://www.dpm.org.cn/Uploads/File/pdf/28/c8/c6/28c8c6799f5fb9dbd4bc4beedee0ece2.pdf"
+  },
+  "hist-foyemiaowan-qin-p95": {
+    "title": {
+      "zh": "王中旭 · 同文第95页图四及人物辨识依据",
+      "en": "Wang Zhongxu · Palace Museum Journal 2008/1, p. 95, fig. 4 and the identification of the figures"
+    },
+    "url": "https://www.dpm.org.cn/Uploads/File/pdf/e7/74/e6/e774e6cf4087b1ea538bed3d6cd31a4a.pdf"
+  },
+  "hist-foyemiaowan-location": {
+    "title": {
+      "zh": "甘肃省文物考古研究所 · 《敦煌千古秀二期建设项目选址文物考古调查报告》第4页，佛爷庙—新店台墓群",
+      "en": "Gansu Provincial Institute of Cultural Relics and Archaeology · Site survey, 2024, p. 4, Foyemiao–Xindiantai cemetery"
+    },
+    "url": "https://wwj.gansu.gov.cn/wwj/c105449/202409/173981791/files/8659e68d1403464da89731ee09ae5dfd.pdf"
+  },
+  "north-lishu-errenzhuan-heritage": {
+    "title": {
+      "zh": "中国非物质文化遗产网 · 二人转（吉林省梨树县）",
+      "en": "China Intangible Cultural Heritage · Errenzhuan in Lishu"
+    },
+    "url": "https://www.ihchina.cn/project_details/13650.html"
+  },
+  "north-lishu-dong-xiaofang": {
+    "title": {
+      "zh": "中国非物质文化遗产网 · 东北二人转传承人董孝芳",
+      "en": "China Intangible Cultural Heritage · Errenzhuan performer Dong Xiaofang"
+    },
+    "url": "https://www.ihchina.cn/ccr_detail/2428.html"
+  },
+  "north-lishu-repertoire": {
+    "title": {
+      "zh": "中国作家网 ·《山丹丹花开》，梨树剧团翻排传统剧目",
+      "en": "China Writers · The Lishu troupe revisits its traditional repertoire"
+    },
+    "url": "https://www.chinawriter.com.cn/n1/2023/0711/c457809-40032977.html"
+  },
+  "north-geo-lishu": {
+    "title": {
+      "zh": "GeoNames 地名录 · 梨树",
+      "en": "GeoNames · Lishu"
+    },
+    "url": "https://www.geonames.org/2036055/lishu.html"
+  },
+  "north-lishu-yang-bajie-media": {
+    "title": {
+      "zh": "央视《典藏》· 董孝芳、郑淑云表演《杨八姐游春》",
+      "en": "CCTV Archives · Dong Xiaofang and Zheng Shuyun perform Eighth Sister Yang’s Spring Outing"
+    },
+    "url": "https://tv.cctv.com/2024/11/12/VIDEwzToLSx3QymPOU30aGvU241112.shtml"
+  },
+  "north-jinzhou-dagu-heritage": {
+    "title": {
+      "zh": "中国非物质文化遗产网 · 锦州东北大鼓（西城派）",
+      "en": "China Intangible Cultural Heritage · The Xicheng school of Northeastern drum storytelling in Jinzhou"
+    },
+    "url": "https://www.ihchina.cn/project_details/13598.html"
+  },
+  "north-jinzhou-nainai-media": {
+    "title": {
+      "zh": "中国非物质文化遗产网 · 锦州市群众艺术馆《奶奶的梦里事》",
+      "en": "China Intangible Cultural Heritage · Grandmother’s Dream, Jinzhou Mass Art Centre"
+    },
+    "url": "https://www.ihchina.cn/video_detail/21501.html"
+  },
+  "north-jinzhou-nainai-timeline": {
+    "title": {
+      "zh": "文化和旅游部 · 锦州市首届群众文化节开幕演出",
+      "en": "Ministry of Culture and Tourism · Programme of Jinzhou’s first public arts festival"
+    },
+    "url": "https://www.mct.gov.cn/whzx/qgwhxxlb/ln/201506/t20150602_780397.htm"
+  },
+  "north-fuzhou-dagu-heritage": {
+    "title": {
+      "zh": "中国非物质文化遗产网 · 瓦房店复州东北大鼓",
+      "en": "China Intangible Cultural Heritage · Fuzhou drum storytelling in Wafangdian"
+    },
+    "url": "https://www.ihchina.cn/project_details/13596"
+  },
+  "north-geo-jinzhou": {
+    "title": {
+      "zh": "GeoNames 地名录 · 锦州",
+      "en": "GeoNames · Jinzhou"
+    },
+    "url": "https://www.geonames.org/2036427/jinzhou.html"
+  },
+  "north-fuzhou-leng-media": {
+    "title": {
+      "zh": "央视《大手牵小手》· 冷依阳表演复州东北大鼓《咏二十四节气》",
+      "en": "CCTV · Leng Yiyang performs A Song of the Twenty-Four Solar Terms in the Fuzhou tradition"
+    },
+    "url": "https://tv.cctv.com/2018/09/01/VIDE10wJJBDLwlHFDKOwZI3Q180901.shtml"
+  },
+  "north-tianjin-shidiao-ich": {
+    "title": {
+      "zh": "中国非遗网 · 天津时调（Ⅴ-29）",
+      "en": "China ICH · Tianjin shidiao (V-29)"
+    },
+    "url": "https://www.ihchina.cn/project_details/13634/"
+  },
+  "north-shidiao-wang": {
+    "title": {
+      "zh": "中国非遗网 · 天津时调代表性传承人王毓宝",
+      "en": "China ICH · Wang Yubao, Tianjin shidiao tradition bearer"
+    },
+    "url": "https://www.ihchina.cn/ccr_detail/2336.html"
+  },
+  "north-tianjin-city-geo": {
+    "title": {
+      "zh": "GeoNames · 天津",
+      "en": "GeoNames · Tianjin"
+    },
+    "url": "https://www.geonames.org/1792947"
+  },
+  "north-tianjin-shidiao-media": {
+    "title": {
+      "zh": "央视《典藏》· 王毓宝演唱天津时调《放风筝》",
+      "en": "CCTV · Wang Yubao sings Flying a Kite in the Tianjin shidiao tradition"
+    },
+    "url": "https://tv.cctv.com/2021/03/27/VIDEFPyqvnGa46Ujrv9v4F8R210327.shtml"
+  },
+  "north-laoting-dagu-ich": {
+    "title": {
+      "zh": "中国非遗网 · 乐亭大鼓（Ⅴ-8）",
+      "en": "China ICH · Laoting dagu (V-8)"
+    },
+    "url": "https://www.ihchina.cn/project_details/13602.html"
+  },
+  "north-laoting-he-interview": {
+    "title": {
+      "zh": "河北省文联 · 何建春访谈《一腔乡音唱乡情》",
+      "en": "Hebei Federation of Literary and Art Circles · Interview with He Jianchun"
+    },
+    "url": "https://www.hbswl.org.cn/system/2024/04/12/030284156.shtml"
+  },
+  "north-laoting-seat-geo": {
+    "title": {
+      "zh": "GeoNames · 乐亭县城",
+      "en": "GeoNames · Laoting county seat"
+    },
+    "url": "https://www.geonames.org/1804143"
+  },
+  "north-laoting-dagu-media": {
+    "title": {
+      "zh": "央视元宵特辑 · 何建春、赵予淇等表演乐亭大鼓《双锁山》",
+      "en": "CCTV Lantern Festival special · He Jianchun, Zhao Yuqi and fellow performers in Double Lock Mountain"
+    },
+    "url": "https://tv.cctv.com/2025/02/12/VIDEDlZynq8NFcLJslDM1KQb250212.shtml"
+  },
+  "north-zuoquan-kaihua-ich": {
+    "title": {
+      "zh": "中国非遗网 · 左权开花调（Ⅱ-1）",
+      "en": "China ICH · Zuoquan flowering tunes (II-1)"
+    },
+    "url": "https://www.ihchina.cn/art/detail/id/12408.html"
+  },
+  "north-zuoquan-song-collection": {
+    "title": {
+      "zh": "《晋中日报》· 刘改鱼搜集《桃花红杏花白》的记录（中国非遗网转载）",
+      "en": "Jinzhong Daily via China ICH · Liu Gaiyu and the collection of the blossom song"
+    },
+    "url": "https://www.ihchina.cn/project_details/28881.html"
+  },
+  "north-zuoquan-seat-geo": {
+    "title": {
+      "zh": "GeoNames · 左权县辽阳镇",
+      "en": "GeoNames · Liaoyang, the seat of Zuoquan County"
+    },
+    "url": "https://www.geonames.org/1783600"
+  },
+  "north-zuoquan-kaihua-diao-media": {
+    "title": {
+      "zh": "央视《民歌中国》· 刘改鱼演唱《桃花红杏花白》",
+      "en": "CCTV · Liu Gaiyu sings Red Peach Blossoms, White Apricot Blossoms"
+    },
+    "url": "https://tv.cctv.com/2025/01/13/VIDEsTEzkUDrtWNqPQwzOt1I250113.shtml"
+  },
+  "north-jiangzhou-drums-heritage": {
+    "title": {
+      "zh": "中国非遗网 · 绛州鼓乐（新绛县）",
+      "en": "China Intangible Cultural Heritage · Jiangzhou drum music, Xinjiang County"
+    },
+    "url": "https://www.ihchina.cn/project_details/12566/"
+  },
+  "north-jiangzhou-qinwang-analysis": {
+    "title": {
+      "zh": "陈思如 ·《秦王点兵》作品诠释与分析（第三章）",
+      "en": "Chen Sz-Ju · Analysis and interpretation of Roll Call of Soldiers by the King of Qin, chapter 3"
+    },
+    "url": "https://irlib.pccu.edu.tw/bitstream/987654321/19880/2/gsweb652.pdf"
+  },
+  "north-geo-xinjiang-longxing": {
+    "title": {
+      "zh": "GeoNames · 山西新绛龙兴镇",
+      "en": "GeoNames · Longxing, Xinjiang County, Shanxi"
+    },
+    "url": "https://www.geonames.org/1788800"
+  },
+  "north-jiangzhou-qinwang-cctv": {
+    "title": {
+      "zh": "央视《风华国乐》· 山西绛州鼓乐艺术团《秦王点兵》",
+      "en": "CCTV · The Prince of Qin Musters His Troops, Shanxi Jiangzhou Drum Ensemble"
+    },
+    "url": "https://tv.cctv.com/2025/04/22/VIDEUxRh1BHec36LQyNurISe250422.shtml"
+  },
+  "north-xian-qin-script": {
+    "title": {
+      "zh": "国家档案局 · 西安易俗社剧本档案",
+      "en": "National Archives Administration of China · Xi’an Yisushe script collection"
+    },
+    "url": "https://www.saac.gov.cn/daj/c100346/201404/3ef6e1363f7c426595cf731cc6c1de93.shtml"
+  },
+  "north-xian-qin-premiere": {
+    "title": {
+      "zh": "西安曲江新区 · 《三滴血》首演记年",
+      "en": "Xi’an Qujiang New District · Date of the premiere of Three Drops of Blood"
+    },
+    "url": "https://qjxq.xa.gov.cn/zwgk/ndzdxxgk/ggwh/2000502183057461250.html"
+  },
+  "north-xian-qin-catalogue": {
+    "title": {
+      "zh": "央视戏曲影像馆 · 秦腔《三滴血》首演及各折目录",
+      "en": "CCTV Xiqu archive · Premiere and scene index for Three Drops of Blood"
+    },
+    "url": "https://tv.cctv.com/special/xiqu/qinqiang/"
+  },
+  "north-xian-qin-score": {
+    "title": {
+      "zh": "《音乐与戏剧》第56页（黄冈师范学院音乐学院公开本）· 《祖籍陕西韩城县》的苦音二六",
+      "en": "Music and Drama, p. 56 (Huanggang Normal University School of Music copy) · The kuyin erliu pattern in the Hancheng aria"
+    },
+    "url": "https://music.hgnu.edu.cn/_upload/article/files/09/d4/faf43ffb4e08b61cf64ee0adaf16/9e893fdc-b47f-484c-a549-e41df3b03d96.pdf#page=63"
+  },
+  "north-xian-qin-roles": {
+    "title": {
+      "zh": "央视《九州大戏台》· 西安易俗社《三滴血》全剧演员表",
+      "en": "CCTV Jiuzhou Daxitai · Yisushe production cast"
+    },
+    "url": "https://tv.cctv.com/2013/10/29/VIDE1383059884970754.shtml"
+  },
+  "north-geo-xian": {
+    "title": {
+      "zh": "GeoNames 地名录 · 陕西西安",
+      "en": "GeoNames · Xi’an, Shaanxi"
+    },
+    "url": "https://www.geonames.org/1790630/xi-an.html"
+  },
+  "north-xian-qin-media": {
+    "title": {
+      "zh": "央视《九州大戏台》· 秦腔《三滴血·结盟》",
+      "en": "CCTV Jiuzhou Daxitai · The Pact, a scene from Three Drops of Blood"
+    },
+    "url": "https://tv.cctv.com/2013/10/30/VIDE1383101660206710.shtml"
+  },
+  "north-kangle-festival": {
+    "title": {
+      "zh": "中国非物质文化遗产网 · 莲花山花儿会",
+      "en": "China Intangible Cultural Heritage · Lianhua Mountain Hua’er Festival"
+    },
+    "url": "https://www.ihchina.cn/project_details/12436.html"
+  },
+  "north-kangle-wen-repertoire": {
+    "title": {
+      "zh": "康乐县人民政府 · 文香莲与单套花儿《一年一趟莲花山》",
+      "en": "Kangle County Government · Wen Xianglian and Once a Year to Lianhua Mountain"
+    },
+    "url": "https://www.gskanglexian.gov.cn/klx/zfxxgk/fdzdgknr/26gzdlyzwgk/GGWHFW/art/2025/art_bd68a9807abd4072ba380f57f52c04ef.html"
+  },
+  "north-kangle-verse": {
+    "title": {
+      "zh": "国家外汇管理局甘肃省分局 · 康乐莲花山会的民间歌句",
+      "en": "Gansu Branch of the State Administration of Foreign Exchange · A verse about the Kangle festival"
+    },
+    "url": "https://www.safe.gov.cn/gansu/2018/0719/545.html"
+  },
+  "north-geo-kangle": {
+    "title": {
+      "zh": "GeoNames 地名录 · 甘肃康乐",
+      "en": "GeoNames · Kangle, Gansu"
+    },
+    "url": "https://www.geonames.org/1804825/fucheng.html"
+  },
+  "north-kangle-huaer-cctv": {
+    "title": {
+      "zh": "央视《中国影像方志》· 一年一趟莲花山",
+      "en": "CCTV Local Chronicles of China · Once a Year to Lianhua Mountain"
+    },
+    "url": "https://tv.cctv.com/2020/05/10/VIDEN0w8aSd7QRYG7wU9Mg7v200510.shtml"
+  },
+  "north-datong-laoye": {
+    "title": {
+      "zh": "中国非物质文化遗产网 · 老爷山花儿会",
+      "en": "China Intangible Cultural Heritage · Laoye Mountain Hua’er Festival"
+    },
+    "url": "https://www.ihchina.cn/project_details/12438.html"
+  },
+  "north-datong-dove-2025": {
+    "title": {
+      "zh": "西海都市报 · 大通第十六届老爷山花儿会开唱",
+      "en": "Xihai Metropolitan Daily · The 16th Laoye Mountain Hua’er Festival in Datong"
+    },
+    "url": "https://www.qhnews.com/newscenter/system/2025/06/30/030416694.shtml"
+  },
+  "north-datong-singer-2012": {
+    "title": {
+      "zh": "文化和旅游部 · 第三届老爷山花儿会演出歌手",
+      "en": "Ministry of Culture and Tourism · Singers at the third Laoye Mountain festival"
+    },
+    "url": "https://www.mct.gov.cn/whzx/qgwhxxlb/qh/201207/t20120723_792854.htm"
+  },
+  "north-datong-dove-tune": {
+    "title": {
+      "zh": "中国文化大学机构典藏 ·《河湟花儿乐曲诠释与分析》，《雪白的鸽子》",
+      "en": "Chinese Culture University repository · Analysis of the Hehuang song Snow-White Doves"
+    },
+    "url": "https://irlib.pccu.edu.tw/retrieve/47509/http___thesis.lib.pccu.edu.tw_cgi-bin_cdrfb3_gsweb7.pdf"
+  },
+  "north-geo-datong": {
+    "title": {
+      "zh": "GeoNames 地名录 · 青海大通",
+      "en": "GeoNames · Datong, Qinghai"
+    },
+    "url": "https://www.geonames.org/1798131/qiaotou.html"
+  },
+  "north-datong-huaer-cctv": {
+    "title": {
+      "zh": "央视《中国民歌大会》· 雪白的鸽子",
+      "en": "CCTV Chinese Folk Song Festival · Snow-White Doves"
+    },
+    "url": "https://tv.cctv.com/2016/10/02/VIDEfKOjMBfofPQANNONlmm6161002.shtml"
+  },
+  "north-guyuan-hui-huaer": {
+    "title": {
+      "zh": "中国非物质文化遗产网 · 宁夏回族山花儿",
+      "en": "China Intangible Cultural Heritage · Hui mountain hua’er of Ningxia"
+    },
+    "url": "https://www.ihchina.cn/project_details/12442.html"
+  },
+  "north-guyuan-tears-genre": {
+    "title": {
+      "zh": "宁夏广播电视台 · 六盘山回族山花儿《眼泪花儿把心淹了》",
+      "en": "Ningxia Broadcasting · Tears Flood My Heart and the Liupan Mountain hui hua’er tradition"
+    },
+    "url": "https://www.nxtv.com.cn/19/19yglmws/125056.shtml"
+  },
+  "north-guyuan-collecting": {
+    "title": {
+      "zh": "《宁夏日报》 · 六盘山采录的1936年记载",
+      "en": "Ningxia Daily · A 1936 account of Liupan folk-song collecting"
+    },
+    "url": "https://szb.nxrb.cn/nxrb/pad/con/202509/22/content_173378.html"
+  },
+  "north-guyuan-wang-oral": {
+    "title": {
+      "zh": "中国旅游报 · 王洛宾的“宁夏之恋”",
+      "en": "China Tourism News · A recollection of Wang Luobin in Ningxia"
+    },
+    "url": "https://www.ctnews.com.cn/paper/content/202006/25/content_69425.html"
+  },
+  "north-guyuan-festival": {
+    "title": {
+      "zh": "宁夏新闻网 · 2026年固原市第三届花儿歌会",
+      "en": "Ningxia News · Guyuan’s third hua’er festival in 2026"
+    },
+    "url": "https://wap.nxnews.net/ds/202606/t20260619_1524407.html"
+  },
+  "north-guyuan-ma-huiru": {
+    "title": {
+      "zh": "银川市文学艺术界联合会 · 马慧茹",
+      "en": "Yinchuan Federation of Literary and Art Circles · Ma Huiru"
+    },
+    "url": "https://www.ycwyj.com/m/rck-view.asp?aid=67&id=93&newsid=2968"
+  },
+  "north-geo-guyuan": {
+    "title": {
+      "zh": "GeoNames 地名录 · 宁夏固原",
+      "en": "GeoNames · Guyuan, Ningxia"
+    },
+    "url": "https://www.geonames.org/1809152/guyuan.html"
+  },
+  "north-guyuan-huaer-cctv": {
+    "title": {
+      "zh": "央视《民歌中国》· 眼泪花儿把心淹了",
+      "en": "CCTV Folk Songs of China · Tears Flood My Heart"
+    },
+    "url": "https://tv.cctv.com/2025/06/28/VIDE1L2nXfGfD3D4osKoITpt250628.shtml"
+  },
+  "north-shache-nawa-village": {
+    "title": {
+      "zh": "新疆自治区发改委驻村工作队 · 荒地镇艺人演出《纳瓦木卡姆序曲》",
+      "en": "Xinjiang Development and Reform Commission village team · Nawa Muqam prelude by Huangdi musicians"
+    },
+    "url": "https://xjdrc.xinjiang.gov.cn/xjfgw/c108325/202312/9019a809fcf547cb9614fced6ee3e93f.shtml"
+  },
+  "north-shache-muqam-heritage": {
+    "title": {
+      "zh": "中国非遗网 · 新疆维吾尔木卡姆艺术（十二木卡姆）",
+      "en": "China Intangible Cultural Heritage · The Twelve Muqam of the Xinjiang Uyghurs"
+    },
+    "url": "https://www.ihchina.cn/art/detail/id/12595.html"
+  },
+  "north-geo-shache": {
+    "title": {
+      "zh": "GeoNames 地名录 · 莎车",
+      "en": "GeoNames · Shache (Yarkand)"
+    },
+    "url": "https://www.geonames.org/1280037/shache.html"
+  },
+  "north-shache-nawa-media": {
+    "title": {
+      "zh": "央视《民歌中国》· 第15曲《纳瓦木卡姆选段》",
+      "en": "CCTV Folk Songs of China · Item 15, excerpt from Nawa Muqam"
+    },
+    "url": "https://tv.cctv.com/2016/12/02/VIDEOLpuCdBhIY8Zj7cFaefk161202.shtml"
+  },
+  "north-ili-kara-dance": {
+    "title": {
+      "zh": "中国非遗网 · 伊犁州申报的哈萨克族卡拉角勒哈",
+      "en": "China Intangible Cultural Heritage · Kazakh Kara Jorga dance, nominated by Ili"
+    },
+    "url": "https://www.ihchina.cn/art/detail/id/13111.html"
+  },
+  "north-ili-kara-dombra": {
+    "title": {
+      "zh": "伊犁州人民政府 · 卡拉角勒哈的同名舞曲与冬布拉伴奏",
+      "en": "Ili prefectural government · Kara Jorga and its dombra accompaniment"
+    },
+    "url": "https://www.xjyl.gov.cn/xjylz/c112411/201507/eff4b99d2ea3477fa376ee83f72daac3.shtml"
+  },
+  "north-geo-yining": {
+    "title": {
+      "zh": "GeoNames 地名录 · 伊宁（Ghulja）",
+      "en": "GeoNames · Yining (Ghulja)"
+    },
+    "url": "https://www.geonames.org/1529435/yining.html"
+  },
+  "north-ili-kara-media": {
+    "title": {
+      "zh": "央视《风华国乐》· 《炫丽·新疆》第6曲《哈拉角勒哈》",
+      "en": "CCTV Splendour of Chinese Music · Kara Jorga, item 6 in the Xinjiang programme"
+    },
+    "url": "https://tv.cctv.com/2011/03/29/VIDEJoOuBP6eUbaSUtXvnxkF110329.shtml"
   }
 }

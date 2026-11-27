@@ -20,7 +20,9 @@ node scripts/stage_music_atlas.cjs
 python3 -m http.server 8765 --bind 127.0.0.1 --directory dist
 ```
 
-- [华东与华中 · 24 首地区曲目](http://127.0.0.1:8765/?lang=zh&region=east-central) · [East and Central China](http://127.0.0.1:8765/?lang=en&region=east-central)
+- [北方 · 22 首地区试听](http://127.0.0.1:8765/?lang=zh&region=north) · [Northern China](http://127.0.0.1:8765/?lang=en&region=north)
+- [华东与华中 · 24 首地区试听](http://127.0.0.1:8765/?lang=zh&region=east-central) · [East and Central China](http://127.0.0.1:8765/?lang=en&region=east-central)
+- [华南与西南 · 37 首地区试听](http://127.0.0.1:8765/?lang=zh&region=south) · [South and Southwest China](http://127.0.0.1:8765/?lang=en&region=south)
 - [简体中文首页](http://127.0.0.1:8765/?lang=zh) · [English home](http://127.0.0.1:8765/?lang=en)
 - [唐代概览 · Tang overview](http://127.0.0.1:8765/?lang=en&era=tang)
 - [1598 年《牡丹亭》 · The Peony Pavilion](http://127.0.0.1:8765/?lang=en&year=1598&music=kunqu)
@@ -39,9 +41,13 @@ The register contains 920 records covering 659 project codes. Sourced dates in `
 
 ## 课程材料与证据 · Course materials and evidence
 
-46 条中英曲目与乐种条目、8 个有明确年份的节点、5 站课堂导览。课程框架和指定案例取自方博的六套 UCUG 2500 讲义，条目列出关联页码。昆曲与京剧以导论第 8、17 页定位课程范围，分析和年代另引联合国教科文组织、国会图书馆、印第安纳大学出版社与北京市政府资料。课件仅作引用，站点发布包不含讲义原件。
+全图有 96 条中英曲目与乐种记录，其中北方 22 条、华东与华中 34 条、华南与西南 40 条。另有 66 条历史证据、8 条带年份的事件记录和 5 组地区对照。8 条事件中，5 条用于时间轴步进与播放，3 条记录非遗入选。课堂导览另有 5 站。课程框架和指定案例取自方博的六套 UCUG 2500 讲义，条目列出关联页码。昆曲与京剧以导论第 8、17 页定位课程范围，分析和年代另引联合国教科文组织、国会图书馆、印第安纳大学出版社与北京市政府资料。课件仅作引用，站点发布包不含讲义原件。
 
-The atlas contains 46 bilingual work and genre entries, eight dated milestones and a five-stop classroom guide. Its structure and assigned examples follow six UCUG 2500 lectures by Noah B. Fang. Entries cite the relevant slides. The introduction identifies the opera topics on slides 8 and 17, with UNESCO, the Library of Congress, Indiana University Press and the Beijing Municipal Government providing additional documentation. The teaching decks are cited and excluded from the site package.
+The atlas contains 96 bilingual work and genre entries across three regions (22 northern, 34 eastern and central, and 40 southern and southwestern), plus 66 historical records, eight dated events and five regional comparisons. Five of the eight events drive timeline navigation and autoplay. Three record heritage inscriptions. The classroom guide has five stops. Its structure and assigned examples follow six UCUG 2500 lectures by Noah B. Fang. Entries cite the relevant slides. The introduction identifies the opera topics on slides 8 and 17, with UNESCO, the Library of Congress, Indiana University Press and the Beijing Municipal Government providing additional documentation. The teaching decks are cited and excluded from the site package.
+
+北方地图覆盖东北、华北、西北 13 个省级地区，22 站均可试听。北方另有 27 条历史证据，含敦煌佛爷庙湾 M37 西晋墓画像。各站的地点、年代依据和实际播放版本见[北方交接清单](handoff/north-changes.md)。
+
+The northern map covers 13 provincial-level regions across the Northeast, North China and the Northwest. All 22 stations have listening media. The 27 northern historical records include a Western Jin tomb painting from Dunhuang.
 
 ## 地图与代码 · Map and code
 

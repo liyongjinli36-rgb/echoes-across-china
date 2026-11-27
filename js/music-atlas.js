@@ -826,6 +826,8 @@ class MusicAtlas extends window.HistoricalAtlasController {
     const [start,end] = media.originalRangeSeconds || [];
     if (start > 0) {
       video.addEventListener('loadedmetadata',() => { video.currentTime = start; },{once:true});
+    }
+    if (Number.isFinite(start) && Number.isFinite(end)) {
       video.addEventListener('play',() => {
         if (video.currentTime < start || video.currentTime >= end) video.currentTime = start;
       });
@@ -1132,7 +1134,7 @@ class MusicAtlas extends window.HistoricalAtlasController {
         this.renderMarkers();
         setLayers(false);
       }
-      if (event.target.closest?.('input,select,button,a,textarea,summary,[role=button]') || event.altKey || event.metaKey || event.ctrlKey) return;
+      if (event.target.closest?.('input,select,button,a,textarea,summary,audio,video,[role=button]') || event.altKey || event.metaKey || event.ctrlKey) return;
       if (event.key === ' ') {
         event.preventDefault();
         this.toggleAutoplay();

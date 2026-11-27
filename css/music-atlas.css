@@ -53,7 +53,9 @@
   box-shadow: var(--card-shadow);
 }
 
-.music-atlas #map-search-box { width: min(22rem, calc(100% - 28px)); }
+.music-atlas #map-search-box { width: min(22rem, calc(100% - 28px)); pointer-events: none; }
+#music-search, .music-atlas #music-results, .music-atlas .music-browse-actions { pointer-events: auto; }
+.music-atlas .music-browse-actions { width: fit-content; max-width: 100%; }
 #music-search {
   width: 100%;
   min-height: 38px;
@@ -292,4 +294,15 @@
 @media (max-width: 560px) {
   #region-nav { gap: 0; padding-inline: .2rem; }
   #region-nav button { flex: 1 1 0; padding: .3rem .12rem; font-size: .78rem; }
+  .music-atlas #viewport-frame #map-search-box.music-search { top: .35rem; left: .35rem; width: min(20rem, calc(100% - .7rem)); }
+  .music-atlas #music-search { min-height: 32px; padding: .28rem .65rem; line-height: 1.2; }
+  .music-atlas .music-browse-actions { flex-wrap: nowrap; overflow-x: auto; scrollbar-width: none; gap: .25rem; margin: .25rem 0; }
+  .music-atlas .music-browse-actions > * { flex: 0 0 auto; font-size: .74rem; padding: .22rem .42rem; min-height: 26px; white-space: nowrap; }
+  .music-atlas #listening-select, :lang(en) .music-atlas #listening-select { width: auto; max-width: 8.5em; }
+}
+
+@media (max-width: 900px) and (max-height: 680px) {
+  .music-atlas #chronicle-pane { max-height: 34vh; }
+  .music-atlas #map-key, .music-atlas #canvas-br-dock { bottom: .35rem; }
+  .music-atlas .music-legend ul { max-height: 5.5rem; }
 }
